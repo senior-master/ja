@@ -1,0 +1,55 @@
+{
+  "subject_slug": "christian-religious-studies",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:19.293665+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "General",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Christian living",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "New testament",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Old testament",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Quran",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Islamic religious studies",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Civic education",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Islamic history",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

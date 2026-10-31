@@ -1,0 +1,37 @@
+{
+  "subject_slug": "history",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:29.540552+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "African politics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Islamic history",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Nigerian government",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "subject_slug": "commerce",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:21.861087+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Accounting",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "International trade",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Financial economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "African politics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Partnership accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Development economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Macroeconomics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Microeconomics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Na",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Nigerian government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "International relations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Financial accounting",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Company accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 15,
+      "name": "Agricultural science",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 16,
+      "name": "Government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 17,
+      "name": "Human geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 18,
+      "name": "Algebra further",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 19,
+      "name": "Geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 20,
+      "name": "Civic education",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 21,
+      "name": "Further topics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 22,
+      "name": "National issues",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 23,
+      "name": "English language",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

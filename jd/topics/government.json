@@ -1,0 +1,61 @@
+{
+  "subject_slug": "government",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:27.900622+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "African politics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "International relations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Political concepts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Democracy",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Political thought",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Nigerian government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Civic education",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Islamic history",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

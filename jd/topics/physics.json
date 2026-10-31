@@ -1,0 +1,133 @@
+{
+  "subject_slug": "physics",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:34.929850+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Electricity",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Modern physics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Waves",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Measurement",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Heat",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Chemistry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Momentum",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Magnetism",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Geometry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Electromagnetism",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Pressure",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Mechanics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Gas laws thermal",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Energy",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 15,
+      "name": "States of matter",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 16,
+      "name": "Work energy power",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 17,
+      "name": "Gravitation",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 18,
+      "name": "Atomic structure",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 19,
+      "name": "Inorganic chemistry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 20,
+      "name": "Optics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 21,
+      "name": "Energetics",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

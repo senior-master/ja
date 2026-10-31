@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Accounting",
+    "slug": "accounting"
+  },
+  {
+    "id": 2,
+    "name": "Biology",
+    "slug": "biology"
+  },
+  {
+    "id": 3,
+    "name": "Chemistry",
+    "slug": "chemistry"
+  },
+  {
+    "id": 4,
+    "name": "Christian religious studies",
+    "slug": "christian-religious-studies"
+  },
+  {
+    "id": 5,
+    "name": "Civic education",
+    "slug": "civic-education"
+  },
+  {
+    "id": 6,
+    "name": "Commerce",
+    "slug": "commerce"
+  },
+  {
+    "id": 7,
+    "name": "Economics",
+    "slug": "economics"
+  },
+  {
+    "id": 8,
+    "name": "English language",
+    "slug": "english-language"
+  },
+  {
+    "id": 9,
+    "name": "Geography",
+    "slug": "geography"
+  },
+  {
+    "id": 10,
+    "name": "Government",
+    "slug": "government"
+  },
+  {
+    "id": 11,
+    "name": "History",
+    "slug": "history"
+  },
+  {
+    "id": 12,
+    "name": "Insurance",
+    "slug": "insurance"
+  },
+  {
+    "id": 13,
+    "name": "Literature in english",
+    "slug": "literature-in-english"
+  },
+  {
+    "id": 14,
+    "name": "Mathematics",
+    "slug": "mathematics"
+  },
+  {
+    "id": 15,
+    "name": "Physics",
+    "slug": "physics"
+  }
+]

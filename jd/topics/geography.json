@@ -1,0 +1,79 @@
+{
+  "subject_slug": "geography",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:26.212203+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Regional geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Human geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Ocean currents",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Africa geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Agriculture geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Physical geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Nigeria geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Map work",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "International trade",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "International relations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "World geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Agricultural science",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

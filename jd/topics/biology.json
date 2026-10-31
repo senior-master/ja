@@ -1,0 +1,103 @@
+{
+  "subject_slug": "biology",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:16.731341+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Genetics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Agricultural science",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Microbiology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Agriculture",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Ecology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Human biology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Cell biology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Plant biology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Biochemistry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Reproduction in plants",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Animal production",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Disease transmission",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Adaptation",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Animal biology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 15,
+      "name": "Soil biology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 16,
+      "name": "Classification of plants",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

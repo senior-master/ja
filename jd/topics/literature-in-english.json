@@ -1,0 +1,49 @@
+{
+  "subject_slug": "literature-in-english",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:32.092661+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Drama",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Poetry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Writing",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Prose",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Vocabulary",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Theme analysis",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Characterisation",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

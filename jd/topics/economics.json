@@ -1,0 +1,85 @@
+{
+  "subject_slug": "economics",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:23.096334+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Financial economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "International trade",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Microeconomics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Accounting",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Macroecnomics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Development economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Macro economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Partnership accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Macroeconomics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Company accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Human geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Statistics",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

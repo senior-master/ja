@@ -1,0 +1,13 @@
+{
+  "subject_slug": "insurance",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:30.814039+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Financial economics",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "subject_slug": "mathematics",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:33.702009+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Trigonometry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Statistics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Geometry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Calculus",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Number theory",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Algebra",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Probability",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Mechanics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Fractions decimals",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Quadratic equations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Inequalities",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Combinations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Matrices",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Polynomials",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 15,
+      "name": "Surds",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 16,
+      "name": "Sequences series",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 17,
+      "name": "Functions",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 18,
+      "name": "Further topics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 19,
+      "name": "Algebra further",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 20,
+      "name": "Sets",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 21,
+      "name": "Permutations combinations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 22,
+      "name": "Indices logarithms",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

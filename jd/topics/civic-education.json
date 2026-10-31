@@ -1,0 +1,55 @@
+{
+  "subject_slug": "civic-education",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:01:20.571137+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Citizenship",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Democracy",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "National issues",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "International relations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Mathematics",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}
