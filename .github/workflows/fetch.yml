@@ -1,0 +1,42 @@
+name: Fetch JAMB syllabus
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every Monday 06:00 UTC — cron-job.org will trigger workflow_dispatch anyway.
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Fetch syllabus
+        env:
+          ALOC_API_KEY: ${{ secrets.ALOC_API_KEY }}
+        run: python js/fetch_syllabus.py
+
+      - name: Commit & push changes (only if any)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jd/
+          if git diff --staged --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "chore(data): refresh JAMB syllabus [skip ci]"
+            git push
+          fi
