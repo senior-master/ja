@@ -50,9 +50,10 @@
           "Maintenance of partners capital and current accounts",
           "Treatment of goodwill on admission or retirement of a partner",
           "Revaluation of assets and liabilities upon reconstitution",
-          "Admission and retirement of partners"
+          "Admission and retirement of partners",
+          "Dissolution of partnership including realization account"
         ],
-        "questions_generated": 63,
+        "questions_generated": 72,
         "complete": false
       },
       "Branch accounts": {
@@ -85,9 +86,10 @@
           "Treatment of branch expenses paid by head office and branch",
           "Accounting for cash and goods pilferage or shortages at branch",
           "Reconciliation of head office and branch current accounts",
-          "Preparation of branch trading, profit and loss accounts"
+          "Preparation of branch trading, profit and loss accounts",
+          "Incorporation of branch final accounts into head office books"
         ],
-        "questions_generated": 63,
+        "questions_generated": 72,
         "complete": false
       },
       "Departmental accounts": {
@@ -232,9 +234,10 @@
           "Appropriation Account and Reserves",
           "Company Taxation",
           "Company Liquidation and Winding Up",
-          "Redemption of Shares and Debentures"
+          "Redemption of Shares and Debentures",
+          "Statement of Cash Flows for Companies"
         ],
-        "questions_generated": 63,
+        "questions_generated": 72,
         "complete": false
       },
       "Government": {
@@ -408,9 +411,10 @@
           "Ecological Succession",
           "Nutrient Cycles in Nature",
           "Population Dynamics and Regulation",
-          "Symbiotic Associations and Interactions"
+          "Symbiotic Associations and Interactions",
+          "Adaptation of Organisms to Habitats"
         ],
-        "questions_generated": 66,
+        "questions_generated": 75,
         "complete": false
       },
       "Human biology": {
@@ -443,9 +447,10 @@
           "Excretory System and Osmoregulation",
           "Nervous System and Sense Organs",
           "Endocrine System and Hormonal Coordination",
-          "Skeletal System and Movement"
+          "Skeletal System and Movement",
+          "Reproductive System and Embryonic Development"
         ],
-        "questions_generated": 70,
+        "questions_generated": 79,
         "complete": false
       },
       "Cell biology": {
@@ -789,9 +794,10 @@
           "Alkenes and Alkynes: preparation, properties and reactions",
           "Benzene and its derivatives: structure and reactions",
           "Alkanols: classification, preparation and properties",
-          "Alkanals and Alkanones: preparation, properties and identification tests"
+          "Alkanals and Alkanones: preparation, properties and identification tests",
+          "Alkanoic acids and their derivatives: esters, soaps and detergents"
         ],
-        "questions_generated": 69,
+        "questions_generated": 78,
         "complete": false
       },
       "Inorganic chemistry": {
@@ -826,9 +832,10 @@
           "Oxygen and Sulphur",
           "Nitrogen and Phosphorus",
           "Carbon and its Compounds",
-          "Metals and their Extraction"
+          "Metals and their Extraction",
+          "Transition Metals"
         ],
-        "questions_generated": 69,
+        "questions_generated": 78,
         "complete": false
       },
       "Modern physics": {
@@ -998,9 +1005,10 @@
           "Diligence and the dignity of labor",
           "The Christian attitude to wealth and material things",
           "Christian living in the home and family relationships",
-          "Tolerance, forgiveness, and peace-making among Christians"
+          "Tolerance, forgiveness, and peace-making among Christians",
+          "Civic responsibilities and obedience to constituted authority"
         ],
-        "questions_generated": 70,
+        "questions_generated": 80,
         "complete": false
       },
       "New testament": {
@@ -1041,9 +1049,10 @@
           "The miracles of Jesus",
           "The sermon on the mount",
           "The transfiguration of Jesus",
-          "The triumphal entry and cleansing of the temple"
+          "The triumphal entry and cleansing of the temple",
+          "The last supper and betrayal of Jesus"
         ],
-        "questions_generated": 70,
+        "questions_generated": 80,
         "complete": false
       },
       "Old testament": {
@@ -1082,9 +1091,10 @@
           "The Wilderness Journey and the Giving of the Law",
           "The Conquest and Settlement of Canaan",
           "The Period of the Judges: Deborah, Gideon, and Samson",
-          "The Monarchy: Saul, David, and Solomon"
+          "The Monarchy: Saul, David, and Solomon",
+          "The Divided Kingdom: Elijah and Elisha"
         ],
-        "questions_generated": 70,
+        "questions_generated": 80,
         "complete": false
       },
       "Biblical Themes and Theology": {
@@ -1203,9 +1213,10 @@
           "Rights and duties of a citizen",
           "Duties and obligations of the state to citizens",
           "Limitations to citizens' rights",
-          "Duties and responsibilities of citizens in communal development"
+          "Duties and responsibilities of citizens in communal development",
+          "National consciousness and patriotism"
         ],
-        "questions_generated": 70,
+        "questions_generated": 80,
         "complete": false
       },
       "Democracy": {
@@ -1252,9 +1263,10 @@
           "The concept of rule of law in a democracy",
           "Citizenship rights, duties, and obligations in a democracy",
           "Electoral systems and types of elections",
-          "The role and functions of the electoral commission"
+          "The role and functions of the electoral commission",
+          "Political parties: Functions, party systems, and financing"
         ],
-        "questions_generated": 70,
+        "questions_generated": 80,
         "complete": false
       },
       "National issues": {
@@ -1293,9 +1305,10 @@
           "Corruption",
           "Youth Empowerment",
           "HIV and AIDS",
-          "Communal Conflicts"
+          "Communal Conflicts",
+          "Capitalism and Consumerism"
         ],
-        "questions_generated": 70,
+        "questions_generated": 80,
         "complete": false
       },
       "International relations": {
@@ -1863,9 +1876,10 @@
           "Non-bank financial institutions",
           "The capital market and stock exchange",
           "The money market instruments",
-          "Inflation and its economic effects"
+          "Inflation and its economic effects",
+          "Deflation and measures to control it"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "International trade": {
@@ -1893,10 +1907,11 @@
           "Balance of trade and balance of payments",
           "Tariffs and other trade restriction measures",
           "Foreign exchange market and exchange rate determination",
-          "Economic integration and trading blocs"
+          "Economic integration and trading blocs",
+          "International economic organizations like OPEC, ECOWAS, IMF, and WTO"
         ],
-        "questions_generated": 57,
-        "complete": false
+        "questions_generated": 66,
+        "complete": true
       },
       "Microeconomics": {
         "subtopics": [
@@ -1925,9 +1940,10 @@
           "Theory of Consumer Behaviour",
           "Theory of Production",
           "Costs of Production and Revenue Concepts",
-          "Market Structures"
+          "Market Structures",
+          "Theory of Distribution"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Accounting": {
@@ -1978,9 +1994,10 @@
           "Public Finance and Taxation",
           "Money and Banking Systems",
           "International Trade and Balance of Payments",
-          "Economic Growth and Development"
+          "Economic Growth and Development",
+          "Unemployment and Employment Theories"
         ],
-        "questions_generated": 60,
+        "questions_generated": 69,
         "complete": false
       },
       "Development economics": {
@@ -2010,9 +2027,10 @@
           "Role of agriculture and industrialization in economic development",
           "Population growth, demographic transition, and human capital development",
           "Economic planning, objectives, types, and problems in Nigeria",
-          "Role of international financial institutions and foreign aid in development"
+          "Role of international financial institutions and foreign aid in development",
+          "Capital accumulation, savings, and investment in developing economies"
         ],
-        "questions_generated": 55,
+        "questions_generated": 64,
         "complete": false
       },
       "Partnership accounts": {
@@ -2147,9 +2165,10 @@
           "Tenses and Sequence of Tenses",
           "Pronouns and Case",
           "Auxiliary and Lexical Verbs",
-          "Adjectives and Adjectival Clauses"
+          "Adjectives and Adjectival Clauses",
+          "Adverbs and Adverbial Clauses"
         ],
-        "questions_generated": 57,
+        "questions_generated": 66,
         "complete": false
       },
       "Government": {
@@ -2204,9 +2223,10 @@
           "Vocabulary in Context",
           "Identification of Grammatical Structures",
           "Identification of Literary Devices and Figurative Language",
-          "Identification of Authorial Tone and Attitude"
+          "Identification of Authorial Tone and Attitude",
+          "Identification of Authorial Purpose and Intent"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Oral english": {
@@ -2242,9 +2262,10 @@
           "Consonant Sounds",
           "Word Stress",
           "Sentence Stress",
-          "Emphatic Stress"
+          "Emphatic Stress",
+          "Intonation Patterns"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Literature in english": {
@@ -2291,10 +2312,11 @@
           "Confused Words and Common Errors",
           "Word Formation and Affixation",
           "Registers and Specialized Terminology",
-          "One-Word Substitutes"
+          "One-Word Substitutes",
+          "Collocations and Fixed Expressions"
         ],
-        "questions_generated": 57,
-        "complete": false
+        "questions_generated": 66,
+        "complete": true
       },
       "Writing": {
         "subtopics": [
@@ -2386,9 +2408,10 @@
           "Population distribution, migration patterns, and demographic characteristics in Nigeria",
           "Agricultural production, major cash and food crops, and livestock distribution in Nigeria",
           "Mineral resources, energy production, and industrial development in Nigeria",
-          "Transportation networks, communication systems, and internal trade in Nigeria"
+          "Transportation networks, communication systems, and internal trade in Nigeria",
+          "Major geographical regions of West Africa: Relief, climate, and vegetation"
         ],
-        "questions_generated": 55,
+        "questions_generated": 64,
         "complete": false
       },
       "Human geography": {
@@ -2422,9 +2445,10 @@
           "Settlement types and patterns in tropical regions",
           "Urbanization processes and associated problems",
           "Agricultural systems and practices in West Africa",
-          "Transportation networks and their economic impacts"
+          "Transportation networks and their economic impacts",
+          "Manufacturing industries and location factors in Nigeria"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Ocean currents": {
@@ -2527,9 +2551,10 @@
           "Weathering processes and landforms",
           "Plate tectonics and vulcanicity",
           "Earthquakes and faulting landforms",
-          "Action of rivers and fluvial landforms"
+          "Action of rivers and fluvial landforms",
+          "Action of wind and desert landforms"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Nigeria geography": {
@@ -2580,9 +2605,10 @@
           "Identification and interpretation of conventional signs and symbols",
           "Contour representation and relief features",
           "Calculation of gradient and intervisibility",
-          "Drainage patterns and river basin characteristics"
+          "Drainage patterns and river basin characteristics",
+          "Map reduction and enlargement"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "International trade": {
@@ -2783,9 +2809,10 @@
           "Legitimacy",
           "Sovereignty",
           "Democracy",
-          "Political Culture"
+          "Political Culture",
+          "Political Socialization"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Democracy": {
@@ -2868,9 +2895,10 @@
           "Nigerian nationalism and the struggle for independence",
           "Post-independence political evolution and military rule",
           "Structure and functions of the arms of government in the Nigerian presidential system",
-          "Inter-governmental relations and the structure of Nigerian federalism"
+          "Inter-governmental relations and the structure of Nigerian federalism",
+          "Public service, civil service, and parastatals in Nigeria"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Civic education": {
@@ -2946,9 +2974,10 @@
           "Early History and Political Organization of the Yoruba Kingdoms",
           "The Rise and Development of the Benin Kingdom up to 1800",
           "The Origin, Growth, and Decline of the Old Oyo Empire",
-          "The History and Social-Political Structure of the Hausa States"
+          "The History and Social-Political Structure of the Hausa States",
+          "The Kingdom of Kanem-Borno: Origins, Rise, and Reforms"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Nigeria in the 19th Century": {
@@ -2982,9 +3011,10 @@
           "The rise and expansion of the Ibadan military state",
           "The Egba united government and the leadership of missionaries in Abeokuta",
           "British colonial penetration and annexation of Lagos in 1861",
-          "The economic shift from the Trans-Atlantic slave trade to legitimate commerce"
+          "The economic shift from the Trans-Atlantic slave trade to legitimate commerce",
+          "The activities and impact of Christian missionaries in Southern Nigeria"
         ],
-        "questions_generated": 60,
+        "questions_generated": 70,
         "complete": false
       },
       "Nigeria 1900–1960": {
@@ -3017,9 +3047,10 @@
           "Indirect Rule system and its application across regions",
           "Colonial economic policies, taxation, and the introduction of cash crops",
           "Development of transport, communication, and infrastructure under colonial rule",
-          "Rise of early nationalist movements, political parties, and the press (1920s-1940s)"
+          "Rise of early nationalist movements, political parties, and the press (1920s-1940s)",
+          "Constitutional development: Clifford Constitution of 1922 and Richards Constitution of 1945"
         ],
-        "questions_generated": 50,
+        "questions_generated": 60,
         "complete": false
       },
       "Nigeria Since Independence": {
@@ -3052,9 +3083,10 @@
           "The Causes, Course, and Consequences of the Nigerian Civil War",
           "Military Regimes from Gowon to Murtala-Obasanjo (1966-1979)",
           "The Second Republic and the Politics of the 1979 Constitution",
-          "Military Rule from Buhari to Abubakar (1983-1999)"
+          "Military Rule from Buhari to Abubakar (1983-1999)",
+          "The Third Republic and the Aborted Transition Program of Ibrahim Babangida"
         ],
-        "questions_generated": 50,
+        "questions_generated": 60,
         "complete": false
       },
       "West Africa and the Wider World": {
@@ -3087,9 +3119,10 @@
           "Trans-Atlantic Slave Trade and its Impact on West Africa",
           "Legitimate Commerce and the Introduction of Cash Crops",
           "European Exploration and Imperialist Penetration of West Africa",
-          "The Berlin Conference and the Partition of West Africa"
+          "The Berlin Conference and the Partition of West Africa",
+          "West African Resistance to Colonial Rule"
         ],
-        "questions_generated": 50,
+        "questions_generated": 60,
         "complete": false
       }
     }
@@ -3126,9 +3159,10 @@
           "Utmost Good Faith",
           "Indemnity",
           "Contribution",
-          "Subrogation"
+          "Subrogation",
+          "Proximate Cause"
         ],
-        "questions_generated": 50,
+        "questions_generated": 60,
         "complete": false
       },
       "Types of Insurance": {
@@ -3166,9 +3200,10 @@
           "Life Assurance",
           "Fire Insurance",
           "Marine Insurance",
-          "Motor Vehicle Insurance"
+          "Motor Vehicle Insurance",
+          "Accident Insurance"
         ],
-        "questions_generated": 40,
+        "questions_generated": 50,
         "complete": false
       },
       "Insurance Contracts": {
@@ -3200,9 +3235,10 @@
           "Definition and essential elements of a valid insurance contract",
           "The concept and application of utmost good faith (Uberrimae fidei)",
           "Insurable interest in life, marine, and property insurance",
-          "Doctrine of indemnity and its exceptions"
+          "Doctrine of indemnity and its exceptions",
+          "The principles of contribution and subrogation"
         ],
-        "questions_generated": 40,
+        "questions_generated": 50,
         "complete": false
       },
       "Risk Management": {
@@ -3234,9 +3270,10 @@
           "Meaning and definition of risk and uncertainty",
           "Classification and types of risks",
           "Principles and objectives of risk management",
-          "The risk management process and stages"
+          "The risk management process and stages",
+          "Methods of handling and treating risk"
         ],
-        "questions_generated": 40,
+        "questions_generated": 50,
         "complete": false
       },
       "Insurance Regulation in Nigeria": {
@@ -3264,9 +3301,10 @@
           "The Insurance Act 2003",
           "National Insurance Commission (NAICOM)",
           "Functions and powers of the Commissioner for Insurance",
-          "Registration and licensing requirements for insurance companies"
+          "Registration and licensing requirements for insurance companies",
+          "Solvency margin and statutory deposits in insurance"
         ],
-        "questions_generated": 39,
+        "questions_generated": 48,
         "complete": false
       }
     }
@@ -3312,9 +3350,10 @@
           "Plot Structure in Drama",
           "Characterization and Character Types",
           "Dramatic Irony and Suspense",
-          "Themes and Thematic Conflict"
+          "Themes and Thematic Conflict",
+          "Setting and Atmosphere in Plays"
         ],
-        "questions_generated": 40,
+        "questions_generated": 50,
         "complete": false
       },
       "Poetry": {
@@ -3354,9 +3393,10 @@
           "Denotative and connotative meanings of words in a poem",
           "Identification and interpretation of poetic sound devices",
           "Recognition and analysis of figurative language and tropes",
-          "Analysis of poetic forms and structural organizations"
+          "Analysis of poetic forms and structural organizations",
+          "Identification of persona, tone, and mood in a text"
         ],
-        "questions_generated": 40,
+        "questions_generated": 50,
         "complete": false
       },
       "Writing": {
@@ -3415,9 +3455,10 @@
           "Plot Structure and Arrangement of Events",
           "Characterization and Character Relationships",
           "Setting and Its Impact on the Narrative",
-          "Narrative Technique and Point of View"
+          "Narrative Technique and Point of View",
+          "Themes and Thematic Exploration"
         ],
-        "questions_generated": 40,
+        "questions_generated": 50,
         "complete": false
       },
       "Vocabulary": {
@@ -3526,9 +3567,10 @@
           "Frequency distribution and cumulative frequency tables",
           "Measures of central tendency for ungrouped and grouped data",
           "Measures of dispersion: range, variance, and standard deviation",
-          "Graphical representation of data: histograms, bar charts, and pie charts"
+          "Graphical representation of data: histograms, bar charts, and pie charts",
+          "Probability of single and combined events"
         ],
-        "questions_generated": 36,
+        "questions_generated": 45,
         "complete": false
       },
       "Geometry": {
@@ -3554,9 +3596,10 @@
           "Properties of angles at a point, intersecting lines, and parallel lines",
           "Euclidean geometry of triangles, polygons, and their interior/exterior angles",
           "Properties and theorems of circles including tangents, chords, and angles in alternate segments",
-          "Geometric transformations including reflection, rotation, translation, and enlargement in the Cartesian plane"
+          "Geometric transformations including reflection, rotation, translation, and enlargement in the Cartesian plane",
+          "Three-dimensional geometry involving angles and distances between points, lines, and planes in space"
         ],
-        "questions_generated": 39,
+        "questions_generated": 48,
         "complete": false
       },
       "Calculus": {
@@ -3606,9 +3649,10 @@
           "HCF and LCM of positive integers",
           "Fractions, decimals, and approximations",
           "Indices, logarithms, and surds",
-          "Modular arithmetic"
+          "Modular arithmetic",
+          "Sequences and series"
         ],
-        "questions_generated": 40,
+        "questions_generated": 49,
         "complete": false
       },
       "Algebra": {
@@ -3638,9 +3682,10 @@
           "Indices, logarithms and surds",
           "Polynomials and their factorizations",
           "Binary operations",
-          "Inequalities and linear programming"
+          "Inequalities and linear programming",
+          "Progressions (Arithmetic and Geometric)"
         ],
-        "questions_generated": 36,
+        "questions_generated": 45,
         "complete": false
       },
       "Probability": {
@@ -3975,9 +4020,10 @@
           "Electric Field and Coulomb's Law",
           "Ohm's Law and Resistivity",
           "Electric Circuits and Kirchhoff's Laws",
-          "Electrical Energy and Power"
+          "Electrical Energy and Power",
+          "Potentiometer and Wheatstone Bridge"
         ],
-        "questions_generated": 35,
+        "questions_generated": 44,
         "complete": false
       },
       "Modern physics": {
@@ -4018,10 +4064,11 @@
         "subtopics_done": [
           "Propagation of Mechanical Waves",
           "Light Waves and Interference",
-          "Sound Waves and Acoustics"
+          "Sound Waves and Acoustics",
+          "Electromagnetic Spectrum"
         ],
-        "questions_generated": 28,
-        "complete": false
+        "questions_generated": 37,
+        "complete": true
       },
       "Measurement": {
         "subtopics": [
@@ -4058,10 +4105,11 @@
         "subtopics_done": [
           "Thermal Expansion of Solids, Liquids, and Gases",
           "Measurement of Temperature and Thermometric Properties",
-          "Heat Transfer: Conduction, Convection, and Radiation"
+          "Heat Transfer: Conduction, Convection, and Radiation",
+          "Latent Heat, Specific Heat Capacity, and Calorimetry"
         ],
-        "questions_generated": 28,
-        "complete": false
+        "questions_generated": 37,
+        "complete": true
       },
       "Momentum": {
         "subtopics": [
@@ -4159,9 +4207,10 @@
         "subtopics_done": [
           "Motion in One Dimension: Speed, Velocity, and Acceleration",
           "Work, Energy, and Power",
-          "Equilibrium of Forces and Moments"
+          "Equilibrium of Forces and Moments",
+          "Projectiles and Circular Motion"
         ],
-        "questions_generated": 27,
+        "questions_generated": 36,
         "complete": false
       },
       "Gas laws thermal": {
@@ -4319,9 +4368,10 @@
         "subtopics_done": [
           "Causes of disagreement between cash book and bank statement",
           "Preparation of adjusted cash book for errors and omissions",
-          "Preparation of bank reconciliation statement with unpresented and uncredited cheques"
+          "Preparation of bank reconciliation statement with unpresented and uncredited cheques",
+          "Treatment of bank charges, standing orders, and direct debits"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Partnership accounts": {
@@ -4342,9 +4392,10 @@
         "subtopics_done": [
           "Formation of partnership and partnership agreements",
           "Preparation of profit and loss appropriation accounts",
-          "Maintenance of partners capital and current accounts"
+          "Maintenance of partners capital and current accounts",
+          "Treatment of goodwill on admission and retirement of a partner"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Branch accounts": {
@@ -4365,9 +4416,10 @@
         "subtopics_done": [
           "Meaning and objectives of branch accounts",
           "Branch stock and branch debtor system",
-          "Goods invoiced to branch at selling price"
+          "Goods invoiced to branch at selling price",
+          "Head office and branch reconciliation"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Departmental accounts": {
@@ -4388,9 +4440,10 @@
         "subtopics_done": [
           "Allocation of common expenses and indirect costs among departments",
           "Preparation of departmental trading, profit and loss accounts",
-          "Inter-departmental transfers and treatment of unrealized profit in stock"
+          "Inter-departmental transfers and treatment of unrealized profit in stock",
+          "Apportionment of revenue and calculation of departmental net profit margins"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Cost accounting": {
@@ -4411,9 +4464,10 @@
         "subtopics_done": [
           "Job costing and contract costing",
           "Process costing and treatment of joint by-products",
-          "Marginal costing versus absorption costing"
+          "Marginal costing versus absorption costing",
+          "Budgetary control and variance analysis"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Not for profit": {
@@ -4434,9 +4488,10 @@
         "subtopics_done": [
           "Distinction between profit-making organizations and not-for-profit organizations",
           "Preparation of Receipts and Payments Account",
-          "Preparation of Income and Expenditure Account"
+          "Preparation of Income and Expenditure Account",
+          "Treatment of accumulated fund, subscriptions, and special donations"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Financial economics": {
@@ -4457,9 +4512,10 @@
         "subtopics_done": [
           "Classification of fixed and variable costs",
           "Calculation and interpretation of break-even point",
-          "Concept of margin of safety in business"
+          "Concept of margin of safety in business",
+          "Distinction between direct and indirect expenses"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Company accounts": {
@@ -4480,9 +4536,10 @@
         "subtopics_done": [
           "Issue of shares and debentures",
           "Preparation of income statement and statement of financial position",
-          "Company appropriation account and reserves"
+          "Company appropriation account and reserves",
+          "Right issues and bonus issues of shares"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Government": {
@@ -4503,9 +4560,10 @@
         "subtopics_done": [
           "Sources of government revenue and capital receipts",
           "Preparation and presentation of government budgetary systems",
-          "Accounting records and books kept by government ministries and departments"
+          "Accounting records and books kept by government ministries and departments",
+          "Preparation of government final accounts including statement of assets and liabilities"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Nigerian government": {
@@ -4526,9 +4584,10 @@
         "subtopics_done": [
           "Sources of Government Revenue and Capital Receipts",
           "Preparation and Presentation of Government Budget and Estimates",
-          "Consolidated Revenue Fund and Public Debt Accounting"
+          "Consolidated Revenue Fund and Public Debt Accounting",
+          "Accounting Treatment of Treasury Bills and Government Bonds"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       }
     }
@@ -4561,9 +4620,10 @@
         "subtopics_done": [
           "Farm Surveying and Mapping",
           "Farmstead and Farm Buildings",
-          "Agricultural Mechanization and Tillage"
+          "Agricultural Mechanization and Tillage",
+          "Farm Power and Machinery"
         ],
-        "questions_generated": 29,
+        "questions_generated": 38,
         "complete": false
       },
       "Animal Production": {
@@ -4600,9 +4660,10 @@
         "subtopics_done": [
           "Animal Nutrition and Feed Formulation",
           "Ruminant and Non-Ruminant Animal Management",
-          "Animal Breeding and Genetics"
+          "Animal Breeding and Genetics",
+          "Animal Health and Disease Control"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Crop Production": {
@@ -4639,9 +4700,10 @@
         "subtopics_done": [
           "Classification of crops based on life cycle and morphology",
           "Land preparation and clearing methods in crop production",
-          "Propagation methods including seeds and vegetative parts"
+          "Propagation methods including seeds and vegetative parts",
+          "Cultural practices such as planting, weeding, and thinning"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Farm Management": {
@@ -4671,9 +4733,10 @@
         ],
         "subtopics_done": [
           "Meaning and Scope of Farm Management",
-          "Principles of Farm Budgeting and Planning"
+          "Principles of Farm Budgeting and Planning",
+          "Principles of Demand and Supply in Agriculture"
         ],
-        "questions_generated": 20,
+        "questions_generated": 29,
         "complete": false
       },
       "General Agriculture": {
@@ -4697,9 +4760,10 @@
         ],
         "subtopics_done": [
           "Meaning and scope of agriculture",
-          "History and development of agriculture in West Africa"
+          "History and development of agriculture in West Africa",
+          "Roles of agriculture in economic development"
         ],
-        "questions_generated": 20,
+        "questions_generated": 29,
         "complete": false
       }
     }
@@ -4729,9 +4793,10 @@
         ],
         "subtopics_done": [
           "Main idea and central theme identification",
-          "Direct factual information retrieval"
+          "Direct factual information retrieval",
+          "Vocabulary and lexical meaning in context"
         ],
-        "questions_generated": 20,
+        "questions_generated": 30,
         "complete": false
       },
       "Arabic Grammar (An-Nahw)": {
@@ -4761,9 +4826,10 @@
         ],
         "subtopics_done": [
           "Al-Mubtada' wal-Khabar",
-          "Al-Faa'il wal-Na'ib 'Anhu"
+          "Al-Faa'il wal-Na'ib 'Anhu",
+          "Al-Maf'oolat (Bihi, Mutlaq, Fihi, Lajlihi, Ma'ahu)"
         ],
-        "questions_generated": 20,
+        "questions_generated": 30,
         "complete": false
       },
       "Arabic Morphology (As-Sarf)": {
@@ -4784,9 +4850,10 @@
           10
         ],
         "subtopics_done": [
-          "The Triliteral Verb and its Augmentations (Al-Fi'l Al-Thulathi Al-Mujarrad wa Al-Mazid)"
+          "The Triliteral Verb and its Augmentations (Al-Fi'l Al-Thulathi Al-Mujarrad wa Al-Mazid)",
+          "Derivation of Nouns: Active and Passive Participles (Ism al-Fa'il wa Ism al-Maf'ul)"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Translation": {
@@ -4805,9 +4872,10 @@
           10
         ],
         "subtopics_done": [
-          "Translation of Arabic Proverbs and Idiomatic Expressions into English"
+          "Translation of Arabic Proverbs and Idiomatic Expressions into English",
+          "Translation of Standard Arabic Newspaper and Journal Articles into English"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Arabic Rhetoric (Al-Balaghah)": {
@@ -4824,9 +4892,10 @@
           10
         ],
         "subtopics_done": [
-          "Ilm al-Bayan"
+          "Ilm al-Bayan",
+          "Ilm al-Maani"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Composition (Al-Insha')": {
@@ -4841,9 +4910,10 @@
           8
         ],
         "subtopics_done": [
-          "Formal and Informal Letter Writing (Ar-Rasa'il)"
+          "Formal and Informal Letter Writing (Ar-Rasa'il)",
+          "Narrative and Descriptive Essay Writing (Al-Insha' al-Wasfi wal-Qisasi)"
         ],
-        "questions_generated": 9,
+        "questions_generated": 17,
         "complete": false
       },
       "Pre-Islamic and Early Islamic Literature": {
@@ -4860,9 +4930,10 @@
           10
         ],
         "subtopics_done": [
-          "The significance of the Mu'allaqat and their major poets"
+          "The significance of the Mu'allaqat and their major poets",
+          "The characteristics of Jahiliyyah poetry and prose"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Umayyad and Abbasid Literature": {
@@ -4878,8 +4949,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Shi'r Al-Naqa'id fi al-Asr al-Umawi"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Modern Arabic Literature": {
@@ -4895,8 +4968,10 @@
           9,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The Rise and Development of Modern Arabic Poetry and Poets"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "West African and Nigerian Arabic Literature": {
