@@ -1,0 +1,4163 @@
+{
+  "accounting": {
+    "name": "Accounting",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 60,
+    "topics": [
+      {
+        "name": "Bank reconciliation",
+        "target": 16,
+        "weight_percentage": 3.23,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "Partnership accounts",
+        "target": 81,
+        "weight_percentage": 16.12,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Branch accounts",
+        "target": 81,
+        "weight_percentage": 16.13,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Departmental accounts",
+        "target": 65,
+        "weight_percentage": 12.9,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Cost accounting",
+        "target": 64,
+        "weight_percentage": 12.9,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Not for profit",
+        "target": 64,
+        "weight_percentage": 12.9,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Financial economics",
+        "target": 16,
+        "weight_percentage": 3.23,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "Company accounts",
+        "target": 81,
+        "weight_percentage": 16.13,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Government",
+        "target": 16,
+        "weight_percentage": 3.23,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "Nigerian government",
+        "target": 16,
+        "weight_percentage": 3.23,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          5,
+          5
+        ]
+      }
+    ]
+  },
+  "biology": {
+    "name": "Biology",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 74,
+    "topics": [
+      {
+        "name": "Genetics",
+        "target": 70,
+        "weight_percentage": 14.03,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Agricultural science",
+        "target": 11,
+        "weight_percentage": 2.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "name": "Microbiology",
+        "target": 53,
+        "weight_percentage": 10.52,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Agriculture",
+        "target": 11,
+        "weight_percentage": 2.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "name": "Ecology",
+        "target": 93,
+        "weight_percentage": 18.71,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Human biology",
+        "target": 88,
+        "weight_percentage": 17.53,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Cell biology",
+        "target": 41,
+        "weight_percentage": 8.18,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Plant biology",
+        "target": 64,
+        "weight_percentage": 12.86,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Biochemistry",
+        "target": 11,
+        "weight_percentage": 2.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "name": "Reproduction in plants",
+        "target": 6,
+        "weight_percentage": 1.29,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Animal production",
+        "target": 11,
+        "weight_percentage": 2.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "name": "Disease transmission",
+        "target": 7,
+        "weight_percentage": 1.32,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Adaptation",
+        "target": 6,
+        "weight_percentage": 1.25,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Animal biology",
+        "target": 11,
+        "weight_percentage": 2.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "name": "Soil biology",
+        "target": 11,
+        "weight_percentage": 2.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "name": "Classification of plants",
+        "target": 6,
+        "weight_percentage": 1.29,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  "chemistry": {
+    "name": "Chemistry",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 59,
+    "topics": [
+      {
+        "name": "Energetics",
+        "target": 64,
+        "weight_percentage": 12.8,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "States of matter",
+        "target": 48,
+        "weight_percentage": 9.6,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Stoichiometry",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Chemical bonding",
+        "target": 9,
+        "weight_percentage": 1.83,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "Organic chemistry",
+        "target": 96,
+        "weight_percentage": 19.19,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Inorganic chemistry",
+        "target": 96,
+        "weight_percentage": 19.2,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Modern physics",
+        "target": 15,
+        "weight_percentage": 2.86,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "Acidic structure",
+        "target": 14,
+        "weight_percentage": 2.86,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "Atomic structure",
+        "target": 64,
+        "weight_percentage": 12.8,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Separation and purification",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Heat",
+        "target": 14,
+        "weight_percentage": 2.86,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "christian-religious-studies": {
+    "name": "Christian religious studies",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 51,
+    "topics": [
+      {
+        "name": "General",
+        "target": 30,
+        "weight_percentage": 5.88,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Christian living",
+        "target": 109,
+        "weight_percentage": 21.8,
+        "subtopics_count": 11,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9
+        ]
+      },
+      {
+        "name": "New testament",
+        "target": 125,
+        "weight_percentage": 24.92,
+        "subtopics_count": 13,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Old testament",
+        "target": 120,
+        "weight_percentage": 23.88,
+        "subtopics_count": 12,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Biblical Themes and Theology",
+        "target": 29,
+        "weight_percentage": 5.88,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9
+        ]
+      },
+      {
+        "name": "Christian Ethics and Morality",
+        "target": 29,
+        "weight_percentage": 5.88,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9
+        ]
+      },
+      {
+        "name": "History of the Christian Church",
+        "target": 29,
+        "weight_percentage": 5.88,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9
+        ]
+      },
+      {
+        "name": "Christian Doctrines and Beliefs",
+        "target": 29,
+        "weight_percentage": 5.88,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9
+        ]
+      }
+    ]
+  },
+  "civic-education": {
+    "name": "Civic education",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 55,
+    "topics": [
+      {
+        "name": "Citizenship",
+        "target": 116,
+        "weight_percentage": 23.23,
+        "subtopics_count": 12,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Democracy",
+        "target": 155,
+        "weight_percentage": 30.96,
+        "subtopics_count": 16,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "National issues",
+        "target": 116,
+        "weight_percentage": 23.23,
+        "subtopics_count": 12,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "International relations",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Human Rights and Rule of Law",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Political Participation",
+        "target": 13,
+        "weight_percentage": 2.58,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "Social Values and Norms",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Constitutional Development in Nigeria",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      }
+    ]
+  },
+  "commerce": {
+    "name": "Commerce",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 69,
+    "topics": [
+      {
+        "name": "Accounting",
+        "target": 21,
+        "weight_percentage": 4.3,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "International trade",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Economics",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Financial economics",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "African politics",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Partnership accounts",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Development economics",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Macroeconomics",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Microeconomics",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Na",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Nigerian government",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "International relations",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Financial accounting",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Company accounts",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Agricultural science",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Government",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Human geography",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Algebra further",
+        "target": 22,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Geography",
+        "target": 21,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Civic education",
+        "target": 21,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Further topics",
+        "target": 21,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "National issues",
+        "target": 21,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "English language",
+        "target": 21,
+        "weight_percentage": 4.35,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      }
+    ]
+  },
+  "economics": {
+    "name": "Economics",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 58,
+    "topics": [
+      {
+        "name": "Financial economics",
+        "target": 80,
+        "weight_percentage": 15.97,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "International trade",
+        "target": 66,
+        "weight_percentage": 13.06,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Microeconomics",
+        "target": 80,
+        "weight_percentage": 15.97,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Accounting",
+        "target": 19,
+        "weight_percentage": 3.85,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "Macroeconomics",
+        "target": 87,
+        "weight_percentage": 17.39,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Development economics",
+        "target": 73,
+        "weight_percentage": 14.51,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Partnership accounts",
+        "target": 19,
+        "weight_percentage": 3.85,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "Geography",
+        "target": 19,
+        "weight_percentage": 3.85,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "Company accounts",
+        "target": 19,
+        "weight_percentage": 3.85,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "Human geography",
+        "target": 19,
+        "weight_percentage": 3.85,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "Statistics",
+        "target": 19,
+        "weight_percentage": 3.85,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ]
+      }
+    ]
+  },
+  "english-language": {
+    "name": "English language",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 55,
+    "topics": [
+      {
+        "name": "Grammar",
+        "target": 102,
+        "weight_percentage": 20.47,
+        "subtopics_count": 11,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Government",
+        "target": 21,
+        "weight_percentage": 4.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Comprehension",
+        "target": 109,
+        "weight_percentage": 21.91,
+        "subtopics_count": 11,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9
+        ]
+      },
+      {
+        "name": "Oral english",
+        "target": 110,
+        "weight_percentage": 21.93,
+        "subtopics_count": 11,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Literature in english",
+        "target": 21,
+        "weight_percentage": 4.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Vocabulary",
+        "target": 66,
+        "weight_percentage": 13.16,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Writing",
+        "target": 29,
+        "weight_percentage": 5.85,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9
+        ]
+      },
+      {
+        "name": "Drama",
+        "target": 21,
+        "weight_percentage": 4.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "name": "Geography",
+        "target": 21,
+        "weight_percentage": 4.17,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ]
+      }
+    ]
+  },
+  "geography": {
+    "name": "Geography",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 68,
+    "topics": [
+      {
+        "name": "Regional geography",
+        "target": 82,
+        "weight_percentage": 16.36,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Human geography",
+        "target": 100,
+        "weight_percentage": 20.13,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Ocean currents",
+        "target": 6,
+        "weight_percentage": 1.31,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Africa geography",
+        "target": 7,
+        "weight_percentage": 1.36,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Agriculture geography",
+        "target": 7,
+        "weight_percentage": 1.34,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Physical geography",
+        "target": 157,
+        "weight_percentage": 31.48,
+        "subtopics_count": 16,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Nigeria geography",
+        "target": 7,
+        "weight_percentage": 1.36,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Map work",
+        "target": 88,
+        "weight_percentage": 17.62,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "International trade",
+        "target": 13,
+        "weight_percentage": 2.56,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "International relations",
+        "target": 13,
+        "weight_percentage": 2.56,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "World geography",
+        "target": 7,
+        "weight_percentage": 1.36,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Agricultural science",
+        "target": 13,
+        "weight_percentage": 2.56,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  "government": {
+    "name": "Government",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 58,
+    "topics": [
+      {
+        "name": "Geography",
+        "target": 19,
+        "weight_percentage": 3.7,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "African politics",
+        "target": 35,
+        "weight_percentage": 7.04,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "International relations",
+        "target": 53,
+        "weight_percentage": 10.56,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Political concepts",
+        "target": 189,
+        "weight_percentage": 37.84,
+        "subtopics_count": 19,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9
+        ]
+      },
+      {
+        "name": "Democracy",
+        "target": 5,
+        "weight_percentage": 0.9,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "Political thought",
+        "target": 57,
+        "weight_percentage": 11.44,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Nigerian government",
+        "target": 106,
+        "weight_percentage": 21.12,
+        "subtopics_count": 11,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Civic education",
+        "target": 18,
+        "weight_percentage": 3.7,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "Islamic history",
+        "target": 18,
+        "weight_percentage": 3.7,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ]
+      }
+    ]
+  },
+  "history": {
+    "name": "History",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 50,
+    "topics": [
+      {
+        "name": "Nigeria: Earliest Times to 1800",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Nigeria in the 19th Century",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Nigeria 1900–1960",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Nigeria Since Independence",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "West Africa and the Wider World",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ]
+  },
+  "insurance": {
+    "name": "Insurance",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 51,
+    "topics": [
+      {
+        "name": "Principles of Insurance",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Types of Insurance",
+        "target": 125,
+        "weight_percentage": 25.0,
+        "subtopics_count": 13,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Insurance Contracts",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Risk Management",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Insurance Regulation in Nigeria",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    ]
+  },
+  "literature-in-english": {
+    "name": "Literature in english",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 55,
+    "topics": [
+      {
+        "name": "Drama",
+        "target": 150,
+        "weight_percentage": 30.14,
+        "subtopics_count": 15,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Poetry",
+        "target": 138,
+        "weight_percentage": 27.62,
+        "subtopics_count": 14,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Writing",
+        "target": 23,
+        "weight_percentage": 4.55,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          8,
+          7
+        ]
+      },
+      {
+        "name": "Prose",
+        "target": 138,
+        "weight_percentage": 27.62,
+        "subtopics_count": 14,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Vocabulary",
+        "target": 23,
+        "weight_percentage": 4.55,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          8,
+          8,
+          7
+        ]
+      },
+      {
+        "name": "Theme analysis",
+        "target": 14,
+        "weight_percentage": 2.76,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          5,
+          4
+        ]
+      },
+      {
+        "name": "Characterisation",
+        "target": 14,
+        "weight_percentage": 2.76,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          5,
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  "mathematics": {
+    "name": "Mathematics",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 88,
+    "topics": [
+      {
+        "name": "Trigonometry",
+        "target": 36,
+        "weight_percentage": 7.1,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Statistics",
+        "target": 61,
+        "weight_percentage": 12.17,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Geometry",
+        "target": 66,
+        "weight_percentage": 13.18,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Calculus",
+        "target": 36,
+        "weight_percentage": 7.1,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Number theory",
+        "target": 76,
+        "weight_percentage": 15.21,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Algebra",
+        "target": 81,
+        "weight_percentage": 16.23,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Probability",
+        "target": 6,
+        "weight_percentage": 1.11,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Mechanics",
+        "target": 30,
+        "weight_percentage": 6.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Fractions decimals",
+        "target": 6,
+        "weight_percentage": 1.09,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Quadratic equations",
+        "target": 6,
+        "weight_percentage": 1.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Inequalities",
+        "target": 6,
+        "weight_percentage": 1.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Combinations",
+        "target": 6,
+        "weight_percentage": 1.27,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Matrices",
+        "target": 5,
+        "weight_percentage": 1.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "Polynomials",
+        "target": 5,
+        "weight_percentage": 1.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "Surds",
+        "target": 5,
+        "weight_percentage": 1.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "Sequences series",
+        "target": 5,
+        "weight_percentage": 1.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "Functions",
+        "target": 6,
+        "weight_percentage": 1.27,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Further topics",
+        "target": 36,
+        "weight_percentage": 7.1,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Algebra further",
+        "target": 6,
+        "weight_percentage": 1.27,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Sets",
+        "target": 5,
+        "weight_percentage": 1.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "name": "Permutations combinations",
+        "target": 6,
+        "weight_percentage": 1.18,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "Indices logarithms",
+        "target": 5,
+        "weight_percentage": 1.08,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ]
+      }
+    ]
+  },
+  "physics": {
+    "name": "Physics",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 60,
+    "topics": [
+      {
+        "name": "Electricity",
+        "target": 53,
+        "weight_percentage": 10.62,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Modern physics",
+        "target": 33,
+        "weight_percentage": 6.56,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Waves",
+        "target": 37,
+        "weight_percentage": 7.38,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Measurement",
+        "target": 29,
+        "weight_percentage": 5.74,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9
+        ]
+      },
+      {
+        "name": "Heat",
+        "target": 37,
+        "weight_percentage": 7.38,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Momentum",
+        "target": 27,
+        "weight_percentage": 5.33,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Magnetism",
+        "target": 27,
+        "weight_percentage": 5.33,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Electromagnetism",
+        "target": 27,
+        "weight_percentage": 5.33,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Pressure",
+        "target": 27,
+        "weight_percentage": 5.33,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Mechanics",
+        "target": 53,
+        "weight_percentage": 10.66,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Gas laws thermal",
+        "target": 18,
+        "weight_percentage": 3.69,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "Energy",
+        "target": 27,
+        "weight_percentage": 5.33,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "States of matter",
+        "target": 18,
+        "weight_percentage": 3.69,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ]
+      },
+      {
+        "name": "Work energy power",
+        "target": 27,
+        "weight_percentage": 5.33,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Gravitation",
+        "target": 26,
+        "weight_percentage": 5.33,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Atomic structure",
+        "target": 16,
+        "weight_percentage": 3.28,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          5,
+          5
+        ]
+      },
+      {
+        "name": "Optics",
+        "target": 18,
+        "weight_percentage": 3.69,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ]
+      }
+    ]
+  },
+  "principles-of-accounts": {
+    "name": "Principles of Accounts",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 50,
+    "topics": [
+      {
+        "name": "Bank reconciliation",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Partnership accounts",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Branch accounts",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Departmental accounts",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Cost accounting",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Not for profit",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Financial economics",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Company accounts",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Government",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Nigerian government",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ]
+  },
+  "agricultural-science": {
+    "name": "Agricultural Science",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 52,
+    "topics": [
+      {
+        "name": "Agricultural Technology",
+        "target": 83,
+        "weight_percentage": 16.67,
+        "subtopics_count": 9,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Animal Production",
+        "target": 130,
+        "weight_percentage": 25.92,
+        "subtopics_count": 13,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Crop Production",
+        "target": 130,
+        "weight_percentage": 25.93,
+        "subtopics_count": 13,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Farm Management",
+        "target": 92,
+        "weight_percentage": 18.52,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "General Agriculture",
+        "target": 65,
+        "weight_percentage": 12.96,
+        "subtopics_count": 7,
+        "questions_per_subtopic": [
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    ]
+  },
+  "arabic": {
+    "name": "Arabic",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 52,
+    "topics": [
+      {
+        "name": "Reading Comprehension",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Arabic Grammar (An-Nahw)",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Arabic Morphology (As-Sarf)",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Translation",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Arabic Rhetoric (Al-Balaghah)",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Composition (Al-Insha')",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Pre-Islamic and Early Islamic Literature",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Umayyad and Abbasid Literature",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Modern Arabic Literature",
+        "target": 35,
+        "weight_percentage": 7.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "West African and Nigerian Arabic Literature",
+        "target": 35,
+        "weight_percentage": 7.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      }
+    ]
+  },
+  "fine-art": {
+    "name": "Fine Art",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 52,
+    "topics": [
+      {
+        "name": "Elements and Principles of Design",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Art History: Traditional Nigerian Art",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Art History: Contemporary Nigerian Art and Artists",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Art History: Pre-Historic and Ancient African Art",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Art History: Western Art",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Drawing and Painting",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Graphics and Printing Techniques",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Sculpture and Modelling",
+        "target": 35,
+        "weight_percentage": 7.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Textiles and Crafts",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Ceramics and Pottery",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Art Appreciation, Criticism, and Aesthetics",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Art Tools, Materials, and Techniques",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      }
+    ]
+  },
+  "french": {
+    "name": "French",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 52,
+    "topics": [
+      {
+        "name": "Compréhension Écrite",
+        "target": 125,
+        "weight_percentage": 25.0,
+        "subtopics_count": 13,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Grammaire",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Vocabulaire",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Civilisation",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Conjugaison",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Expression Écrite",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Littérature",
+        "target": 35,
+        "weight_percentage": 7.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Traduction",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      }
+    ]
+  },
+  "hausa": {
+    "name": "Hausa",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 54,
+    "topics": [
+      {
+        "name": "Tsarin Sauti",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Tsarin Kalma da Ginin Kalmomi",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Tsarin Jimla da Nahawu",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Ka'idojin Rubutu",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Karin Magana da Maganganun Azanci",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Fahimtar Rubutu",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Fassarar Harshe",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Adabin Baka",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Rubutaccen Adabi",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Al'adun Haihuwa, Aure da Mutuwa",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Sana'o'in Gargajiya",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Tsarin Sarauta da Shugabanci",
+        "target": 20,
+        "weight_percentage": 4.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          6
+        ]
+      },
+      {
+        "name": "Bukukuwa da Wasannin Gargajiya",
+        "target": 20,
+        "weight_percentage": 4.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          6
+        ]
+      },
+      {
+        "name": "Imani da Bautar Gargajiya",
+        "target": 10,
+        "weight_percentage": 2.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          4,
+          3,
+          3
+        ]
+      }
+    ]
+  },
+  "home-economics": {
+    "name": "Home Economics",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 53,
+    "topics": [
+      {
+        "name": "Foods and Nutrients",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Meal Planning and Preparation",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Food Preservation and Storage",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Fibers and Fabrics",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Garment Construction and Sewing",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Care and Maintenance of Clothes",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Home Management and Family Living",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Family Housing and Furnishing",
+        "target": 35,
+        "weight_percentage": 7.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Consumer Education",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Child Development and Care",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Personal Hygiene and Health",
+        "target": 20,
+        "weight_percentage": 4.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          6
+        ]
+      },
+      {
+        "name": "First Aid and Home Safety",
+        "target": 20,
+        "weight_percentage": 4.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          6
+        ]
+      }
+    ]
+  },
+  "igbo": {
+    "name": "Igbo",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 54,
+    "topics": [
+      {
+        "name": "Aghọtaazaa (Comprehension)",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Ụdaasụsụ (Phonology)",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Nsupe na Usoro Edemede (Orthography)",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Ọdịdịokwu (Morphology)",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Nhazi Ahịrịokwu (Syntax)",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Ntụgharị (Translation)",
+        "target": 20,
+        "weight_percentage": 4.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          6
+        ]
+      },
+      {
+        "name": "Agụmagụ Ọdịnala (Oral Literature)",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Agụmagụ E Dere Ede - Abụ (Written Poetry)",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Agụmagụ E Dere Ede - Ejije (Written Drama)",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Agụmagụ E Dere Ede - Iduuazi (Written Prose)",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Alụmdi na Nwunye (Marriage Customs)",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Ọmụmụ na Nkwụba Aha (Naming Ceremonies)",
+        "target": 20,
+        "weight_percentage": 4.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          7,
+          7,
+          6
+        ]
+      },
+      {
+        "name": "Olili na Nkwà (Burial Rites)",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Echichi na Ọchịchị Ọdịnala (Titles and Governance)",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Emume na Okpukpe Ọdịnala (Festivals and Religion)",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      }
+    ]
+  },
+  "islamic-studies": {
+    "name": "Islamic Studies",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 51,
+    "topics": [
+      {
+        "name": "The Glorious Qur'an",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Hadith",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Tawhid and Faith",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Fiqh and Ibadah",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Islamic Family Law",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Mu'amalat and Economics",
+        "target": 35,
+        "weight_percentage": 7.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Islamic History: Pre-Islamic to Abbasid Era",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Moral and Social System in Islam",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Islam in West Africa",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Islamic Reformers and Movements",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ]
+  },
+  "music": {
+    "name": "Music",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 52,
+    "topics": [
+      {
+        "name": "Rudiments of Music",
+        "target": 100,
+        "weight_percentage": 20.0,
+        "subtopics_count": 10,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Harmony and Counterpoint",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "African Music",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "History of Western Music",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Musical Instruments and Classification",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Form and Analysis",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Biographies of African Musicians",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Biographies of Western Composers",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Music Technology and Acoustics",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      }
+    ]
+  },
+  "physical-health-education": {
+    "name": "Physical Health Education",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 52,
+    "topics": [
+      {
+        "name": "History and Philosophy of Physical Education",
+        "target": 35,
+        "weight_percentage": 7.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Anatomy and Physiology of Human Movement",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Athletics (Track and Field Events)",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Major Ball and Racket Games",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Gymnastics and Dance",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Recreation, Leisure and Outdoor Activities",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Physical Fitness and Body Conditioning",
+        "target": 45,
+        "weight_percentage": 9.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "First Aid and Safety Education",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Personal and Community Health",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Nutrition and Sports Performance",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Diseases and Health Education",
+        "target": 35,
+        "weight_percentage": 7.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ]
+      },
+      {
+        "name": "Drug, Alcohol and Tobacco Education",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Organization and Administration of Sports",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      }
+    ]
+  },
+  "yoruba": {
+    "name": "Yoruba",
+    "target_total": 500,
+    "planned_total": 500,
+    "subtopics_total": 52,
+    "topics": [
+      {
+        "name": "Akaye",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Foneti ati Fonoloji",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Girama Yoruba",
+        "target": 75,
+        "weight_percentage": 15.0,
+        "subtopics_count": 8,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "name": "Akotole ati Ami-Iro",
+        "target": 50,
+        "weight_percentage": 10.0,
+        "subtopics_count": 5,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Litireso Atenudenu",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Litireso Apagbe",
+        "target": 60,
+        "weight_percentage": 12.0,
+        "subtopics_count": 6,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Asa ati Esin Igbagbo",
+        "target": 40,
+        "weight_percentage": 8.0,
+        "subtopics_count": 4,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Awon Eko Omoluabi ati Ewo",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      },
+      {
+        "name": "Ise Isenbaye ati Ajoyo",
+        "target": 30,
+        "weight_percentage": 6.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "name": "Eto Iselu ati Ose Isenbaye",
+        "target": 25,
+        "weight_percentage": 5.0,
+        "subtopics_count": 3,
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ]
+      }
+    ]
+  }
+}
