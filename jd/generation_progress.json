@@ -1294,9 +1294,10 @@
           "Pressure groups and public opinion in governance",
           "Separation of powers and checks and balances",
           "Representative government and parliamentarism",
-          "Civil society organizations and the mass media"
+          "Civil society organizations and the mass media",
+          "Democratic institutions and their functions"
         ],
-        "questions_generated": 119,
+        "questions_generated": 128,
         "complete": false
       },
       "National issues": {
@@ -2612,9 +2613,10 @@
           "Glaciation and glacial landforms",
           "Action of waves and coastal landforms",
           "Weather elements and instrumentation",
-          "Climate types and world distribution"
+          "Climate types and world distribution",
+          "Soil formation and soil profile"
         ],
-        "questions_generated": 110,
+        "questions_generated": 120,
         "complete": false
       },
       "Nigeria geography": {
@@ -2876,9 +2878,10 @@
           "Political Participation",
           "Political Apathy",
           "Ideology",
-          "Liberty"
+          "Liberty",
+          "Equality"
         ],
-        "questions_generated": 110,
+        "questions_generated": 120,
         "complete": false
       },
       "Democracy": {
@@ -3297,9 +3300,10 @@
           "Burglary and Theft Insurance",
           "Goods in Transit Insurance",
           "Aviation Insurance",
-          "Agricultural Insurance"
+          "Agricultural Insurance",
+          "Consequential Loss Insurance"
         ],
-        "questions_generated": 89,
+        "questions_generated": 98,
         "complete": false
       },
       "Insurance Contracts": {
@@ -3336,10 +3340,11 @@
           "Proximate cause (Causa proxima) in loss assessment",
           "Warranties, conditions, and representations in insurance policies",
           "Assignment and nomination of insurance policies",
-          "Termination, cancellation, and rescission of insurance contracts"
+          "Termination, cancellation, and rescission of insurance contracts",
+          "Vitiating elements affecting insurance contracts such as fraud, mistake, and misrepresentation"
         ],
-        "questions_generated": 90,
-        "complete": false
+        "questions_generated": 100,
+        "complete": true
       },
       "Risk Management": {
         "subtopics": [
@@ -3375,10 +3380,11 @@
           "Risk retention and self-insurance strategies",
           "Risk transfer mechanisms including insurance",
           "Loss control and prevention techniques",
-          "Insurable versus uninsurable risks"
+          "Insurable versus uninsurable risks",
+          "Role and functions of a risk manager"
         ],
-        "questions_generated": 90,
-        "complete": false
+        "questions_generated": 100,
+        "complete": true
       },
       "Insurance Regulation in Nigeria": {
         "subtopics": [
@@ -3462,9 +3468,10 @@
           "Dramaturgical Devices and Stage Directions",
           "Tragedy and Tragic Flaw",
           "Comedy and Comic Relief",
-          "Tragicomedy and Melodrama"
+          "Tragicomedy and Melodrama",
+          "Dialogue and Diction"
         ],
-        "questions_generated": 90,
+        "questions_generated": 100,
         "complete": false
       },
       "Poetry": {
@@ -3509,9 +3516,10 @@
           "Thematic preoccupation and moral lessons in poetry",
           "Socio-political context and historical background of a poem",
           "Visual imagery and sensory descriptions in verse",
-          "Rhyme scheme, rhythm, and meter analysis"
+          "Rhyme scheme, rhythm, and meter analysis",
+          "Use of diction and lexical choices by poets"
         ],
-        "questions_generated": 90,
+        "questions_generated": 100,
         "complete": false
       },
       "Writing": {
@@ -3575,9 +3583,10 @@
           "Diction and Language Use",
           "Literary Devices and Figures of Speech in Prose",
           "Atmosphere and Mood",
-          "Conflict Types and Resolution"
+          "Conflict Types and Resolution",
+          "Symbolism and Motif"
         ],
-        "questions_generated": 90,
+        "questions_generated": 100,
         "complete": false
       },
       "Vocabulary": {
@@ -4768,10 +4777,11 @@
           "Processing and Storage Technology",
           "ICT and Emerging Technologies in Agriculture",
           "Irrigation and Drainage Systems",
-          "Biotechnology in Agriculture"
+          "Biotechnology in Agriculture",
+          "Agricultural Workshop Tools and Maintenance"
         ],
-        "questions_generated": 74,
-        "complete": false
+        "questions_generated": 83,
+        "complete": true
       },
       "Animal Production": {
         "subtopics": [
@@ -4812,9 +4822,10 @@
           "Pasture and Forage Crop Management",
           "Poultry Production and Management",
           "Apiculture and Aquaculture Management",
-          "Animal Housing and Environmental Physiology"
+          "Animal Housing and Environmental Physiology",
+          "Rangeland Management and Conservation"
         ],
-        "questions_generated": 80,
+        "questions_generated": 90,
         "complete": false
       },
       "Crop Production": {
@@ -4856,9 +4867,10 @@
           "Fertilizer application and nutrient management in soils",
           "Irrigation and drainage systems in crop production",
           "Pest and disease identification, symptoms, and control measures",
-          "Weed biology, economic importance, and control methods"
+          "Weed biology, economic importance, and control methods",
+          "Harvesting indices, methods, and timing for different crops"
         ],
-        "questions_generated": 80,
+        "questions_generated": 90,
         "complete": false
       },
       "Farm Management": {
@@ -4893,9 +4905,10 @@
           "Agricultural Credit and Sources of Farm Finance",
           "Farm Records and Bookkeeping",
           "Farm Inventory and Depreciation",
-          "Principles of Agricultural Marketing"
+          "Principles of Agricultural Marketing",
+          "Agricultural Cooperatives"
         ],
-        "questions_generated": 65,
+        "questions_generated": 74,
         "complete": false
       },
       "General Agriculture": {
@@ -4961,10 +4974,11 @@
           "Pronoun reference and antecedent identification",
           "Inference and author's implied meaning",
           "Textual summarization and title generation",
-          "Grammatical parsing and structural analysis of words in context"
+          "Grammatical parsing and structural analysis of words in context",
+          "Analysis of rhetorical devices and literary styles in prose"
         ],
-        "questions_generated": 66,
-        "complete": false
+        "questions_generated": 75,
+        "complete": true
       },
       "Arabic Grammar (An-Nahw)": {
         "subtopics": [
@@ -4998,9 +5012,10 @@
           "Al-Haal wal-Tamyeez",
           "Al-Mustathna (illa, ghayra, siwa)",
           "Inna wa Akhawatuha wa Kaana wa Akhawatuha",
-          "La al-Nafiyah lil-Jins"
+          "La al-Nafiyah lil-Jins",
+          "Al-Tawabi' (Al-Na't, Al-Atf, Al-Tawkeed, Al-Badal)"
         ],
-        "questions_generated": 70,
+        "questions_generated": 80,
         "complete": false
       },
       "Arabic Morphology (As-Sarf)": {
@@ -5208,10 +5223,11 @@
           "Definition and classification of the visual elements",
           "Application of the principles of design in composition",
           "Analysis of positive and negative space",
-          "Color theory properties and harmony"
+          "Color theory properties and harmony",
+          "Texture and pattern in visual arts"
         ],
-        "questions_generated": 40,
-        "complete": false
+        "questions_generated": 50,
+        "complete": true
       },
       "Art History: Traditional Nigerian Art": {
         "subtopics": [
@@ -5238,9 +5254,10 @@
           "Nok culture terracotta heads and figurines",
           "Ife bronze and terracotta casting techniques",
           "Benin bronze plaques and royal regalia",
-          "Esie soapstone figures and their cultural significance"
+          "Esie soapstone figures and their cultural significance",
+          "Igbo-Ukwu bronze artifacts and metallurgy"
         ],
-        "questions_generated": 39,
+        "questions_generated": 48,
         "complete": false
       },
       "Art History: Contemporary Nigerian Art and Artists": {
@@ -5263,9 +5280,10 @@
         "subtopics_done": [
           "The Zaria Art Society and the Natural Synthesis Movement",
           "The Ona Art Movement and Yoruba Traditional Philosophy",
-          "The Mbari Club and Oshogbo Art School Development"
+          "The Mbari Club and Oshogbo Art School Development",
+          "Contemporary Nigerian Sculptors and their Landmark Public Commissions"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Art History: Pre-Historic and Ancient African Art": {
@@ -5284,10 +5302,11 @@
         "subtopics_done": [
           "Nok Terracotta Sculptures and Culture",
           "Ife Bronze and Terracotta Masterpieces",
-          "Benin Bronze Castings and Royal Art"
+          "Benin Bronze Castings and Royal Art",
+          "Igbo-Ukwu Bronze Artworks and Metallurgy"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Art History: Western Art": {
         "subtopics": [
@@ -5326,9 +5345,10 @@
         "subtopics_done": [
           "Still-life and Nature Drawing",
           "Life and Figure Drawing",
-          "Landscape and Seascape Painting"
+          "Landscape and Seascape Painting",
+          "Imaginative and Creative Composition"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Graphics and Printing Techniques": {
@@ -5347,10 +5367,11 @@
         "subtopics_done": [
           "Relief and Intaglio Printing Processes",
           "Typography and Lettering Design",
-          "Commercial Graphic Design Principles"
+          "Commercial Graphic Design Principles",
+          "Silk Screen Printing Techniques"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Sculpture and Modelling": {
         "subtopics": [
@@ -5368,10 +5389,11 @@
         "subtopics_done": [
           "Techniques and Methods of Sculpture",
           "Tools and Equipment in Modelling",
-          "Materials and Media in Sculpture"
+          "Materials and Media in Sculpture",
+          "Historical Development of Nigerian Sculpture"
         ],
-        "questions_generated": 27,
-        "complete": false
+        "questions_generated": 35,
+        "complete": true
       },
       "Textiles and Crafts": {
         "subtopics": [
@@ -5389,10 +5411,11 @@
         "subtopics_done": [
           "Tie-dye and Batik production techniques and chemicals",
           "Weaving types, equipment, and terminologies",
-          "Basketry and pottery making processes and materials"
+          "Basketry and pottery making processes and materials",
+          "Leatherwork and beadwork decoration methods"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Ceramics and Pottery": {
         "subtopics": [
@@ -5489,9 +5512,10 @@
         "subtopics_done": [
           "Extraction d'informations factuelles et explicites",
           "Identification de l'idée principale et globale du texte",
-          "Inférence de la signification de mots inconnus par le contexte"
+          "Inférence de la signification de mots inconnus par le contexte",
+          "Compréhension des liens logiques et chronologiques"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Grammaire": {
@@ -5522,9 +5546,10 @@
         "subtopics_done": [
           "Les pronoms personnels sujets et compléments",
           "L'accord des adjectifs qualificatifs et des participes passés",
-          "Les temps des verbes (Indicatif présent, passé composé, imparfait, futur simple)"
+          "Les temps des verbes (Indicatif présent, passé composé, imparfait, futur simple)",
+          "Le subjonctif présent et ses emplois"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Vocabulaire": {
@@ -5551,9 +5576,10 @@
         "subtopics_done": [
           "La famille et les relations humaines",
           "L'éducation et la vie scolaire",
-          "Les professions et les métiers"
+          "Les professions et les métiers",
+          "Les voyages, les moyens de transport et le tourisme"
         ],
-        "questions_generated": 30,
+        "questions_generated": 39,
         "complete": false
       },
       "Civilisation": {
@@ -5574,9 +5600,10 @@
         "subtopics_done": [
           "Institutions politiques de la France",
           "Geographie et regions de la France",
-          "Fetes et traditions francaises"
+          "Fetes et traditions francaises",
+          "Systeme educatif francais"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Conjugaison": {
@@ -5597,9 +5624,10 @@
         "subtopics_done": [
           "Le présent de l'indicatif des verbes réguliers et irréguliers",
           "Le passé composé avec les auxiliaires être et avoir",
-          "L'imparfait et le plus-que-parfait de l'indicatif"
+          "L'imparfait et le plus-que-parfait de l'indicatif",
+          "Le futur simple et le futur antérieur"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Expression Écrite": {
@@ -5618,10 +5646,11 @@
         "subtopics_done": [
           "La lettre amicale",
           "La lettre officielle",
-          "Le compte-rendu"
+          "Le compte-rendu",
+          "Le dialogue"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Littérature": {
         "subtopics": [
@@ -5639,10 +5668,11 @@
         "subtopics_done": [
           "Biographie des auteurs",
           "Analyse des personnages",
-          "Thèmes principaux"
+          "Thèmes principaux",
+          "Figures de style et procédés littéraires"
         ],
-        "questions_generated": 27,
-        "complete": false
+        "questions_generated": 35,
+        "complete": true
       },
       "Traduction": {
         "subtopics": [
@@ -5683,10 +5713,11 @@
         "subtopics_done": [
           "Wasula (Wasula Masu Gajerun Sauti Da Wasula Masu Dogayen Sauti)",
           "Bakake (Rabe-raben Bakaken Hausa da wuraren furta su)",
-          "Hada-hadasar Sauti (Assimilation, Elision da Sauransu)"
+          "Hada-hadasar Sauti (Assimilation, Elision da Sauransu)",
+          "Gabobin Magana Da Muhimmancin Su"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Tsarin Kalma da Ginin Kalmomi": {
         "subtopics": [
@@ -5706,9 +5737,10 @@
         "subtopics_done": [
           "Tsarin Halittar Kalmomi (Morpheme Structure)",
           "Ire-iren Kalmomi da Rabe-rabensu",
-          "Hanyoyin Gina Sabbin Kalmomi"
+          "Hanyoyin Gina Sabbin Kalmomi",
+          "Sauye-sauyen Sauti a Cikin Kalmomi"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Tsarin Jimla da Nahawu": {
@@ -5727,10 +5759,11 @@
         "subtopics_done": [
           "Tsarin Halittar Jimla",
           "Nau'ukan Jimla a cikin Harshen Hausa",
-          "Rabe-raben Kalmomi da Ayyukansu a cikin Jimla"
+          "Rabe-raben Kalmomi da Ayyukansu a cikin Jimla",
+          "Dangantakar Jigo da Matsaya a Jimla"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Ka'idojin Rubutu": {
         "subtopics": [
@@ -5767,10 +5800,11 @@
         "subtopics_done": [
           "Ma'ana da Asalin Karin Magana",
           "Rarrabe Karin Magana da Karin Harshe",
-          "Amfani da Muhimmancin Karin Magana a Al'adun Hausawa"
+          "Amfani da Muhimmancin Karin Magana a Al'adun Hausawa",
+          "Fassara da Bayanin Ma'anar Boye na Maganganun Azanci"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Fahimtar Rubutu": {
         "subtopics": [
@@ -5790,9 +5824,10 @@
         "subtopics_done": [
           "Gano babban jigo da sakon da marubuci ya/ta bayar a cikin nassi",
           "Fassara ko bayyana ma'anar kalmomi da jumloli dangane da mahallinsu",
-          "Cire bayanai da suka wajaba ko amsa tambayoyi kai tsaye daga nassin"
+          "Cire bayanai da suka wajaba ko amsa tambayoyi kai tsaye daga nassin",
+          "Gano matsayi, ra'ayi, ko yanayin tunanin marubuci a kan batun da ake tattaunawa"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Fassarar Harshe": {
@@ -5832,9 +5867,10 @@
         "subtopics_done": [
           "Tatsuniya",
           "Almara",
-          "Karin Magana"
+          "Karin Magana",
+          "Wasan Kwaikwayo na Gargajiya"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Rubutaccen Adabi": {
@@ -5855,9 +5891,10 @@
         "subtopics_done": [
           "Tsarin Wakoki da Jigon su a Rubutaccen Adabi",
           "Fasahar Halitta da Tasirin Halaye a Cikin Litattafan Labari",
-          "Salon Rubutu da Kayan Aiki da Marubuta ke Amfani da su"
+          "Salon Rubutu da Kayan Aiki da Marubuta ke Amfani da su",
+          "Tarihin Rayuwar Marubuta da Muhimman Ayyukansu"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Al'adun Haihuwa, Aure da Mutuwa": {
@@ -5876,10 +5913,11 @@
         "subtopics_done": [
           "Tsarin Haihuwa da Suna",
           "Al'adun Neman Aure da Bikin Aure",
-          "Kayan Gado da Raba Gado"
+          "Kayan Gado da Raba Gado",
+          "Al'adun Mutuwa da Jana'iza"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Sana'o'in Gargajiya": {
         "subtopics": [
@@ -5985,9 +6023,10 @@
         "subtopics_done": [
           "Classification and Functions of Nutrients",
           "Sources and Deficiency Diseases of Vitamins and Minerals",
-          "Digestive System and Digestion of Food in Humans"
+          "Digestive System and Digestion of Food in Humans",
+          "Food Preservation and Storage Methods"
         ],
-        "questions_generated": 30,
+        "questions_generated": 39,
         "complete": false
       },
       "Meal Planning and Preparation": {
@@ -6008,9 +6047,10 @@
         "subtopics_done": [
           "Principles and Factors Influencing Meal Planning",
           "Nutritional Needs for Special Groups",
-          "Methods of Cooking and Heat Transfer"
+          "Methods of Cooking and Heat Transfer",
+          "Kitchen Safety, Hygiene, and Labor-Saving Devices"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Food Preservation and Storage": {
@@ -6029,10 +6069,11 @@
         "subtopics_done": [
           "Principles and Methods of Food Preservation",
           "Causes and Prevention of Food Spoilage",
-          "Storage Facilities and Equipment for Perishable Foods"
+          "Storage Facilities and Equipment for Perishable Foods",
+          "Traditional and Modern Methods of Food Storage"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Fibers and Fabrics": {
         "subtopics": [
@@ -6052,9 +6093,10 @@
         "subtopics_done": [
           "Classification and properties of natural and synthetic textile fibers",
           "Production processes from raw fibers to yarns and fabrics",
-          "Fabric construction methods including weaving knitting and bonding"
+          "Fabric construction methods including weaving knitting and bonding",
+          "Laundry processes and fabric care labelling"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Garment Construction and Sewing": {
@@ -6075,9 +6117,10 @@
         "subtopics_done": [
           "Basic Sewing Tools and Equipment",
           "Sewing Processes and Techniques",
-          "Commercial Patterns and Alterations"
+          "Commercial Patterns and Alterations",
+          "Garment Finishes and Fasteners"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Care and Maintenance of Clothes": {
@@ -6119,9 +6162,10 @@
         "subtopics_done": [
           "Decision Making and Family Resources",
           "Time and Energy Management in the Home",
-          "Housing and Household Equipment"
+          "Housing and Household Equipment",
+          "Family Budgeting and Consumer Education"
         ],
-        "questions_generated": 30,
+        "questions_generated": 40,
         "complete": false
       },
       "Family Housing and Furnishing": {
@@ -6140,10 +6184,11 @@
         "subtopics_done": [
           "Types of family houses and factors influencing housing choices",
           "Principles and elements of interior design and decoration",
-          "Care, maintenance, and selection of household furniture and furnishings"
+          "Care, maintenance, and selection of household furniture and furnishings",
+          "Home safety, sanitation, and accident prevention"
         ],
-        "questions_generated": 27,
-        "complete": false
+        "questions_generated": 35,
+        "complete": true
       },
       "Consumer Education": {
         "subtopics": [
@@ -6180,10 +6225,11 @@
         "subtopics_done": [
           "Immunization and Common Childhood Diseases",
           "Stages of Prenatal Development and Care of the Expectant Mother",
-          "Nutritional Needs and Feeding Practices for Infants and Toddlers"
+          "Nutritional Needs and Feeding Practices for Infants and Toddlers",
+          "Physical and Intellectual Development Milestones in Early Childhood"
         ],
-        "questions_generated": 30,
-        "complete": false
+        "questions_generated": 40,
+        "complete": true
       },
       "Personal Hygiene and Health": {
         "subtopics": [
@@ -6217,10 +6263,11 @@
         ],
         "subtopics_done": [
           "Meaning, causes and prevention of common accidents in the home",
-          "Contents and uses of a first aid box in emergency management"
+          "Contents and uses of a first aid box in emergency management",
+          "Basic first aid treatments for burns, cuts, poisoning, and shocks"
         ],
-        "questions_generated": 14,
-        "complete": false
+        "questions_generated": 20,
+        "complete": true
       }
     }
   },
@@ -6242,9 +6289,10 @@
           10
         ],
         "subtopics_done": [
-          "Nkọwa okwu ma ọ bụ ahịrịokwu n'ime amaokwu"
+          "Nkọwa okwu ma ọ bụ ahịrịokwu n'ime amaokwu",
+          "Isiokwu ma ọ bụ akara uche nke amaokwu"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Ụdaasụsụ (Phonology)": {
@@ -6261,9 +6309,10 @@
           10
         ],
         "subtopics_done": [
-          "Mkpọpụta na Nhazi Ụdaasụsụ"
+          "Mkpọpụta na Nhazi Ụdaasụsụ",
+          "Udaume na Mgbochiume"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Nsupe na Usoro Edemede (Orthography)": {
@@ -6278,9 +6327,10 @@
           10
         ],
         "subtopics_done": [
-          "Mkpụrụedemede Igbo na Ọgụgụ ha"
+          "Mkpụrụedemede Igbo na Ọgụgụ ha",
+          "Usoro Mgbakọ na Mwepụta nke Mkpụrụedemede (Udaolu na Mgbakọ)"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Ọdịdịokwu (Morphology)": {
@@ -6297,9 +6347,10 @@
           10
         ],
         "subtopics_done": [
-          "Mmalite na nhazi okwu na Nkenụokwu Igbo"
+          "Mmalite na nhazi okwu na Nkenụokwu Igbo",
+          "Usoro Mgbakwunye na Nkewa nke Ngwaa"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Nhazi Ahịrịokwu (Syntax)": {
@@ -6316,9 +6367,10 @@
           10
         ],
         "subtopics_done": [
-          "Ụdị ahịrịokwu n'asụsụ Igbo"
+          "Ụdị ahịrịokwu n'asụsụ Igbo",
+          "Nbube na Nnapụta n'ahịrịokwu"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Ntụgharị (Translation)": {
@@ -6333,9 +6385,10 @@
           6
         ],
         "subtopics_done": [
-          "Ntụgharị Akara Ubunye n'etiti Bekee na Igbo"
+          "Ntụgharị Akara Ubunye n'etiti Bekee na Igbo",
+          "Ntụgharị Okwu Ilu na Mgbako n'Asụsụ Igbo"
         ],
-        "questions_generated": 7,
+        "questions_generated": 14,
         "complete": false
       },
       "Agụmagụ Ọdịnala (Oral Literature)": {
@@ -6352,9 +6405,10 @@
           10
         ],
         "subtopics_done": [
-          "Ilu na Akpala"
+          "Ilu na Akpala",
+          "Abu Omenala"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Agụmagụ E Dere Ede - Abụ (Written Poetry)": {
@@ -6371,9 +6425,10 @@
           10
         ],
         "subtopics_done": [
-          "Usoro na Nkọwa nke Abụ Ọdịnala na Abụ E Dere Ede"
+          "Usoro na Nkọwa nke Abụ Ọdịnala na Abụ E Dere Ede",
+          "Atụmatụ Okwu na Ihe Atụ n'Abụ Igbo E Dere Ede"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Agụmagụ E Dere Ede - Ejije (Written Drama)": {
@@ -6390,9 +6445,10 @@
           10
         ],
         "subtopics_done": [
-          "Ihe omume na Usoro Ihe Omume n'Ejije"
+          "Ihe omume na Usoro Ihe Omume n'Ejije",
+          "Ndokwa na Njirimara Ndị Mmadụ n'Ejije"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Agụmagụ E Dere Ede - Iduuazi (Written Prose)": {
@@ -6409,9 +6465,10 @@
           10
         ],
         "subtopics_done": [
-          "Ibe akwụkwọ ma ọ bụ isiokwu iduuazi ndị a họpụtara"
+          "Ibe akwụkwọ ma ọ bụ isiokwu iduuazi ndị a họpụtara",
+          "Ndị odide ma ọ bụ agwa dị n'akwụkwọ iduuazi"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Alụmdi na Nwunye (Marriage Customs)": {
@@ -6426,9 +6483,10 @@
           8
         ],
         "subtopics_done": [
-          "Usoro na Uzo nkwucha n'Alumdi na Nwunye"
+          "Usoro na Uzo nkwucha n'Alumdi na Nwunye",
+          "Udiche na Mkpa nke Ihe Nlere na Mgba n'Alumdi na Nwunye"
         ],
-        "questions_generated": 9,
+        "questions_generated": 17,
         "complete": false
       },
       "Ọmụmụ na Nkwụba Aha (Naming Ceremonies)": {
@@ -6443,9 +6501,10 @@
           6
         ],
         "subtopics_done": [
-          "Usoro na Ihe Omume E Mere n'Aha Ite"
+          "Usoro na Ihe Omume E Mere n'Aha Ite",
+          "Uru na Ihe Nkwụba Aha Pụtara n'Omenala ndị Igbo"
         ],
-        "questions_generated": 7,
+        "questions_generated": 14,
         "complete": false
       },
       "Olili na Nkwà (Burial Rites)": {
@@ -6460,9 +6519,10 @@
           8
         ],
         "subtopics_done": [
-          "Usoro na usò ozu n'ala Igbo"
+          "Usoro na usò ozu n'ala Igbo",
+          "Ihe omume na emume n'oge akwa ozu"
         ],
-        "questions_generated": 9,
+        "questions_generated": 17,
         "complete": false
       },
       "Echichi na Ọchịchị Ọdịnala (Titles and Governance)": {
@@ -6477,9 +6537,10 @@
           8
         ],
         "subtopics_done": [
-          "Usoro na Usoro Ịchi Eze ma ọ bụ Ọzọ"
+          "Usoro na Usoro Ịchi Eze ma ọ bụ Ọzọ",
+          "Ọrụ na Ikike Ndị Iche n'Ọchịchị Ọdịnala"
         ],
-        "questions_generated": 9,
+        "questions_generated": 17,
         "complete": false
       },
       "Emume na Okpukpe Ọdịnala (Festivals and Religion)": {
@@ -6494,9 +6555,10 @@
           8
         ],
         "subtopics_done": [
-          "Emume Odinala ndi Igbo"
+          "Emume Odinala ndi Igbo",
+          "Nkwere na Omenaala Okpukpe Gboo"
         ],
-        "questions_generated": 9,
+        "questions_generated": 17,
         "complete": false
       }
     }
@@ -6521,9 +6583,10 @@
           10
         ],
         "subtopics_done": [
-          "Revelation of the Quran"
+          "Revelation of the Quran",
+          "Preservation and Compilation of the Quran"
         ],
-        "questions_generated": 10,
+        "questions_generated": 20,
         "complete": false
       },
       "Hadith": {
@@ -6543,8 +6606,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Definition, significance, and sources of Hadith"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Tawhid and Faith": {
@@ -6562,8 +6627,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The Concept of Tawhid and its Categories: Tawhid ar-Rububiyyah, Tawhid al-Uluhiyyah, and Tawhid al-Asma was-Sifat"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Fiqh and Ibadah": {
@@ -6587,8 +6654,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Taharah (Purification): Types of water, Wudu, Ghusl, and Tayammum"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Islamic Family Law": {
@@ -6604,8 +6673,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Marriage (Nikah): Conditions, Prohibited Degrees, and Types"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Mu'amalat and Economics": {
@@ -6621,8 +6692,10 @@
           9,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Prohibited Elements in Islamic Contracts (Riba, Gharar, and Maysir)"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Islamic History: Pre-Islamic to Abbasid Era": {
@@ -6642,8 +6715,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The Socio-Political and Religious Conditions of Pre-Islamic Arabia (Jahiliyyah)"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Moral and Social System in Islam": {
@@ -6659,8 +6734,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The Concept of Halal and Haram"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Islam in West Africa": {
@@ -6676,8 +6753,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Factors Responsible for the Spread of Islam in West Africa"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Islamic Reformers and Movements": {
@@ -6693,8 +6772,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The 1804 Sokoto Jihad of Usman dan Fodio: Causes, Course, and Impacts"
+        ],
+        "questions_generated": 10,
         "complete": false
       }
     }
@@ -6726,8 +6807,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Staff notation and clefs"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Harmony and Counterpoint": {
@@ -6751,8 +6834,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Cadences and Chord Progressions"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "African Music": {
@@ -6776,8 +6861,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Traditional African Musical Instruments and Classification"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "History of Western Music": {
@@ -6797,8 +6884,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Medieval and Renaissance Music Eras and Composers"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Musical Instruments and Classification": {
@@ -6816,8 +6905,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Hornbostel-Sachs classification of instruments"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Form and Analysis": {
@@ -6835,8 +6926,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Binary and Ternary Musical Forms"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Biographies of African Musicians": {
@@ -6852,8 +6945,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Life history and major works of Fela Anikulapo-Kuti"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Biographies of Western Composers": {
@@ -6867,8 +6962,10 @@
           8,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Life and Works of Ludwig van Beethoven"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Music Technology and Acoustics": {
@@ -6882,8 +6979,10 @@
           8,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Properties of sound waves and acoustic phenomena"
+        ],
+        "questions_generated": 9,
         "complete": false
       }
     }
@@ -6903,8 +7002,10 @@
           9,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Evolution and historical development of physical education in ancient and contemporary societies"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Anatomy and Physiology of Human Movement": {
@@ -6922,8 +7023,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Structure and classification of the human skeletal system"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Athletics (Track and Field Events)": {
@@ -6941,8 +7044,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Sprint events and starting techniques"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Major Ball and Racket Games": {
@@ -6960,8 +7065,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "History and origin of major ball and racket games"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Gymnastics and Dance": {
@@ -6975,8 +7082,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Basic Floor Activities and Tumbling Skills"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Recreation, Leisure and Outdoor Activities": {
@@ -6990,8 +7099,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Definition, Differences and Importance of Recreation, Leisure and Play"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Physical Fitness and Body Conditioning": {
@@ -7009,8 +7120,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Definition and Components of Physical Fitness"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "First Aid and Safety Education": {
