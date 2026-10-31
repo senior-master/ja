@@ -1,0 +1,59 @@
+name: Generate Questions
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: generate-questions
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate questions (6-minute budget)
+        env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          RUN_BUDGET: "360"
+        run: python js/generate_questions.py
+
+      - name: Commit and push
+        if: always()
+        run: |
+          git config user.name "question-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add jq/ jd/generation_progress.json
+          if git diff --staged --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore(questions): auto-batch $(date -u +%Y-%m-%dT%H:%M)"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "Pushed."
+              exit 0
+            fi
+            echo "Push attempt $i failed, retrying..."
+            git rebase --abort 2>/dev/null || true
+            sleep 3
+          done
+          echo "Push failed after 5 attempts."
+          exit 1
