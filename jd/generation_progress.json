@@ -51,9 +51,10 @@
           "Treatment of goodwill on admission or retirement of a partner",
           "Revaluation of assets and liabilities upon reconstitution",
           "Admission and retirement of partners",
-          "Dissolution of partnership including realization account"
+          "Dissolution of partnership including realization account",
+          "Partnership financial statements and final accounts"
         ],
-        "questions_generated": 72,
+        "questions_generated": 81,
         "complete": false
       },
       "Branch accounts": {
@@ -87,9 +88,10 @@
           "Accounting for cash and goods pilferage or shortages at branch",
           "Reconciliation of head office and branch current accounts",
           "Preparation of branch trading, profit and loss accounts",
-          "Incorporation of branch final accounts into head office books"
+          "Incorporation of branch final accounts into head office books",
+          "Independent branch accounts and foreign branches"
         ],
-        "questions_generated": 72,
+        "questions_generated": 81,
         "complete": false
       },
       "Departmental accounts": {
@@ -235,9 +237,10 @@
           "Company Taxation",
           "Company Liquidation and Winding Up",
           "Redemption of Shares and Debentures",
-          "Statement of Cash Flows for Companies"
+          "Statement of Cash Flows for Companies",
+          "Interpretation of Company Accounts Using Ratios"
         ],
-        "questions_generated": 72,
+        "questions_generated": 81,
         "complete": false
       },
       "Government": {
@@ -412,9 +415,10 @@
           "Nutrient Cycles in Nature",
           "Population Dynamics and Regulation",
           "Symbiotic Associations and Interactions",
-          "Adaptation of Organisms to Habitats"
+          "Adaptation of Organisms to Habitats",
+          "Pollution and Environmental Degradation"
         ],
-        "questions_generated": 75,
+        "questions_generated": 84,
         "complete": false
       },
       "Human biology": {
@@ -448,9 +452,10 @@
           "Nervous System and Sense Organs",
           "Endocrine System and Hormonal Coordination",
           "Skeletal System and Movement",
-          "Reproductive System and Embryonic Development"
+          "Reproductive System and Embryonic Development",
+          "Health, Diseases, and Immunity"
         ],
-        "questions_generated": 79,
+        "questions_generated": 88,
         "complete": false
       },
       "Cell biology": {
@@ -795,9 +800,10 @@
           "Benzene and its derivatives: structure and reactions",
           "Alkanols: classification, preparation and properties",
           "Alkanals and Alkanones: preparation, properties and identification tests",
-          "Alkanoic acids and their derivatives: esters, soaps and detergents"
+          "Alkanoic acids and their derivatives: esters, soaps and detergents",
+          "Alkanates and amines: nomenclature and properties"
         ],
-        "questions_generated": 78,
+        "questions_generated": 87,
         "complete": false
       },
       "Inorganic chemistry": {
@@ -833,9 +839,10 @@
           "Nitrogen and Phosphorus",
           "Carbon and its Compounds",
           "Metals and their Extraction",
-          "Transition Metals"
+          "Transition Metals",
+          "Acids, Bases, and Salts"
         ],
-        "questions_generated": 78,
+        "questions_generated": 87,
         "complete": false
       },
       "Modern physics": {
@@ -1006,9 +1013,10 @@
           "The Christian attitude to wealth and material things",
           "Christian living in the home and family relationships",
           "Tolerance, forgiveness, and peace-making among Christians",
-          "Civic responsibilities and obedience to constituted authority"
+          "Civic responsibilities and obedience to constituted authority",
+          "Dealing with sin, temptation, and moral decadence"
         ],
-        "questions_generated": 80,
+        "questions_generated": 90,
         "complete": false
       },
       "New testament": {
@@ -1050,9 +1058,10 @@
           "The sermon on the mount",
           "The transfiguration of Jesus",
           "The triumphal entry and cleansing of the temple",
-          "The last supper and betrayal of Jesus"
+          "The last supper and betrayal of Jesus",
+          "The trial, crucifixion, and death of Jesus"
         ],
-        "questions_generated": 80,
+        "questions_generated": 89,
         "complete": false
       },
       "Old testament": {
