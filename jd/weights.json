@@ -1,0 +1,1652 @@
+{
+  "accounting": {
+    "source": "equal",
+    "topics": [
+      {
+        "name": "Bank reconciliation",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Partnership accounts",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Branch accounts",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Departmental accounts",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Cost accounting",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Not for profit",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Financial economics",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Company accounts",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Government",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Nigerian government",
+        "weight": 1.0,
+        "percentage": 10.0
+      }
+    ]
+  },
+  "biology": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Genetics",
+        "weight": 12.0,
+        "percentage": 32.43
+      },
+      {
+        "name": "Agricultural science",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Microbiology",
+        "weight": 9.0,
+        "percentage": 24.32
+      },
+      {
+        "name": "Agriculture",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Ecology",
+        "weight": 16.0,
+        "percentage": 43.24
+      },
+      {
+        "name": "Human biology",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Cell biology",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Plant biology",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Biochemistry",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Reproduction in plants",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Animal production",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Disease transmission",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Adaptation",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Animal biology",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Soil biology",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Classification of plants",
+        "weight": 0.0,
+        "percentage": 0.0
+      }
+    ]
+  },
+  "chemistry": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Energetics",
+        "weight": 8.0,
+        "percentage": 61.54
+      },
+      {
+        "name": "States of matter",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Stoichiometry",
+        "weight": 5.0,
+        "percentage": 38.46
+      },
+      {
+        "name": "Chemical bonding",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Organic chemistry",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Inorganic chemistry",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Modern physics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Acidic structure",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Atomic structure",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Separation and purification",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Heat",
+        "weight": 0.0,
+        "percentage": 0.0
+      }
+    ]
+  },
+  "christian-religious-studies": {
+    "source": "equal",
+    "topics": [
+      {
+        "name": "General",
+        "weight": 1.0,
+        "percentage": 12.5
+      },
+      {
+        "name": "Christian living",
+        "weight": 1.0,
+        "percentage": 12.5
+      },
+      {
+        "name": "New testament",
+        "weight": 1.0,
+        "percentage": 12.5
+      },
+      {
+        "name": "Old testament",
+        "weight": 1.0,
+        "percentage": 12.5
+      },
+      {
+        "name": "Quran",
+        "weight": 1.0,
+        "percentage": 12.5
+      },
+      {
+        "name": "Islamic religious studies",
+        "weight": 1.0,
+        "percentage": 12.5
+      },
+      {
+        "name": "Civic education",
+        "weight": 1.0,
+        "percentage": 12.5
+      },
+      {
+        "name": "Islamic history",
+        "weight": 1.0,
+        "percentage": 12.5
+      }
+    ]
+  },
+  "civic-education": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Citizenship",
+        "weight": 9.0,
+        "percentage": 37.5
+      },
+      {
+        "name": "Geography",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Government",
+        "weight": 3.0,
+        "percentage": 12.5
+      },
+      {
+        "name": "Democracy",
+        "weight": 12.0,
+        "percentage": 50.0
+      },
+      {
+        "name": "National issues",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "International relations",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Economics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Mathematics",
+        "weight": 0.0,
+        "percentage": 0.0
+      }
+    ]
+  },
+  "commerce": {
+    "source": "equal",
+    "topics": [
+      {
+        "name": "Accounting",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "International trade",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Economics",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Financial economics",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "African politics",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Partnership accounts",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Development economics",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Macroeconomics",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Microeconomics",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Na",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Nigerian government",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "International relations",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Financial accounting",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Company accounts",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Agricultural science",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Government",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Human geography",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Algebra further",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Geography",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Civic education",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "Further topics",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "National issues",
+        "weight": 1.0,
+        "percentage": 4.35
+      },
+      {
+        "name": "English language",
+        "weight": 1.0,
+        "percentage": 4.35
+      }
+    ]
+  },
+  "economics": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Financial economics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "International trade",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Microeconomics",
+        "weight": 11.0,
+        "percentage": 47.83
+      },
+      {
+        "name": "Accounting",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Macroecnomics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Development economics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Macro economics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Partnership accounts",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Macroeconomics",
+        "weight": 12.0,
+        "percentage": 52.17
+      },
+      {
+        "name": "Geography",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Company accounts",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Human geography",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Statistics",
+        "weight": 0.0,
+        "percentage": 0.0
+      }
+    ]
+  },
+  "english-language": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Grammar",
+        "weight": 14.0,
+        "percentage": 33.33
+      },
+      {
+        "name": "Government",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Comprehension",
+        "weight": 15.0,
+        "percentage": 35.71
+      },
+      {
+        "name": "Oral english",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Literature in english",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Vocabulary",
+        "weight": 9.0,
+        "percentage": 21.43
+      },
+      {
+        "name": "Writing",
+        "weight": 4.0,
+        "percentage": 9.52
+      },
+      {
+        "name": "Drama",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Geography",
+        "weight": 0.0,
+        "percentage": 0.0
+      }
+    ]
+  },
+  "geography": {
+    "source": "equal",
+    "topics": [
+      {
+        "name": "Regional geography",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "Human geography",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "Ocean currents",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "Africa geography",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "Agriculture geography",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "Physical geography",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "Nigeria geography",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "Map work",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "International trade",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "International relations",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "World geography",
+        "weight": 1.0,
+        "percentage": 8.33
+      },
+      {
+        "name": "Agricultural science",
+        "weight": 1.0,
+        "percentage": 8.33
+      }
+    ]
+  },
+  "government": {
+    "source": "equal",
+    "topics": [
+      {
+        "name": "Geography",
+        "weight": 1.0,
+        "percentage": 11.11
+      },
+      {
+        "name": "African politics",
+        "weight": 1.0,
+        "percentage": 11.11
+      },
+      {
+        "name": "International relations",
+        "weight": 1.0,
+        "percentage": 11.11
+      },
+      {
+        "name": "Political concepts",
+        "weight": 1.0,
+        "percentage": 11.11
+      },
+      {
+        "name": "Democracy",
+        "weight": 1.0,
+        "percentage": 11.11
+      },
+      {
+        "name": "Political thought",
+        "weight": 1.0,
+        "percentage": 11.11
+      },
+      {
+        "name": "Nigerian government",
+        "weight": 1.0,
+        "percentage": 11.11
+      },
+      {
+        "name": "Civic education",
+        "weight": 1.0,
+        "percentage": 11.11
+      },
+      {
+        "name": "Islamic history",
+        "weight": 1.0,
+        "percentage": 11.11
+      }
+    ]
+  },
+  "history": {
+    "source": "equal",
+    "topics": [
+      {
+        "name": "African politics",
+        "weight": 1.0,
+        "percentage": 20.0
+      },
+      {
+        "name": "Geography",
+        "weight": 1.0,
+        "percentage": 20.0
+      },
+      {
+        "name": "Government",
+        "weight": 1.0,
+        "percentage": 20.0
+      },
+      {
+        "name": "Islamic history",
+        "weight": 1.0,
+        "percentage": 20.0
+      },
+      {
+        "name": "Nigerian government",
+        "weight": 1.0,
+        "percentage": 20.0
+      }
+    ]
+  },
+  "insurance": {
+    "source": "equal",
+    "topics": [
+      {
+        "name": "Financial economics",
+        "weight": 1.0,
+        "percentage": 100.0
+      }
+    ]
+  },
+  "literature-in-english": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Drama",
+        "weight": 12.0,
+        "percentage": 35.29
+      },
+      {
+        "name": "Poetry",
+        "weight": 11.0,
+        "percentage": 32.35
+      },
+      {
+        "name": "Writing",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Prose",
+        "weight": 11.0,
+        "percentage": 32.35
+      },
+      {
+        "name": "Vocabulary",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Theme analysis",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Characterisation",
+        "weight": 0.0,
+        "percentage": 0.0
+      }
+    ]
+  },
+  "mathematics": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Trigonometry",
+        "weight": 7.0,
+        "percentage": 11.48
+      },
+      {
+        "name": "Statistics",
+        "weight": 12.0,
+        "percentage": 19.67
+      },
+      {
+        "name": "Geometry",
+        "weight": 13.0,
+        "percentage": 21.31
+      },
+      {
+        "name": "Calculus",
+        "weight": 7.0,
+        "percentage": 11.48
+      },
+      {
+        "name": "Number theory",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Algebra",
+        "weight": 16.0,
+        "percentage": 26.23
+      },
+      {
+        "name": "Probability",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Mechanics",
+        "weight": 6.0,
+        "percentage": 9.84
+      },
+      {
+        "name": "Fractions decimals",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Quadratic equations",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Inequalities",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Combinations",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Matrices",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Polynomials",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Surds",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Sequences series",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Functions",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Further topics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Algebra further",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Sets",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Permutations combinations",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Indices logarithms",
+        "weight": 0.0,
+        "percentage": 0.0
+      }
+    ]
+  },
+  "physics": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Electricity",
+        "weight": 13.0,
+        "percentage": 25.49
+      },
+      {
+        "name": "Modern physics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Waves",
+        "weight": 9.0,
+        "percentage": 17.65
+      },
+      {
+        "name": "Measurement",
+        "weight": 7.0,
+        "percentage": 13.73
+      },
+      {
+        "name": "Heat",
+        "weight": 9.0,
+        "percentage": 17.65
+      },
+      {
+        "name": "Chemistry",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Momentum",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Magnetism",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Geometry",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Electromagnetism",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Pressure",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Mechanics",
+        "weight": 13.0,
+        "percentage": 25.49
+      },
+      {
+        "name": "Gas laws thermal",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Energy",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "States of matter",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Work energy power",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Gravitation",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Atomic structure",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Inorganic chemistry",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Optics",
+        "weight": 0.0,
+        "percentage": 0.0
+      },
+      {
+        "name": "Energetics",
+        "weight": 0.0,
+        "percentage": 0.0
+      }
+    ]
+  },
+  "principles-of-accounts": {
+    "source": "equal",
+    "topics": [
+      {
+        "name": "Bank reconciliation",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Partnership accounts",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Branch accounts",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Departmental accounts",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Cost accounting",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Not for profit",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Financial economics",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Company accounts",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Government",
+        "weight": 1.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Nigerian government",
+        "weight": 1.0,
+        "percentage": 10.0
+      }
+    ]
+  },
+  "agricultural-science": {
+    "source": "curriculum",
+    "topics": [
+      {
+        "name": "Agricultural Technology",
+        "weight": 9.0,
+        "percentage": 16.67
+      },
+      {
+        "name": "Animal Production",
+        "weight": 14.0,
+        "percentage": 25.93
+      },
+      {
+        "name": "Crop Production",
+        "weight": 14.0,
+        "percentage": 25.93
+      },
+      {
+        "name": "Farm Management",
+        "weight": 10.0,
+        "percentage": 18.52
+      },
+      {
+        "name": "General Agriculture",
+        "weight": 7.0,
+        "percentage": 12.96
+      }
+    ]
+  },
+  "arabic": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "Reading Comprehension",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "Arabic Grammar (An-Nahw)",
+        "weight": 20.0,
+        "percentage": 20.0
+      },
+      {
+        "name": "Arabic Morphology (As-Sarf)",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Translation",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Arabic Rhetoric (Al-Balaghah)",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Composition (Al-Insha')",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Pre-Islamic and Early Islamic Literature",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Umayyad and Abbasid Literature",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Modern Arabic Literature",
+        "weight": 7.0,
+        "percentage": 7.0
+      },
+      {
+        "name": "West African and Nigerian Arabic Literature",
+        "weight": 7.0,
+        "percentage": 7.0
+      }
+    ]
+  },
+  "fine-art": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "Elements and Principles of Design",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Art History: Traditional Nigerian Art",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "Art History: Contemporary Nigerian Art and Artists",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Art History: Pre-Historic and Ancient African Art",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Art History: Western Art",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Drawing and Painting",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Graphics and Printing Techniques",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Sculpture and Modelling",
+        "weight": 7.0,
+        "percentage": 7.0
+      },
+      {
+        "name": "Textiles and Crafts",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Ceramics and Pottery",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Art Appreciation, Criticism, and Aesthetics",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Art Tools, Materials, and Techniques",
+        "weight": 6.0,
+        "percentage": 6.0
+      }
+    ]
+  },
+  "french": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "Compréhension Écrite",
+        "weight": 25.0,
+        "percentage": 25.0
+      },
+      {
+        "name": "Grammaire",
+        "weight": 20.0,
+        "percentage": 20.0
+      },
+      {
+        "name": "Vocabulaire",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "Civilisation",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Conjugaison",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Expression Écrite",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Littérature",
+        "weight": 7.0,
+        "percentage": 7.0
+      },
+      {
+        "name": "Traduction",
+        "weight": 5.0,
+        "percentage": 5.0
+      }
+    ]
+  },
+  "hausa": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "Tsarin Sauti",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Tsarin Kalma da Ginin Kalmomi",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Tsarin Jimla da Nahawu",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Ka'idojin Rubutu",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Karin Magana da Maganganun Azanci",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Fahimtar Rubutu",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Fassarar Harshe",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Adabin Baka",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Rubutaccen Adabi",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Al'adun Haihuwa, Aure da Mutuwa",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Sana'o'in Gargajiya",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Tsarin Sarauta da Shugabanci",
+        "weight": 4.0,
+        "percentage": 4.0
+      },
+      {
+        "name": "Bukukuwa da Wasannin Gargajiya",
+        "weight": 4.0,
+        "percentage": 4.0
+      },
+      {
+        "name": "Imani da Bautar Gargajiya",
+        "weight": 2.0,
+        "percentage": 2.0
+      }
+    ]
+  },
+  "home-economics": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "Foods and Nutrients",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "Meal Planning and Preparation",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Food Preservation and Storage",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Fibers and Fabrics",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Garment Construction and Sewing",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Care and Maintenance of Clothes",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Home Management and Family Living",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Family Housing and Furnishing",
+        "weight": 7.0,
+        "percentage": 7.0
+      },
+      {
+        "name": "Consumer Education",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Child Development and Care",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Personal Hygiene and Health",
+        "weight": 4.0,
+        "percentage": 4.0
+      },
+      {
+        "name": "First Aid and Home Safety",
+        "weight": 4.0,
+        "percentage": 4.0
+      }
+    ]
+  },
+  "igbo": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "Aghọtaazaa (Comprehension)",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Ụdaasụsụ (Phonology)",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Nsupe na Usoro Edemede (Orthography)",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Ọdịdịokwu (Morphology)",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Nhazi Ahịrịokwu (Syntax)",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Ntụgharị (Translation)",
+        "weight": 4.0,
+        "percentage": 4.0
+      },
+      {
+        "name": "Agụmagụ Ọdịnala (Oral Literature)",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Agụmagụ E Dere Ede - Abụ (Written Poetry)",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Agụmagụ E Dere Ede - Ejije (Written Drama)",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Agụmagụ E Dere Ede - Iduuazi (Written Prose)",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Alụmdi na Nwunye (Marriage Customs)",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Ọmụmụ na Nkwụba Aha (Naming Ceremonies)",
+        "weight": 4.0,
+        "percentage": 4.0
+      },
+      {
+        "name": "Olili na Nkwà (Burial Rites)",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Echichi na Ọchịchị Ọdịnala (Titles and Governance)",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Emume na Okpukpe Ọdịnala (Festivals and Religion)",
+        "weight": 5.0,
+        "percentage": 5.0
+      }
+    ]
+  },
+  "islamic-studies": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "The Glorious Qur'an",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Hadith",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Tawhid and Faith",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Fiqh and Ibadah",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "Islamic Family Law",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Mu'amalat and Economics",
+        "weight": 7.0,
+        "percentage": 7.0
+      },
+      {
+        "name": "Islamic History: Pre-Islamic to Abbasid Era",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Moral and Social System in Islam",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Islam in West Africa",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Islamic Reformers and Movements",
+        "weight": 8.0,
+        "percentage": 8.0
+      }
+    ]
+  },
+  "music": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "Rudiments of Music",
+        "weight": 20.0,
+        "percentage": 20.0
+      },
+      {
+        "name": "Harmony and Counterpoint",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "African Music",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "History of Western Music",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Musical Instruments and Classification",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Form and Analysis",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Biographies of African Musicians",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Biographies of Western Composers",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Music Technology and Acoustics",
+        "weight": 5.0,
+        "percentage": 5.0
+      }
+    ]
+  },
+  "physical-health-education": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "History and Philosophy of Physical Education",
+        "weight": 7.0,
+        "percentage": 7.0
+      },
+      {
+        "name": "Anatomy and Physiology of Human Movement",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Athletics (Track and Field Events)",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Major Ball and Racket Games",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Gymnastics and Dance",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Recreation, Leisure and Outdoor Activities",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Physical Fitness and Body Conditioning",
+        "weight": 9.0,
+        "percentage": 9.0
+      },
+      {
+        "name": "First Aid and Safety Education",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Personal and Community Health",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Nutrition and Sports Performance",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Diseases and Health Education",
+        "weight": 7.0,
+        "percentage": 7.0
+      },
+      {
+        "name": "Drug, Alcohol and Tobacco Education",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Organization and Administration of Sports",
+        "weight": 6.0,
+        "percentage": 6.0
+      }
+    ]
+  },
+  "yoruba": {
+    "source": "ai",
+    "topics": [
+      {
+        "name": "Akaye",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "Foneti ati Fonoloji",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Girama Yoruba",
+        "weight": 15.0,
+        "percentage": 15.0
+      },
+      {
+        "name": "Akotole ati Ami-Iro",
+        "weight": 10.0,
+        "percentage": 10.0
+      },
+      {
+        "name": "Litireso Atenudenu",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Litireso Apagbe",
+        "weight": 12.0,
+        "percentage": 12.0
+      },
+      {
+        "name": "Asa ati Esin Igbagbo",
+        "weight": 8.0,
+        "percentage": 8.0
+      },
+      {
+        "name": "Awon Eko Omoluabi ati Ewo",
+        "weight": 5.0,
+        "percentage": 5.0
+      },
+      {
+        "name": "Ise Isenbaye ati Ajoyo",
+        "weight": 6.0,
+        "percentage": 6.0
+      },
+      {
+        "name": "Eto Iselu ati Ose Isenbaye",
+        "weight": 5.0,
+        "percentage": 5.0
+      }
+    ]
+  }
+}
