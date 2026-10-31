@@ -1,0 +1,69 @@
+{
+  "subject_slug": "arabic",
+  "exam_type": "jamb",
+  "source": "ai_generated",
+  "model": "gemini-3.7-flash",
+  "fetched_at": "2026-10-31T08:44:01.177048+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Reading Comprehension",
+      "percentage": 15.0,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Arabic Grammar (An-Nahw)",
+      "percentage": 20.0,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Arabic Morphology (As-Sarf)",
+      "percentage": 12.0,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Translation",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Arabic Rhetoric (Al-Balaghah)",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Composition (Al-Insha')",
+      "percentage": 5.0,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Pre-Islamic and Early Islamic Literature",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Umayyad and Abbasid Literature",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Modern Arabic Literature",
+      "percentage": 7.0,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "West African and Nigerian Arabic Literature",
+      "percentage": 7.0,
+      "difficulty": null
+    }
+  ]
+}

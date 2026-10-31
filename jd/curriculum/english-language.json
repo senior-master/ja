@@ -1,0 +1,261 @@
+{
+  "subject_slug": "english-language",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:45.350406+00:00",
+  "curriculum": [
+    {
+      "id": "a3e0547e-5b75-45d5-923f-7f3f75dd4308",
+      "code": "ENGLISH-LANGUAGE-COMPREHENSION",
+      "subject": "english-language",
+      "topic": "comprehension",
+      "topicName": "Comprehension",
+      "subtopics": [
+        "reading-comprehension",
+        "summary-writing",
+        "vocabulary-in-context",
+        "cloze-test",
+        "narration",
+        "description",
+        "exposition",
+        "argumentation-persuasion",
+        "synthesis-of-ideas",
+        "approved-reading-text",
+        "main-points-topic-sentences",
+        "implied-meaning",
+        "coherence-logical-reasoning",
+        "writers-intention-mood-attitude-opinion"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "88478017-04af-45c1-8171-17d5c9773d9f",
+      "code": "JAMB-SS3-ENGLISH-LANGUAGE-COMPREHENSION",
+      "subject": "english-language",
+      "topic": "comprehension",
+      "topicName": "Comprehension",
+      "subtopics": [
+        "writers-intention-mood-attitude-opinion"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "deduce or infer the writers’ intentions including mood, attitude to the subject matter and opinion",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "coherence-logical-reasoning"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "0c95ca29-eb2d-4dbe-b500-4979068fc50d",
+      "code": "ENGLISH-LANGUAGE-GRAMMAR",
+      "subject": "english-language",
+      "topic": "grammar",
+      "topicName": "Grammar",
+      "subtopics": [
+        "parts-of-speech",
+        "sentence-structure",
+        "tenses-aspect",
+        "agreement",
+        "punctuation",
+        "clause-analysis",
+        "mood",
+        "number",
+        "degree-comparison",
+        "question-tags",
+        "mechanics",
+        "clause-and-sentence-patterns",
+        "word-classes-and-functions"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "ea597420-d160-4491-9faa-433f43c506ec",
+      "code": "JAMB-SS3-ENGLISH-LANGUAGE-GRAMMAR",
+      "subject": "english-language",
+      "topic": "grammar",
+      "topicName": "Grammar",
+      "subtopics": [
+        "word-classes-and-functions"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify various grammatical patterns in use",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "bc1adbe0-739c-44bd-bc6c-667dc4f1f923",
+      "code": "ENGLISH-LANGUAGE-LEXIS-AND-STRUCTURE",
+      "subject": "english-language",
+      "topic": "lexis-and-structure",
+      "topicName": "Lexis And Structure",
+      "subtopics": [
+        "sentence-interpretation"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "e2dd2103-0e0d-4d36-9587-378117ba5202",
+      "code": "JAMB-SS3-ENGLISH-LANGUAGE-LEXIS-AND-STRUCTURE",
+      "subject": "english-language",
+      "topic": "lexis-and-structure",
+      "topicName": "Lexis And Structure",
+      "subtopics": [
+        "sentence-interpretation"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "interpret information conveyed in sentences",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "sentence-structure"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "f7a24382-e14d-480b-9a92-8d516d0de15a",
+      "code": "ENGLISH-LANGUAGE-ORAL-ENGLISH",
+      "subject": "english-language",
+      "topic": "oral-english",
+      "topicName": "Oral English",
+      "subtopics": [
+        "stress-intonation",
+        "vowel-sounds",
+        "consonant-sounds",
+        "rhyme-rhythm",
+        "syllabification",
+        "monophthongs",
+        "diphthongs",
+        "triphthongs",
+        "consonant-clusters",
+        "homophones",
+        "word-stress-monosyllabic",
+        "word-stress-polysyllabic",
+        "emphatic-stress",
+        "connected-speech"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "ede65ca9-e3b2-401c-9e5e-aeadcc0b897a",
+      "code": "JAMB-SS3-ENGLISH-LANGUAGE-ORAL-ENGLISH",
+      "subject": "english-language",
+      "topic": "oral-english",
+      "topicName": "Oral English",
+      "subtopics": [
+        "connected-speech"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify correct pronunciation of individual words and articulation of connected speech",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "stress-intonation"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "0668703b-13b3-4b12-b225-f23f688902df",
+      "code": "ENGLISH-LANGUAGE-VOCABULARY",
+      "subject": "english-language",
+      "topic": "vocabulary",
+      "topicName": "Vocabulary",
+      "subtopics": [
+        "synonyms-antonyms",
+        "idioms-phrasal-verbs",
+        "word-formation",
+        "contextual-meaning",
+        "ordinary-usage",
+        "figurative-usage",
+        "idiomatic-usage-standard-british-english",
+        "spelling-correct-incorrect"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "bc817f74-7fff-41ea-acde-4c04fbde9edd",
+      "code": "JAMB-SS3-ENGLISH-LANGUAGE-VOCABULARY",
+      "subject": "english-language",
+      "topic": "vocabulary",
+      "topicName": "Vocabulary",
+      "subtopics": [
+        "spelling-correct-incorrect"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "differentiate between correct and incorrect spellings",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "word-formation"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "d0a6eb51-0d16-49bf-a27b-055469834ac5",
+      "code": "ENGLISH-LANGUAGE-WRITING",
+      "subject": "english-language",
+      "topic": "writing",
+      "topicName": "Writing",
+      "subtopics": [
+        "essay-writing",
+        "letter-writing",
+        "speech-writing",
+        "report-writing"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    }
+  ]
+}

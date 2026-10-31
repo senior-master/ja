@@ -1,7 +1,7 @@
 {
   "subject_slug": "civic-education",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:20.571137+00:00",
+  "fetched_at": "2026-10-31T16:39:58.119336+00:00",
   "topics": [
     {
       "id": 1,
@@ -11,45 +11,46 @@
     },
     {
       "id": 2,
-      "name": "Geography",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 3,
-      "name": "Government",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 4,
       "name": "Democracy",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 5,
+      "id": 3,
       "name": "National issues",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 6,
+      "id": 4,
       "name": "International relations",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 7,
-      "name": "Economics",
+      "name": "Human Rights and Rule of Law",
       "percentage": null,
-      "difficulty": null
+      "difficulty": null,
+      "id": 5
     },
     {
-      "id": 8,
-      "name": "Mathematics",
+      "name": "Political Participation",
       "percentage": null,
-      "difficulty": null
+      "difficulty": null,
+      "id": 6
+    },
+    {
+      "name": "Social Values and Norms",
+      "percentage": null,
+      "difficulty": null,
+      "id": 7
+    },
+    {
+      "name": "Constitutional Development in Nigeria",
+      "percentage": null,
+      "difficulty": null,
+      "id": 8
     }
-  ]
+  ],
+  "cleaned": true
 }

@@ -1,0 +1,497 @@
+{
+  "subject_slug": "biology",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:36.085581+00:00",
+  "curriculum": [
+    {
+      "id": "50d03bc1-d50d-40f2-b74c-6504e91c1108",
+      "code": "BIOLOGY-CELL-BIOLOGY",
+      "subject": "biology",
+      "topic": "cell-biology",
+      "topicName": "Cell Biology",
+      "subtopics": [
+        "cell-structure",
+        "cell-division",
+        "cell-transport",
+        "osmosis-diffusion",
+        "levels-of-organization",
+        "cell-components-and-functions"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "210d787a-0137-4a59-b50c-517b3c96ab8c",
+      "code": "JAMB-SS3-BIOLOGY-CELL-BIOLOGY",
+      "subject": "biology",
+      "topic": "cell-biology",
+      "topicName": "Cell Biology",
+      "subtopics": [
+        "osmosis-diffusion"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "describe diffusion, osmosis, plasmolysis and turgidity as mechanisms of transportation in organisms.",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "cell-structure"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "d9658717-4ead-4bc6-adff-838665dc13f8",
+      "code": "BIOLOGY-ECOLOGY",
+      "subject": "biology",
+      "topic": "ecology",
+      "topicName": "Ecology",
+      "subtopics": [
+        "ecosystem",
+        "food-chains",
+        "population",
+        "conservation",
+        "adaptation",
+        "food-webs-and-trophic-levels",
+        "nutrient-cycling",
+        "abiotic-biotic-factors",
+        "symbiotic-interactions",
+        "natural-habitats",
+        "nigerian-biomes",
+        "ecological-succession",
+        "soil-science",
+        "pollution-and-control",
+        "drug-abuse"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "ec8413e9-71a8-4724-8d91-69370b576446",
+      "code": "JAMB-SS3-BIOLOGY-ECOLOGY",
+      "subject": "biology",
+      "topic": "ecology",
+      "topicName": "Ecology",
+      "subtopics": [
+        "conservation"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify and state the location and importance of game reserves and National parks in Nigeria",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "conservation"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "9f66afe0-820c-456c-9749-8d37fb40d0dc",
+      "code": "BIOLOGY-GENETICS",
+      "subject": "biology",
+      "topic": "genetics",
+      "topicName": "Genetics",
+      "subtopics": [
+        "mendelian-genetics",
+        "dna-rna",
+        "mutations",
+        "heredity",
+        "evolution",
+        "chromosomes",
+        "probability-and-sex-determination",
+        "sex-linked-characters",
+        "variation-continuous-discontinuous",
+        "biotechnology",
+        "blood-groups"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "992bec5c-42b5-4280-9b43-95d18d795b0a",
+      "code": "JAMB-SS3-BIOLOGY-GENETICS",
+      "subject": "biology",
+      "topic": "genetics",
+      "topicName": "Genetics",
+      "subtopics": [
+        "mutations"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "state the evidence of modern evolutionary theories such as genetic studies and the role of mutation.",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "evolution"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "7724428f-2100-487f-9330-e95c9a816c31",
+      "code": "BIOLOGY-HUMAN-BIOLOGY",
+      "subject": "biology",
+      "topic": "human-biology",
+      "topicName": "Human Biology",
+      "subtopics": [
+        "digestive-system",
+        "circulatory-system",
+        "respiratory-system",
+        "nervous-system",
+        "reproductive-system",
+        "excretory-system",
+        "skeletal-system",
+        "sense-organs",
+        "endocrine-system",
+        "homeostasis",
+        "growth-and-germination",
+        "coordination-and-control",
+        "mammalian-tooth-and-dentition",
+        "nutrition-and-food-classes"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "684e9872-bea0-41be-8d48-91332b45bd65",
+      "code": "JAMB-SS3-BIOLOGY-HUMAN-BIOLOGY",
+      "subject": "biology",
+      "topic": "human-biology",
+      "topicName": "Human Biology",
+      "subtopics": [
+        "homeostasis"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "relate the function of hormones in homeostasis.",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "endocrine-system"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "b958e0eb-899e-4464-8e65-8fba89c0193d",
+      "code": "BIOLOGY-MICROBIOLOGY",
+      "subject": "biology",
+      "topic": "microbiology",
+      "topicName": "Microbiology",
+      "subtopics": [
+        "bacteria",
+        "viruses",
+        "fungi",
+        "disease-transmission",
+        "immunity",
+        "protista",
+        "common-and-endemic-diseases",
+        "sexually-transmitted-diseases"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "f71bf732-43b3-4eac-855e-996e97ffdc1d",
+      "code": "JAMB-SS3-BIOLOGY-MICROBIOLOGY",
+      "subject": "biology",
+      "topic": "microbiology",
+      "topicName": "Microbiology",
+      "subtopics": [
+        "immunity"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "apply the principles of inoculation and vaccination on disease prevention.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "disease-transmission"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "3e129b32-7565-4338-8d14-4739e1ff02fe",
+      "code": "BIOLOGY-PLANT-BIOLOGY",
+      "subject": "biology",
+      "topic": "plant-biology",
+      "topicName": "Plant Biology",
+      "subtopics": [
+        "photosynthesis",
+        "transpiration",
+        "reproduction-in-plants",
+        "plant-nutrition",
+        "classification-of-plants",
+        "plant-tissues-and-support",
+        "tropic-tactic-nastic-movements",
+        "plant-hormones",
+        "pollination-and-fertilization",
+        "vegetative-propagation"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "723f02f3-64d3-4443-a81a-a0de6c94b4cc",
+      "code": "JAMB-SS3-BIOLOGY-PLANT-BIOLOGY",
+      "subject": "biology",
+      "topic": "plant-biology",
+      "topicName": "Plant Biology",
+      "subtopics": [
+        "plant-hormones"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "examine the effects of various phytohormones (e.g., auxins, gibberellin, cytokinin, and ethylene) on growth, tropism, flowering, fruit ripening and leaf abscission.",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "tropic-tactic-nastic-movements"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "3a67b36d-425f-464f-bb36-dae36dfa791a",
+      "code": "BIOLOGY-REPRODUCTION",
+      "subject": "biology",
+      "topic": "reproduction",
+      "topicName": "Reproduction",
+      "subtopics": [
+        "asexual-reproduction",
+        "sexual-reproduction-in-plants",
+        "reproduction-in-mammals",
+        "fertilization-and-development"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "7312797e-e222-49b7-9066-dd66e1823e08",
+      "code": "JAMB-SS3-BIOLOGY-REPRODUCTION",
+      "subject": "biology",
+      "topic": "reproduction",
+      "topicName": "Reproduction",
+      "subtopics": [
+        "fertilization-and-development"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "relate the effects of the mother's health, nutrition and indiscriminate use of drugs on the developmental stages of the embryo up to birth.",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "fertilization-and-development"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "8049f97f-b7b4-4a97-9741-3d1750a77d62",
+      "code": "BIOLOGY-RESPIRATION",
+      "subject": "biology",
+      "topic": "respiration",
+      "topicName": "Respiration",
+      "subtopics": [
+        "aerobic-respiration",
+        "anaerobic-respiration",
+        "gaseous-exchange",
+        "respiratory-organs-and-surfaces"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "29808c87-bf0b-4674-9823-c87078db3565",
+      "code": "JAMB-SS3-BIOLOGY-RESPIRATION",
+      "subject": "biology",
+      "topic": "respiration",
+      "topicName": "Respiration",
+      "subtopics": [
+        "anaerobic-respiration"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "use yeast cells and sugar solution to demonstrate the process of fermentation.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "anaerobic-respiration"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "e9a2b433-9fef-45b9-ae93-dd8604f77935",
+      "code": "BIOLOGY-SUPPORT-AND-MOVEMENT",
+      "subject": "biology",
+      "topic": "support-and-movement",
+      "topicName": "Support And Movement",
+      "subtopics": [
+        "supporting-tissues-in-plants",
+        "skeleton-types-and-functions",
+        "joints"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "19702bab-7886-444e-bb81-37bdb3eaac2d",
+      "code": "JAMB-SS3-BIOLOGY-SUPPORT-AND-MOVEMENT",
+      "subject": "biology",
+      "topic": "support-and-movement",
+      "topicName": "Support And Movement",
+      "subtopics": [
+        "skeleton-types-and-functions"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "apply the protective, supportive, locomotive and respiratory functions of the skeleton to the wellbeing of the animal.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "skeleton-types-and-functions"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "aac8fad4-aa5f-45b7-98d9-78bfd36cfa3c",
+      "code": "BIOLOGY-TRANSPORT-IN-ORGANISMS",
+      "subject": "biology",
+      "topic": "transport-in-organisms",
+      "topicName": "Transport In Organisms",
+      "subtopics": [
+        "mammalian-circulatory-system",
+        "plant-vascular-system",
+        "transport-media-and-mechanisms"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "2d90a86b-c7bd-4081-9369-d7a650b78304",
+      "code": "JAMB-SS3-BIOLOGY-TRANSPORT-IN-ORGANISMS",
+      "subject": "biology",
+      "topic": "transport-in-organisms",
+      "topicName": "Transport In Organisms",
+      "subtopics": [
+        "transport-media-and-mechanisms"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "state the composition and functions of blood and lymph",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "transport-media-and-mechanisms"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "f034f782-2276-4352-9cba-06bfcae32d26",
+      "code": "BIOLOGY-VARIETY-OF-ORGANISMS",
+      "subject": "biology",
+      "topic": "variety-of-organisms",
+      "topicName": "Variety Of Organisms",
+      "subtopics": [
+        "characteristics-of-living-things",
+        "classification-monera-protista-fungi-plantae-animalia",
+        "invertebrates",
+        "vertebrates",
+        "structural-functional-behavioural-adaptations"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "e64cb7f9-4714-4808-9ea9-8ec91f96789e",
+      "code": "JAMB-SS3-BIOLOGY-VARIETY-OF-ORGANISMS",
+      "subject": "biology",
+      "topic": "variety-of-organisms",
+      "topicName": "Variety Of Organisms",
+      "subtopics": [
+        "structural-functional-behavioural-adaptations"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "account for adaptation in organisms with respect to obtaining food, protection and defence, securing mates, regulating body temperature and conserving water.",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "structural-functional-behavioural-adaptations"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    }
+  ]
+}

@@ -1,37 +1,39 @@
 {
   "subject_slug": "history",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:29.540552+00:00",
+  "fetched_at": "2026-10-31T16:39:58.111723+00:00",
   "topics": [
     {
-      "id": 1,
-      "name": "African politics",
-      "percentage": null,
-      "difficulty": null
+      "name": "Nigeria: Earliest Times to 1800",
+      "percentage": 20,
+      "difficulty": null,
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Geography",
-      "percentage": null,
-      "difficulty": null
+      "name": "Nigeria in the 19th Century",
+      "percentage": 20,
+      "difficulty": null,
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Government",
-      "percentage": null,
-      "difficulty": null
+      "name": "Nigeria 1900–1960",
+      "percentage": 20,
+      "difficulty": null,
+      "id": 3
     },
     {
-      "id": 4,
-      "name": "Islamic history",
-      "percentage": null,
-      "difficulty": null
+      "name": "Nigeria Since Independence",
+      "percentage": 20,
+      "difficulty": null,
+      "id": 4
     },
     {
-      "id": 5,
-      "name": "Nigerian government",
-      "percentage": null,
-      "difficulty": null
+      "name": "West Africa and the Wider World",
+      "percentage": 20,
+      "difficulty": null,
+      "id": 5
     }
-  ]
+  ],
+  "source": "manual",
+  "cleaned": true
 }

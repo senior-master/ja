@@ -1,0 +1,357 @@
+{
+  "subject_slug": "mathematics",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:55.039576+00:00",
+  "curriculum": [
+    {
+      "id": "03534ce1-b9c4-4412-b3b8-30529cec1b61",
+      "code": "JAMB-SS3-MATHEMATICS-ALGEBRA",
+      "subject": "mathematics",
+      "topic": "algebra",
+      "topicName": "Algebra",
+      "subtopics": [
+        "determinants"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "Compute the inverse of a 2 x 2 matrix.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "determinants"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "0884081c-fbef-4242-aa5b-b5e67213778c",
+      "code": "MATHEMATICS-ALGEBRA",
+      "subject": "mathematics",
+      "topic": "algebra",
+      "topicName": "Algebra",
+      "subtopics": [
+        "linear-equations",
+        "quadratic-equations",
+        "simultaneous-equations",
+        "inequalities",
+        "polynomials",
+        "sequences-series",
+        "indices-logarithms",
+        "surds",
+        "sets",
+        "matrices",
+        "variation",
+        "binary-operations",
+        "factor-remainder-theorem",
+        "change-of-subject-formula",
+        "determinants"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "33f77577-7d58-42c2-b3b0-e4803ac6262a",
+      "code": "JAMB-SS3-MATHEMATICS-CALCULUS",
+      "subject": "mathematics",
+      "topic": "calculus",
+      "topicName": "Calculus",
+      "subtopics": [
+        "integration"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "Calculate the area under a curve for simple cases.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "integration"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:25+00:00"
+    },
+    {
+      "id": "44fe09ba-e8cb-455a-88d2-a8eb89a0b206",
+      "code": "MATHEMATICS-CALCULUS",
+      "subject": "mathematics",
+      "topic": "calculus",
+      "topicName": "Calculus",
+      "subtopics": [
+        "differentiation",
+        "integration",
+        "limits",
+        "rates-of-change",
+        "maxima-minima",
+        "kinematics"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "488a5139-0fa5-4b85-aaf7-cbf34464f7cb",
+      "code": "JAMB-SS3-MATHEMATICS-FURTHER-TOPICS",
+      "subject": "mathematics",
+      "topic": "further-topics",
+      "topicName": "Further Topics",
+      "subtopics": [
+        "permutations-combinations"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "Resolve simple problems involving permutation and combination, including linear and circular arrangements.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:25+00:00"
+    },
+    {
+      "id": "592b3b75-28fe-43a9-b463-29a3a9bf5392",
+      "code": "MATHEMATICS-FURTHER-TOPICS",
+      "subject": "mathematics",
+      "topic": "further-topics",
+      "topicName": "Further Topics",
+      "subtopics": [
+        "complex-numbers",
+        "differential-equations",
+        "permutations-combinations",
+        "binomial-theorem",
+        "linear-programming",
+        "venn-diagrams"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "2b7dfca7-9b74-4489-8514-87d6d84c32cd",
+      "code": "JAMB-SS3-MATHEMATICS-GEOMETRY",
+      "subject": "mathematics",
+      "topic": "geometry",
+      "topicName": "Geometry",
+      "subtopics": [
+        "coordinate-geometry"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "Find the equation of a straight line using two-point, point-slope, slope-intercept and general forms.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "coordinate-geometry"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "51a1e070-c2c9-4ddb-8c94-c6759951d6ba",
+      "code": "MATHEMATICS-GEOMETRY",
+      "subject": "mathematics",
+      "topic": "geometry",
+      "topicName": "Geometry",
+      "subtopics": [
+        "triangles",
+        "circles",
+        "polygons",
+        "coordinate-geometry",
+        "vectors-2d",
+        "loci",
+        "constructions",
+        "mensuration",
+        "angle-properties-lines",
+        "cyclic-quadrilaterals-intersecting-chords",
+        "surface-areas-volumes",
+        "longitudes-latitudes"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "a1464222-c380-4992-bd2f-9bf713a5d794",
+      "code": "MATHEMATICS-MECHANICS",
+      "subject": "mathematics",
+      "topic": "mechanics",
+      "topicName": "Mechanics",
+      "subtopics": [
+        "forces",
+        "motion",
+        "work-energy",
+        "velocity-acceleration",
+        "vectors-3d",
+        "moments"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "5f9bf1eb-9c70-4ac6-bd24-7ed65f3aa992",
+      "code": "JAMB-SS3-MATHEMATICS-NUMBER-THEORY",
+      "subject": "mathematics",
+      "topic": "number-theory",
+      "topicName": "Number Theory",
+      "subtopics": [
+        "shares-vat"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "Solve problems involving shares and value added tax.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "ratio-proportion"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "0aeebf0e-1a1e-426d-8807-84422368041a",
+      "code": "MATHEMATICS-NUMBER-THEORY",
+      "subject": "mathematics",
+      "topic": "number-theory",
+      "topicName": "Number Theory",
+      "subtopics": [
+        "fractions-decimals",
+        "percentages",
+        "ratio-proportion",
+        "number-bases",
+        "hcf-lcm",
+        "prime-factors",
+        "modular-arithmetic",
+        "significant-figures",
+        "decimal-places",
+        "approximation",
+        "percentage-error",
+        "simple-interest",
+        "profit-loss",
+        "shares-vat"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "460f6215-da4b-4976-b64c-2ce0e034a026",
+      "code": "JAMB-SS3-MATHEMATICS-STATISTICS",
+      "subject": "mathematics",
+      "topic": "statistics",
+      "topicName": "Statistics",
+      "subtopics": [
+        "probability"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "Resolve simple probability problems, including addition and multiplication rules for mutual and independent events.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "permutations-combinations"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:25+00:00"
+    },
+    {
+      "id": "39705a7f-77f4-46c9-9c99-879fd3b8369b",
+      "code": "MATHEMATICS-STATISTICS",
+      "subject": "mathematics",
+      "topic": "statistics",
+      "topicName": "Statistics",
+      "subtopics": [
+        "mean-median-mode",
+        "probability",
+        "frequency-distribution",
+        "standard-deviation",
+        "histograms",
+        "pie-charts",
+        "correlation",
+        "cumulative-frequency",
+        "range",
+        "mean-deviation",
+        "ogive"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "2e585832-0f41-49ca-a234-b291b967b3bf",
+      "code": "JAMB-SS3-MATHEMATICS-TRIGONOMETRY",
+      "subject": "mathematics",
+      "topic": "trigonometry",
+      "topicName": "Trigonometry",
+      "subtopics": [
+        "graphs-of-trig"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "Resolve problems involving the graphs of sine and cosine functions.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "sine-cosine-tangent"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:25+00:00"
+    },
+    {
+      "id": "ce413616-4148-45a3-bb7f-087d0b585bc7",
+      "code": "MATHEMATICS-TRIGONOMETRY",
+      "subject": "mathematics",
+      "topic": "trigonometry",
+      "topicName": "Trigonometry",
+      "subtopics": [
+        "sine-cosine-tangent",
+        "identities",
+        "sine-rule",
+        "cosine-rule",
+        "graphs-of-trig",
+        "bearings-elevations"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    }
+  ]
+}

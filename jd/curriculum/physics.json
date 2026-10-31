@@ -1,0 +1,283 @@
+{
+  "subject_slug": "physics",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:56.235894+00:00",
+  "curriculum": [
+    {
+      "id": "a6a6ab8b-ecbc-4b4c-8a0f-dd9db669d2e4",
+      "code": "JAMB-SS3-PHYSICS-ELECTRICITY",
+      "subject": "physics",
+      "topic": "electricity",
+      "topicName": "Electricity",
+      "subtopics": [
+        "conduction-through-liquids-gases"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "determine some applications/uses of conduction of electricity through gases",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "conduction-through-liquids-gases"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:26+00:00"
+    },
+    {
+      "id": "6a99bf5b-759b-4d3d-a047-944325232107",
+      "code": "PHYSICS-ELECTRICITY",
+      "subject": "physics",
+      "topic": "electricity",
+      "topicName": "Electricity",
+      "subtopics": [
+        "current-voltage-resistance",
+        "circuits",
+        "capacitors",
+        "electrostatics",
+        "electromagnetic-induction",
+        "transformers",
+        "electric-cells",
+        "magnetism-magnetic-fields",
+        "force-on-current-carrying-conductor",
+        "ac-circuits",
+        "electrical-energy-power",
+        "conduction-through-liquids-gases"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "81fcb7f9-cf17-49ca-9481-b248062d6111",
+      "code": "JAMB-SS3-PHYSICS-HEAT",
+      "subject": "physics",
+      "topic": "heat",
+      "topicName": "Heat",
+      "subtopics": [
+        "heat-transfer"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "understand the advantages and disadvantages of electric engine over combustion engine",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "heat-transfer"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:25+00:00"
+    },
+    {
+      "id": "3d708d55-3974-45bd-b5b7-2fdffde2676d",
+      "code": "PHYSICS-HEAT",
+      "subject": "physics",
+      "topic": "heat",
+      "topicName": "Heat",
+      "subtopics": [
+        "temperature",
+        "thermal-expansion",
+        "heat-transfer",
+        "gas-laws-thermal",
+        "calorimetry",
+        "change-of-state-latent-heat",
+        "vapours-humidity",
+        "kinetic-theory-of-matter"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "975b6d96-8f00-4ac2-a255-cb660ef66c26",
+      "code": "JAMB-SS3-PHYSICS-MEASUREMENT",
+      "subject": "physics",
+      "topic": "measurement",
+      "topicName": "Measurement",
+      "subtopics": [
+        "density-relative-density-upthrust"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "apply Archimedes' principle and law of floatation to solve problems",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "density-relative-density-upthrust"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:25+00:00"
+    },
+    {
+      "id": "82c261b3-e766-4ef4-8579-07e00e970e47",
+      "code": "PHYSICS-MEASUREMENT",
+      "subject": "physics",
+      "topic": "measurement",
+      "topicName": "Measurement",
+      "subtopics": [
+        "si-units",
+        "scalars-vectors",
+        "dimensions",
+        "uncertainty",
+        "pressure",
+        "density-relative-density-upthrust"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "7b881afe-e2d0-4602-a380-b16dc60e19dc",
+      "code": "JAMB-SS3-PHYSICS-MECHANICS",
+      "subject": "physics",
+      "topic": "mechanics",
+      "topicName": "Mechanics",
+      "subtopics": [
+        "elasticity-hookes-law"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "determine the work done in spring and elastic strings",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "elasticity-hookes-law",
+        "work-energy-power"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:25+00:00"
+    },
+    {
+      "id": "6c63cbd3-2327-41cb-9537-bf2fc5a48392",
+      "code": "PHYSICS-MECHANICS",
+      "subject": "physics",
+      "topic": "mechanics",
+      "topicName": "Mechanics",
+      "subtopics": [
+        "motion",
+        "forces-newtons-laws",
+        "momentum",
+        "work-energy-power",
+        "circular-motion",
+        "gravitation",
+        "projectiles",
+        "simple-harmonic-motion",
+        "equilibrium-of-forces-moments",
+        "friction-viscosity",
+        "simple-machines",
+        "elasticity-hookes-law"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "32b9378a-822a-4285-be9b-49a8af33f05e",
+      "code": "JAMB-SS3-PHYSICS-MODERN-PHYSICS",
+      "subject": "physics",
+      "topic": "modern-physics",
+      "topicName": "Modern Physics",
+      "subtopics": [
+        "electronics-semiconductors"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "relate diodes to rectification and transistor to amplification",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "electronics-semiconductors"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:26+00:00"
+    },
+    {
+      "id": "e658c6bb-b0fe-4b95-88ea-1432a5ce750b",
+      "code": "PHYSICS-MODERN-PHYSICS",
+      "subject": "physics",
+      "topic": "modern-physics",
+      "topicName": "Modern Physics",
+      "subtopics": [
+        "photoelectric-effect",
+        "nuclear-physics",
+        "radioactivity",
+        "x-rays",
+        "atomic-models-energy-levels",
+        "wave-particle-duality",
+        "electronics-semiconductors"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "0bae641a-95e7-4c0e-96ae-e8e1d636ee85",
+      "code": "JAMB-SS3-PHYSICS-WAVES",
+      "subject": "physics",
+      "topic": "waves",
+      "topicName": "Waves",
+      "subtopics": [
+        "fibre-optics-lasers"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify the dangers involved in using lasers",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "fibre-optics-lasers"
+      ],
+      "createdAt": "2026-07-25T19:25:25+00:00",
+      "updatedAt": "2026-07-25T19:25:26+00:00"
+    },
+    {
+      "id": "9678b7ce-6cb5-45f6-93bd-3066c40eb24e",
+      "code": "PHYSICS-WAVES",
+      "subject": "physics",
+      "topic": "waves",
+      "topicName": "Waves",
+      "subtopics": [
+        "wave-properties",
+        "sound",
+        "light-reflection",
+        "light-refraction",
+        "electromagnetic-spectrum",
+        "optical-instruments",
+        "dispersion-and-colour",
+        "fibre-optics-lasers"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    }
+  ]
+}

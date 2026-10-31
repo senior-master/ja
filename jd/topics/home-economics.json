@@ -1,0 +1,81 @@
+{
+  "subject_slug": "home-economics",
+  "exam_type": "jamb",
+  "source": "ai_generated",
+  "model": "gemini-3.6-flash",
+  "fetched_at": "2026-10-31T08:57:32.861793+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Foods and Nutrients",
+      "percentage": 15.0,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Meal Planning and Preparation",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Food Preservation and Storage",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Fibers and Fabrics",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Garment Construction and Sewing",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Care and Maintenance of Clothes",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Home Management and Family Living",
+      "percentage": 12.0,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Family Housing and Furnishing",
+      "percentage": 7.0,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Consumer Education",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Child Development and Care",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Personal Hygiene and Health",
+      "percentage": 4.0,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "First Aid and Home Safety",
+      "percentage": 4.0,
+      "difficulty": null
+    }
+  ]
+}

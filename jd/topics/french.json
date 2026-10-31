@@ -1,0 +1,57 @@
+{
+  "subject_slug": "french",
+  "exam_type": "jamb",
+  "source": "ai_generated",
+  "model": "gemini-3.1-flash-lite",
+  "fetched_at": "2026-10-31T08:52:28.392109+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Compréhension Écrite",
+      "percentage": 25.0,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Grammaire",
+      "percentage": 20.0,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Vocabulaire",
+      "percentage": 15.0,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Civilisation",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Conjugaison",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Expression Écrite",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Littérature",
+      "percentage": 7.0,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Traduction",
+      "percentage": 5.0,
+      "difficulty": null
+    }
+  ]
+}

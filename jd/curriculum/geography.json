@@ -1,0 +1,219 @@
+{
+  "subject_slug": "geography",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:46.955180+00:00",
+  "curriculum": [
+    {
+      "id": "35e2e582-9944-4473-8d94-3420f84e5fd7",
+      "code": "GEOGRAPHY-HUMAN-GEOGRAPHY",
+      "subject": "geography",
+      "topic": "human-geography",
+      "topicName": "Human Geography",
+      "subtopics": [
+        "population",
+        "settlement",
+        "agriculture-geography",
+        "industrial-geography",
+        "transport",
+        "population-distribution",
+        "population-growth",
+        "migration",
+        "rural-settlement",
+        "urban-settlement",
+        "economic-activities-types",
+        "manufacturing-industries",
+        "communication",
+        "world-trade",
+        "tourism"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "9941b97d-7c9e-4363-ace6-6ff0aef4cb97",
+      "code": "JAMB-SS3-GEOGRAPHY-HUMAN-GEOGRAPHY",
+      "subject": "geography",
+      "topic": "human-geography",
+      "topicName": "Human Geography",
+      "subtopics": [
+        "tourism"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify the problems of tourism and their solutions",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "tourism"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "36035a3c-dcb2-4e15-b21c-1dfdc3460db8",
+      "code": "GEOGRAPHY-MAP-WORK",
+      "subject": "geography",
+      "topic": "map-work",
+      "topicName": "Map Work",
+      "subtopics": [
+        "map-reading",
+        "scale",
+        "grid-references",
+        "contours",
+        "map-types-uses",
+        "distance-area-measurement",
+        "gradients",
+        "map-enlargement-reduction",
+        "directions-bearings",
+        "cross-profiles",
+        "statistical-data-interpretation",
+        "elementary-surveying",
+        "geographic-information-systems"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "b3648543-3480-4bbb-8c8c-478dd02b58c8",
+      "code": "JAMB-SS3-GEOGRAPHY-MAP-WORK",
+      "subject": "geography",
+      "topic": "map-work",
+      "topicName": "Map Work",
+      "subtopics": [
+        "geographic-information-systems"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify problems with GIS in Nigeria",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "geographic-information-systems"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "e6bceccb-7fe2-4100-95cd-64fa8e613adf",
+      "code": "GEOGRAPHY-PHYSICAL-GEOGRAPHY",
+      "subject": "geography",
+      "topic": "physical-geography",
+      "topicName": "Physical Geography",
+      "subtopics": [
+        "weather-climate",
+        "geomorphology",
+        "rivers-drainage",
+        "soils-vegetation",
+        "oceans-currents",
+        "earth-as-a-planet",
+        "earth-crust-structure",
+        "rocks",
+        "tectonic-forces-landforms",
+        "volcanism-earthquakes",
+        "denudation-weathering",
+        "denudation-erosion",
+        "mass-movement",
+        "deposition",
+        "lakes",
+        "ocean-currents",
+        "climate-classification",
+        "climate-change",
+        "vegetation-types",
+        "soil-profiles",
+        "environmental-resources",
+        "environmental-hazards-natural",
+        "environmental-hazards-man-induced",
+        "environmental-conservation"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "12bf57db-5600-4e9f-bd9f-c06a831e9571",
+      "code": "JAMB-SS3-GEOGRAPHY-PHYSICAL-GEOGRAPHY",
+      "subject": "geography",
+      "topic": "physical-geography",
+      "topicName": "Physical Geography",
+      "subtopics": [
+        "environmental-conservation"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "explain the need/importance of environmental conservation",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "environmental-conservation"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "b8c64eb2-0745-467e-9edb-b4901583f49e",
+      "code": "GEOGRAPHY-REGIONAL-GEOGRAPHY",
+      "subject": "geography",
+      "topic": "regional-geography",
+      "topicName": "Regional Geography",
+      "subtopics": [
+        "nigeria-geography",
+        "africa-geography",
+        "world-geography",
+        "nigeria-physical-setting",
+        "nigeria-population",
+        "nigeria-natural-resources",
+        "nigeria-agriculture",
+        "nigeria-manufacturing",
+        "nigeria-transport-communication",
+        "nigeria-trade",
+        "nigeria-tourism",
+        "ecowas"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "c0ca97a0-2810-44dd-9352-e88d38508080",
+      "code": "JAMB-SS3-GEOGRAPHY-REGIONAL-GEOGRAPHY",
+      "subject": "geography",
+      "topic": "regional-geography",
+      "topicName": "Regional Geography",
+      "subtopics": [
+        "ecowas"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "evaluate the prospects and problems of the organization",
+      "bloomsLevel": 5,
+      "bloomsLabel": "Evaluate",
+      "prerequisiteTopics": [
+        "ecowas"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    }
+  ]
+}

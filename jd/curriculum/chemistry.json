@@ -1,0 +1,477 @@
+{
+  "subject_slug": "chemistry",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:38.076329+00:00",
+  "curriculum": [
+    {
+      "id": "368447fb-0a19-4237-ba24-3e00428e18fa",
+      "code": "CHEMISTRY-ASTRONOMICAL-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "astronomical-chemistry",
+      "topicName": "Astronomical Chemistry",
+      "subtopics": [
+        "solar-system",
+        "planets",
+        "earth-composition"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "34a4845d-6c7b-42dd-8371-08be2b592d8d",
+      "code": "JAMB-SS3-CHEMISTRY-ASTRONOMICAL-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "astronomical-chemistry",
+      "topicName": "Astronomical Chemistry",
+      "subtopics": [
+        "planets"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify the smallest planet that is also the farthest from the sun",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "planets"
+      ],
+      "createdAt": "2026-07-25T19:25:22+00:00",
+      "updatedAt": "2026-07-25T19:25:22+00:00"
+    },
+    {
+      "id": "6844ce45-6413-457b-9ed6-a72154a924a8",
+      "code": "CHEMISTRY-ATOMIC-STRUCTURE",
+      "subject": "chemistry",
+      "topic": "atomic-structure",
+      "topicName": "Atomic Structure",
+      "subtopics": [
+        "electron-configuration",
+        "periodic-table",
+        "chemical-bonding",
+        "isotopes",
+        "quantum-numbers",
+        "atomic-models",
+        "molecular-shapes"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "5398a493-9cd1-4744-9973-1510f98d162e",
+      "code": "JAMB-SS3-CHEMISTRY-ATOMIC-STRUCTURE",
+      "subject": "chemistry",
+      "topic": "atomic-structure",
+      "topicName": "Atomic Structure",
+      "subtopics": [
+        "molecular-shapes"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "differentiate between the various shapes of molecules",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "chemical-bonding"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "1e31a411-4fa2-4a11-b29d-29ce7bb2f718",
+      "code": "CHEMISTRY-CHEMISTRY-AND-INDUSTRY",
+      "subject": "chemistry",
+      "topic": "chemistry-and-industry",
+      "topicName": "Chemistry And Industry",
+      "subtopics": [
+        "chemical-industries",
+        "biotechnology",
+        "raw-materials"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "e956325f-f780-49bf-bac5-28a9e41fac50",
+      "code": "JAMB-SS3-CHEMISTRY-CHEMISTRY-AND-INDUSTRY",
+      "subject": "chemistry",
+      "topic": "chemistry-and-industry",
+      "topicName": "Chemistry And Industry",
+      "subtopics": [
+        "biotechnology"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "relate industrial processes to biotechnology",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "chemical-industries"
+      ],
+      "createdAt": "2026-07-25T19:25:22+00:00",
+      "updatedAt": "2026-07-25T19:25:22+00:00"
+    },
+    {
+      "id": "702f7a49-1790-4e0d-80b9-d8a6f8c305fd",
+      "code": "CHEMISTRY-ENERGETICS",
+      "subject": "chemistry",
+      "topic": "energetics",
+      "topicName": "Energetics",
+      "subtopics": [
+        "thermochemistry",
+        "enthalpy",
+        "activation-energy",
+        "equilibrium",
+        "reaction-rates",
+        "entropy",
+        "spontaneity-of-reactions"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "7faf125d-895f-4914-9ac7-669ceaf0e308",
+      "code": "JAMB-SS3-CHEMISTRY-ENERGETICS",
+      "subject": "chemistry",
+      "topic": "energetics",
+      "topicName": "Energetics",
+      "subtopics": [
+        "equilibrium"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "determine the effects of these factors on equilibrium constant",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "equilibrium"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "751779de-dae0-49d7-b8e1-bc07c27112fa",
+      "code": "CHEMISTRY-ENVIRONMENTAL-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "environmental-chemistry",
+      "topicName": "Environmental Chemistry",
+      "subtopics": [
+        "air-pollution",
+        "water-pollution",
+        "soil-pollution",
+        "hard-and-soft-water"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "febf4b30-ed0c-4cae-a741-cb8c92e6cfbc",
+      "code": "JAMB-SS3-CHEMISTRY-ENVIRONMENTAL-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "environmental-chemistry",
+      "topicName": "Environmental Chemistry",
+      "subtopics": [
+        "hard-and-soft-water"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "describe the processes involved in the treatment of water for town supply",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "hard-and-soft-water"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "b292590c-8a8e-44bb-b2f9-b84c48c39124",
+      "code": "CHEMISTRY-INORGANIC-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "inorganic-chemistry",
+      "topicName": "Inorganic Chemistry",
+      "subtopics": [
+        "acids-bases-salts",
+        "metals",
+        "non-metals",
+        "electrolysis",
+        "oxidation-reduction",
+        "electrochemical-cells",
+        "corrosion",
+        "transition-metals",
+        "alloys",
+        "ph-and-poh",
+        "hydrolysis-of-salts"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "e3a057cc-9132-4b24-9257-5e4d14940e18",
+      "code": "JAMB-SS3-CHEMISTRY-INORGANIC-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "inorganic-chemistry",
+      "topicName": "Inorganic Chemistry",
+      "subtopics": [
+        "alloys"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "compare the properties and uses of alloys to pure metals",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "alloys"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:22+00:00"
+    },
+    {
+      "id": "1187ceaa-bcab-4f66-9a02-baa551bf8dbc",
+      "code": "CHEMISTRY-NUCLEAR-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "nuclear-chemistry",
+      "topicName": "Nuclear Chemistry",
+      "subtopics": [
+        "radioactivity",
+        "nuclear-stability",
+        "nuclear-fission-and-fusion",
+        "half-life"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "063834aa-0038-4836-9e23-ac66fe6c05f4",
+      "code": "JAMB-SS3-CHEMISTRY-NUCLEAR-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "nuclear-chemistry",
+      "topicName": "Nuclear Chemistry",
+      "subtopics": [
+        "radioactivity"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify the various applications of radioactivity",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "radioactivity"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "45b64f65-b9e8-46f2-a658-df7049ea6495",
+      "code": "CHEMISTRY-ORGANIC-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "organic-chemistry",
+      "topicName": "Organic Chemistry",
+      "subtopics": [
+        "alkanes-alkenes-alkynes",
+        "functional-groups",
+        "isomerism",
+        "reactions-of-organics",
+        "polymers",
+        "aromatic-hydrocarbons",
+        "alkanols-alkanals-alkanones",
+        "alkanoic-acids-and-alkanoates",
+        "amines",
+        "carbohydrates",
+        "proteins"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "2c256bd1-4611-4204-9e4f-9e5d8eb16bdd",
+      "code": "JAMB-SS3-CHEMISTRY-ORGANIC-CHEMISTRY",
+      "subject": "chemistry",
+      "topic": "organic-chemistry",
+      "topicName": "Organic Chemistry",
+      "subtopics": [
+        "polymers"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "distinguish between thermoplastic and thermosetting plastics",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "polymers"
+      ],
+      "createdAt": "2026-07-25T19:25:22+00:00",
+      "updatedAt": "2026-07-25T19:25:22+00:00"
+    },
+    {
+      "id": "878c2527-2ead-4453-bdc8-79c52876245b",
+      "code": "CHEMISTRY-SEPARATION-AND-PURIFICATION",
+      "subject": "chemistry",
+      "topic": "separation-and-purification",
+      "topicName": "Separation And Purification",
+      "subtopics": [
+        "elements-compounds-mixtures",
+        "physical-and-chemical-changes",
+        "separation-techniques",
+        "criteria-of-purity"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "c3fd6ac4-634e-4205-9a2b-7460035ca252",
+      "code": "JAMB-SS3-CHEMISTRY-SEPARATION-AND-PURIFICATION",
+      "subject": "chemistry",
+      "topic": "separation-and-purification",
+      "topicName": "Separation And Purification",
+      "subtopics": [
+        "separation-techniques"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "apply the basic principle of separation processes in everyday life",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "separation-techniques"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "fdd04e12-a2a1-468b-a64d-ffe12e67777a",
+      "code": "CHEMISTRY-STATES-OF-MATTER",
+      "subject": "chemistry",
+      "topic": "states-of-matter",
+      "topicName": "States Of Matter",
+      "subtopics": [
+        "gas-laws",
+        "solutions",
+        "solubility",
+        "colloids",
+        "kinetic-theory-of-matter"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "3d8a718a-3697-4f85-85e2-3ebfc3f036a1",
+      "code": "JAMB-SS3-CHEMISTRY-STATES-OF-MATTER",
+      "subject": "chemistry",
+      "topic": "states-of-matter",
+      "topicName": "States Of Matter",
+      "subtopics": [
+        "colloids"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "provide typical examples of suspensions and colloids",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "colloids"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    },
+    {
+      "id": "3fac729b-f982-4e49-9d4b-432c891ec4f1",
+      "code": "CHEMISTRY-STOICHIOMETRY",
+      "subject": "chemistry",
+      "topic": "stoichiometry",
+      "topicName": "Stoichiometry",
+      "subtopics": [
+        "mole-concept",
+        "balancing-equations",
+        "limiting-reagent",
+        "percentage-composition"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "ea5b149d-313e-493e-b6e0-793c4c161cd2",
+      "code": "JAMB-SS3-CHEMISTRY-STOICHIOMETRY",
+      "subject": "chemistry",
+      "topic": "stoichiometry",
+      "topicName": "Stoichiometry",
+      "subtopics": [
+        "mole-concept"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "perform simple calculations based on the mole concept",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "mole-concept"
+      ],
+      "createdAt": "2026-07-25T19:25:21+00:00",
+      "updatedAt": "2026-07-25T19:25:21+00:00"
+    }
+  ]
+}

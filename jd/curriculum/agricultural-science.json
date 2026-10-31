@@ -1,0 +1,241 @@
+{
+  "subject_slug": "agricultural-science",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:22:06.644241+00:00",
+  "curriculum": [
+    {
+      "id": "c5985e50-daa7-4ab3-8793-1c1464e11deb",
+      "code": "AGRICULTURAL-SCIENCE-AGRICULTURAL-TECHNOLOGY",
+      "subject": "agricultural-science",
+      "topic": "agricultural-technology",
+      "topicName": "Agricultural Technology",
+      "subtopics": [
+        "soil-conservation",
+        "agro-processing",
+        "biotechnology-in-agriculture",
+        "farm-surveying-farmstead-planning",
+        "farm-tools-machinery",
+        "farm-power-sources",
+        "ict-in-agriculture",
+        "agricultural-research-statistics"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "1b92efad-fc83-4dcd-9d74-31d72b0c1ec7",
+      "code": "JAMB-SS3-AGRICULTURAL-SCIENCE-AGRICULTURAL-TECHNOLOGY",
+      "subject": "agricultural-science",
+      "topic": "agricultural-technology",
+      "topicName": "Agricultural Technology",
+      "subtopics": [
+        "agricultural-research-statistics"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "compute simple measures of central tendency.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "agricultural-research-statistics"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "754abf1a-c3b4-48b5-8ce8-7cc5dca8190a",
+      "code": "AGRICULTURAL-SCIENCE-ANIMAL-PRODUCTION",
+      "subject": "agricultural-science",
+      "topic": "animal-production",
+      "topicName": "Animal Production",
+      "subtopics": [
+        "poultry",
+        "cattle",
+        "fish-farming",
+        "animal-nutrition",
+        "veterinary-science",
+        "animal-anatomy-physiology",
+        "animal-reproduction",
+        "livestock-management",
+        "animal-health-parasitology",
+        "wildlife-management",
+        "apiculture",
+        "sheep-goat-pig-production",
+        "rabbit-production"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "7b283d90-e421-4c0a-8306-dfcdfbd59d94",
+      "code": "JAMB-SS3-AGRICULTURAL-SCIENCE-ANIMAL-PRODUCTION",
+      "subject": "agricultural-science",
+      "topic": "animal-production",
+      "topicName": "Animal Production",
+      "subtopics": [
+        "apiculture"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify bee-keeping equipment, their uses and necessary precautionary measures.",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "apiculture"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "6047e42c-62b3-4698-9d2b-05184701a827",
+      "code": "AGRICULTURAL-SCIENCE-CROP-PRODUCTION",
+      "subject": "agricultural-science",
+      "topic": "crop-production",
+      "topicName": "Crop Production",
+      "subtopics": [
+        "soil-science",
+        "crop-husbandry",
+        "pests-diseases",
+        "crop-improvement",
+        "irrigation",
+        "agronomy-general",
+        "agricultural-ecology",
+        "weed-science",
+        "plant-propagation",
+        "cropping-systems",
+        "pasture-forage-crops",
+        "floriculture",
+        "forest-management-silviculture"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "57951e0a-d7cc-4ccf-9a21-5eba53df0f9b",
+      "code": "JAMB-SS3-AGRICULTURAL-SCIENCE-CROP-PRODUCTION",
+      "subject": "agricultural-science",
+      "topic": "crop-production",
+      "topicName": "Crop Production",
+      "subtopics": [
+        "forest-management-silviculture"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "apply the various methods appropriately.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "forest-management-silviculture"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "2ec4a881-4e75-445b-a4b0-b94de9fd716c",
+      "code": "AGRICULTURAL-SCIENCE-FARM-MANAGEMENT",
+      "subject": "agricultural-science",
+      "topic": "farm-management",
+      "topicName": "Farm Management",
+      "subtopics": [
+        "farm-records",
+        "agricultural-economics",
+        "mechanisation",
+        "land-tenure",
+        "labour-management",
+        "agricultural-marketing",
+        "agricultural-extension",
+        "agricultural-finance-insurance",
+        "factors-of-production"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "f9f81ad9-a49f-409e-98dd-07ecc340bcce",
+      "code": "JAMB-SS3-AGRICULTURAL-SCIENCE-FARM-MANAGEMENT",
+      "subject": "agricultural-science",
+      "topic": "farm-management",
+      "topicName": "Farm Management",
+      "subtopics": [
+        "agricultural-extension"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "provide possible solutions.",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "agricultural-extension"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "1c8783fb-3434-4c54-9954-d672ea5c7a33",
+      "code": "AGRICULTURAL-SCIENCE-GENERAL-AGRICULTURE",
+      "subject": "agricultural-science",
+      "topic": "general-agriculture",
+      "topicName": "General Agriculture",
+      "subtopics": [
+        "meaning-scope-of-agriculture",
+        "importance-of-agriculture",
+        "agricultural-genetics",
+        "farm-inputs",
+        "history-of-agricultural-development",
+        "government-ngo-roles-in-agriculture"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "805b1b2d-fd53-404a-8b64-a65c2ffa5e8d",
+      "code": "JAMB-SS3-AGRICULTURAL-SCIENCE-GENERAL-AGRICULTURE",
+      "subject": "agricultural-science",
+      "topic": "general-agriculture",
+      "topicName": "General Agriculture",
+      "subtopics": [
+        "government-ngo-roles-in-agriculture"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "examine the roles of NGOs in the development of agriculture.",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "government-ngo-roles-in-agriculture"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    }
+  ]
+}

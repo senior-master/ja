@@ -1,13 +1,39 @@
 {
   "subject_slug": "insurance",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:30.814039+00:00",
+  "fetched_at": "2026-10-31T16:39:58.114278+00:00",
   "topics": [
     {
-      "id": 1,
-      "name": "Financial economics",
-      "percentage": null,
-      "difficulty": null
+      "name": "Principles of Insurance",
+      "percentage": 20,
+      "difficulty": null,
+      "id": 1
+    },
+    {
+      "name": "Types of Insurance",
+      "percentage": 25,
+      "difficulty": null,
+      "id": 2
+    },
+    {
+      "name": "Insurance Contracts",
+      "percentage": 20,
+      "difficulty": null,
+      "id": 3
+    },
+    {
+      "name": "Risk Management",
+      "percentage": 20,
+      "difficulty": null,
+      "id": 4
+    },
+    {
+      "name": "Insurance Regulation in Nigeria",
+      "percentage": 15,
+      "difficulty": null,
+      "id": 5
     }
-  ]
+  ],
+  "source": "manual",
+  "cleaned": true
 }

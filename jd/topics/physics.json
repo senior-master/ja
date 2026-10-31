@@ -35,97 +35,73 @@
     },
     {
       "id": 6,
-      "name": "Chemistry",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 7,
       "name": "Momentum",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Magnetism",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 9,
-      "name": "Geometry",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 10,
+      "id": 8,
       "name": "Electromagnetism",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 11,
+      "id": 9,
       "name": "Pressure",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 12,
+      "id": 10,
       "name": "Mechanics",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 13,
+      "id": 11,
       "name": "Gas laws thermal",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 14,
+      "id": 12,
       "name": "Energy",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 15,
+      "id": 13,
       "name": "States of matter",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 16,
+      "id": 14,
       "name": "Work energy power",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 17,
+      "id": 15,
       "name": "Gravitation",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 18,
+      "id": 16,
       "name": "Atomic structure",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 19,
-      "name": "Inorganic chemistry",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 20,
+      "id": 17,
       "name": "Optics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 21,
-      "name": "Energetics",
       "percentage": null,
       "difficulty": null
     }

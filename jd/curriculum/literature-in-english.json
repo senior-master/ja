@@ -1,0 +1,255 @@
+{
+  "subject_slug": "literature-in-english",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:53.359590+00:00",
+  "curriculum": [
+    {
+      "id": "960baef4-d010-45c4-b561-ec42052394ae",
+      "code": "JAMB-SS3-LITERATURE-IN-ENGLISH-DRAMA",
+      "subject": "literature-in-english",
+      "topic": "drama",
+      "topicName": "Drama",
+      "subtopics": [
+        "stage-directions"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify the spatial setting and temporal period of the play",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "295ba55b-0f19-4a7b-9f32-5bcab14c3f58",
+      "code": "LITERATURE-IN-ENGLISH-DRAMA",
+      "subject": "literature-in-english",
+      "topic": "drama",
+      "topicName": "Drama",
+      "subtopics": [
+        "plot-structure",
+        "dramatic-techniques",
+        "conflict-resolution",
+        "stage-directions",
+        "greek-drama",
+        "drama-types-tragedy-comedy-tragicomedy-melodrama-farce-opera",
+        "characterisation-in-drama",
+        "dialogue-and-soliloquy-aside",
+        "flashback-mime-costume-music-decor",
+        "playwright-style-comparison",
+        "socio-political-context-in-drama"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "b6632c09-234c-4c9e-8169-64d5f156c407",
+      "code": "JAMB-SS3-LITERATURE-IN-ENGLISH-GENERAL-LITERARY-TERMS",
+      "subject": "literature-in-english",
+      "topic": "general-literary-terms",
+      "topicName": "General Literary Terms",
+      "subtopics": [
+        "genre-overlap"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify areas of overlap in all the genres e.g. verse in drama and poetry, narration in all the genres",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "foreshadowing-suspense-symbolism"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "1800a61b-5977-4391-a3e5-9e11236d4521",
+      "code": "LITERATURE-IN-ENGLISH-GENERAL-LITERARY-TERMS",
+      "subject": "literature-in-english",
+      "topic": "general-literary-terms",
+      "topicName": "General Literary Terms",
+      "subtopics": [
+        "foreshadowing-suspense-symbolism",
+        "protagonist-antagonist",
+        "figures-of-speech",
+        "satire",
+        "stream-of-consciousness",
+        "synecdoche-metonymy",
+        "genre-overlap"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "9db288bc-7e48-4227-9aa9-99dc4ccd7194",
+      "code": "JAMB-SS3-LITERATURE-IN-ENGLISH-LITERARY-APPRECIATION",
+      "subject": "literature-in-english",
+      "topic": "literary-appreciation",
+      "topicName": "Literary Appreciation",
+      "subtopics": [
+        "relating-text-to-life"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "relate the extract to true life experiences",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "extract-interpretation"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "8f5e2ee0-4f4a-40bd-96ce-fcf1d393a7ec",
+      "code": "LITERATURE-IN-ENGLISH-LITERARY-APPRECIATION",
+      "subject": "literature-in-english",
+      "topic": "literary-appreciation",
+      "topicName": "Literary Appreciation",
+      "subtopics": [
+        "unseen-passage-analysis",
+        "literary-device-identification",
+        "extract-interpretation",
+        "relating-text-to-life"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "36a44cb4-042f-46e8-ab40-fa78f6eac6ec",
+      "code": "JAMB-SS3-LITERATURE-IN-ENGLISH-POETRY",
+      "subject": "literature-in-english",
+      "topic": "poetry",
+      "topicName": "Poetry",
+      "subtopics": [
+        "thematic-preoccupation"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "apply the lessons from the poem to social reality",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "thematic-preoccupation"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "c91aeadc-4eab-4a0b-8eaf-a7550599c00c",
+      "code": "LITERATURE-IN-ENGLISH-POETRY",
+      "subject": "literature-in-english",
+      "topic": "poetry",
+      "topicName": "Poetry",
+      "subtopics": [
+        "poetic-devices",
+        "imagery",
+        "tone-mood",
+        "sonnet-ode-elegy",
+        "dramatic-monologue",
+        "poetic-types-lyric-ballad-panegyric-epic-blank-verse",
+        "sound-devices-rhyme-rhythm-onomatopoeia",
+        "diction",
+        "persona",
+        "thematic-preoccupation"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "4754b21c-47e4-4577-a8ea-2e70f5a1bb8f",
+      "code": "LITERATURE-IN-ENGLISH-PRESCRIBED-TEXTS",
+      "subject": "literature-in-english",
+      "topic": "prescribed-texts",
+      "topicName": "Prescribed Texts",
+      "subtopics": [
+        "african-drama",
+        "non-african-drama",
+        "african-prose",
+        "non-african-prose",
+        "african-poetry",
+        "non-african-poetry"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "75f52f38-9a01-4818-9a16-3af15df9e4f2",
+      "code": "JAMB-SS3-LITERATURE-IN-ENGLISH-PROSE",
+      "subject": "literature-in-english",
+      "topic": "prose",
+      "topicName": "Prose",
+      "subtopics": [
+        "socio-political-context"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "relate the prescribed text to social reality",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "theme-analysis"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "91b0a194-42e0-470d-8813-c70afaff5dca",
+      "code": "LITERATURE-IN-ENGLISH-PROSE",
+      "subject": "literature-in-english",
+      "topic": "prose",
+      "topicName": "Prose",
+      "subtopics": [
+        "plot-analysis",
+        "characterisation",
+        "theme-analysis",
+        "prose-style",
+        "setting",
+        "prose-types-fiction-nonfiction-faction",
+        "narrative-point-of-view",
+        "narrative-techniques",
+        "socio-political-context",
+        "textual-interpretation"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    }
+  ]
+}

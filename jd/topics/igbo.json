@@ -1,0 +1,99 @@
+{
+  "subject_slug": "igbo",
+  "exam_type": "jamb",
+  "source": "ai_generated",
+  "model": "gemini-3.7-flash",
+  "fetched_at": "2026-10-31T09:00:20.216952+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Aghọtaazaa (Comprehension)",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Ụdaasụsụ (Phonology)",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Nsupe na Usoro Edemede (Orthography)",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Ọdịdịokwu (Morphology)",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Nhazi Ahịrịokwu (Syntax)",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Ntụgharị (Translation)",
+      "percentage": 4.0,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Agụmagụ Ọdịnala (Oral Literature)",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Agụmagụ E Dere Ede - Abụ (Written Poetry)",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Agụmagụ E Dere Ede - Ejije (Written Drama)",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Agụmagụ E Dere Ede - Iduuazi (Written Prose)",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Alụmdi na Nwunye (Marriage Customs)",
+      "percentage": 5.0,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Ọmụmụ na Nkwụba Aha (Naming Ceremonies)",
+      "percentage": 4.0,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Olili na Nkwà (Burial Rites)",
+      "percentage": 5.0,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Echichi na Ọchịchị Ọdịnala (Titles and Governance)",
+      "percentage": 5.0,
+      "difficulty": null
+    },
+    {
+      "id": 15,
+      "name": "Emume na Okpukpe Ọdịnala (Festivals and Religion)",
+      "percentage": 5.0,
+      "difficulty": null
+    }
+  ]
+}

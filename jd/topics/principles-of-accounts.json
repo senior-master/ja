@@ -1,0 +1,67 @@
+{
+  "subject_slug": "principles-of-accounts",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:18:38.107050+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Bank reconciliation",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Partnership accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Branch accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Departmental accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Cost accounting",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Not for profit",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Financial economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Company accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Nigerian government",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

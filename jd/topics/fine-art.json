@@ -1,0 +1,81 @@
+{
+  "subject_slug": "fine-art",
+  "exam_type": "jamb",
+  "source": "ai_generated",
+  "model": "gemini-3.6-flash",
+  "fetched_at": "2026-10-31T08:47:36.580273+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Elements and Principles of Design",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Art History: Traditional Nigerian Art",
+      "percentage": 15.0,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Art History: Contemporary Nigerian Art and Artists",
+      "percentage": 12.0,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Art History: Pre-Historic and Ancient African Art",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Art History: Western Art",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Drawing and Painting",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Graphics and Printing Techniques",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Sculpture and Modelling",
+      "percentage": 7.0,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Textiles and Crafts",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Ceramics and Pottery",
+      "percentage": 5.0,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Art Appreciation, Criticism, and Aesthetics",
+      "percentage": 5.0,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Art Tools, Materials, and Techniques",
+      "percentage": 6.0,
+      "difficulty": null
+    }
+  ]
+}

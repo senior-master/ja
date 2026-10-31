@@ -1,0 +1,37 @@
+{
+  "subject_slug": "agricultural-science",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:22:06.646538+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Agricultural Technology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Animal Production",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Crop Production",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Farm Management",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "General Agriculture",
+      "percentage": null,
+      "difficulty": null
+    }
+  ]
+}

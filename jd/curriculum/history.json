@@ -1,0 +1,426 @@
+{
+  "subject_slug": "history",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:50.153095+00:00",
+  "curriculum": [
+    {
+      "id": "01cb07c3-1ad3-49e4-87ea-09e97a069ead",
+      "code": "HISTORY-HORN-AND-SOUTHERN-AFRICA",
+      "subject": "history",
+      "topic": "horn-and-southern-africa",
+      "topicName": "Horn And Southern Africa",
+      "subtopics": [
+        "ethiopia-in-19th-century",
+        "mfecane",
+        "great-trek"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "e634407f-a337-4a72-90e5-dd652c4b8d60",
+      "code": "JAMB-SS3-HISTORY-HORN-AND-SOUTHERN-AFRICA",
+      "subject": "history",
+      "topic": "horn-and-southern-africa",
+      "topicName": "Horn And Southern Africa",
+      "subtopics": [
+        "great-trek"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "examine its consequences",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "horn-and-southern-africa"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "e3d39392-df2d-45fd-8783-47484fe8a336",
+      "code": "HISTORY-IMPERIALISM-COLONIALISM-AND-NATION-BUILDING",
+      "subject": "history",
+      "topic": "imperialism-colonialism-and-nation-building",
+      "topicName": "Imperialism Colonialism And Nation Building",
+      "subtopics": [
+        "new-imperialism-and-european-occupation",
+        "patterns-of-colonial-rule",
+        "politics-of-decolonization",
+        "apartheid-in-south-africa",
+        "problems-of-nation-building"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "52e3a0d3-79b1-463b-9311-40c497c73cca",
+      "code": "JAMB-SS3-HISTORY-IMPERIALISM-COLONIALISM-AND-NATION-BUILDING",
+      "subject": "history",
+      "topic": "imperialism-colonialism-and-nation-building",
+      "topicName": "Imperialism Colonialism And Nation Building",
+      "subtopics": [
+        "problems-of-nation-building"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "enumerate the effects of globalisation on African nations",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "imperialism-colonialism-and-nation-building"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "b9152207-0064-49fb-a6ba-c9aed12484eb",
+      "code": "HISTORY-NIGERIA-1800-1900",
+      "subject": "history",
+      "topic": "nigeria-1800-1900",
+      "topicName": "Nigeria 1800 1900",
+      "subtopics": [
+        "sokoto-caliphate",
+        "kanem-borno",
+        "yorubaland",
+        "benin",
+        "nupe",
+        "igbo",
+        "efik",
+        "european-penetration-and-impact",
+        "british-conquest-of-nigeria"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "7debc270-3b7a-4ff3-ba68-3900b6a78722",
+      "code": "JAMB-SS1-HISTORY-NIGERIA-1800-1900",
+      "subject": "history",
+      "topic": "nigeria-1800-1900",
+      "topicName": "Nigeria 1800 1900",
+      "subtopics": [
+        "efik"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS1",
+      "learningObjective": "assess her relations with her neighbours",
+      "bloomsLevel": 5,
+      "bloomsLabel": "Evaluate",
+      "prerequisiteTopics": [
+        "nigeria-to-1800"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "5c81ea41-18c8-4392-b0b1-a4ff36996aab",
+      "code": "JAMB-SS2-HISTORY-NIGERIA-1800-1900",
+      "subject": "history",
+      "topic": "nigeria-1800-1900",
+      "topicName": "Nigeria 1800 1900",
+      "subtopics": [
+        "british-conquest-of-nigeria"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS2",
+      "learningObjective": "evaluate the results and the aftermath of the conquest",
+      "bloomsLevel": 5,
+      "bloomsLabel": "Evaluate",
+      "prerequisiteTopics": [
+        "nigeria-1800-1900"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "4490aaca-72c4-49ea-b640-7a7bd73010c5",
+      "code": "HISTORY-NIGERIA-1900-1960",
+      "subject": "history",
+      "topic": "nigeria-1900-1960",
+      "topicName": "Nigeria 1900 1960",
+      "subtopics": [
+        "establishment-of-colonial-rule",
+        "amalgamation-of-1914",
+        "colonial-administration",
+        "colonial-economy",
+        "social-development-under-colonial-rule",
+        "constitutional-developments-and-nationalism"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "f9b3a334-f2fa-43f0-8c77-5674bc75db23",
+      "code": "JAMB-SS2-HISTORY-NIGERIA-1900-1960",
+      "subject": "history",
+      "topic": "nigeria-1900-1960",
+      "topicName": "Nigeria 1900 1960",
+      "subtopics": [
+        "constitutional-developments-and-nationalism"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS2",
+      "learningObjective": "determine the factors that aided the attainment of independence",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "nigeria-1900-1960"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "0a456d51-fed9-4658-891c-506d84e9f540",
+      "code": "HISTORY-NIGERIA-FROM-1900-TO-2000",
+      "subject": "history",
+      "topic": "nigeria-from-1900-to-2000",
+      "topicName": "Nigeria From 1900 To 2000",
+      "subtopics": [
+        "second-phase-of-british-conquest",
+        "nigeria-since-independence",
+        "decolonization-process",
+        "nigeria-and-international-organizations",
+        "global-issues"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "893d861d-fcbd-4fcf-a961-ec14ff4c4a0d",
+      "code": "HISTORY-NIGERIA-FROM-EARLIEST-TIMES-TO-1800",
+      "subject": "history",
+      "topic": "nigeria-from-earliest-times-to-1800",
+      "topicName": "Nigeria From Earliest Times To 1800",
+      "subtopics": [
+        "land-and-peoples-of-nigeria",
+        "centers-of-ancient-civilization",
+        "centralized-and-non-centralized-states",
+        "indigenous-crafts-and-industries",
+        "external-influences",
+        "nigeria-and-the-trans-atlantic-slave-trade",
+        "historiography-and-historical-skills"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "9f782006-2e03-4019-a1b2-6198cb14796c",
+      "code": "HISTORY-NIGERIA-IN-THE-19TH-CENTURY",
+      "subject": "history",
+      "topic": "nigeria-in-the-19th-century",
+      "topicName": "Nigeria In The 19Th Century",
+      "subtopics": [
+        "sokoto-caliphate",
+        "yorubaland-in-the-19th-century",
+        "benin-in-the-19th-century",
+        "borno-under-the-shehus",
+        "christian-missionary-activities",
+        "first-phase-of-british-conquest"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "1939819c-f018-4422-bc8f-017992a72979",
+      "code": "HISTORY-NIGERIA-SINCE-INDEPENDENCE",
+      "subject": "history",
+      "topic": "nigeria-since-independence",
+      "topicName": "Nigeria Since Independence",
+      "subtopics": [
+        "first-republic-and-military-intervention",
+        "nigerian-civil-war",
+        "gowon-regime",
+        "murtala-obasanjo-regime",
+        "second-republic",
+        "buhari-regime",
+        "babangida-regime",
+        "interim-national-government",
+        "abacha-regime",
+        "transition-to-fourth-republic",
+        "nigeria-in-international-organizations",
+        "nigeria-and-international-organizations",
+        "decolonization-process",
+        "global-issues",
+        "nigeria-since-independence"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "a1a725a5-bbeb-4ab2-8d3f-534b19f6de30",
+      "code": "JAMB-SS3-HISTORY-NIGERIA-SINCE-INDEPENDENCE",
+      "subject": "history",
+      "topic": "nigeria-since-independence",
+      "topicName": "Nigeria Since Independence",
+      "subtopics": [
+        "nigeria-in-international-organizations"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "examine the role of Nigeria in conflict resolutions in the Congo, Chad, Liberia, Sierra Leone, Guinea and the Sudan",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "nigeria-since-independence"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "f5c6624f-ffb1-4038-a0db-34687009768f",
+      "code": "HISTORY-NIGERIA-TO-1800",
+      "subject": "history",
+      "topic": "nigeria-to-1800",
+      "topicName": "Nigeria To 1800",
+      "subtopics": [
+        "land-and-peoples",
+        "early-centres-of-civilization",
+        "origins-and-formation-of-states",
+        "economic-activities-and-growth-of-states",
+        "external-influences-arabs-and-europeans"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "7c0e914d-bc76-45dc-b3b3-3d84c40d11dd",
+      "code": "JAMB-SS1-HISTORY-NIGERIA-TO-1800",
+      "subject": "history",
+      "topic": "nigeria-to-1800",
+      "topicName": "Nigeria To 1800",
+      "subtopics": [
+        "external-influences-arabs-and-europeans"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS1",
+      "learningObjective": "trace the origin, organization and impact of the trans-Atlantic slave trade",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "nigeria-to-1800"
+      ],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    },
+    {
+      "id": "6c79db20-1c2f-4978-968a-bc6be41614d9",
+      "code": "HISTORY-WEST-AFRICA-AND-THE-WIDER-WORLD",
+      "subject": "history",
+      "topic": "west-africa-and-the-wider-world",
+      "topicName": "West Africa And The Wider World",
+      "subtopics": [
+        "historiography-and-historical-skills",
+        "european-contact-with-west-africa",
+        "trans-saharan-trade",
+        "trans-atlantic-slave-trade",
+        "islam-in-west-africa",
+        "christian-missionary-activities-in-west-africa",
+        "scramble-and-partition-of-west-africa",
+        "colonial-rule-in-west-africa",
+        "problems-of-independent-west-african-states",
+        "west-africa-and-international-organizations"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "f0364d78-f3a1-4ac7-8c1b-66af441083f3",
+      "code": "HISTORY-WEST-AND-NORTH-AFRICA",
+      "subject": "history",
+      "topic": "west-and-north-africa",
+      "topicName": "West And North Africa",
+      "subtopics": [
+        "islamic-reform-movements-and-state-building",
+        "sierra-leone-liberia-and-christian-missions",
+        "egypt-under-mohammed-ali-and-khedive-ismail"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "7496f66b-8d86-47c0-aafc-68907859bcae",
+      "code": "JAMB-SS3-HISTORY-WEST-AND-NORTH-AFRICA",
+      "subject": "history",
+      "topic": "west-and-north-africa",
+      "topicName": "West And North Africa",
+      "subtopics": [
+        "egypt-under-mohammed-ali-and-khedive-ismail"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "examine the reasons for the British occupation of Egypt",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T19:25:24+00:00",
+      "updatedAt": "2026-07-25T19:25:24+00:00"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "subject_slug": "physical-health-education",
+  "exam_type": "jamb",
+  "source": "ai_generated",
+  "model": "gemini-3.6-flash",
+  "fetched_at": "2026-10-31T09:10:30.664928+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "History and Philosophy of Physical Education",
+      "percentage": 7.0,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Anatomy and Physiology of Human Movement",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Athletics (Track and Field Events)",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Major Ball and Racket Games",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Gymnastics and Dance",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Recreation, Leisure and Outdoor Activities",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Physical Fitness and Body Conditioning",
+      "percentage": 9.0,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "First Aid and Safety Education",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Personal and Community Health",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Nutrition and Sports Performance",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Diseases and Health Education",
+      "percentage": 7.0,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Drug, Alcohol and Tobacco Education",
+      "percentage": 5.0,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Organization and Administration of Sports",
+      "percentage": 6.0,
+      "difficulty": null
+    }
+  ]
+}

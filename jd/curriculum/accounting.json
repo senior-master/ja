@@ -1,0 +1,798 @@
+{
+  "subject_slug": "accounting",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:34.668284+00:00",
+  "curriculum": [
+    {
+      "id": "bf9f06e3-75a2-4e8f-b676-7e7aa71a85c4",
+      "code": "ACCOUNTING-ACCOUNTING-FUNDAMENTALS",
+      "subject": "accounting",
+      "topic": "accounting-fundamentals",
+      "topicName": "Accounting Fundamentals",
+      "subtopics": [
+        "nature-of-accounting",
+        "branches-of-accounting",
+        "accounting-concepts-and-conventions",
+        "users-of-accounting-information",
+        "career-opportunities"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "5e04bc34-3897-4ef6-b728-19ad4f9fe63a",
+      "code": "JAMB-SS3-ACCOUNTING-ACCOUNTING-FUNDAMENTALS",
+      "subject": "accounting",
+      "topic": "accounting-fundamentals",
+      "topicName": "Accounting Fundamentals",
+      "subtopics": [
+        "career-opportunities"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify the different career opportunities in Book Keeping and Accounting",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "branches-of-accounting"
+      ],
+      "createdAt": "2026-07-25T19:25:19+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "3f3de0f8-292d-4e9a-b3e5-62c828bbe7fb",
+      "code": "ACCOUNTING-ACCOUNTING-INFORMATION-TECHNOLOGY",
+      "subject": "accounting",
+      "topic": "accounting-information-technology",
+      "topicName": "Accounting Information Technology",
+      "subtopics": [
+        "manual-vs-computerized-systems",
+        "data-processing",
+        "ai-and-data-analytics",
+        "mobile-accounting",
+        "blockchain-in-accounting",
+        "virtual-accounting"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "561adfeb-580a-4aef-a35a-09f49340f02e",
+      "code": "JAMB-SS3-ACCOUNTING-ACCOUNTING-INFORMATION-TECHNOLOGY",
+      "subject": "accounting",
+      "topic": "accounting-information-technology",
+      "topicName": "Accounting Information Technology",
+      "subtopics": [
+        "manual-vs-computerized-systems"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify the advantages and disadvantages of computerized Accounting processing system",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "virtual-accounting"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "bb562f2b-462f-47ed-992f-c54a342df3e3",
+      "code": "ACCOUNTING-BANK-TRANSACTIONS",
+      "subject": "accounting",
+      "topic": "bank-transactions",
+      "topicName": "Bank Transactions",
+      "subtopics": [
+        "bank-instruments",
+        "e-banking",
+        "cash-book-bank-statement-discrepancies",
+        "bank-reconciliation-statement",
+        "adjusted-cash-book"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "39a177cc-07d1-4f0b-89d4-abec27064318",
+      "code": "JAMB-SS3-ACCOUNTING-BANK-TRANSACTIONS",
+      "subject": "accounting",
+      "topic": "bank-transactions",
+      "topicName": "Bank Transactions",
+      "subtopics": [
+        "adjusted-cash-book"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "determine adjusted cash book balance",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "cash-book-bank-statement-discrepancies"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "04080e95-d77e-40e3-a3ef-46bebc547218",
+      "code": "ACCOUNTING-BRANCH-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "branch-accounts",
+      "topicName": "Branch Accounts",
+      "subtopics": [
+        "branch-types",
+        "pricing-methods",
+        "head-office-accounts",
+        "branch-head-office-reconciliation"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "779423fe-1b15-4ffb-a0dc-a06c278cd3aa",
+      "code": "JAMB-SS3-ACCOUNTING-BRANCH-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "branch-accounts",
+      "topicName": "Branch Accounts",
+      "subtopics": [
+        "branch-head-office-reconciliation"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "reconcile the difference between branch and head office accounts",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "pricing-methods"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "897f627f-9036-431c-b9f2-b52d2f682e27",
+      "code": "ACCOUNTING-CASH-BOOK",
+      "subject": "accounting",
+      "topic": "cash-book",
+      "topicName": "Cash Book",
+      "subtopics": [
+        "single-column",
+        "double-column",
+        "three-column",
+        "discounts",
+        "petty-cash-book",
+        "imprest-system"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "2deaf99d-eb30-40b2-9624-e320f3483b3a",
+      "code": "JAMB-SS3-ACCOUNTING-CASH-BOOK",
+      "subject": "accounting",
+      "topic": "cash-book",
+      "topicName": "Cash Book",
+      "subtopics": [
+        "petty-cash-book"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify various petty cash expenses",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "imprest-system"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "05b01061-c164-43ff-b8d7-20e814f6b77f",
+      "code": "ACCOUNTING-COMPANY-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "company-accounts",
+      "topicName": "Company Accounts",
+      "subtopics": [
+        "shares",
+        "debentures",
+        "limited-liability",
+        "published-accounts"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "3f1bcd51-10a3-4666-bc27-91dc8bf6f054",
+      "code": "JAMB-SS3-ACCOUNTING-COMPANY-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "company-accounts",
+      "topicName": "Company Accounts",
+      "subtopics": [
+        "published-accounts"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "compute and interpret Accounting ratios such as current, acid test and stock turnover",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "published-accounts"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "90d8158d-12f4-4091-a707-8674c5f88635",
+      "code": "ACCOUNTING-CONTROL-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "control-accounts",
+      "topicName": "Control Accounts",
+      "subtopics": [
+        "purchases-ledger-control",
+        "sales-ledger-control"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "626121f4-67a2-4561-bd83-f292006a0eb4",
+      "code": "JAMB-SS3-ACCOUNTING-CONTROL-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "control-accounts",
+      "topicName": "Control Accounts",
+      "subtopics": [
+        "purchases-ledger-control"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "identify the entries in control accounts",
+      "bloomsLevel": 1,
+      "bloomsLabel": "Remember",
+      "prerequisiteTopics": [
+        "sales-ledger-control"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "bf96efaa-d8a3-407a-ab9a-74a48168cb9d",
+      "code": "ACCOUNTING-COST-ACCOUNTING",
+      "subject": "accounting",
+      "topic": "cost-accounting",
+      "topicName": "Cost Accounting",
+      "subtopics": [
+        "overhead-costing",
+        "marginal-costing",
+        "budgeting",
+        "variance-analysis"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "3415c277-ff3f-470d-a063-65d026495c46",
+      "code": "ACCOUNTING-DEPARTMENTAL-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "departmental-accounts",
+      "topicName": "Departmental Accounts",
+      "subtopics": [
+        "income-expense-apportionment",
+        "departmental-profit-loss",
+        "inter-departmental-transfer"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "1bf75e5d-3e4a-40ca-a031-5ff3dfa156b8",
+      "code": "JAMB-SS3-ACCOUNTING-DEPARTMENTAL-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "departmental-accounts",
+      "topicName": "Departmental Accounts",
+      "subtopics": [
+        "inter-departmental-transfer"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "understand the Accounting treatment of inter-departmental transfer",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "departmental-profit-loss"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "5248b60e-774f-4b0d-9ff4-99b5ab3cba30",
+      "code": "ACCOUNTING-DOUBLE-ENTRY-PRINCIPLES",
+      "subject": "accounting",
+      "topic": "double-entry-principles",
+      "topicName": "Double Entry Principles",
+      "subtopics": [
+        "source-documents",
+        "books-of-original-entry",
+        "accounting-equation",
+        "ledger-classification",
+        "trial-balance",
+        "errors-and-correction",
+        "suspense-account"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "19c54c56-83b2-4c19-b5da-d04d4ac55982",
+      "code": "JAMB-SS3-ACCOUNTING-DOUBLE-ENTRY-PRINCIPLES",
+      "subject": "accounting",
+      "topic": "double-entry-principles",
+      "topicName": "Double Entry Principles",
+      "subtopics": [
+        "suspense-account"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "correct errors using suspense account",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "errors-and-correction"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "abeae4f3-eec0-4edf-a66c-1cde1941fbf7",
+      "code": "ACCOUNTING-FINANCIAL-ACCOUNTING",
+      "subject": "accounting",
+      "topic": "financial-accounting",
+      "topicName": "Financial Accounting",
+      "subtopics": [
+        "bookkeeping",
+        "ledger-accounts",
+        "trial-balance",
+        "final-accounts",
+        "bank-reconciliation"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "758bd302-f42e-45bb-b33b-f674c0312d37",
+      "code": "ACCOUNTING-INCOMPLETE-RECORDS",
+      "subject": "accounting",
+      "topic": "incomplete-records",
+      "topicName": "Incomplete Records",
+      "subtopics": [
+        "single-entry",
+        "statement-of-affairs",
+        "missing-figures",
+        "single-to-double-entry-conversion"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "835287dc-5c48-4b9d-8f0c-7790e44c3587",
+      "code": "JAMB-SS3-ACCOUNTING-INCOMPLETE-RECORDS",
+      "subject": "accounting",
+      "topic": "incomplete-records",
+      "topicName": "Incomplete Records",
+      "subtopics": [
+        "missing-figures"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "use accounting equations, gross and net profit percentages to determine cost of sales, gross and net profits",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "single-to-double-entry-conversion"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "5339d6f2-f7d3-4df2-af64-e675efef9a33",
+      "code": "ACCOUNTING-JOINT-VENTURE-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "joint-venture-accounts",
+      "topicName": "Joint Venture Accounts",
+      "subtopics": [
+        "joint-venture-forms",
+        "accounting-procedures",
+        "memorandum-joint-venture-account"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "e3fe9003-579f-4488-ab7e-ecfcae898ace",
+      "code": "JAMB-SS3-ACCOUNTING-JOINT-VENTURE-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "joint-venture-accounts",
+      "topicName": "Joint Venture Accounts",
+      "subtopics": [
+        "memorandum-joint-venture-account"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "determine the profit or loss of joint venture",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "accounting-procedures"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "444fdac3-83a6-4212-bc94-10cfdf30a7c5",
+      "code": "ACCOUNTING-MANUFACTURING-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "manufacturing-accounts",
+      "topicName": "Manufacturing Accounts",
+      "subtopics": [
+        "cost-classification",
+        "cost-apportionment",
+        "prime-cost",
+        "production-cost"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "fc5d1781-a3d4-4147-be1c-2063c93d132c",
+      "code": "JAMB-SS3-ACCOUNTING-MANUFACTURING-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "manufacturing-accounts",
+      "topicName": "Manufacturing Accounts",
+      "subtopics": [
+        "cost-apportionment"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "determine the basis of cost apportionment among production, administration, selling and distribution",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "prime-cost"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "cdfbdc84-50ca-4b84-97b8-fa1b3da4c530",
+      "code": "ACCOUNTING-NOT-FOR-PROFIT",
+      "subject": "accounting",
+      "topic": "not-for-profit",
+      "topicName": "Not For Profit",
+      "subtopics": [
+        "receipts-payments",
+        "income-expenditure",
+        "club-accounts"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "14da2c61-b8b4-480c-8643-e12cd3873312",
+      "code": "JAMB-SS3-ACCOUNTING-NOT-FOR-PROFIT",
+      "subject": "accounting",
+      "topic": "not-for-profit",
+      "topicName": "Not For Profit",
+      "subtopics": [
+        "income-expenditure"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "compute the cash balances, accumulated funds, surplus or deficit for the period",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "receipts-payments"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "2d1ff6fd-0a8c-47dc-8d19-8a43bbd169d1",
+      "code": "ACCOUNTING-PARTNERSHIP-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "partnership-accounts",
+      "topicName": "Partnership Accounts",
+      "subtopics": [
+        "admission",
+        "retirement",
+        "dissolution",
+        "profit-sharing"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "ad203247-6d38-4459-9876-d92e79ae799e",
+      "code": "JAMB-SS3-ACCOUNTING-PARTNERSHIP-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "partnership-accounts",
+      "topicName": "Partnership Accounts",
+      "subtopics": [
+        "dissolution"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "determine the partners' share of profit or loss on dissolution",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "admission"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "717b7b92-0fc7-4c72-87b9-bfd342ee366d",
+      "code": "ACCOUNTING-PROFESSIONAL-ETHICS-AND-REGULATION",
+      "subject": "accounting",
+      "topic": "professional-ethics-and-regulation",
+      "topicName": "Professional Ethics And Regulation",
+      "subtopics": [
+        "accountant-qualities",
+        "professional-bodies",
+        "regulatory-bodies",
+        "accounting-ethics"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "6a562ef3-1d3b-4d33-a20a-0f85a5469e49",
+      "code": "JAMB-SS3-ACCOUNTING-PROFESSIONAL-ETHICS-AND-REGULATION",
+      "subject": "accounting",
+      "topic": "professional-ethics-and-regulation",
+      "topicName": "Professional Ethics And Regulation",
+      "subtopics": [
+        "regulatory-bodies"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "understand the purpose and functions of Accounting regulatory bodies in Nigeria e.g. Financial Reporting Council of Nigeria (FRCN), Corporate Affairs Commission (CAC) and International Accounting Standard Board (IASB)",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "professional-bodies"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "337a881d-3e22-4672-94e0-eab7e53ed71b",
+      "code": "ACCOUNTING-PUBLIC-SECTOR-ACCOUNTING",
+      "subject": "accounting",
+      "topic": "public-sector-accounting",
+      "topicName": "Public Sector Accounting",
+      "subtopics": [
+        "government-revenue-sources",
+        "capital-and-recurrent-expenditure",
+        "consolidated-revenue-fund",
+        "accountant-general",
+        "auditor-general",
+        "treasury-single-account",
+        "ipsas",
+        "ippis"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "62c231bf-3cd2-4489-8f48-acec9e07bef7",
+      "code": "JAMB-SS3-ACCOUNTING-PUBLIC-SECTOR-ACCOUNTING",
+      "subject": "accounting",
+      "topic": "public-sector-accounting",
+      "topicName": "Public Sector Accounting",
+      "subtopics": [
+        "ipsas"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "understand current trends in public sector Accounting",
+      "bloomsLevel": 2,
+      "bloomsLabel": "Understand",
+      "prerequisiteTopics": [
+        "auditor-general"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "4ca30bc6-5dbf-4f0c-bcae-60f5c2ebf67b",
+      "code": "ACCOUNTING-SOLE-TRADER-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "sole-trader-accounts",
+      "topicName": "Sole Trader Accounts",
+      "subtopics": [
+        "income-statement",
+        "statement-of-financial-position",
+        "provision-for-bad-debts",
+        "provision-for-discounts",
+        "provision-for-depreciation",
+        "accruals-and-prepayments"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "ef960fdb-5b31-42a2-87b2-b39eab8d7fa4",
+      "code": "JAMB-SS3-ACCOUNTING-SOLE-TRADER-ACCOUNTS",
+      "subject": "accounting",
+      "topic": "sole-trader-accounts",
+      "topicName": "Sole Trader Accounts",
+      "subtopics": [
+        "provision-for-bad-debts"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "differentiate between bad debts and provision for bad and doubtful debts",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "accruals-and-prepayments"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    },
+    {
+      "id": "cd84fdfe-ebe3-453d-9704-eaba8aa358fe",
+      "code": "ACCOUNTING-STOCK-VALUATION",
+      "subject": "accounting",
+      "topic": "stock-valuation",
+      "topicName": "Stock Valuation",
+      "subtopics": [
+        "fifo",
+        "lifo",
+        "simple-average",
+        "stock-valuation-methods-comparison"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "ef77eef8-63df-4194-8a9d-c88b947b0da8",
+      "code": "JAMB-SS3-ACCOUNTING-STOCK-VALUATION",
+      "subject": "accounting",
+      "topic": "stock-valuation",
+      "topicName": "Stock Valuation",
+      "subtopics": [
+        "stock-valuation-methods-comparison"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "determine the effects of stock valuation on elements of income statement",
+      "bloomsLevel": 3,
+      "bloomsLabel": "Apply",
+      "prerequisiteTopics": [
+        "stock-valuation-methods-comparison"
+      ],
+      "createdAt": "2026-07-25T19:25:20+00:00",
+      "updatedAt": "2026-07-25T19:25:20+00:00"
+    }
+  ]
+}

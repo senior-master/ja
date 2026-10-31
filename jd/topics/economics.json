@@ -1,7 +1,7 @@
 {
   "subject_slug": "economics",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:23.096334+00:00",
+  "fetched_at": "2026-10-31T16:39:58.122050+00:00",
   "topics": [
     {
       "id": 1,
@@ -29,7 +29,7 @@
     },
     {
       "id": 5,
-      "name": "Macroecnomics",
+      "name": "Macroeconomics",
       "percentage": null,
       "difficulty": null
     },
@@ -41,45 +41,34 @@
     },
     {
       "id": 7,
-      "name": "Macro economics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 8,
       "name": "Partnership accounts",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 9,
-      "name": "Macroeconomics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 10,
+      "id": 8,
       "name": "Geography",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 11,
+      "id": 9,
       "name": "Company accounts",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 12,
+      "id": 10,
       "name": "Human geography",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 13,
+      "id": 11,
       "name": "Statistics",
       "percentage": null,
       "difficulty": null
     }
-  ]
+  ],
+  "cleaned": true
 }

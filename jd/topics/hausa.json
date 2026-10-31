@@ -1,0 +1,93 @@
+{
+  "subject_slug": "hausa",
+  "exam_type": "jamb",
+  "source": "ai_generated",
+  "model": "gemini-3.7-flash",
+  "fetched_at": "2026-10-31T08:54:08.873163+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "Tsarin Sauti",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Tsarin Kalma da Ginin Kalmomi",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Tsarin Jimla da Nahawu",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Ka'idojin Rubutu",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Karin Magana da Maganganun Azanci",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Fahimtar Rubutu",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Fassarar Harshe",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Adabin Baka",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Rubutaccen Adabi",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Al'adun Haihuwa, Aure da Mutuwa",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Sana'o'in Gargajiya",
+      "percentage": 6.0,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Tsarin Sarauta da Shugabanci",
+      "percentage": 4.0,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Bukukuwa da Wasannin Gargajiya",
+      "percentage": 4.0,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Imani da Bautar Gargajiya",
+      "percentage": 2.0,
+      "difficulty": null
+    }
+  ]
+}

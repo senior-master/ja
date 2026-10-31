@@ -1,1651 +1,2033 @@
 {
   "accounting": {
-    "source": "equal",
+    "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Bank reconciliation",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 3.23,
+        "question_count": 16
       },
       {
         "name": "Partnership accounts",
-        "weight": 1.0,
-        "percentage": 10.0
+        "weight": 5.0,
+        "percentage": 16.12,
+        "question_count": 81
       },
       {
         "name": "Branch accounts",
-        "weight": 1.0,
-        "percentage": 10.0
+        "weight": 5.0,
+        "percentage": 16.13,
+        "question_count": 81
       },
       {
         "name": "Departmental accounts",
-        "weight": 1.0,
-        "percentage": 10.0
+        "weight": 4.0,
+        "percentage": 12.9,
+        "question_count": 65
       },
       {
         "name": "Cost accounting",
-        "weight": 1.0,
-        "percentage": 10.0
+        "weight": 4.0,
+        "percentage": 12.9,
+        "question_count": 64
       },
       {
         "name": "Not for profit",
-        "weight": 1.0,
-        "percentage": 10.0
+        "weight": 4.0,
+        "percentage": 12.9,
+        "question_count": 64
       },
       {
         "name": "Financial economics",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 3.23,
+        "question_count": 16
       },
       {
         "name": "Company accounts",
-        "weight": 1.0,
-        "percentage": 10.0
+        "weight": 5.0,
+        "percentage": 16.13,
+        "question_count": 81
       },
       {
         "name": "Government",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 3.23,
+        "question_count": 16
       },
       {
         "name": "Nigerian government",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 3.23,
+        "question_count": 16
       }
+    ],
+    "rescued_by_floor": [
+      "Financial economics",
+      "Government",
+      "Nigerian government"
     ]
   },
   "biology": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Genetics",
         "weight": 12.0,
-        "percentage": 32.43
+        "percentage": 14.03,
+        "question_count": 70
       },
       {
         "name": "Agricultural science",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.8597916666666667,
+        "percentage": 2.17,
+        "question_count": 11
       },
       {
         "name": "Microbiology",
         "weight": 9.0,
-        "percentage": 24.32
+        "percentage": 10.52,
+        "question_count": 53
       },
       {
         "name": "Agriculture",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.8597916666666667,
+        "percentage": 2.17,
+        "question_count": 11
       },
       {
         "name": "Ecology",
         "weight": 16.0,
-        "percentage": 43.24
+        "percentage": 18.71,
+        "question_count": 93
       },
       {
         "name": "Human biology",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 15.0,
+        "percentage": 17.53,
+        "question_count": 88
       },
       {
         "name": "Cell biology",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 7.0,
+        "percentage": 8.18,
+        "question_count": 41
       },
       {
         "name": "Plant biology",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 11.0,
+        "percentage": 12.86,
+        "question_count": 64
       },
       {
         "name": "Biochemistry",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.8597916666666667,
+        "percentage": 2.17,
+        "question_count": 11
       },
       {
         "name": "Reproduction in plants",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.1,
+        "percentage": 1.29,
+        "question_count": 6
       },
       {
         "name": "Animal production",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.8597916666666667,
+        "percentage": 2.17,
+        "question_count": 11
       },
       {
         "name": "Disease transmission",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.125,
+        "percentage": 1.32,
+        "question_count": 7
       },
       {
         "name": "Adaptation",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.25,
+        "question_count": 6
       },
       {
         "name": "Animal biology",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.8597916666666667,
+        "percentage": 2.17,
+        "question_count": 11
       },
       {
         "name": "Soil biology",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.8597916666666667,
+        "percentage": 2.17,
+        "question_count": 11
       },
       {
         "name": "Classification of plants",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.1,
+        "percentage": 1.29,
+        "question_count": 6
       }
+    ],
+    "rescued_by_floor": [
+      "Agricultural science",
+      "Agriculture",
+      "Biochemistry",
+      "Animal production",
+      "Animal biology",
+      "Soil biology"
     ]
   },
   "chemistry": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Energetics",
         "weight": 8.0,
-        "percentage": 61.54
+        "percentage": 12.8,
+        "question_count": 64
       },
       {
         "name": "States of matter",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 6.0,
+        "percentage": 9.6,
+        "question_count": 48
       },
       {
         "name": "Stoichiometry",
         "weight": 5.0,
-        "percentage": 38.46
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Chemical bonding",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.1428571428571428,
+        "percentage": 1.83,
+        "question_count": 9
       },
       {
         "name": "Organic chemistry",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 12.0,
+        "percentage": 19.19,
+        "question_count": 96
       },
       {
         "name": "Inorganic chemistry",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 12.0,
+        "percentage": 19.2,
+        "question_count": 96
       },
       {
         "name": "Modern physics",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.7857142857142858,
+        "percentage": 2.86,
+        "question_count": 15
       },
       {
         "name": "Acidic structure",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.7857142857142858,
+        "percentage": 2.86,
+        "question_count": 14
       },
       {
         "name": "Atomic structure",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 8.0,
+        "percentage": 12.8,
+        "question_count": 64
       },
       {
         "name": "Separation and purification",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 5.0,
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Heat",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.7857142857142858,
+        "percentage": 2.86,
+        "question_count": 14
       }
+    ],
+    "rescued_by_floor": [
+      "Modern physics",
+      "Acidic structure",
+      "Heat"
     ]
   },
   "christian-religious-studies": {
-    "source": "equal",
+    "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "General",
-        "weight": 1.0,
-        "percentage": 12.5
+        "weight": 5.666666666666667,
+        "percentage": 5.88,
+        "question_count": 30
       },
       {
         "name": "Christian living",
-        "weight": 1.0,
-        "percentage": 12.5
+        "weight": 21.0,
+        "percentage": 21.8,
+        "question_count": 109
       },
       {
         "name": "New testament",
-        "weight": 1.0,
-        "percentage": 12.5
+        "weight": 24.0,
+        "percentage": 24.92,
+        "question_count": 125
       },
       {
         "name": "Old testament",
-        "weight": 1.0,
-        "percentage": 12.5
+        "weight": 23.0,
+        "percentage": 23.88,
+        "question_count": 120
       },
       {
-        "name": "Quran",
-        "weight": 1.0,
-        "percentage": 12.5
+        "name": "Biblical Themes and Theology",
+        "weight": 5.666666666666667,
+        "percentage": 5.88,
+        "question_count": 29
       },
       {
-        "name": "Islamic religious studies",
-        "weight": 1.0,
-        "percentage": 12.5
+        "name": "Christian Ethics and Morality",
+        "weight": 5.666666666666667,
+        "percentage": 5.88,
+        "question_count": 29
       },
       {
-        "name": "Civic education",
-        "weight": 1.0,
-        "percentage": 12.5
+        "name": "History of the Christian Church",
+        "weight": 5.666666666666667,
+        "percentage": 5.88,
+        "question_count": 29
       },
       {
-        "name": "Islamic history",
-        "weight": 1.0,
-        "percentage": 12.5
+        "name": "Christian Doctrines and Beliefs",
+        "weight": 5.666666666666667,
+        "percentage": 5.88,
+        "question_count": 29
       }
+    ],
+    "rescued_by_floor": [
+      "General",
+      "Biblical Themes and Theology",
+      "Christian Ethics and Morality",
+      "History of the Christian Church",
+      "Christian Doctrines and Beliefs"
     ]
   },
   "civic-education": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Citizenship",
         "weight": 9.0,
-        "percentage": 37.5
-      },
-      {
-        "name": "Geography",
-        "weight": 0.0,
-        "percentage": 0.0
-      },
-      {
-        "name": "Government",
-        "weight": 3.0,
-        "percentage": 12.5
+        "percentage": 23.23,
+        "question_count": 116
       },
       {
         "name": "Democracy",
         "weight": 12.0,
-        "percentage": 50.0
+        "percentage": 30.96,
+        "question_count": 155
       },
       {
         "name": "National issues",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 9.0,
+        "percentage": 23.23,
+        "question_count": 116
       },
       {
         "name": "International relations",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.9375,
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
-        "name": "Economics",
-        "weight": 0.0,
-        "percentage": 0.0
+        "name": "Human Rights and Rule of Law",
+        "weight": 1.9375,
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
-        "name": "Mathematics",
-        "weight": 0.0,
-        "percentage": 0.0
+        "name": "Political Participation",
+        "weight": 1.0,
+        "percentage": 2.58,
+        "question_count": 13
+      },
+      {
+        "name": "Social Values and Norms",
+        "weight": 1.9375,
+        "percentage": 5.0,
+        "question_count": 25
+      },
+      {
+        "name": "Constitutional Development in Nigeria",
+        "weight": 1.9375,
+        "percentage": 5.0,
+        "question_count": 25
       }
+    ],
+    "rescued_by_floor": [
+      "International relations",
+      "Human Rights and Rule of Law",
+      "Social Values and Norms",
+      "Constitutional Development in Nigeria"
     ]
   },
   "commerce": {
     "source": "equal",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Accounting",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.3,
+        "question_count": 21
       },
       {
         "name": "International trade",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Economics",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Financial economics",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "African politics",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Partnership accounts",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Development economics",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Macroeconomics",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Microeconomics",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Na",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Nigerian government",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "International relations",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Financial accounting",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Company accounts",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Agricultural science",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Government",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Human geography",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Algebra further",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 22
       },
       {
         "name": "Geography",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 21
       },
       {
         "name": "Civic education",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 21
       },
       {
         "name": "Further topics",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 21
       },
       {
         "name": "National issues",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 21
       },
       {
         "name": "English language",
         "weight": 1.0,
-        "percentage": 4.35
+        "percentage": 4.35,
+        "question_count": 21
       }
     ]
   },
   "economics": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Financial economics",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 11.0,
+        "percentage": 15.97,
+        "question_count": 80
       },
       {
         "name": "International trade",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 9.0,
+        "percentage": 13.06,
+        "question_count": 66
       },
       {
         "name": "Microeconomics",
         "weight": 11.0,
-        "percentage": 47.83
+        "percentage": 15.97,
+        "question_count": 80
       },
       {
         "name": "Accounting",
-        "weight": 0.0,
-        "percentage": 0.0
-      },
-      {
-        "name": "Macroecnomics",
-        "weight": 0.0,
-        "percentage": 0.0
-      },
-      {
-        "name": "Development economics",
-        "weight": 0.0,
-        "percentage": 0.0
-      },
-      {
-        "name": "Macro economics",
-        "weight": 0.0,
-        "percentage": 0.0
-      },
-      {
-        "name": "Partnership accounts",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.65,
+        "percentage": 3.85,
+        "question_count": 19
       },
       {
         "name": "Macroeconomics",
         "weight": 12.0,
-        "percentage": 52.17
+        "percentage": 17.39,
+        "question_count": 87
+      },
+      {
+        "name": "Development economics",
+        "weight": 10.0,
+        "percentage": 14.51,
+        "question_count": 73
+      },
+      {
+        "name": "Partnership accounts",
+        "weight": 2.65,
+        "percentage": 3.85,
+        "question_count": 19
       },
       {
         "name": "Geography",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.65,
+        "percentage": 3.85,
+        "question_count": 19
       },
       {
         "name": "Company accounts",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.65,
+        "percentage": 3.85,
+        "question_count": 19
       },
       {
         "name": "Human geography",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.65,
+        "percentage": 3.85,
+        "question_count": 19
       },
       {
         "name": "Statistics",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.65,
+        "percentage": 3.85,
+        "question_count": 19
       }
+    ],
+    "rescued_by_floor": [
+      "Accounting",
+      "Partnership accounts",
+      "Geography",
+      "Company accounts",
+      "Human geography",
+      "Statistics"
     ]
   },
   "english-language": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Grammar",
         "weight": 14.0,
-        "percentage": 33.33
+        "percentage": 20.47,
+        "question_count": 102
       },
       {
         "name": "Government",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.85,
+        "percentage": 4.17,
+        "question_count": 21
       },
       {
         "name": "Comprehension",
         "weight": 15.0,
-        "percentage": 35.71
+        "percentage": 21.91,
+        "question_count": 109
       },
       {
         "name": "Oral english",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 15.0,
+        "percentage": 21.93,
+        "question_count": 110
       },
       {
         "name": "Literature in english",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.85,
+        "percentage": 4.17,
+        "question_count": 21
       },
       {
         "name": "Vocabulary",
         "weight": 9.0,
-        "percentage": 21.43
+        "percentage": 13.16,
+        "question_count": 66
       },
       {
         "name": "Writing",
         "weight": 4.0,
-        "percentage": 9.52
+        "percentage": 5.85,
+        "question_count": 29
       },
       {
         "name": "Drama",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.85,
+        "percentage": 4.17,
+        "question_count": 21
       },
       {
         "name": "Geography",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 2.85,
+        "percentage": 4.17,
+        "question_count": 21
       }
+    ],
+    "rescued_by_floor": [
+      "Government",
+      "Literature in english",
+      "Drama",
+      "Geography"
     ]
   },
   "geography": {
-    "source": "equal",
+    "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Regional geography",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 13.0,
+        "percentage": 16.36,
+        "question_count": 82
       },
       {
         "name": "Human geography",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 16.0,
+        "percentage": 20.13,
+        "question_count": 100
       },
       {
         "name": "Ocean currents",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 1.0416666666666667,
+        "percentage": 1.31,
+        "question_count": 6
       },
       {
         "name": "Africa geography",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 1.0833333333333333,
+        "percentage": 1.36,
+        "question_count": 7
       },
       {
         "name": "Agriculture geography",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 1.0666666666666667,
+        "percentage": 1.34,
+        "question_count": 7
       },
       {
         "name": "Physical geography",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 25.0,
+        "percentage": 31.48,
+        "question_count": 157
       },
       {
         "name": "Nigeria geography",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 1.0833333333333333,
+        "percentage": 1.36,
+        "question_count": 7
       },
       {
         "name": "Map work",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 14.0,
+        "percentage": 17.62,
+        "question_count": 88
       },
       {
         "name": "International trade",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 2.0377314814814813,
+        "percentage": 2.56,
+        "question_count": 13
       },
       {
         "name": "International relations",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 2.0377314814814813,
+        "percentage": 2.56,
+        "question_count": 13
       },
       {
         "name": "World geography",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 1.0833333333333333,
+        "percentage": 1.36,
+        "question_count": 7
       },
       {
         "name": "Agricultural science",
-        "weight": 1.0,
-        "percentage": 8.33
+        "weight": 2.0377314814814813,
+        "percentage": 2.56,
+        "question_count": 13
       }
+    ],
+    "rescued_by_floor": [
+      "International trade",
+      "International relations",
+      "Agricultural science"
     ]
   },
   "government": {
-    "source": "equal",
+    "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Geography",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 4.209325396825396,
+        "percentage": 3.7,
+        "question_count": 19
       },
       {
         "name": "African politics",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 8.0,
+        "percentage": 7.04,
+        "question_count": 35
       },
       {
         "name": "International relations",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 12.0,
+        "percentage": 10.56,
+        "question_count": 53
       },
       {
         "name": "Political concepts",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 43.0,
+        "percentage": 37.84,
+        "question_count": 189
       },
       {
         "name": "Democracy",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 1.0238095238095237,
+        "percentage": 0.9,
+        "question_count": 5
       },
       {
         "name": "Political thought",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 13.0,
+        "percentage": 11.44,
+        "question_count": 57
       },
       {
         "name": "Nigerian government",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 24.0,
+        "percentage": 21.12,
+        "question_count": 106
       },
       {
         "name": "Civic education",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 4.209325396825396,
+        "percentage": 3.7,
+        "question_count": 18
       },
       {
         "name": "Islamic history",
-        "weight": 1.0,
-        "percentage": 11.11
+        "weight": 4.209325396825396,
+        "percentage": 3.7,
+        "question_count": 18
       }
+    ],
+    "rescued_by_floor": [
+      "Geography",
+      "Civic education",
+      "Islamic history"
     ]
   },
   "history": {
-    "source": "equal",
+    "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
-        "name": "African politics",
-        "weight": 1.0,
-        "percentage": 20.0
+        "name": "Nigeria: Earliest Times to 1800",
+        "weight": 20.0,
+        "percentage": 20.0,
+        "question_count": 100
       },
       {
-        "name": "Geography",
-        "weight": 1.0,
-        "percentage": 20.0
+        "name": "Nigeria in the 19th Century",
+        "weight": 20.0,
+        "percentage": 20.0,
+        "question_count": 100
       },
       {
-        "name": "Government",
-        "weight": 1.0,
-        "percentage": 20.0
+        "name": "Nigeria 1900–1960",
+        "weight": 20.0,
+        "percentage": 20.0,
+        "question_count": 100
       },
       {
-        "name": "Islamic history",
-        "weight": 1.0,
-        "percentage": 20.0
+        "name": "Nigeria Since Independence",
+        "weight": 20.0,
+        "percentage": 20.0,
+        "question_count": 100
       },
       {
-        "name": "Nigerian government",
-        "weight": 1.0,
-        "percentage": 20.0
+        "name": "West Africa and the Wider World",
+        "weight": 20.0,
+        "percentage": 20.0,
+        "question_count": 100
       }
     ]
   },
   "insurance": {
-    "source": "equal",
+    "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
-        "name": "Financial economics",
-        "weight": 1.0,
-        "percentage": 100.0
+        "name": "Principles of Insurance",
+        "weight": 20.0,
+        "percentage": 20.0,
+        "question_count": 100
+      },
+      {
+        "name": "Types of Insurance",
+        "weight": 25.0,
+        "percentage": 25.0,
+        "question_count": 125
+      },
+      {
+        "name": "Insurance Contracts",
+        "weight": 20.0,
+        "percentage": 20.0,
+        "question_count": 100
+      },
+      {
+        "name": "Risk Management",
+        "weight": 20.0,
+        "percentage": 20.0,
+        "question_count": 100
+      },
+      {
+        "name": "Insurance Regulation in Nigeria",
+        "weight": 15.0,
+        "percentage": 15.0,
+        "question_count": 75
       }
     ]
   },
   "literature-in-english": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Drama",
         "weight": 12.0,
-        "percentage": 35.29
+        "percentage": 30.14,
+        "question_count": 150
       },
       {
         "name": "Poetry",
         "weight": 11.0,
-        "percentage": 32.35
+        "percentage": 27.62,
+        "question_count": 138
       },
       {
         "name": "Writing",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.81,
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Prose",
         "weight": 11.0,
-        "percentage": 32.35
+        "percentage": 27.62,
+        "question_count": 138
       },
       {
         "name": "Vocabulary",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.81,
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Theme analysis",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.1,
+        "percentage": 2.76,
+        "question_count": 14
       },
       {
         "name": "Characterisation",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.1,
+        "percentage": 2.76,
+        "question_count": 14
       }
+    ],
+    "rescued_by_floor": [
+      "Writing",
+      "Vocabulary"
     ]
   },
   "mathematics": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Trigonometry",
         "weight": 7.0,
-        "percentage": 11.48
+        "percentage": 7.1,
+        "question_count": 36
       },
       {
         "name": "Statistics",
         "weight": 12.0,
-        "percentage": 19.67
+        "percentage": 12.17,
+        "question_count": 61
       },
       {
         "name": "Geometry",
         "weight": 13.0,
-        "percentage": 21.31
+        "percentage": 13.18,
+        "question_count": 66
       },
       {
         "name": "Calculus",
         "weight": 7.0,
-        "percentage": 11.48
+        "percentage": 7.1,
+        "question_count": 36
       },
       {
         "name": "Number theory",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 15.0,
+        "percentage": 15.21,
+        "question_count": 76
       },
       {
         "name": "Algebra",
         "weight": 16.0,
-        "percentage": 26.23
+        "percentage": 16.23,
+        "question_count": 81
       },
       {
         "name": "Probability",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0909090909090908,
+        "percentage": 1.11,
+        "question_count": 6
       },
       {
         "name": "Mechanics",
         "weight": 6.0,
-        "percentage": 9.84
+        "percentage": 6.08,
+        "question_count": 30
       },
       {
         "name": "Fractions decimals",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0714285714285714,
+        "percentage": 1.09,
+        "question_count": 6
       },
       {
         "name": "Quadratic equations",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.08,
+        "question_count": 6
       },
       {
         "name": "Inequalities",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.08,
+        "question_count": 6
       },
       {
         "name": "Combinations",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.2481886534518114,
+        "percentage": 1.27,
+        "question_count": 6
       },
       {
         "name": "Matrices",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.08,
+        "question_count": 5
       },
       {
         "name": "Polynomials",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.08,
+        "question_count": 5
       },
       {
         "name": "Surds",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.08,
+        "question_count": 5
       },
       {
         "name": "Sequences series",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.08,
+        "question_count": 5
       },
       {
         "name": "Functions",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.2481886534518114,
+        "percentage": 1.27,
+        "question_count": 6
       },
       {
         "name": "Further topics",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 7.0,
+        "percentage": 7.1,
+        "question_count": 36
       },
       {
         "name": "Algebra further",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.2481886534518114,
+        "percentage": 1.27,
+        "question_count": 6
       },
       {
         "name": "Sets",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.08,
+        "question_count": 5
       },
       {
         "name": "Permutations combinations",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.1666666666666667,
+        "percentage": 1.18,
+        "question_count": 6
       },
       {
         "name": "Indices logarithms",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 1.0666666666666667,
+        "percentage": 1.08,
+        "question_count": 5
       }
+    ],
+    "rescued_by_floor": [
+      "Combinations",
+      "Functions",
+      "Algebra further"
     ]
   },
   "physics": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Electricity",
         "weight": 13.0,
-        "percentage": 25.49
+        "percentage": 10.62,
+        "question_count": 53
       },
       {
         "name": "Modern physics",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 8.0,
+        "percentage": 6.56,
+        "question_count": 33
       },
       {
         "name": "Waves",
         "weight": 9.0,
-        "percentage": 17.65
+        "percentage": 7.38,
+        "question_count": 37
       },
       {
         "name": "Measurement",
         "weight": 7.0,
-        "percentage": 13.73
+        "percentage": 5.74,
+        "question_count": 29
       },
       {
         "name": "Heat",
         "weight": 9.0,
-        "percentage": 17.65
-      },
-      {
-        "name": "Chemistry",
-        "weight": 0.0,
-        "percentage": 0.0
+        "percentage": 7.38,
+        "question_count": 37
       },
       {
         "name": "Momentum",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 6.5,
+        "percentage": 5.33,
+        "question_count": 27
       },
       {
         "name": "Magnetism",
-        "weight": 0.0,
-        "percentage": 0.0
-      },
-      {
-        "name": "Geometry",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 6.5,
+        "percentage": 5.33,
+        "question_count": 27
       },
       {
         "name": "Electromagnetism",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 6.5,
+        "percentage": 5.33,
+        "question_count": 27
       },
       {
         "name": "Pressure",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 6.5,
+        "percentage": 5.33,
+        "question_count": 27
       },
       {
         "name": "Mechanics",
         "weight": 13.0,
-        "percentage": 25.49
+        "percentage": 10.66,
+        "question_count": 53
       },
       {
         "name": "Gas laws thermal",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 4.5,
+        "percentage": 3.69,
+        "question_count": 18
       },
       {
         "name": "Energy",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 6.5,
+        "percentage": 5.33,
+        "question_count": 27
       },
       {
         "name": "States of matter",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 4.5,
+        "percentage": 3.69,
+        "question_count": 18
       },
       {
         "name": "Work energy power",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 6.5,
+        "percentage": 5.33,
+        "question_count": 27
       },
       {
         "name": "Gravitation",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 6.5,
+        "percentage": 5.33,
+        "question_count": 26
       },
       {
         "name": "Atomic structure",
-        "weight": 0.0,
-        "percentage": 0.0
-      },
-      {
-        "name": "Inorganic chemistry",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 4.0,
+        "percentage": 3.28,
+        "question_count": 16
       },
       {
         "name": "Optics",
-        "weight": 0.0,
-        "percentage": 0.0
-      },
-      {
-        "name": "Energetics",
-        "weight": 0.0,
-        "percentage": 0.0
+        "weight": 4.5,
+        "percentage": 3.69,
+        "question_count": 18
       }
     ]
   },
   "principles-of-accounts": {
     "source": "equal",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Bank reconciliation",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Partnership accounts",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Branch accounts",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Departmental accounts",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Cost accounting",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Not for profit",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Financial economics",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Company accounts",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Government",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Nigerian government",
         "weight": 1.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       }
     ]
   },
   "agricultural-science": {
     "source": "curriculum",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Agricultural Technology",
         "weight": 9.0,
-        "percentage": 16.67
+        "percentage": 16.67,
+        "question_count": 83
       },
       {
         "name": "Animal Production",
         "weight": 14.0,
-        "percentage": 25.93
+        "percentage": 25.92,
+        "question_count": 130
       },
       {
         "name": "Crop Production",
         "weight": 14.0,
-        "percentage": 25.93
+        "percentage": 25.93,
+        "question_count": 130
       },
       {
         "name": "Farm Management",
         "weight": 10.0,
-        "percentage": 18.52
+        "percentage": 18.52,
+        "question_count": 92
       },
       {
         "name": "General Agriculture",
         "weight": 7.0,
-        "percentage": 12.96
+        "percentage": 12.96,
+        "question_count": 65
       }
     ]
   },
   "arabic": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Reading Comprehension",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "Arabic Grammar (An-Nahw)",
         "weight": 20.0,
-        "percentage": 20.0
+        "percentage": 20.0,
+        "question_count": 100
       },
       {
         "name": "Arabic Morphology (As-Sarf)",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Translation",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Arabic Rhetoric (Al-Balaghah)",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Composition (Al-Insha')",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Pre-Islamic and Early Islamic Literature",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Umayyad and Abbasid Literature",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Modern Arabic Literature",
         "weight": 7.0,
-        "percentage": 7.0
+        "percentage": 7.0,
+        "question_count": 35
       },
       {
         "name": "West African and Nigerian Arabic Literature",
         "weight": 7.0,
-        "percentage": 7.0
+        "percentage": 7.0,
+        "question_count": 35
       }
     ]
   },
   "fine-art": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Elements and Principles of Design",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Art History: Traditional Nigerian Art",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "Art History: Contemporary Nigerian Art and Artists",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Art History: Pre-Historic and Ancient African Art",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Art History: Western Art",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Drawing and Painting",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Graphics and Printing Techniques",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Sculpture and Modelling",
         "weight": 7.0,
-        "percentage": 7.0
+        "percentage": 7.0,
+        "question_count": 35
       },
       {
         "name": "Textiles and Crafts",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Ceramics and Pottery",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Art Appreciation, Criticism, and Aesthetics",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Art Tools, Materials, and Techniques",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       }
     ]
   },
   "french": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Compréhension Écrite",
         "weight": 25.0,
-        "percentage": 25.0
+        "percentage": 25.0,
+        "question_count": 125
       },
       {
         "name": "Grammaire",
         "weight": 20.0,
-        "percentage": 20.0
+        "percentage": 20.0,
+        "question_count": 100
       },
       {
         "name": "Vocabulaire",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "Civilisation",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Conjugaison",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Expression Écrite",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Littérature",
         "weight": 7.0,
-        "percentage": 7.0
+        "percentage": 7.0,
+        "question_count": 35
       },
       {
         "name": "Traduction",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       }
     ]
   },
   "hausa": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Tsarin Sauti",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Tsarin Kalma da Ginin Kalmomi",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Tsarin Jimla da Nahawu",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Ka'idojin Rubutu",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Karin Magana da Maganganun Azanci",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Fahimtar Rubutu",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Fassarar Harshe",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Adabin Baka",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Rubutaccen Adabi",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Al'adun Haihuwa, Aure da Mutuwa",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Sana'o'in Gargajiya",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Tsarin Sarauta da Shugabanci",
         "weight": 4.0,
-        "percentage": 4.0
+        "percentage": 4.0,
+        "question_count": 20
       },
       {
         "name": "Bukukuwa da Wasannin Gargajiya",
         "weight": 4.0,
-        "percentage": 4.0
+        "percentage": 4.0,
+        "question_count": 20
       },
       {
         "name": "Imani da Bautar Gargajiya",
         "weight": 2.0,
-        "percentage": 2.0
+        "percentage": 2.0,
+        "question_count": 10
       }
     ]
   },
   "home-economics": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Foods and Nutrients",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "Meal Planning and Preparation",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Food Preservation and Storage",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Fibers and Fabrics",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Garment Construction and Sewing",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Care and Maintenance of Clothes",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Home Management and Family Living",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Family Housing and Furnishing",
         "weight": 7.0,
-        "percentage": 7.0
+        "percentage": 7.0,
+        "question_count": 35
       },
       {
         "name": "Consumer Education",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Child Development and Care",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Personal Hygiene and Health",
         "weight": 4.0,
-        "percentage": 4.0
+        "percentage": 4.0,
+        "question_count": 20
       },
       {
         "name": "First Aid and Home Safety",
         "weight": 4.0,
-        "percentage": 4.0
+        "percentage": 4.0,
+        "question_count": 20
       }
     ]
   },
   "igbo": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Aghọtaazaa (Comprehension)",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Ụdaasụsụ (Phonology)",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Nsupe na Usoro Edemede (Orthography)",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Ọdịdịokwu (Morphology)",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Nhazi Ahịrịokwu (Syntax)",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Ntụgharị (Translation)",
         "weight": 4.0,
-        "percentage": 4.0
+        "percentage": 4.0,
+        "question_count": 20
       },
       {
         "name": "Agụmagụ Ọdịnala (Oral Literature)",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Agụmagụ E Dere Ede - Abụ (Written Poetry)",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Agụmagụ E Dere Ede - Ejije (Written Drama)",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Agụmagụ E Dere Ede - Iduuazi (Written Prose)",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Alụmdi na Nwunye (Marriage Customs)",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Ọmụmụ na Nkwụba Aha (Naming Ceremonies)",
         "weight": 4.0,
-        "percentage": 4.0
+        "percentage": 4.0,
+        "question_count": 20
       },
       {
         "name": "Olili na Nkwà (Burial Rites)",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Echichi na Ọchịchị Ọdịnala (Titles and Governance)",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Emume na Okpukpe Ọdịnala (Festivals and Religion)",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       }
     ]
   },
   "islamic-studies": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "The Glorious Qur'an",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Hadith",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Tawhid and Faith",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Fiqh and Ibadah",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "Islamic Family Law",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Mu'amalat and Economics",
         "weight": 7.0,
-        "percentage": 7.0
+        "percentage": 7.0,
+        "question_count": 35
       },
       {
         "name": "Islamic History: Pre-Islamic to Abbasid Era",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Moral and Social System in Islam",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Islam in West Africa",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Islamic Reformers and Movements",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       }
     ]
   },
   "music": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Rudiments of Music",
         "weight": 20.0,
-        "percentage": 20.0
+        "percentage": 20.0,
+        "question_count": 100
       },
       {
         "name": "Harmony and Counterpoint",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "African Music",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "History of Western Music",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Musical Instruments and Classification",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Form and Analysis",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Biographies of African Musicians",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Biographies of Western Composers",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Music Technology and Acoustics",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       }
     ]
   },
   "physical-health-education": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "History and Philosophy of Physical Education",
         "weight": 7.0,
-        "percentage": 7.0
+        "percentage": 7.0,
+        "question_count": 35
       },
       {
         "name": "Anatomy and Physiology of Human Movement",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Athletics (Track and Field Events)",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Major Ball and Racket Games",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Gymnastics and Dance",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Recreation, Leisure and Outdoor Activities",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Physical Fitness and Body Conditioning",
         "weight": 9.0,
-        "percentage": 9.0
+        "percentage": 9.0,
+        "question_count": 45
       },
       {
         "name": "First Aid and Safety Education",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Personal and Community Health",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Nutrition and Sports Performance",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Diseases and Health Education",
         "weight": 7.0,
-        "percentage": 7.0
+        "percentage": 7.0,
+        "question_count": 35
       },
       {
         "name": "Drug, Alcohol and Tobacco Education",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Organization and Administration of Sports",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       }
     ]
   },
   "yoruba": {
     "source": "ai",
+    "target_questions": 500,
     "topics": [
       {
         "name": "Akaye",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "Foneti ati Fonoloji",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Girama Yoruba",
         "weight": 15.0,
-        "percentage": 15.0
+        "percentage": 15.0,
+        "question_count": 75
       },
       {
         "name": "Akotole ati Ami-Iro",
         "weight": 10.0,
-        "percentage": 10.0
+        "percentage": 10.0,
+        "question_count": 50
       },
       {
         "name": "Litireso Atenudenu",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Litireso Apagbe",
         "weight": 12.0,
-        "percentage": 12.0
+        "percentage": 12.0,
+        "question_count": 60
       },
       {
         "name": "Asa ati Esin Igbagbo",
         "weight": 8.0,
-        "percentage": 8.0
+        "percentage": 8.0,
+        "question_count": 40
       },
       {
         "name": "Awon Eko Omoluabi ati Ewo",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       },
       {
         "name": "Ise Isenbaye ati Ajoyo",
         "weight": 6.0,
-        "percentage": 6.0
+        "percentage": 6.0,
+        "question_count": 30
       },
       {
         "name": "Eto Iselu ati Ose Isenbaye",
         "weight": 5.0,
-        "percentage": 5.0
+        "percentage": 5.0,
+        "question_count": 25
       }
     ]
   }

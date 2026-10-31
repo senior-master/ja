@@ -1,0 +1,280 @@
+{
+  "subject_slug": "economics",
+  "exam_type": "jamb",
+  "fetched_at": "2026-10-31T08:08:44.073127+00:00",
+  "curriculum": [
+    {
+      "id": "f3d21fbe-deb2-4e65-8330-1545abe7b438",
+      "code": "ECONOMICS-DEVELOPMENT-ECONOMICS",
+      "subject": "economics",
+      "topic": "development-economics",
+      "topicName": "Development Economics",
+      "subtopics": [
+        "economic-growth",
+        "poverty",
+        "nigeria-economy",
+        "agricultural-sector",
+        "industrialisation",
+        "natural-resources",
+        "population",
+        "development-planning",
+        "oil-and-non-oil-sectors"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "cc11636a-fab5-4c01-be30-cb75a95262be",
+      "code": "JAMB-SS3-ECONOMICS-DEVELOPMENT-ECONOMICS",
+      "subject": "economics",
+      "topic": "development-economics",
+      "topicName": "Development Economics",
+      "subtopics": [
+        "population"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "appraise government population policy in Nigeria",
+      "bloomsLevel": 5,
+      "bloomsLabel": "Evaluate",
+      "prerequisiteTopics": [
+        "business-organizations"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "2942446b-a142-4df8-aa7f-f87f214410dc",
+      "code": "ECONOMICS-ECONOMICS-AS-A-SCIENCE",
+      "subject": "economics",
+      "topic": "economics-as-a-science",
+      "topicName": "Economics As A Science",
+      "subtopics": [
+        "basic-concepts",
+        "economic-problems",
+        "ppf",
+        "scale-of-preference",
+        "opportunity-cost"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "578ba428-98a6-4130-8842-717a181d33a0",
+      "code": "JAMB-SS3-ECONOMICS-ECONOMICS-AS-A-SCIENCE",
+      "subject": "economics",
+      "topic": "economics-as-a-science",
+      "topicName": "Economics As A Science",
+      "subtopics": [
+        "economic-problems"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "proffer solutions to economic problems",
+      "bloomsLevel": 6,
+      "bloomsLabel": "Create",
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T19:25:22+00:00",
+      "updatedAt": "2026-07-25T19:25:22+00:00"
+    },
+    {
+      "id": "e7abc7e7-394c-4c1d-9644-d92a3c64ec94",
+      "code": "ECONOMICS-FINANCIAL-ECONOMICS",
+      "subject": "economics",
+      "topic": "financial-economics",
+      "topicName": "Financial Economics",
+      "subtopics": [
+        "banking",
+        "money-markets",
+        "insurance",
+        "public-finance",
+        "taxation",
+        "capital-markets",
+        "financial-sector-regulation",
+        "money-creation",
+        "business-organizations",
+        "privatization-commercialization"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "d73ac14d-0a33-436f-8611-9e18d783be4b",
+      "code": "JAMB-SS3-ECONOMICS-FINANCIAL-ECONOMICS",
+      "subject": "economics",
+      "topic": "financial-economics",
+      "topicName": "Financial Economics",
+      "subtopics": [
+        "privatization-commercialization"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "compare the advantages and disadvantages of privatization and commercialization",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "natural-resources"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "7227c43e-fe1f-4cba-88d9-76a72126f0ec",
+      "code": "ECONOMICS-INTERNATIONAL-TRADE",
+      "subject": "economics",
+      "topic": "international-trade",
+      "topicName": "International Trade",
+      "subtopics": [
+        "balance-of-payments",
+        "exchange-rates",
+        "trade-theories",
+        "tariffs-quotas",
+        "balance-of-trade",
+        "absolute-comparative-advantage",
+        "composition-and-direction-of-trade",
+        "international-economic-organizations"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "faea2dad-1912-424e-a610-cc255eba5245",
+      "code": "JAMB-SS3-ECONOMICS-INTERNATIONAL-TRADE",
+      "subject": "economics",
+      "topic": "international-trade",
+      "topicName": "International Trade",
+      "subtopics": [
+        "international-economic-organizations"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "evaluate their relevance to the Nigerian economy",
+      "bloomsLevel": 5,
+      "bloomsLabel": "Evaluate",
+      "prerequisiteTopics": [
+        "exchange-rates"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "d22100ff-26db-474f-846e-baa0c8564ac7",
+      "code": "ECONOMICS-MACROECONOMICS",
+      "subject": "economics",
+      "topic": "macroeconomics",
+      "topicName": "Macroeconomics",
+      "subtopics": [
+        "national-income",
+        "gdp",
+        "inflation",
+        "unemployment",
+        "fiscal-policy",
+        "monetary-policy",
+        "deflation",
+        "quantity-theory-of-money",
+        "circular-flow-of-income",
+        "multiplier-theory",
+        "income-determination"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "c4c7ee24-ccc7-4288-af23-34c8ced2a691",
+      "code": "JAMB-SS3-ECONOMICS-MACROECONOMICS",
+      "subject": "economics",
+      "topic": "macroeconomics",
+      "topicName": "Macroeconomics",
+      "subtopics": [
+        "unemployment"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "suggest solutions to unemployment in Nigeria",
+      "bloomsLevel": 6,
+      "bloomsLabel": "Create",
+      "prerequisiteTopics": [
+        "international-economic-organizations"
+      ],
+      "createdAt": "2026-07-25T19:25:23+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    },
+    {
+      "id": "4f336c97-91fb-4620-9490-cc4e689bbd8d",
+      "code": "ECONOMICS-MICROECONOMICS",
+      "subject": "economics",
+      "topic": "microeconomics",
+      "topicName": "Microeconomics",
+      "subtopics": [
+        "demand-supply",
+        "market-structures",
+        "elasticity",
+        "consumer-theory",
+        "production-costs",
+        "price-determination",
+        "economic-systems",
+        "methods-and-tools-of-analysis",
+        "factors-of-production",
+        "wage-interest-profit-theories"
+      ],
+      "examBody": null,
+      "classLevel": null,
+      "learningObjective": null,
+      "bloomsLevel": null,
+      "bloomsLabel": null,
+      "prerequisiteTopics": [],
+      "createdAt": "2026-07-25T18:48:30+00:00",
+      "updatedAt": "2026-07-25T18:48:30+00:00"
+    },
+    {
+      "id": "f3bd92ce-29a8-4f9d-836b-0788b26d500e",
+      "code": "JAMB-SS3-ECONOMICS-MICROECONOMICS",
+      "subject": "economics",
+      "topic": "microeconomics",
+      "topicName": "Microeconomics",
+      "subtopics": [
+        "factors-of-production"
+      ],
+      "examBody": "JAMB",
+      "classLevel": "SS3",
+      "learningObjective": "examine factors mobility and efficiency",
+      "bloomsLevel": 4,
+      "bloomsLabel": "Analyse",
+      "prerequisiteTopics": [
+        "international-economic-organizations"
+      ],
+      "createdAt": "2026-07-25T19:25:22+00:00",
+      "updatedAt": "2026-07-25T19:25:23+00:00"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subject_slug": "islamic-studies",
+  "exam_type": "jamb",
+  "source": "ai_generated",
+  "model": "gemini-3.6-flash",
+  "fetched_at": "2026-10-31T09:04:35.474786+00:00",
+  "topics": [
+    {
+      "id": 1,
+      "name": "The Glorious Qur'an",
+      "percentage": 12.0,
+      "difficulty": null
+    },
+    {
+      "id": 2,
+      "name": "Hadith",
+      "percentage": 12.0,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Tawhid and Faith",
+      "percentage": 10.0,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Fiqh and Ibadah",
+      "percentage": 15.0,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Islamic Family Law",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Mu'amalat and Economics",
+      "percentage": 7.0,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Islamic History: Pre-Islamic to Abbasid Era",
+      "percentage": 12.0,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Moral and Social System in Islam",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Islam in West Africa",
+      "percentage": 8.0,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Islamic Reformers and Movements",
+      "percentage": 8.0,
+      "difficulty": null
+    }
+  ]
+}
