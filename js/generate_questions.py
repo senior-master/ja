@@ -248,8 +248,13 @@ def main():
     if not GEMINI_KEYS:
         print("ERROR: GEMINI_API_KEYS empty", file=sys.stderr)
         return 1
-    if not PLAN_FILE.exists():
-        print(f"ERROR: {PLAN_FILE} missing", file=sys.stderr)
+    REQUIRED = [PLAN_FILE, SUBJECTS_FILE, ROOT / "js" / "subject_prompts.py"]
+    missing = [str(f.relative_to(ROOT)) for f in REQUIRED if not f.exists()]
+    if missing:
+        print("ERROR: missing required files:", file=sys.stderr)
+        for f in missing:
+            print(f"   {f}", file=sys.stderr)
+        print("Fix: git add + commit + push these files.", file=sys.stderr)
         return 1
 
     global PROGRESS
