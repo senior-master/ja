@@ -2891,10 +2891,12 @@
           "Rule of Law",
           "Centralization and Decentralization",
           "Delegated Legislation",
-          "The State"
+          "The State",
+          "Nation and Nation-State",
+          "Constitutionalism"
         ],
-        "questions_generated": 170,
-        "complete": false
+        "questions_generated": 189,
+        "complete": true
       },
       "Democracy": {
         "subtopics": [
@@ -5563,10 +5565,15 @@
           "Distinction entre les faits et les opinions de l'auteur",
           "Identification du ton, du registre et de l'attitude de l'auteur",
           "Interprétation des pronoms de reprise et des substituts lexicaux",
-          "Analyse de la structure argumentative et des exemples"
+          "Analyse de la structure argumentative et des exemples",
+          "Compréhension des faits divers et des articles de presse",
+          "Interprétation des correspondances (lettres, courriels, messages)",
+          "Compréhension des textes publicitaires et des annonces",
+          "Analyse des portraits physiques et psychologiques de personnages",
+          "Compréhension des instructions et des modes d'emploi"
         ],
-        "questions_generated": 80,
-        "complete": false
+        "questions_generated": 125,
+        "complete": true
       },
       "Grammaire": {
         "subtopics": [
@@ -5601,10 +5608,12 @@
           "Les prépositions et les adverbes de lieu et de temps",
           "Les adjectifs et pronoms possessifs et démonstratifs",
           "La négation (ne...pas, ne...plus, ne...rien, ne...personne)",
-          "L'interrogation (est-ce que, inversion, les mots interrogatifs)"
+          "L'interrogation (est-ce que, inversion, les mots interrogatifs)",
+          "Les verbes pronominaux et leur conjugaison",
+          "Le comparatif et le superlatif"
         ],
-        "questions_generated": 80,
-        "complete": false
+        "questions_generated": 100,
+        "complete": true
       },
       "Vocabulaire": {
         "subtopics": [
@@ -6712,10 +6721,11 @@
           "Classification of Hadith based on authenticity",
           "Classification of Hadith based on transmission",
           "Structure and components of a Hadith",
-          "Prominent compilers of Hadith and their works"
+          "Prominent compilers of Hadith and their works",
+          "Application and relevance of Hadith in Islamic jurisprudence"
         ],
-        "questions_generated": 50,
-        "complete": false
+        "questions_generated": 60,
+        "complete": true
       },
       "Tawhid and Faith": {
         "subtopics": [
@@ -6768,10 +6778,13 @@
           "Salah (Prayer): Conditions, obligatory acts, invalidators, and congregational/special prayers",
           "Zakah (Alms-giving): Nisab, conditions, beneficiaries, and types of wealth taxable",
           "Sawm (Fasting): Conditions, exempted persons, acts that invalidate fasting, and voluntary fasts",
-          "Hajj and Umrah: Rites, conditions, differences, and types of Hajj (Tamattu, Ifrad, Qiran)"
+          "Hajj and Umrah: Rites, conditions, differences, and types of Hajj (Tamattu, Ifrad, Qiran)",
+          "Family Law (Nikah and Talaq): Conditions of valid marriage, rights of spouses, and forms of divorce",
+          "Inheritance (Mirath): Shares of primary heirs, calculation basis, and impediments to inheritance",
+          "Islamic Economic System: Halal and Haram earnings, Riba (usury), and business ethics"
         ],
-        "questions_generated": 48,
-        "complete": false
+        "questions_generated": 75,
+        "complete": true
       },
       "Islamic Family Law": {
         "subtopics": [
@@ -6839,10 +6852,11 @@
           "The Life and Prophetic Mission of Prophet Muhammad (PBUH) in Makkah and Madinah",
           "The Era of the Rightly-Guided Caliphs (Khulafa'u Rashidun): Achievements and Challenges",
           "The Establishment and Administration of the Umayyad Dynasty",
-          "The Rise of the Abbasid Dynasty, Intellectual Movements, and the House of Wisdom"
+          "The Rise of the Abbasid Dynasty, Intellectual Movements, and the House of Wisdom",
+          "Major Socio-Economic and Scientific Developments during the Abbasid Era"
         ],
-        "questions_generated": 50,
-        "complete": false
+        "questions_generated": 60,
+        "complete": true
       },
       "Moral and Social System in Islam": {
         "subtopics": [
@@ -6944,10 +6958,15 @@
           "Note values and rests",
           "Time signatures and meter",
           "Major and minor scales",
-          "Key signatures"
+          "Key signatures",
+          "Intervals",
+          "Triads and chords",
+          "Musical terms and signs",
+          "Transposition",
+          "Ornaments and embellishments"
         ],
-        "questions_generated": 49,
-        "complete": false
+        "questions_generated": 99,
+        "complete": true
       },
       "Harmony and Counterpoint": {
         "subtopics": [
@@ -6975,10 +6994,13 @@
           "Voice Leading and Part-Writing Rules",
           "Harmonization of Melodies",
           "Inversions of Triads and Seventh Chords",
-          "Non-Harmonic Tones and Embellishments"
+          "Non-Harmonic Tones and Embellishments",
+          "Modulation and Secondary Dominants",
+          "Two-Part Counterpoint and Imitation",
+          "Figured Bass Realization"
         ],
-        "questions_generated": 48,
-        "complete": false
+        "questions_generated": 75,
+        "complete": true
       },
       "African Music": {
         "subtopics": [
@@ -7006,10 +7028,13 @@
           "Socio-cultural Functions of African Music",
           "African Rhythmic Structures and Polyrhythm",
           "Vocal Styles and Performance Techniques in African Music",
-          "Forms and Structures of African Traditional Music"
+          "Forms and Structures of African Traditional Music",
+          "Origin, Characteristics, and Types of Nigerian Folk Music",
+          "Popular African Music Genres and Their Evolution",
+          "Traditional African Dance and Its Relationship with Music"
         ],
-        "questions_generated": 48,
-        "complete": false
+        "questions_generated": 75,
+        "complete": true
       },
       "History of Western Music": {
         "subtopics": [
@@ -7033,10 +7058,11 @@
           "Baroque Period Characteristics and Key Figures",
           "Classical Period Musical Forms and Composers",
           "Romantic Era Musical Styles and Developments",
-          "20th Century Modern Music Trends and Innovations"
+          "20th Century Modern Music Trends and Innovations",
+          "Development of Opera and Sacred Choral Music"
         ],
-        "questions_generated": 50,
-        "complete": false
+        "questions_generated": 60,
+        "complete": true
       },
       "Musical Instruments and Classification": {
         "subtopics": [
@@ -7467,10 +7493,14 @@
           "Itumo awon oro pataki ninu ewi tabi prose",
           "Asayan akori tabi akole to yẹ fun ayokuro",
           "Idamo awonasede tabi gbolohun akoko ninu ayokuro",
-          "Itumo awon owe ati asa ti a lo ninu ayokuro"
+          "Itumo awon owe ati asa ti a lo ninu ayokuro",
+          "Lilo awon oro aropo oruko ati olutoka ninu ayokuro",
+          "Idamo awon eri tabi ohun ti o fa iye pataki kan ninu itan",
+          "Fifohunsesile tabi sise afihan iwa awon ohun kikọ ninu itan",
+          "Asọtẹlẹ tabi ipari ti o tọ si itan ti a ka"
         ],
-        "questions_generated": 39,
-        "complete": false
+        "questions_generated": 75,
+        "complete": true
       },
       "Foneti ati Fonoloji": {
         "subtopics": [
@@ -7493,10 +7523,12 @@
           "KonsonantisÌtiOnkaWọn",
           "FaweliatiIpinWọn",
           "SawundaAtọkaFonimu",
-          "AmiOhùnAtiLiloWọn"
+          "AmiOhùnAtiLiloWọn",
+          "IlanaIsunkiAtiIyipadaOhùn",
+          "SílàatiItojuGbolohun"
         ],
-        "questions_generated": 40,
-        "complete": false
+        "questions_generated": 60,
+        "complete": true
       },
       "Girama Yoruba": {
         "subtopics": [
@@ -7523,10 +7555,14 @@
           "Aworopo ati Iwa won",
           "Oruko ni Ede Yoruba",
           "Aponle ati Ise won ninu Gbolohun",
-          "Oro-Asopo ati Oro-Atokun"
+          "Oro-Asopo ati Oro-Atokun",
+          "Eya Gbolohun Yoruba",
+          "Silebu ati Onka Silebu",
+          "Isori Oro ni Ede Yoruba",
+          "Leta Pipele ati Akojopo won"
         ],
-        "questions_generated": 39,
-        "complete": false
+        "questions_generated": 75,
+        "complete": true
       },
       "Akotole ati Ami-Iro": {
         "subtopics": [
@@ -7547,10 +7583,11 @@
           "Itumo ati lilo akotole ni ede Yoruba",
           "Awon iyato to wa laarin akotole ati ami-iro",
           "Ipa ti ami-iro n ko lori pipe ati wiwo awon oro",
-          "Awon ofin ti o n se akoso lilo ami-iro ohun"
+          "Awon ofin ti o n se akoso lilo ami-iro ohun",
+          "Itoju atiasopo lilo akotole ati ami-iro ninu gbolohun"
         ],
-        "questions_generated": 40,
-        "complete": false
+        "questions_generated": 50,
+        "complete": true
       },
       "Litireso Atenudenu": {
         "subtopics": [
@@ -7573,10 +7610,12 @@
           "Oriki Orile ati Asa Idile",
           "Orin Itan ati Orin Esin",
           "Owe ati Itumo won",
-          "Alo Apamo ati Alo Apajulo"
+          "Alo Apamo ati Alo Apajulo",
+          "Ewi Aileniyan ati Ewi Alaye",
+          "Asayan Arofo ati Itan Itan Oro"
         ],
-        "questions_generated": 40,
-        "complete": false
+        "questions_generated": 60,
+        "complete": true
       },
       "Litireso Apagbe": {
         "subtopics": [
@@ -7599,10 +7638,12 @@
           "Itan Ajeseku ati Itan Afomo",
           "Oriki Orile ati Oriki Idile",
           "Alo Apamo ati Alo Agbara",
-          "Owe ati Asa Ifarahan Wọn"
+          "Owe ati Asa Ifarahan Wọn",
+          "Ewi Aileenu ati Asa Ribo",
+          "Ere Onitan Kekere ati Asa Yoruba"
         ],
-        "questions_generated": 40,
-        "complete": false
+        "questions_generated": 60,
+        "complete": true
       },
       "Asa ati Esin Igbagbo": {
         "subtopics": [
@@ -7677,10 +7718,11 @@
         ],
         "subtopics_done": [
           "Awọn Ẹka Ìṣèlù ìbílẹ̀ Yoruba ati Awọn Aṣoju Wọn",
-          "Awọn Ẹ̀tọ́ ati Ojuse Awọn Ọmọ Ilẹ ni Ilu Isenbaye"
+          "Awọn Ẹ̀tọ́ ati Ojuse Awọn Ọmọ Ilẹ ni Ilu Isenbaye",
+          "Awọn Ohun Elo ati Awọn Ajọ Ìdájọ́ ni Ilu Isenbaye"
         ],
-        "questions_generated": 17,
-        "complete": false
+        "questions_generated": 25,
+        "complete": true
       }
     }
   }
