@@ -12,8 +12,10 @@
           5,
           5
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Causes of discrepancies between cash book and bank statement balances"
+        ],
+        "questions_generated": 6,
         "complete": false
       },
       "Partnership accounts": {
@@ -39,8 +41,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Nature and formation of partnership"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Branch accounts": {
@@ -66,8 +70,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Meaning and objectives of branch accounts"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Departmental accounts": {
@@ -89,8 +95,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Meaning and objectives of departmental accounts"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Cost accounting": {
@@ -112,8 +120,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Classification and behavior of costs"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Not for profit": {
@@ -135,8 +145,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Receipts and Payments Account"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Financial economics": {
@@ -150,8 +162,10 @@
           5,
           5
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Cost-benefit analysis and investment appraisal methods"
+        ],
+        "questions_generated": 6,
         "complete": false
       },
       "Company accounts": {
@@ -177,8 +191,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Definition and Classification of Companies"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Government": {
@@ -192,8 +208,10 @@
           5,
           5
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Preparation of government financial statements"
+        ],
+        "questions_generated": 6,
         "complete": false
       },
       "Nigerian government": {
@@ -207,8 +225,10 @@
           5,
           5
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Preparation and presentation of government financial statements"
+        ],
+        "questions_generated": 6,
         "complete": false
       }
     }
@@ -234,8 +254,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Mendelian inheritance and monohybrid crosses"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Agricultural science": {
@@ -249,8 +271,10 @@
           4,
           3
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Crop Production and Management Practices"
+        ],
+        "questions_generated": 4,
         "complete": false
       },
       "Microbiology": {
@@ -270,8 +294,10 @@
           9,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Viruses and their economic importance"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Agriculture": {
@@ -285,8 +311,10 @@
           4,
           3
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Crop Production and Management"
+        ],
+        "questions_generated": 4,
         "complete": false
       },
       "Ecology": {
@@ -314,8 +342,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Concept of Ecology and Ecosystem"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Human biology": {
@@ -341,8 +371,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Digestive System and Nutrition in Humans"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Cell biology": {
@@ -360,8 +392,10 @@
           8,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Structure and functions of plant and animal cell organelles"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Plant biology": {
@@ -383,8 +417,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Morphology and Modification of Plant Organs"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Biochemistry": {
@@ -398,8 +434,10 @@
           4,
           3
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Carbohydrates, Lipids and Proteins: Structures, Sources, Properties and Tests"
+        ],
+        "questions_generated": 4,
         "complete": false
       },
       "Reproduction in plants": {
@@ -413,8 +451,10 @@
           2,
           2
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Structure and types of flowers, pollination mechanisms, and fertilization processes"
+        ],
+        "questions_generated": 2,
         "complete": false
       },
       "Animal production": {
@@ -428,8 +468,10 @@
           4,
           3
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Livestock management systems and housing"
+        ],
+        "questions_generated": 4,
         "complete": false
       },
       "Disease transmission": {
@@ -443,8 +485,10 @@
           2,
           2
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Vectors and their modes of transmitting pathogens"
+        ],
+        "questions_generated": 3,
         "complete": false
       },
       "Adaptation": {
@@ -458,8 +502,10 @@
           2,
           2
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Structural adaptations in plants and animals to various habitats"
+        ],
+        "questions_generated": 2,
         "complete": false
       },
       "Animal biology": {
@@ -473,8 +519,10 @@
           4,
           3
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Mammalian internal anatomy and physiology"
+        ],
+        "questions_generated": 4,
         "complete": false
       },
       "Soil biology": {
@@ -488,8 +536,10 @@
           4,
           3
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Composition and profile of soil"
+        ],
+        "questions_generated": 4,
         "complete": false
       },
       "Classification of plants": {
@@ -503,8 +553,10 @@
           2,
           2
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "General characteristics and divisions of the plant kingdom (Thallophyta, Bryophyta, Pteridophyta, Spermatophyta)"
+        ],
+        "questions_generated": 2,
         "complete": false
       }
     }
@@ -530,8 +582,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Exothermic and endothermic reactions"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "States of matter": {
@@ -549,8 +603,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Gas laws and the ideal gas equation"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Stoichiometry": {
@@ -566,8 +622,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Mole concept and molar mass calculations"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Chemical bonding": {
@@ -581,8 +639,10 @@
           3,
           3
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Electrovalent and covalent bonding"
+        ],
+        "questions_generated": 3,
         "complete": false
       },
       "Organic chemistry": {
@@ -610,8 +670,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Classification and IUPAC nomenclature of organic compounds"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Inorganic chemistry": {
@@ -639,8 +701,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Periodic Table and Periodicity"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Modern physics": {
@@ -654,8 +718,10 @@
           5,
           5
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Photoelectric emission and Einstein's equation"
+        ],
+        "questions_generated": 5,
         "complete": false
       },
       "Acidic structure": {
@@ -669,8 +735,10 @@
           5,
           4
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Conjugate acid-base pairs according to Bronsted-Lowry theory"
+        ],
+        "questions_generated": 5,
         "complete": false
       },
       "Atomic structure": {
@@ -692,8 +760,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Fundamental particles of the atom and their properties"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Separation and purification": {
@@ -709,8 +779,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Principles and techniques of filtration and crystallization"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Heat": {
@@ -724,8 +796,10 @@
           5,
           4
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Exothermic and Endothermic Reactions"
+        ],
+        "questions_generated": 5,
         "complete": false
       }
     }
@@ -743,8 +817,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Creation stories and the nature of God"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Christian living": {
@@ -774,8 +850,10 @@
           10,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The meaning and demand of Christian living"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "New testament": {
@@ -809,8 +887,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The birth and early life of Jesus"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Old testament": {
@@ -842,8 +922,10 @@
           10,
           10
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Creation and the Fall of Man"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Biblical Themes and Theology": {
@@ -857,8 +939,10 @@
           10,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The Concept of Law and Grace in Pauline Epistles"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Christian Ethics and Morality": {
@@ -872,8 +956,10 @@
           10,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Honesty and Integrity"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "History of the Christian Church": {
@@ -887,8 +973,10 @@
           10,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Missionary activities in West Africa including the challenges and impact"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Christian Doctrines and Beliefs": {
@@ -902,8 +990,10 @@
           10,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "The Concept and Significance of Justification by Faith"
+        ],
+        "questions_generated": 10,
         "complete": false
       }
     }
@@ -939,8 +1029,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Meaning and types of citizenship"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "Democracy": {
@@ -980,8 +1072,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Definition and characteristics of democracy"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "National issues": {
@@ -1013,8 +1107,10 @@
           9,
           9
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Cultism"
+        ],
+        "questions_generated": 10,
         "complete": false
       },
       "International relations": {
@@ -1028,8 +1124,10 @@
           8,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Nigeria's foreign policy and non-aligned movement"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Human Rights and Rule of Law": {
@@ -1043,8 +1141,10 @@
           8,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Definition, types, and importance of fundamental human rights"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Political Participation": {
@@ -1058,8 +1158,10 @@
           4,
           4
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Meaning and forms of political participation"
+        ],
+        "questions_generated": 5,
         "complete": false
       },
       "Social Values and Norms": {
@@ -1073,8 +1175,10 @@
           8,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Meaning, types, and importance of social values"
+        ],
+        "questions_generated": 9,
         "complete": false
       },
       "Constitutional Development in Nigeria": {
@@ -1088,8 +1192,10 @@
           8,
           8
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Pre-Independence Constitutions (Clifford, Richards, Macpherson, and Lyttleton)"
+        ],
+        "questions_generated": 9,
         "complete": false
       }
     }
@@ -1107,8 +1213,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Preparation of Trading, Profit and Loss Account and Balance Sheet"
+        ],
+        "questions_generated": 7,
         "complete": false
       },
       "International trade": {
@@ -1122,8 +1230,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Balance of trade and balance of payments"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Economics": {
@@ -1137,8 +1247,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Demand and Supply"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Financial economics": {
@@ -1152,8 +1264,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Inflation and deflation"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "African politics": {
@@ -1167,8 +1281,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "ECOWAS and economic integration in West Africa"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Partnership accounts": {
@@ -1182,8 +1298,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Preparation of Profit and Loss Appropriation Account"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Development economics": {
@@ -1197,8 +1315,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Indicators of economic growth and development"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Macroeconomics": {
@@ -1212,8 +1332,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "National Income Accounting"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Microeconomics": {
@@ -1227,8 +1349,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Theory of Demand and Supply"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Na": {
@@ -1242,8 +1366,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Nature and Scope of Commerce"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Nigerian government": {
@@ -1257,8 +1383,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Public Enterprises and Privatization in Nigeria"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "International relations": {
@@ -1272,8 +1400,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Economic Community of West African States (ECOWAS)"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Financial accounting": {
@@ -1287,8 +1417,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Preparation of Trading, Profit and Loss Account and Balance Sheet"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Company accounts": {
@@ -1302,8 +1434,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Trading, Profit and Loss Account"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Agricultural science": {
@@ -1317,8 +1451,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Meaning and Importance of Agriculture"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Government": {
@@ -1332,8 +1468,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Public Enterprises and Corporations"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Human geography": {
@@ -1347,8 +1485,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Population concepts, growth, and distribution in Nigeria"
+        ],
+        "questions_generated": 8,
         "complete": false
       },
       "Algebra further": {
@@ -1362,9 +1502,11 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
-        "complete": false
+        "subtopics_done": [
+          "Algebra further"
+        ],
+        "questions_generated": 8,
+        "complete": true
       },
       "Geography": {
         "subtopics": [
@@ -1377,8 +1519,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Location and position of Nigeria in relation to other West African countries"
+        ],
+        "questions_generated": 7,
         "complete": false
       },
       "Civic education": {
@@ -1392,8 +1536,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Consumer rights and responsibilities"
+        ],
+        "questions_generated": 7,
         "complete": false
       },
       "Further topics": {
@@ -1407,8 +1553,10 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "E-commerce"
+        ],
+        "questions_generated": 7,
         "complete": false
       },
       "National issues": {
@@ -1422,13 +1570,23 @@
           7,
           7
         ],
-        "subtopics_done": [],
-        "questions_generated": 0,
+        "subtopics_done": [
+          "Consumerism and Consumer Protection"
+        ],
+        "questions_generated": 7,
         "complete": false
       },
       "English language": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Lexis and Structure",
+          "Oral Forms",
+          "Comprehension and Summary"
+        ],
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -1438,78 +1596,216 @@
   "economics": {
     "topics": {
       "Financial economics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Commercial banks and their functions",
+          "Central bank and monetary policy instruments",
+          "Non-bank financial institutions",
+          "The capital market and stock exchange",
+          "The money market instruments",
+          "Inflation and its economic effects",
+          "Deflation and measures to control it",
+          "Public finance and government budget"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "International trade": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Meaning and basis of international trade",
+          "Reasons for and differences between international and domestic trade",
+          "Balance of trade and balance of payments",
+          "Tariffs and other trade restriction measures",
+          "Foreign exchange market and exchange rate determination",
+          "Economic integration and trading blocs",
+          "International economic organizations like OPEC, ECOWAS, IMF, and WTO"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Microeconomics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Theory of Demand and Supply",
+          "Price Determination and Equilibrium",
+          "Theory of Consumer Behaviour",
+          "Theory of Production",
+          "Costs of Production and Revenue Concepts",
+          "Market Structures",
+          "Theory of Distribution",
+          "Price Legislation and Controls"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Accounting": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Basic Accounting Concepts and Principles",
+          "Preparation of Financial Statements",
+          "Interpretation of Financial Ratios"
+        ],
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Macroeconomics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "National Income Accounting and Measurement",
+          "Inflation and Deflation",
+          "Public Finance and Taxation",
+          "Money and Banking Systems",
+          "International Trade and Balance of Payments",
+          "Economic Growth and Development",
+          "Unemployment and Employment Theories",
+          "Fiscal and Monetary Policies",
+          "The Role of Economic Institutions"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Development economics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Meaning and measurement of economic growth versus economic development",
+          "Indicators of underdevelopment and characteristics of developing countries",
+          "Role of agriculture and industrialization in economic development",
+          "Population growth, demographic transition, and human capital development",
+          "Economic planning, objectives, types, and problems in Nigeria",
+          "Role of international financial institutions and foreign aid in development",
+          "Capital accumulation, savings, and investment in developing economies",
+          "Poverty, income inequality, and strategies for poverty alleviation in Nigeria"
+        ],
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Partnership accounts": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Preparation of profit and loss appropriation accounts",
+          "Treatment of partners' current and capital accounts",
+          "Admission and retirement of partners"
+        ],
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Location, Position and Boundaries of Nigeria",
+          "Major Minerals, Energy Resources and Their Distribution in Nigeria",
+          "Agricultural Production and Major Cash/Food Crops in Nigeria"
+        ],
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Company accounts": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Definition and components of trading, profit and loss accounts",
+          "Distinction between authorized, issued, called-up and paid-up share capital",
+          "Interpretation of basic financial ratios from company balance sheets"
+        ],
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Human geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Population growth, distribution, and structure",
+          "Migration causes, patterns, and socioeconomic effects",
+          "Urbanization processes, problems, and control measures"
+        ],
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Statistics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Measures of Central Tendency",
+          "Measures of Dispersion",
+          "Presentation of Statistical Data"
+        ],
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -1519,64 +1815,192 @@
   "english-language": {
     "topics": {
       "Grammar": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Noun Phrases and Noun Clauses",
+          "Agreement (Concord)",
+          "Tenses and Sequence of Tenses",
+          "Pronouns and Case",
+          "Auxiliary and Lexical Verbs",
+          "Adjectives and Adjectival Clauses",
+          "Adverbs and Adverbial Clauses",
+          "Prepositions and Phrasal Verbs",
+          "Direct and Indirect Speech",
+          "Active and Passive Voice",
+          "Question Tags and Conditional Sentences"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Government": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Arms of Government and Separation of Powers",
+          "Forms of Government",
+          "Citizenship and Fundamental Human Rights"
+        ],
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Comprehension": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Literal Comprehension",
+          "Inferential Comprehension",
+          "Vocabulary in Context",
+          "Identification of Grammatical Structures",
+          "Identification of Literary Devices and Figurative Language",
+          "Identification of Authorial Tone and Attitude",
+          "Identification of Authorial Purpose and Intent",
+          "Summary of Main Ideas and Paragraph Themes",
+          "Deduction of Logical Conclusions from Text",
+          "Differentiation Between Fact and Opinion",
+          "Syntactic Substitution and Paraphrasing"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Oral english": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Pure Vowels",
+          "Diphthongs",
+          "Consonant Sounds",
+          "Word Stress",
+          "Sentence Stress",
+          "Emphatic Stress",
+          "Intonation Patterns",
+          "Rhyme",
+          "Consonant Clusters",
+          "Silent Letters",
+          "Homophones"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Literature in english": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Literary Appreciations and Figures of Speech",
+          "Drama and Prose Set Text Analysis",
+          "Poetry Themes and Poetic Devices"
+        ],
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Vocabulary": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Synonyms and Antonyms",
+          "Idiomatic Expressions and Phrasal Verbs",
+          "Confused Words and Common Errors",
+          "Word Formation and Affixation",
+          "Registers and Specialized Terminology",
+          "One-Word Substitutes",
+          "Collocations and Fixed Expressions"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Writing": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Letter writing",
+          "Speech writing",
+          "Report writing"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Drama": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Dramatic Devices and Techniques",
+          "Characterization and Character Relationships",
+          "Plot Structure and Conflict Development"
+        ],
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Map reading and interpretation",
+          "Weather and climate",
+          "Environmental hazards and management"
+        ],
+        "questions_per_subtopic": [
+          7,
+          7,
+          7
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -1586,85 +2010,245 @@
   "geography": {
     "topics": {
       "Regional geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Major relief divisions and drainage systems of Nigeria",
+          "Climate types, seasonal variations, and vegetation belts in Nigeria",
+          "Population distribution, migration patterns, and demographic characteristics in Nigeria",
+          "Agricultural production, major cash and food crops, and livestock distribution in Nigeria",
+          "Mineral resources, energy production, and industrial development in Nigeria",
+          "Transportation networks, communication systems, and internal trade in Nigeria",
+          "Major geographical regions of West Africa: Relief, climate, and vegetation",
+          "Economic cooperation in West Africa with emphasis on ECOWAS",
+          "Environmental hazards and conservation in Nigeria and West Africa"
+        ],
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Human geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Population distribution and density in Nigeria",
+          "Migration patterns and consequences",
+          "Settlement types and patterns in tropical regions",
+          "Urbanization processes and associated problems",
+          "Agricultural systems and practices in West Africa",
+          "Transportation networks and their economic impacts",
+          "Manufacturing industries and location factors in Nigeria",
+          "Commercial activities and international trade",
+          "Resource utilization and environmental conservation",
+          "Tourism potential and development in Nigeria"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Ocean currents": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Causes and factors influencing the formation of ocean currents",
+          "Major ocean currents of the world and their geographical locations",
+          "Effects of ocean currents on global climate and human activities"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Africa geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Relief, Drainage, and Climate of Africa",
+          "Major Agricultural and Mineral Resources of Africa",
+          "Population Distribution, Settlement Patterns, and Transportation in Africa"
+        ],
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Agriculture geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Types and Systems of Agriculture in Nigeria",
+          "Major Crops Produced in Nigeria and Their Distribution",
+          "Problems and Prospects of Nigerian Agriculture"
+        ],
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Physical geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Earth in the solar system",
+          "Rocks and their modes of formation",
+          "Weathering processes and landforms",
+          "Plate tectonics and vulcanicity",
+          "Earthquakes and faulting landforms",
+          "Action of rivers and fluvial landforms",
+          "Action of wind and desert landforms",
+          "Glaciation and glacial landforms",
+          "Action of waves and coastal landforms",
+          "Weather elements and instrumentation",
+          "Climate types and world distribution",
+          "Soil formation and soil profile",
+          "Vegetation types and plant biomes",
+          "Drainage systems and watersheds",
+          "Environmental hazards and pollution",
+          "Map reading and cross-section interpretation"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Nigeria geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Physical Setting of Nigeria",
+          "Agricultural Production and Mineral Resources in Nigeria",
+          "Population Distribution and Urbanization in Nigeria"
+        ],
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Map work": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Scale and measurement of distance",
+          "Calculation of bearing and directional orientation",
+          "Identification and interpretation of conventional signs and symbols",
+          "Contour representation and relief features",
+          "Calculation of gradient and intervisibility",
+          "Drainage patterns and river basin characteristics",
+          "Map reduction and enlargement",
+          "Cross-section construction and profile drawing",
+          "Identification of human activities from map evidence"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "International trade": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Meaning, importance and basis of international trade",
+          "Major commodities, trading partners and trade routes",
+          "Problems of international trade and solutions"
+        ],
+        "questions_per_subtopic": [
+          5,
+          4,
+          4
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "International relations": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "ECOWAS and Regional Integration in West Africa",
+          "Global Trade Patterns and Commodity Exchange",
+          "International Organizations and River Basin Commissions"
+        ],
+        "questions_per_subtopic": [
+          5,
+          4,
+          4
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "World geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Major Landforms and Relief Features of the Continents",
+          "Global Climate Types, Characteristics, and Distribution",
+          "World Population Distribution, Growth, and Movement"
+        ],
+        "questions_per_subtopic": [
+          3,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Agricultural science": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Types and Systems of Agriculture",
+          "Agricultural Pests and Diseases",
+          "Factors Affecting Agricultural Production"
+        ],
+        "questions_per_subtopic": [
+          5,
+          4,
+          4
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -1674,64 +2258,198 @@
   "government": {
     "topics": {
       "Geography": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Location, position and boundaries of Nigeria",
+          "Relief, drainage and climate of Nigeria",
+          "Population distribution and movement in Nigeria"
+        ],
+        "questions_per_subtopic": [
+          7,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "African politics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Organization of African Unity and the African Union",
+          "Nigeria's foreign policy and role in West Africa",
+          "Decolonization processes and nationalist movements in Africa",
+          "Sub-regional organizations such as ECOWAS"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "International relations": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Foreign policy formulation and determinants in Nigeria",
+          "Nigeria's role and contributions to the ECOWAS",
+          "Functions and structures of the United Nations and its specialized agencies",
+          "Origin, objectives, and achievements of the African Union",
+          "Non-Aligned Movement and the Commonwealth of Nations",
+          "Diplomatic instruments and methods of resolving international conflicts"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Political concepts": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Power",
+          "Authority",
+          "Legitimacy",
+          "Sovereignty",
+          "Democracy",
+          "Political Culture",
+          "Political Socialization",
+          "Political Participation",
+          "Political Apathy",
+          "Ideology",
+          "Liberty",
+          "Equality",
+          "Rights and Duties",
+          "Rule of Law",
+          "Centralization and Decentralization",
+          "Delegated Legislation",
+          "The State",
+          "Nation and Nation-State",
+          "Constitutionalism"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Democracy": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Types and Characteristics of Democracy",
+          "Pillars and Conditions Essential for Democracy",
+          "Processes and Mechanisms of Electoral Systems"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Political thought": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Karl Marx and Scientific Socialism",
+          "Plato and Aristotelian Political Philosophy",
+          "Thomas Hobbes and the Social Contract Theory",
+          "John Locke and the Foundations of Liberalism",
+          "Jean-Jacques Rousseau and the General Will",
+          "Obafemi Awolowo and Democratic Socialism"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Nigerian government": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Pre-colonial political systems in Nigeria",
+          "Colonial administration and constitutional development in Nigeria",
+          "Nigerian nationalism and the struggle for independence",
+          "Post-independence political evolution and military rule",
+          "Structure and functions of the arms of government in the Nigerian presidential system",
+          "Inter-governmental relations and the structure of Nigerian federalism",
+          "Public service, civil service, and parastatals in Nigeria",
+          "Electoral systems, processes, and the role of INEC in Nigeria",
+          "Political parties, pressure groups, and public opinion in Nigeria",
+          "Major challenges of Nigerian federalism, including ethnicity, corruption, and state creation",
+          "Nigeria's foreign policy objectives, non-alignment, and relations with international organizations"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Civic education": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Meaning, features, and importance of citizenship",
+          "Pillars, types, and functions of democracy",
+          "Human rights and responsibilities of citizens"
+        ],
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Islamic history": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Life and Times of Prophet Muhammad",
+          "The Caliphate of the Rightly Guided Caliphs",
+          "The Spread of Islam in West Africa"
+        ],
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -1741,36 +2459,146 @@
   "history": {
     "topics": {
       "Nigeria: Earliest Times to 1800": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Nok Culture and Iron Technology in Nigeria",
+          "Archaeological Discoveries of Igbo-Ukwu and Material Culture",
+          "Early History and Political Organization of the Yoruba Kingdoms",
+          "The Rise and Development of the Benin Kingdom up to 1800",
+          "The Origin, Growth, and Decline of the Old Oyo Empire",
+          "The History and Social-Political Structure of the Hausa States",
+          "The Kingdom of Kanem-Borno: Origins, Rise, and Reforms",
+          "The Impact of Trans-Saharan Trade on Early Nigerian Societies",
+          "Early Migrations and Settlement Patterns of Ethnic Groups in Nigeria",
+          "Traditional Religions, Socio-Political Institutions, and Economy of Pre-1800 Societies"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Nigeria in the 19th Century": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Sokoto Jihad of 1804 and its socio-political consequences",
+          "The collapse of the Oyo Empire and the Yoruba civil wars of the 19th century",
+          "The rise and expansion of the Ibadan military state",
+          "The Egba united government and the leadership of missionaries in Abeokuta",
+          "British colonial penetration and annexation of Lagos in 1861",
+          "The economic shift from the Trans-Atlantic slave trade to legitimate commerce",
+          "The activities and impact of Christian missionaries in Southern Nigeria",
+          "The establishment and administration of the Niger Delta Protectorate",
+          "The fall of the Benin Kingdom and the British punitive expedition of 1897",
+          "The amalgamation processes and the consolidation of British rule by 1900"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Nigeria 1900–1960": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Amalgamation of Northern and Southern Nigeria in 1914",
+          "Indirect Rule system and its application across regions",
+          "Colonial economic policies, taxation, and the introduction of cash crops",
+          "Development of transport, communication, and infrastructure under colonial rule",
+          "Rise of early nationalist movements, political parties, and the press (1920s-1940s)",
+          "Constitutional development: Clifford Constitution of 1922 and Richards Constitution of 1945",
+          "Constitutional development: Macpherson Constitution of 1951 and Lyttelton Constitution of 1954",
+          "The 1953 Kano Riots and constitutional conferences of the 1950s",
+          "Decolonization, labor movements, and major protests (e.g., Enugu Colliery strike)",
+          "Regionalism, minority issues, and the Willink Commission of 1958 leading to independence"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Nigeria Since Independence": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The First Republic and the 1966 Military Coups",
+          "The Causes, Course, and Consequences of the Nigerian Civil War",
+          "Military Regimes from Gowon to Murtala-Obasanjo (1966-1979)",
+          "The Second Republic and the Politics of the 1979 Constitution",
+          "Military Rule from Buhari to Abubakar (1983-1999)",
+          "The Third Republic and the Aborted Transition Program of Ibrahim Babangida",
+          "The June 12 1993 Presidential Election and its Aftermath",
+          "Nigeria's Foreign Policy and International Relations Since 1960",
+          "Economic Developments, Oil Boom, and Structural Adjustment Programmes",
+          "The Return to Civilian Rule and the Fourth Republic (1999 to Present)"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "West Africa and the Wider World": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Trans-Saharan Trade Routes and Commodities",
+          "Trans-Atlantic Slave Trade and its Impact on West Africa",
+          "Legitimate Commerce and the Introduction of Cash Crops",
+          "European Exploration and Imperialist Penetration of West Africa",
+          "The Berlin Conference and the Partition of West Africa",
+          "West African Resistance to Colonial Rule",
+          "Colonial Economic Policies and Infrastructure Development",
+          "Missionary Activities and Western Education in West Africa",
+          "The Impact of the Two World Wars on West Africa",
+          "Decolonization and the Emergence of Independent West African States"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -1780,36 +2608,148 @@
   "insurance": {
     "topics": {
       "Principles of Insurance": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Insurable Interest",
+          "Utmost Good Faith",
+          "Indemnity",
+          "Contribution",
+          "Subrogation",
+          "Proximate Cause",
+          "Mitigation of Loss",
+          "Warranties",
+          "Assignment and Nomination",
+          "Average Clause"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Types of Insurance": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Life Assurance",
+          "Fire Insurance",
+          "Marine Insurance",
+          "Motor Vehicle Insurance",
+          "Accident Insurance",
+          "Burglary and Theft Insurance",
+          "Goods in Transit Insurance",
+          "Aviation Insurance",
+          "Agricultural Insurance",
+          "Consequential Loss Insurance",
+          "Employer's Liability Insurance",
+          "Public Liability Insurance",
+          "Credit Insurance"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Insurance Contracts": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Definition and essential elements of a valid insurance contract",
+          "The concept and application of utmost good faith (Uberrimae fidei)",
+          "Insurable interest in life, marine, and property insurance",
+          "Doctrine of indemnity and its exceptions",
+          "The principles of contribution and subrogation",
+          "Proximate cause (Causa proxima) in loss assessment",
+          "Warranties, conditions, and representations in insurance policies",
+          "Assignment and nomination of insurance policies",
+          "Termination, cancellation, and rescission of insurance contracts",
+          "Vitiating elements affecting insurance contracts such as fraud, mistake, and misrepresentation"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Risk Management": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Meaning and definition of risk and uncertainty",
+          "Classification and types of risks",
+          "Principles and objectives of risk management",
+          "The risk management process and stages",
+          "Methods of handling and treating risk",
+          "Risk retention and self-insurance strategies",
+          "Risk transfer mechanisms including insurance",
+          "Loss control and prevention techniques",
+          "Insurable versus uninsurable risks",
+          "Role and functions of a risk manager"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Insurance Regulation in Nigeria": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Insurance Act 2003",
+          "National Insurance Commission (NAICOM)",
+          "Functions and powers of the Commissioner for Insurance",
+          "Registration and licensing requirements for insurance companies",
+          "Solvency margin and statutory deposits in insurance",
+          "Winding up and liquidation of insurance companies",
+          "The Nigerian Council of Registered Insurance Brokers (NCRIB)",
+          "Consumer protection and policyholders' rights under Nigerian law"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -1819,50 +2759,174 @@
   "literature-in-english": {
     "topics": {
       "Drama": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Plot Structure in Drama",
+          "Characterization and Character Types",
+          "Dramatic Irony and Suspense",
+          "Themes and Thematic Conflict",
+          "Setting and Atmosphere in Plays",
+          "Dramaturgical Devices and Stage Directions",
+          "Tragedy and Tragic Flaw",
+          "Comedy and Comic Relief",
+          "Tragicomedy and Melodrama",
+          "Dialogue and Diction",
+          "Monologue, Soliloquy, and Aside",
+          "Symbolism and Motifs in Drama",
+          "Conflict Types and Resolution",
+          "The Role of the Chorus and Narrator",
+          "African Dramatic Tradition and Aesthetics"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Poetry": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Denotative and connotative meanings of words in a poem",
+          "Identification and interpretation of poetic sound devices",
+          "Recognition and analysis of figurative language and tropes",
+          "Analysis of poetic forms and structural organizations",
+          "Identification of persona, tone, and mood in a text",
+          "Thematic preoccupation and moral lessons in poetry",
+          "Socio-political context and historical background of a poem",
+          "Visual imagery and sensory descriptions in verse",
+          "Rhyme scheme, rhythm, and meter analysis",
+          "Use of diction and lexical choices by poets",
+          "African cultural motifs and traditions in African poetry",
+          "Symbolism and allegorical interpretations in poems",
+          "Poetic irony, paradox, and ambiguity",
+          "Enjambment, syntax, and punctuation effects in poetry"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Writing": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Letter writing and formal correspondence",
+          "Narrative and descriptive essay writing",
+          "Summary writing and comprehension"
+        ],
+        "questions_per_subtopic": [
+          8,
+          8,
+          7
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Prose": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Plot Structure and Arrangement of Events",
+          "Characterization and Character Relationships",
+          "Setting and Its Impact on the Narrative",
+          "Narrative Technique and Point of View",
+          "Themes and Thematic Exploration",
+          "Diction and Language Use",
+          "Literary Devices and Figures of Speech in Prose",
+          "Atmosphere and Mood",
+          "Conflict Types and Resolution",
+          "Symbolism and Motif",
+          "Title Significance and Thematic Relevance",
+          "Authorial Purpose and Background",
+          "Tone and Attitude of the Narrator",
+          "Subplot and Its Relationship to the Main Plot"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Vocabulary": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Denotative and connotative meanings of literary words",
+          "Figurative language and figures of speech",
+          "Idioms, phrasal verbs, and stock expressions in drama and prose"
+        ],
+        "questions_per_subtopic": [
+          8,
+          8,
+          7
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Theme analysis": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Character motivation and moral conflict",
+          "Socio-political context and historical undertones",
+          "Symbolism and motifs in narrative resolution"
+        ],
+        "questions_per_subtopic": [
+          5,
+          5,
+          4
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Characterisation": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Motivation and psychological drives of major characters",
+          "Character foils and contrasting relationships in the plot",
+          "Development and transformation of protagonist arcs"
+        ],
+        "questions_per_subtopic": [
+          5,
+          5,
+          4
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -1872,155 +2936,375 @@
   "mathematics": {
     "topics": {
       "Trigonometry": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Sine and Cosine Rules",
+          "Angles of Elevation and Depression",
+          "Trigonometric Ratios of Special Angles",
+          "Graphs of Trigonometric Functions"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Statistics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Frequency distribution and cumulative frequency tables",
+          "Measures of central tendency for ungrouped and grouped data",
+          "Measures of dispersion: range, variance, and standard deviation",
+          "Graphical representation of data: histograms, bar charts, and pie charts",
+          "Probability of single and combined events",
+          "Permutations and combinations",
+          "Expectation and probability distribution"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Geometry": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Properties of angles at a point, intersecting lines, and parallel lines",
+          "Euclidean geometry of triangles, polygons, and their interior/exterior angles",
+          "Properties and theorems of circles including tangents, chords, and angles in alternate segments",
+          "Geometric transformations including reflection, rotation, translation, and enlargement in the Cartesian plane",
+          "Three-dimensional geometry involving angles and distances between points, lines, and planes in space",
+          "Similar and congruent shapes with applications to ratios of lengths, areas, and volumes",
+          "Constructions using a straight-edge and compass, and loci of points in two dimensions"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Calculus": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Differentiation of algebraic functions",
+          "Application of differentiation to gradients and maxima/minima",
+          "Integration of standard algebraic functions",
+          "Application of integration to areas under curves"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Number theory": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "HCF and LCM of positive integers",
+          "Fractions, decimals, and approximations",
+          "Indices, logarithms, and surds",
+          "Modular arithmetic",
+          "Sequences and series",
+          "Sets and Venn diagrams",
+          "Simple interest and compound interest",
+          "Ratio, proportion, and percentages"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Algebra": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Indices, logarithms and surds",
+          "Polynomials and their factorizations",
+          "Binary operations",
+          "Inequalities and linear programming",
+          "Progressions (Arithmetic and Geometric)",
+          "Matrices and determinants",
+          "Quadratic equations and expressions",
+          "Partial fractions",
+          "Set theory and Venn diagrams"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Probability": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Basic probability of simple and independent events",
+          "Conditional probability and dependent events",
+          "Expected value and probability distribution"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Mechanics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Motion under gravity",
+          "Equilibrium of forces",
+          "Work, energy, and power"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Fractions decimals": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Conversion between fractions, decimals, and percentages",
+          "Basic operations involving fractions and decimals",
+          "Word problems involving fractions and decimals"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Quadratic equations": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Formation of quadratic equations from given roots",
+          "Application of the relationship between roots and coefficients of quadratic equations",
+          "Solution of quadratic equations using factorization, completing the square, and the formula method"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Inequalities": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Solution of linear inequalities in one variable and representation on a number line",
+          "Graphical solution of linear inequalities in two variables and determination of feasible regions",
+          "Solution of quadratic inequalities in one variable and algebraic fractions leading to inequalities"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Combinations": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Application of the combination formula to select items without regard to order",
+          "Solving problems involving restricted or conditional combinations",
+          "Combining combinations with the fundamental counting principle for selection problems"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Matrices": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Determinant of 2x2 and 3x3 matrices",
+          "Inverse of a 2x2 matrix",
+          "Multiplication of matrices and matrix equations"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Polynomials": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Remainder and Factor Theorems",
+          "Roots of Polynomial Equations",
+          "Polynomial Division and Operations"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Surds": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Simplification and fundamental operations on surds",
+          "Rationalization of denominators",
+          "Conjugates and equations involving surds"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Sequences series": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Arithmetic Progression and Geometric Progression nth term and sum",
+          "Sum to infinity of convergent geometric series",
+          "Relationship between terms and common differences or ratios"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Functions": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Domain and Range of Functions",
+          "Composite Functions",
+          "Inverse of Functions"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Further topics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Permutations and Combinations",
+          "Probability Distributions",
+          "Matrices and Determinants",
+          "Vectors in Three Dimensions"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Algebra further": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Polynomial remainder and factor theorems",
+          "Partial fractions",
+          "Arithmetic and geometric progressions"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Sets": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Venn diagrams involving two and three sets with practical word problems",
+          "Algebra of sets including union, intersection, complement, and subset relations",
+          "Application of De Morgan's laws and cardinality formulas for set operations"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Permutations combinations": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Linear and Circular Arrangements with Restrictions",
+          "Combinations Involving Selection and Grouping",
+          "Conditional Permutations of Letters and Digits"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          2
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Indices logarithms": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Simplification and evaluation of exponential expressions using the laws of indices",
+          "Solution of indices equations involving bases reducible to the same prime number",
+          "Application of the laws of logarithms to simplify and evaluate logarithmic expressions"
+        ],
+        "questions_per_subtopic": [
+          2,
+          2,
+          1
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -2030,120 +3314,274 @@
   "physics": {
     "topics": {
       "Electricity": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Electric Field and Coulomb's Law",
+          "Ohm's Law and Resistivity",
+          "Electric Circuits and Kirchhoff's Laws",
+          "Electrical Energy and Power",
+          "Potentiometer and Wheatstone Bridge",
+          "Capacitors and Dielectrics"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Modern physics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Dual nature of light and matter",
+          "Atomic structure and spectra",
+          "Radioactivity and radioactive decay",
+          "X-rays and photoelectric effect"
+        ],
+        "questions_per_subtopic": [
+          9,
+          8,
+          8,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Waves": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Propagation of Mechanical Waves",
+          "Light Waves and Interference",
+          "Sound Waves and Acoustics",
+          "Electromagnetic Spectrum"
+        ],
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Measurement": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Length, Area and Volume",
+          "Mass, Weight and Density",
+          "Measurement Instruments and Errors"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Heat": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Thermal Expansion of Solids, Liquids, and Gases",
+          "Measurement of Temperature and Thermometric Properties",
+          "Heat Transfer: Conduction, Convection, and Radiation",
+          "Latent Heat, Specific Heat Capacity, and Calorimetry"
+        ],
+        "questions_per_subtopic": [
+          10,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Momentum": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Law of Conservation of Linear Momentum",
+          "Elastic and Inelastic Collisions",
+          "Impulse and Change in Momentum"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Magnetism": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Magnetic fields around straight conductors and solenoids",
+          "Earth's magnetic field and magnetic properties of soft and hard iron",
+          "Force on a current-carrying conductor in a magnetic field and moving charges"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Electromagnetism": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Magnetic field around a current-carrying conductor and Fleming's rules",
+          "Electromagnetic induction and Faraday's laws",
+          "Direct Current (DC) motor and alternating current generator"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Pressure": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Atmospheric Pressure and Barometers",
+          "Pressure in Liquids and Pascal's Principle",
+          "Archimedes' Principle and Law of Flotation"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Mechanics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Motion in One Dimension: Speed, Velocity, and Acceleration",
+          "Work, Energy, and Power",
+          "Equilibrium of Forces and Moments",
+          "Projectiles and Circular Motion",
+          "Gravitational Field and Universal Gravitation",
+          "Simple Harmonic Motion and Pendulums"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Gas laws thermal": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Boyle's Law, Charles's Law, and Pressure Law calculations",
+          "General Gas Equation and Ideal Gas Equation",
+          "Dalton's Law of Partial Pressures and Kinetic Theory of Gases"
+        ],
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Energy": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Conservation of mechanical energy and perpetual motion",
+          "Work-energy theorem and power calculations",
+          "Elastic potential energy in springs and Hooke's law"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "States of matter": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Crystal lattices and defect structures in solids",
+          "Molecular explanation of surface tension and capillarity",
+          "Gas laws and kinetic theory of ideal gases"
+        ],
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Work energy power": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Calculation of work done by variable and constant forces including inclined planes",
+          "Conservation of mechanical energy and transformations between potential and kinetic energy",
+          "Power concepts efficiency of machines and rate of doing work"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Gravitation": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Newton's law of universal gravitation and gravitational force between masses",
+          "Gravitational potential and field intensity at a point",
+          "Kepler's laws of planetary motion and satellite motion"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Atomic structure": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Bohr's model and energy levels in hydrogen atom",
+          "Radioactivity and radioactive decay laws",
+          "X-rays: production, properties, and uses"
+        ],
+        "questions_per_subtopic": [
+          6,
+          5,
+          5
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Optics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Reflection of Light at Plane and Curved Mirrors",
+          "Refraction of Light and Total Internal Reflection",
+          "Optical Instruments and Dispersion of Light"
+        ],
+        "questions_per_subtopic": [
+          6,
+          6,
+          6
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -2153,71 +3591,191 @@
   "principles-of-accounts": {
     "topics": {
       "Bank reconciliation": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Causes of disagreement between cash book and bank statement",
+          "Preparation of adjusted cash book for errors and omissions",
+          "Preparation of bank reconciliation statement with unpresented and uncredited cheques",
+          "Treatment of bank charges, standing orders, and direct debits",
+          "Bank overdraft adjustments and classification in reconciliation"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Partnership accounts": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Formation of partnership and partnership agreements",
+          "Preparation of profit and loss appropriation accounts",
+          "Maintenance of partners capital and current accounts",
+          "Treatment of goodwill on admission and retirement of a partner",
+          "Dissolution of a partnership and realization accounts"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Branch accounts": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Meaning and objectives of branch accounts",
+          "Branch stock and branch debtor system",
+          "Goods invoiced to branch at selling price",
+          "Head office and branch reconciliation",
+          "Incorporation of branch trial balance in head office books"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Departmental accounts": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Allocation of common expenses and indirect costs among departments",
+          "Preparation of departmental trading, profit and loss accounts",
+          "Inter-departmental transfers and treatment of unrealized profit in stock",
+          "Apportionment of revenue and calculation of departmental net profit margins",
+          "Treatment of departmental asset depreciation and overhead cost distribution"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Cost accounting": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Job costing and contract costing",
+          "Process costing and treatment of joint by-products",
+          "Marginal costing versus absorption costing",
+          "Budgetary control and variance analysis",
+          "Stock valuation methods and inventory control"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Not for profit": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Distinction between profit-making organizations and not-for-profit organizations",
+          "Preparation of Receipts and Payments Account",
+          "Preparation of Income and Expenditure Account",
+          "Treatment of accumulated fund, subscriptions, and special donations",
+          "Determination of cost of goods sold and profit or loss on bar or restaurant trading activities"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Financial economics": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Classification of fixed and variable costs",
+          "Calculation and interpretation of break-even point",
+          "Concept of margin of safety in business",
+          "Distinction between direct and indirect expenses",
+          "Application of cost-volume-profit analysis in decision making"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Company accounts": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Issue of shares and debentures",
+          "Preparation of income statement and statement of financial position",
+          "Company appropriation account and reserves",
+          "Right issues and bonus issues of shares",
+          "Forfeiture and re-issue of shares"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Government": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Sources of government revenue and capital receipts",
+          "Preparation and presentation of government budgetary systems",
+          "Accounting records and books kept by government ministries and departments",
+          "Preparation of government final accounts including statement of assets and liabilities",
+          "Control of public funds and the role of the Auditor-General"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Nigerian government": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Sources of Government Revenue and Capital Receipts",
+          "Preparation and Presentation of Government Budget and Estimates",
+          "Consolidated Revenue Fund and Public Debt Accounting",
+          "Accounting Treatment of Treasury Bills and Government Bonds",
+          "Books of Accounts and Financial Statements of Public Sector Organizations"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -2227,36 +3785,150 @@
   "agricultural-science": {
     "topics": {
       "Agricultural Technology": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Farm Surveying and Mapping",
+          "Farmstead and Farm Buildings",
+          "Agricultural Mechanization and Tillage",
+          "Farm Power and Machinery",
+          "Processing and Storage Technology",
+          "ICT and Emerging Technologies in Agriculture",
+          "Irrigation and Drainage Systems",
+          "Biotechnology in Agriculture",
+          "Agricultural Workshop Tools and Maintenance"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Animal Production": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Animal Nutrition and Feed Formulation",
+          "Ruminant and Non-Ruminant Animal Management",
+          "Animal Breeding and Genetics",
+          "Animal Health and Disease Control",
+          "Pasture and Forage Crop Management",
+          "Poultry Production and Management",
+          "Apiculture and Aquaculture Management",
+          "Animal Housing and Environmental Physiology",
+          "Rangeland Management and Conservation",
+          "Anatomy and Physiology of Farm Animals",
+          "Reproductive Physiology and Artificial Insemination",
+          "Livestock Products and By-Products Processing",
+          "Economics of Animal Production and Farm Records"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Crop Production": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Classification of crops based on life cycle and morphology",
+          "Land preparation and clearing methods in crop production",
+          "Propagation methods including seeds and vegetative parts",
+          "Cultural practices such as planting, weeding, and thinning",
+          "Fertilizer application and nutrient management in soils",
+          "Irrigation and drainage systems in crop production",
+          "Pest and disease identification, symptoms, and control measures",
+          "Weed biology, economic importance, and control methods",
+          "Harvesting indices, methods, and timing for different crops",
+          "Processing techniques for various arable and cash crops",
+          "Storage structures, methods, and preservation of farm produce",
+          "Agricultural mechanization and farm machinery use in crop production",
+          "Economic importance and marketing of major Nigerian food and cash crops"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Farm Management": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Meaning and Scope of Farm Management",
+          "Principles of Farm Budgeting and Planning",
+          "Principles of Demand and Supply in Agriculture",
+          "Agricultural Credit and Sources of Farm Finance",
+          "Farm Records and Bookkeeping",
+          "Farm Inventory and Depreciation",
+          "Principles of Agricultural Marketing",
+          "Agricultural Cooperatives",
+          "Farm Business Analysis and Profitability",
+          "Agricultural Insurance and Risk Management"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "General Agriculture": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Meaning and scope of agriculture",
+          "History and development of agriculture in West Africa",
+          "Roles of agriculture in economic development",
+          "Agricultural export promotion and import substitution",
+          "Problems and prospects of agricultural development in Nigeria",
+          "Agricultural policies and programmes in Nigeria",
+          "Careers and opportunities in agriculture"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -2266,71 +3938,195 @@
   "arabic": {
     "topics": {
       "Reading Comprehension": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Main idea and central theme identification",
+          "Direct factual information retrieval",
+          "Vocabulary and lexical meaning in context",
+          "Pronoun reference and antecedent identification",
+          "Inference and author's implied meaning",
+          "Textual summarization and title generation",
+          "Grammatical parsing and structural analysis of words in context",
+          "Analysis of rhetorical devices and literary styles in prose"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Arabic Grammar (An-Nahw)": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Al-Mubtada' wal-Khabar",
+          "Al-Faa'il wal-Na'ib 'Anhu",
+          "Al-Maf'oolat (Bihi, Mutlaq, Fihi, Lajlihi, Ma'ahu)",
+          "Al-Haal wal-Tamyeez",
+          "Al-Mustathna (illa, ghayra, siwa)",
+          "Inna wa Akhawatuha wa Kaana wa Akhawatuha",
+          "La al-Nafiyah lil-Jins",
+          "Al-Tawabi' (Al-Na't, Al-Atf, Al-Tawkeed, Al-Badal)",
+          "Idafah wal-Mamnu' min al-Sarf",
+          "I'rab al-Fi'l al-Mudhari' (Raf', Nasb, Jazm)"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Arabic Morphology (As-Sarf)": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Triliteral Verb and its Augmentations (Al-Fi'l Al-Thulathi Al-Mujarrad wa Al-Mazid)",
+          "Derivation of Nouns: Active and Passive Participles (Ism al-Fa'il wa Ism al-Maf'ul)",
+          "The Weak Verbs: Assimilated, Hollow, and Defective (Al-Mu'tal: Al-Misthal, Al-Ajwaf, wa Al-Naqis)",
+          "Forms and Derivations of the Verbal Noun (Al-Masdar)",
+          "Nouns of Time, Place, and Instrument (Ism al-Zaman, Ism al-Makan, wa Ism al-Aalah)",
+          "The Doubled Verb and Phonological Assimilation (Al-Fi'l al-Mudha'af wa al-Idgham)"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Translation": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Translation of Arabic Proverbs and Idiomatic Expressions into English",
+          "Translation of Standard Arabic Newspaper and Journal Articles into English",
+          "Translation of Classical Arabic Prose and Literary Texts into English",
+          "Translation of Simple English Sentences and Passages into Modern Standard Arabic",
+          "Translation of Islamic Religious Texts and Hadith Literature into English"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Arabic Rhetoric (Al-Balaghah)": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Ilm al-Bayan",
+          "Ilm al-Maani",
+          "Ilm al-Badi",
+          "At-Tashbih wa Anwauhu"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Composition (Al-Insha')": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Formal and Informal Letter Writing (Ar-Rasa'il)",
+          "Narrative and Descriptive Essay Writing (Al-Insha' al-Wasfi wal-Qisasi)",
+          "Report and Summary Writing (At-Taqrir wat-Talkhis)"
+        ],
+        "questions_per_subtopic": [
+          9,
+          8,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Pre-Islamic and Early Islamic Literature": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The significance of the Mu'allaqat and their major poets",
+          "The characteristics of Jahiliyyah poetry and prose",
+          "The impact of the advent of Islam on Arabic literature",
+          "Early Islamic poetry including the works of Hassan ibn Thabit"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Umayyad and Abbasid Literature": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Shi'r Al-Naqa'id fi al-Asr al-Umawi",
+          "Khatabat al-Hajjaj ibn Yusuf",
+          "Funun al-Nathr al-Fanni fi al-Asr al-Abbasi",
+          "Shi'r al-Ghazal al-Udri fi al-Asr al-Umawi"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Modern Arabic Literature": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Rise and Development of Modern Arabic Poetry and Poets",
+          "Evolution and Themes of the Modern Arabic Short Story",
+          "The Modern Arabic Novel and its Major Practitioners",
+          "Literary Schools and Movements in Modern Arabic Literature"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "West African and Nigerian Arabic Literature": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "The Rise and Development of Arabic Scholarship in West Africa",
+          "Major West African Arabic Poets and their Literary Contributions",
+          "Themes and Styles in Nigerian Arabic Poetry",
+          "Prose Literature and Historical Chronicles in Northern Nigeria"
+        ],
+        "questions_per_subtopic": [
+          9,
+          9,
+          9,
+          8
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
@@ -2340,15 +4136,45 @@
   "fine-art": {
     "topics": {
       "Elements and Principles of Design": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Definition and classification of the visual elements",
+          "Application of the principles of design in composition",
+          "Analysis of positive and negative space",
+          "Color theory properties and harmony",
+          "Texture and pattern in visual arts"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
       },
       "Art History: Traditional Nigerian Art": {
-        "subtopics": [],
-        "questions_per_subtopic": [],
+        "subtopics": [
+          "Nok culture terracotta heads and figurines",
+          "Ife bronze and terracotta casting techniques",
+          "Benin bronze plaques and royal regalia",
+          "Esie soapstone figures and their cultural significance",
+          "Igbo-Ukwu bronze artifacts and metallurgy",
+          "Owo terracotta sculptures and stylistic hybrids",
+          "Traditional Yoruba wood carving and masks",
+          "Nomadic and pastoral art forms in Northern Nigeria"
+        ],
+        "questions_per_subtopic": [
+          10,
+          10,
+          10,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
         "subtopics_done": [],
         "questions_generated": 0,
         "complete": false
