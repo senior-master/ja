@@ -13,6 +13,9 @@ from pathlib import Path
 
 import requests
 
+# Make sibling modules importable regardless of CWD
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from subject_prompts import subtopic_prompt, question_prompt
 
 GEMINI_KEYS = [k.strip() for k in os.environ.get("GEMINI_API_KEYS", "").split(",") if k.strip()]
