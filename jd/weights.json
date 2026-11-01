@@ -385,140 +385,134 @@
       {
         "name": "Accounting",
         "weight": 1.0,
-        "percentage": 4.3,
-        "question_count": 21
+        "percentage": 4.45,
+        "question_count": 22
       },
       {
         "name": "International trade",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Economics",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Financial economics",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "African politics",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Partnership accounts",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Development economics",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Macroeconomics",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Microeconomics",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Na",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Nigerian government",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "International relations",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Financial accounting",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Company accounts",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Agricultural science",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Government",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Human geography",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
-      },
-      {
-        "name": "Algebra further",
-        "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 22
+        "percentage": 4.55,
+        "question_count": 23
       },
       {
         "name": "Geography",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 21
+        "percentage": 4.55,
+        "question_count": 22
       },
       {
         "name": "Civic education",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 21
+        "percentage": 4.55,
+        "question_count": 22
       },
       {
         "name": "Further topics",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 21
+        "percentage": 4.55,
+        "question_count": 22
       },
       {
         "name": "National issues",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 21
+        "percentage": 4.55,
+        "question_count": 22
       },
       {
         "name": "English language",
         "weight": 1.0,
-        "percentage": 4.35,
-        "question_count": 21
+        "percentage": 4.55,
+        "question_count": 22
       }
     ]
   },

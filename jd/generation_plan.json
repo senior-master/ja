@@ -766,257 +766,246 @@
     "name": "Commerce",
     "target_total": 500,
     "planned_total": 500,
-    "subtopics_total": 69,
+    "subtopics_total": 66,
     "topics": [
       {
         "name": "Accounting",
-        "target": 21,
-        "weight_percentage": 4.3,
+        "target": 22,
+        "weight_percentage": 4.45,
         "subtopics_count": 3,
         "questions_per_subtopic": [
-          7,
+          8,
           7,
           7
         ]
       },
       {
         "name": "International trade",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Economics",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Financial economics",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "African politics",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Partnership accounts",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Development economics",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Macroeconomics",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Microeconomics",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Na",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Nigerian government",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "International relations",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Financial accounting",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Company accounts",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Agricultural science",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Government",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
+          8,
           7
         ]
       },
       {
         "name": "Human geography",
-        "target": 22,
-        "weight_percentage": 4.35,
+        "target": 23,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
           8,
-          7,
-          7
-        ]
-      },
-      {
-        "name": "Algebra further",
-        "target": 22,
-        "weight_percentage": 4.35,
-        "subtopics_count": 3,
-        "questions_per_subtopic": [
           8,
-          7,
           7
         ]
       },
       {
         "name": "Geography",
-        "target": 21,
-        "weight_percentage": 4.35,
+        "target": 22,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
-          7,
+          8,
           7,
           7
         ]
       },
       {
         "name": "Civic education",
-        "target": 21,
-        "weight_percentage": 4.35,
+        "target": 22,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
-          7,
+          8,
           7,
           7
         ]
       },
       {
         "name": "Further topics",
-        "target": 21,
-        "weight_percentage": 4.35,
+        "target": 22,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
-          7,
+          8,
           7,
           7
         ]
       },
       {
         "name": "National issues",
-        "target": 21,
-        "weight_percentage": 4.35,
+        "target": 22,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
-          7,
+          8,
           7,
           7
         ]
       },
       {
         "name": "English language",
-        "target": 21,
-        "weight_percentage": 4.35,
+        "target": 22,
+        "weight_percentage": 4.55,
         "subtopics_count": 3,
         "questions_per_subtopic": [
-          7,
+          8,
           7,
           7
         ]

@@ -107,36 +107,30 @@
     },
     {
       "id": 18,
-      "name": "Algebra further",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 19,
       "name": "Geography",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Civic education",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Further topics",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "National issues",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "English language",
       "percentage": null,
       "difficulty": null
