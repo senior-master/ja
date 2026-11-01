@@ -29,8 +29,8 @@ if env_file.exists():
             k, v = line.split("=", 1)
             os.environ.setdefault(k.strip(), v.strip())
 
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
-SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "").strip().rstrip("/")
+SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "").strip()
 
 BATCH_SIZE = 200
 
