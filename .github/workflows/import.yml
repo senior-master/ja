@@ -1,0 +1,58 @@
+name: Import Questions to Supabase
+
+on:
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: 'Optional subject filter (blank = all)'
+        required: false
+        default: ''
+
+concurrency:
+  group: import-questions
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify jq/ exists
+        run: |
+          n=$(find jq -name "*.jsonl" 2>/dev/null | wc -l)
+          echo "Found $n JSONL files in jq/"
+          if [ "$n" -eq 0 ]; then
+            echo "❌ No jq/ files — generation workflow must run first"
+            exit 1
+          fi
+
+      - name: Import to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          if [ -n "${{ inputs.subject }}" ]; then
+            python js/import_to_supabase.py --subject "${{ inputs.subject }}"
+          else
+            python js/import_to_supabase.py
+          fi
+
+      - name: Verify count
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python js/import_to_supabase.py --verify
