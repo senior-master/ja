@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { ExamTimer } from '../components/ExamTimer';
@@ -6,15 +6,17 @@ import { QuestionCard } from '../components/QuestionCard';
 import { QuestionNavigator } from '../components/QuestionNavigator';
 import { ReviewModal } from '../components/ReviewModal';
 import { Calculator } from '../components/Calculator';
-import { ChevronLeft, ChevronRight, Flag, Calculator as CalcIcon } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Flag, Calculator as CalcIcon, CheckCircle2 } from 'lucide-react';
 
 export function Runner() {
   const navigate = useNavigate();
   const {
     status, subjects, activeSubject, questions, currentIndexes,
     setActiveSubject, setCurrentIndex, toggleFlag, toggleReview, flags,
-    isCalculatorOpen, toggleCalculator, setAnswer, candidateInfo
+    isCalculatorOpen, toggleCalculator, setAnswer, candidateInfo, answers
   } = useExamStore();
+
+  const [toastMsg, setToastMsg] = useState('');
 
   useEffect(() => {
     if (status !== 'active') navigate('/');
@@ -25,34 +27,64 @@ export function Runner() {
   const currentQuestion = currentQuestions[currentIndex];
   const isFlagged = currentQuestion ? flags.includes(currentQuestion.id) : false;
 
-  // JAMB 8-Key Keyboard Shortcuts
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (!currentQuestion || status !== 'active') return;
-      const key = e.key.toUpperCase();
-      
-      if (['A', 'B', 'C', 'D'].includes(key)) setAnswer(currentQuestion.id, key);
-      else if (key === 'N') handleNext();
-      else if (key === 'P') handlePrev();
-      else if (key === 'R') toggleFlag(currentQuestion.id);
-      else if (key === 'S') toggleReview();
-    };
+  // Calculate global status
+  const totalQuestions = subjects.reduce((acc, sub) => acc + (questions[sub]?.length || 0), 0);
+  const answeredCount = Object.keys(answers).length;
+  const hasSkipped = answeredCount < totalQuestions;
+  
+  const isAtAbsoluteEnd = activeSubject === subjects[subjects.length - 1] && 
+                          currentIndex === currentQuestions.length - 1;
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  });
+  const showToast = (msg: string) => {
+    setToastMsg(msg);
+    setTimeout(() => setToastMsg(''), 3000);
+  };
 
-  if (status !== 'active' || !currentQuestion) return null;
+  const handleSubmitClick = () => {
+    if (answeredCount < 90) {
+      showToast("You must answer at least 90 questions to submit.");
+      return;
+    }
+    toggleReview();
+  };
 
   const handleNext = () => {
     if (currentIndex < currentQuestions.length - 1) {
+      // Normal sequential next
       setCurrentIndex(activeSubject, currentIndex + 1);
     } else {
-      // Auto-advance to next subject
       const currentSubIndex = subjects.indexOf(activeSubject);
       if (currentSubIndex < subjects.length - 1) {
+        // Move to next subject
         setActiveSubject(subjects[currentSubIndex + 1]);
-        // setCurrentIndex for the next subject is already 0 by default
+      } else {
+        // We are at the end of the exam. Check for skipped questions.
+        const firstSkipped = Object.keys(answers).length < totalQuestions;
+        
+        if (firstSkipped) {
+          // Find the very first unanswered question globally
+          let targetSub = '';
+          let targetIndex = -1;
+          
+          for (const sub of subjects) {
+            const subQs = questions[sub] || [];
+            const idx = subQs.findIndex(q => !answers[q.id]);
+            if (idx !== -1) {
+              targetSub = sub;
+              targetIndex = idx;
+              break;
+            }
+          }
+          
+          if (targetSub !== '') {
+            setActiveSubject(targetSub);
+            setCurrentIndex(targetSub, targetIndex);
+            showToast("Jumped to the first skipped question");
+          }
+        } else {
+          // No skipped questions left, they clicked Next on the very last Q.
+          handleSubmitClick();
+        }
       }
     }
   };
@@ -61,7 +93,6 @@ export function Runner() {
     if (currentIndex > 0) {
       setCurrentIndex(activeSubject, currentIndex - 1);
     } else {
-      // Go to previous subject's last question (optional, but good UX)
       const currentSubIndex = subjects.indexOf(activeSubject);
       if (currentSubIndex > 0) {
         const prevSub = subjects[currentSubIndex - 1];
@@ -72,12 +103,36 @@ export function Runner() {
     }
   };
 
-  const isLastQuestionOfLastSubject = 
-    currentIndex === currentQuestions.length - 1 && 
-    activeSubject === subjects[subjects.length - 1];
+  // JAMB 8-Key Keyboard Shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!currentQuestion || status !== 'active' || document.activeElement?.tagName === 'INPUT') return;
+      const key = e.key.toUpperCase();
+      
+      if (['A', 'B', 'C', 'D'].includes(key)) setAnswer(currentQuestion.id, key);
+      else if (key === 'N') handleNext();
+      else if (key === 'P') handlePrev();
+      else if (key === 'R') toggleFlag(currentQuestion.id);
+      else if (key === 'S') handleSubmitClick();
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  });
+
+  if (status !== 'active' || !currentQuestion) return null;
+
+  const isFinished = isAtAbsoluteEnd && !hasSkipped;
 
   return (
-    <div className="min-h-screen bg-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-100 flex flex-col font-sans relative">
+      {/* Toast Warning Popup */}
+      {toastMsg && (
+        <div className="fixed top-20 left-1/2 -translate-x-1/2 bg-red-600 text-white px-6 py-3 rounded-lg shadow-2xl z-50 animate-bounce font-medium text-sm">
+          {toastMsg}
+        </div>
+      )}
+
       <header className="bg-green-700 text-white px-4 py-2 flex flex-wrap justify-between items-center shadow-md z-20">
         <div className="flex flex-col">
           <span className="font-bold text-lg leading-tight">CBT Master</span>
@@ -90,7 +145,7 @@ export function Runner() {
           <div className="bg-white text-slate-800 px-3 py-1 rounded font-mono font-bold shadow-inner">
             <ExamTimer />
           </div>
-          <button onClick={toggleReview} className="bg-yellow-500 hover:bg-yellow-400 text-slate-900 px-4 py-2 rounded-lg font-bold text-sm shadow transition-colors">
+          <button onClick={handleSubmitClick} className="bg-yellow-500 hover:bg-yellow-400 text-slate-900 px-4 py-2 rounded-lg font-bold text-sm shadow transition-colors">
             Submit
           </button>
         </div>
@@ -114,6 +169,7 @@ export function Runner() {
         <main className="flex-1 flex flex-col p-4 overflow-y-auto">
           <div className="flex justify-between items-center text-sm text-slate-600 mb-2 bg-white p-2 rounded shadow-sm border border-slate-200">
             <span className="font-bold">Question {currentIndex + 1} of {currentQuestions.length}</span>
+            <span className="text-xs font-bold text-slate-400">| Answered: {answeredCount}/{totalQuestions}</span>
             <button 
               onClick={() => toggleFlag(currentQuestion.id)}
               className={`flex items-center gap-1 font-medium px-2 py-1 rounded ${isFlagged ? 'text-white bg-orange-500' : 'text-slate-500 hover:bg-slate-100'}`}
@@ -135,12 +191,12 @@ export function Runner() {
               <ChevronLeft size={20} /> Prev (P)
             </button>
             
-            {isLastQuestionOfLastSubject ? (
+            {isFinished ? (
               <button 
-                onClick={toggleReview}
+                onClick={handleSubmitClick}
                 className="flex-1 py-3 bg-yellow-500 text-slate-900 rounded-xl font-bold flex justify-center items-center gap-2 hover:bg-yellow-400 transition-colors shadow-lg"
               >
-                Finish Exam
+                <CheckCircle2 size={20} /> Finish Exam
               </button>
             ) : (
               <button 
