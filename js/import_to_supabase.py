@@ -78,26 +78,55 @@ def insert_batch(rows):
             inserted = json.loads(resp.read().decode("utf-8"))
             return len(inserted), len(rows) - len(inserted)
     except urllib.error.HTTPError as e:
-        err_body = e.read().decode("utf-8", errors="replace")[:300]
-        print(f"    ⚠️  batch HTTP {e.code} — falling back to row-by-row: {err_body}")
-        ins, skp = 0, 0
-        for row in rows:
-            try:
-                single = urllib.request.Request(
-                    TABLE_URL, data=json.dumps([row]).encode("utf-8"), method="POST"
-                )
-                single.add_header("apikey", SERVICE_KEY)
-                single.add_header("Authorization", f"Bearer {SERVICE_KEY}")
-                single.add_header("Content-Type", "application/json")
-                single.add_header("Prefer", "resolution=ignore-duplicates,return=representation")
-                with urllib.request.urlopen(single, timeout=15) as r:
-                    if len(json.loads(r.read().decode("utf-8"))) > 0:
-                        ins += 1
-                    else:
-                        skp += 1
-            except Exception:
-                skp += 1
-        return ins, skp
+        err_body = e.read().decode("utf-8", errors="replace")[:400]
+
+        # ── Auth/permission errors: fail fast, no retries ──
+        if e.code in (401, 403):
+            print(f"\n🚨 HTTP {e.code} — FATAL (auth/permission)", file=sys.stderr)
+            print(f"   {err_body}", file=sys.stderr)
+            print("   Fix: run GRANT statements in Supabase SQL Editor.", file=sys.stderr)
+            print("   Then rerun this workflow.", file=sys.stderr)
+            sys.exit(2)
+
+        # ── Schema errors (column doesn't exist, etc.): also fatal ──
+        if e.code == 400 and "column" in err_body.lower():
+            print(f"\n🚨 HTTP 400 schema mismatch", file=sys.stderr)
+            print(f"   {err_body}", file=sys.stderr)
+            sys.exit(2)
+
+        # ── Payload too large: split batch in half and retry ──
+        if e.code == 413 and len(rows) > 1:
+            mid = len(rows) // 2
+            i1, s1 = insert_batch(rows[:mid])
+            i2, s2 = insert_batch(rows[mid:])
+            return i1 + i2, s1 + s2
+
+        # ── Transient (5xx): fall back to row-by-row, but with a cap ──
+        if e.code >= 500:
+            print(f"    ⚠️  batch HTTP {e.code} — trying row-by-row (cap 20): {err_body[:150]}")
+            ins, skp = 0, 0
+            for row in rows[:20]:
+                try:
+                    single = urllib.request.Request(
+                        TABLE_URL, data=json.dumps([row]).encode("utf-8"), method="POST"
+                    )
+                    single.add_header("apikey", SERVICE_KEY)
+                    single.add_header("Authorization", f"Bearer {SERVICE_KEY}")
+                    single.add_header("Content-Type", "application/json")
+                    single.add_header("Prefer", "resolution=ignore-duplicates,return=representation")
+                    with urllib.request.urlopen(single, timeout=15) as r:
+                        if len(json.loads(r.read().decode("utf-8"))) > 0:
+                            ins += 1
+                        else:
+                            skp += 1
+                except Exception:
+                    skp += 1
+            skp += max(0, len(rows) - 20)   # count remainder as skipped
+            return ins, skp
+
+        # ── Unknown 4xx: fail the whole import ──
+        print(f"\n🚨 HTTP {e.code} unexpected: {err_body}", file=sys.stderr)
+        sys.exit(2)
     except urllib.error.URLError as e:
         fail(f"network error reaching Supabase: {e.reason}")
     except TimeoutError:
