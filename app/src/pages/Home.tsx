@@ -12,6 +12,7 @@ export function Home() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -28,23 +29,41 @@ export function Home() {
     return () => subscription.unsubscribe();
   }, [setUser]);
 
+  const switchMode = () => {
+    setIsLogin(!isLogin);
+    setError('');
+    setPassword('');
+    setConfirmPassword('');
+  };
+
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
+
+    if (!isLogin && password !== confirmPassword) {
+      setError("Passwords do not match. Please try again.");
+      return;
+    }
+
     setLoading(true);
 
     try {
       if (isLogin) {
+        // ── LOGIN ──
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
       } else {
+        // ── SIGNUP ──
         const { error } = await supabase.auth.signUp({ 
           email, 
           password,
           options: { data: { full_name: name } }
         });
         if (error) throw error;
-        alert("Account created! You can now log in.");
+        
+        // If email confirmation is turned off in Supabase, 
+        // the user is logged in automatically. If not, they need to verify.
+        alert("Account created successfully! You can now log in.");
         setIsLogin(true);
       }
     } catch (err: any) {
@@ -86,6 +105,7 @@ export function Home() {
                 />
               </div>
             )}
+            
             <div className="relative">
               <Mail className="absolute left-3 top-3 text-slate-400" size={20} />
               <input 
@@ -93,21 +113,32 @@ export function Home() {
                 className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
+
             <div className="relative">
               <Lock className="absolute left-3 top-3 text-slate-400" size={20} />
               <input 
-                type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} required minLength={6}
+                type="password" placeholder={isLogin ? "Password" : "Create Password"} value={password} onChange={e => setPassword(e.target.value)} required minLength={6}
                 className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
+
+            {!isLogin && (
+              <div className="relative">
+                <Lock className="absolute left-3 top-3 text-slate-400" size={20} />
+                <input 
+                  type="password" placeholder="Confirm Password" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} required minLength={6}
+                  className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+            )}
             
-            <button type="submit" disabled={loading} className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-bold mt-4 transition-colors disabled:opacity-50">
-              {loading ? 'Processing...' : (isLogin ? 'Log In' : 'Sign Up')}
+            <button type="submit" disabled={loading} className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-bold mt-2 transition-colors disabled:opacity-50">
+              {loading ? 'Processing...' : (isLogin ? 'Log In' : 'Create Account')}
             </button>
           </form>
 
           <div className="mt-6 text-center">
-            <button onClick={() => setIsLogin(!isLogin)} className="text-sm font-bold text-blue-600 hover:text-blue-800">
+            <button onClick={switchMode} className="text-sm font-bold text-blue-600 hover:text-blue-800">
               {isLogin ? "Don't have an account? Sign Up" : "Already have an account? Log In"}
             </button>
           </div>
