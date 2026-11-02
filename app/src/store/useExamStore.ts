@@ -15,7 +15,7 @@ export type Question = {
 
 type ExamState = {
   status: 'idle' | 'active' | 'submitted';
-  user: { name: string; contact: string } | null;
+  user: any | null; // Supabase User object
   examMode: 'cbt' | 'practice' | 'learning' | null;
   examConfig: { mode: string; timeLimit: number | null; showAnswers: 'instant' | 'end' } | null;
   
@@ -33,7 +33,7 @@ type ExamState = {
   candidateInfo: { name: string; regNo: string };
   
   // Actions
-  login: (name: string, contact: string) => void;
+  setUser: (user: any) => void;
   setExamMode: (mode: 'cbt' | 'practice' | 'learning') => void;
   logout: () => void;
   
@@ -70,7 +70,7 @@ export const useExamStore = create<ExamState>()(
       isCatchingSkips: false,
       candidateInfo: { name: 'Student', regNo: '2026UTME/001' },
 
-      login: (name, contact) => set({ user: { name, contact }, candidateInfo: { name, regNo: contact } }),
+      setUser: (user) => set({ user, candidateInfo: { name: user?.email?.split('@')[0] || 'Student', regNo: user?.id?.slice(0,8) || 'N/A' } }),
       setExamMode: (mode) => set({ examMode: mode }),
       logout: () => set({ user: null, examMode: null, status: 'idle' }),
 

@@ -2,10 +2,11 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { Star, MessageSquare, CheckCircle2, Home } from 'lucide-react';
+import { supabase } from '../services/questions';
 
 export function Results() {
   const navigate = useNavigate();
-  const { status, subjects, questions, answers, resetExam, candidateInfo, examConfig } = useExamStore();
+  const { status, subjects, questions, answers, resetExam, candidateInfo, examConfig, user } = useExamStore();
 
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
@@ -43,6 +44,29 @@ export function Results() {
 
   const finalScore = isCbt ? totalScore : totalCorrect;
   const maxScore = isCbt ? subjects.length * 100 : totalQuestions;
+
+
+  useEffect(() => {
+    if (status === 'submitted' && user) {
+      const saveResult = async () => {
+        // Prevent duplicate saves on strict mode re-renders
+        const cacheKey = `saved_${questions[subjects[0]]?.[0]?.id || 'exam'}`;
+        if (sessionStorage.getItem(cacheKey)) return;
+
+        await supabase.from('user_results').insert({
+          user_id: user.id,
+          mode: examConfig?.mode || 'cbt',
+          score: finalScore,
+          total_questions: totalQuestions
+        });
+        
+        sessionStorage.setItem(cacheKey, 'true');
+      };
+      
+      // We need to wait a tiny bit for the variables to compute
+      setTimeout(saveResult, 500);
+    }
+  }, [status, user, examConfig, subjects, questions, finalScore, totalQuestions]);
 
   const handleFeedbackSubmit = () => {
     if (rating === 0) return;
