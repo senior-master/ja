@@ -10,7 +10,7 @@ export function PracticeSetup() {
   
   const [subjects, setSubjects] = useState<{subject_slug: string, total: number}[]>([]);
   const [selected, setSelected] = useState<string[]>([]);
-  const [qCount, setQCount] = useState(20); // Questions per subject
+  const [qCount, setQCount] = useState(20); 
   const [timeMode, setTimeMode] = useState<'none' | 'total' | 'per_q'>('none');
   const [totalMins, setTotalMins] = useState(30);
   const [secsPerQ, setSecsPerQ] = useState(60);
@@ -31,16 +31,12 @@ export function PracticeSetup() {
     if (selected.length === 0) return;
     setLoading(true);
     try {
-      // Fetch custom number of questions per subject
       const questions: Record<string, any[]> = {};
       for (const sub of selected) {
-        // We modify fetchExamQuestions to accept a count
-        // For now, we'll just slice the 40 that come back
         const fetched = await fetchExamQuestions([sub]); 
         questions[sub] = fetched[sub].slice(0, qCount); 
       }
       
-      // Calculate time limit in milliseconds
       let timeLimit: number | null = null;
       if (timeMode === 'total') timeLimit = totalMins * 60 * 1000;
       if (timeMode === 'per_q') timeLimit = secsPerQ * qCount * selected.length * 1000;
@@ -123,14 +119,27 @@ export function PracticeSetup() {
 
         {timeMode === 'total' && (
           <div className="flex items-center gap-3">
-            <input type="range" min="5" max="120" step="5" value={totalMins} onChange={e => setTotalMins(Number(e.target.value))} className="flex-1" />
-            <span className="font-bold text-slate-800 w-16 text-right">{totalMins} mins</span>
+            <input 
+              type="number" 
+              min="1" max="120" 
+              value={totalMins} 
+              onChange={e => setTotalMins(Number(e.target.value))} 
+              className="w-24 px-3 py-2 border border-slate-300 rounded-lg text-center font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none" 
+            />
+            <span className="text-sm font-medium text-slate-600">minutes (1 - 120)</span>
           </div>
         )}
+        
         {timeMode === 'per_q' && (
           <div className="flex items-center gap-3">
-            <input type="range" min="15" max="120" step="15" value={secsPerQ} onChange={e => setSecsPerQ(Number(e.target.value))} className="flex-1" />
-            <span className="font-bold text-slate-800 w-16 text-right">{secsPerQ} secs</span>
+            <input 
+              type="number" 
+              min="10" max="60" 
+              value={secsPerQ} 
+              onChange={e => setSecsPerQ(Number(e.target.value))} 
+              className="w-24 px-3 py-2 border border-slate-300 rounded-lg text-center font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none" 
+            />
+            <span className="text-sm font-medium text-slate-600">seconds per question (10 - 60)</span>
           </div>
         )}
       </div>

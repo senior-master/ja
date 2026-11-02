@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
-import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, User, Phone, Mail } from 'lucide-react';
+import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, User, Mail } from 'lucide-react';
 
 export function Home() {
   const navigate = useNavigate();

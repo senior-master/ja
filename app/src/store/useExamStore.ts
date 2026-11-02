@@ -15,6 +15,10 @@ export type Question = {
 
 type ExamState = {
   status: 'idle' | 'active' | 'submitted';
+  user: { name: string; contact: string } | null;
+  examMode: 'cbt' | 'practice' | 'learning' | null;
+  examConfig: { mode: string; timeLimit: number | null; showAnswers: 'instant' | 'end' } | null;
+  
   subjects: string[]; 
   questions: Record<string, Question[]>;
   answers: Record<number, string>;
@@ -28,7 +32,12 @@ type ExamState = {
   isCatchingSkips: boolean;
   candidateInfo: { name: string; regNo: string };
   
-  startExam: (subjects: string[], questions: Record<string, Question[]>, config?: { mode: string; timeLimit: number | null; showAnswers: 'instant' | 'end' }) => void;
+  // Actions
+  login: (name: string, contact: string) => void;
+  setExamMode: (mode: 'cbt' | 'practice' | 'learning') => void;
+  logout: () => void;
+  
+  startExam: (subjects: string[], questions: Record<string, Question[]>, config: { mode: string; timeLimit: number | null; showAnswers: 'instant' | 'end' }) => void;
   setAnswer: (questionId: number, answer: string) => void;
   toggleFlag: (questionId: number) => void;
   setActiveSubject: (subject: string) => void;
@@ -45,6 +54,9 @@ export const useExamStore = create<ExamState>()(
   persist(
     (set) => ({
       status: 'idle',
+      user: null,
+      examMode: null,
+      examConfig: null,
       subjects: [],
       questions: {},
       answers: {},
@@ -58,6 +70,10 @@ export const useExamStore = create<ExamState>()(
       isCatchingSkips: false,
       candidateInfo: { name: 'Student', regNo: '2026UTME/001' },
 
+      login: (name, contact) => set({ user: { name, contact }, candidateInfo: { name, regNo: contact } }),
+      setExamMode: (mode) => set({ examMode: mode }),
+      logout: () => set({ user: null, examMode: null, status: 'idle' }),
+
       startExam: (subjects, questions, config) => set({
         status: 'active',
         subjects,
@@ -66,19 +82,32 @@ export const useExamStore = create<ExamState>()(
         flags: [],
         activeSubject: subjects[0],
         currentIndexes: Object.fromEntries(subjects.map(s => [s, 0])),
-        examConfig: config || { mode: 'cbt', timeLimit: 120 * 60 * 1000, showAnswers: 'end' },
-        endTime: config?.timeLimit ? Date.now() + config.timeLimit : null,
+        examConfig: config,
+        endTime: config.timeLimit ? Date.now() + config.timeLimit : null,
         isReviewOpen: false,
         isNavigatorOpen: false,
         isCalculatorOpen: false,
         isCatchingSkips: false,
       }),
+
       setAnswer: (qid, ans) => set((s) => ({ answers: { ...s.answers, [qid]: ans } })),
       toggleFlag: (qid) => set((s) => ({ flags: s.flags.includes(qid) ? s.flags.filter(id => id !== qid) : [...s.flags, qid] })),
       setActiveSubject: (sub) => set({ activeSubject: sub }),
       setCurrentIndex: (sub, idx) => set((s) => ({ currentIndexes: { ...s.currentIndexes, [sub]: idx } })),
       submitExam: () => set({ status: 'submitted' }),
-      resetExam: () => set({ status: 'idle', questions: {}, answers: {}, flags: [], endTime: null }),
+      
+      resetExam: () => set({ 
+        status: 'idle', 
+        questions: {}, 
+        answers: {}, 
+        flags: [], 
+        endTime: null,
+        isReviewOpen: false,
+        isNavigatorOpen: false,
+        isCalculatorOpen: false,
+        isCatchingSkips: false,
+      }),
+
       toggleNavigator: () => set((s) => ({ isNavigatorOpen: !s.isNavigatorOpen })),
       toggleReview: () => set((s) => ({ isReviewOpen: !s.isReviewOpen })),
       toggleCalculator: () => set((s) => ({ isCalculatorOpen: !s.isCalculatorOpen })),
