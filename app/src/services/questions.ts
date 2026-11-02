@@ -21,3 +21,46 @@ export async function fetchExamQuestions(subjects: string[]): Promise<Record<str
   }
   return result;
 }
+
+// ── NEW FUNCTIONS FOR LEARNING MODE ──
+
+export async function fetchTopics(subjectSlug: string): Promise<string[]> {
+  // Fetch distinct topics by grabbing a large sample and extracting unique topics
+  const { data, error } = await supabase
+    .from('questions')
+    .select('topic')
+    .eq('subject_slug', subjectSlug)
+    .limit(1000);
+    
+  if (error) throw error;
+  if (!data) return [];
+  
+  const uniqueTopics = Array.from(new Set(data.map(q => q.topic)));
+  return uniqueTopics.sort();
+}
+
+export async function fetchTopicQuestions(
+  subjectSlug: string, 
+  topics: string[], 
+  count: number
+): Promise<Question[]> {
+  // If no topics selected, fetch random questions for the subject
+  if (topics.length === 0) {
+    const { data, error } = await supabase.rpc('get_random_questions', { p_subject: subjectSlug, p_count: count });
+    if (error) throw error;
+    return data || [];
+  }
+
+  // If topics selected, fetch questions matching those topics and shuffle them
+  const { data, error } = await supabase
+    .from('questions')
+    .select('*')
+    .eq('subject_slug', subjectSlug)
+    .in('topic', topics)
+    .limit(count);
+
+  if (error) throw error;
+  
+  // Shuffle locally to keep it random
+  return (data || []).sort(() => Math.random() - 0.5);
+}
