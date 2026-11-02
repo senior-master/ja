@@ -1,11 +1,9 @@
 import { useExamStore } from '../store/useExamStore';
-import { useNavigate } from 'react-router-dom';
 
 export function QuestionNavigator() {
-  const navigate = useNavigate();
   const {
-    activeSubject, subjects, questions, currentIndexes, setCurrentIndex,
-    answers, flags, isReviewOpen, toggleReview
+    activeSubject, questions, currentIndexes, setCurrentIndex,
+    answers, flags, isReviewOpen
   } = useExamStore();
 
   if (isReviewOpen) return null; // Hide navigator when review modal is open
