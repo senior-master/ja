@@ -124,6 +124,30 @@ def insert_batch(rows):
             skp += max(0, len(rows) - 20)   # count remainder as skipped
             return ins, skp
 
+        # ── Duplicate key (unique constraint hit): retry row-by-row, treat exists as skip ──
+        if e.code == 409:
+            print(f"    ⏭️  batch HTTP 409 (rows already exist) — retrying one-by-one")
+            ins, skp = 0, 0
+            for row in rows:
+                try:
+                    single = urllib.request.Request(
+                        TABLE_URL, data=json.dumps([row]).encode("utf-8"), method="POST"
+                    )
+                    single.add_header("apikey", SERVICE_KEY)
+                    single.add_header("Authorization", f"Bearer {SERVICE_KEY}")
+                    single.add_header("Content-Type", "application/json")
+                    single.add_header("Prefer", "resolution=ignore-duplicates,return=representation")
+                    with urllib.request.urlopen(single, timeout=15) as r:
+                        if len(json.loads(r.read().decode("utf-8"))) > 0:
+                            ins += 1
+                        else:
+                            skp += 1
+                except urllib.error.HTTPError:
+                    skp += 1
+                except Exception:
+                    skp += 1
+            return ins, skp
+
         # ── Unknown 4xx: fail the whole import ──
         print(f"\n🚨 HTTP {e.code} unexpected: {err_body}", file=sys.stderr)
         sys.exit(2)
