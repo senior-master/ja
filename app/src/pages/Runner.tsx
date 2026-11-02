@@ -4,6 +4,7 @@ import { useExamStore } from '../store/useExamStore';
 import { ExamTimer } from '../components/ExamTimer';
 import { QuestionCard } from '../components/QuestionCard';
 import { QuestionNavigator } from '../components/QuestionNavigator';
+import { ReviewModal } from '../components/ReviewModal';
 import { Calculator } from '../components/Calculator';
 import { ChevronLeft, ChevronRight, Flag, Calculator as CalcIcon } from 'lucide-react';
 
@@ -30,37 +31,53 @@ export function Runner() {
       if (!currentQuestion || status !== 'active') return;
       const key = e.key.toUpperCase();
       
-      // A, B, C, D for options
-      if (['A', 'B', 'C', 'D'].includes(key)) {
-        setAnswer(currentQuestion.id, key);
-      } 
-      // N for Next
-      else if (key === 'N') {
-        if (currentIndex < currentQuestions.length - 1) setCurrentIndex(activeSubject, currentIndex + 1);
-      } 
-      // P for Previous
-      else if (key === 'P') {
-        if (currentIndex > 0) setCurrentIndex(activeSubject, currentIndex - 1);
-      } 
-      // R for Return/Flag
-      else if (key === 'R') {
-        toggleFlag(currentQuestion.id);
-      } 
-      // S for Submit
-      else if (key === 'S') {
-        toggleReview();
-      }
+      if (['A', 'B', 'C', 'D'].includes(key)) setAnswer(currentQuestion.id, key);
+      else if (key === 'N') handleNext();
+      else if (key === 'P') handlePrev();
+      else if (key === 'R') toggleFlag(currentQuestion.id);
+      else if (key === 'S') toggleReview();
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentQuestion, currentIndex, activeSubject, currentQuestions.length, status, setAnswer, setCurrentIndex, toggleFlag, toggleReview]);
+  });
 
   if (status !== 'active' || !currentQuestion) return null;
 
+  const handleNext = () => {
+    if (currentIndex < currentQuestions.length - 1) {
+      setCurrentIndex(activeSubject, currentIndex + 1);
+    } else {
+      // Auto-advance to next subject
+      const currentSubIndex = subjects.indexOf(activeSubject);
+      if (currentSubIndex < subjects.length - 1) {
+        setActiveSubject(subjects[currentSubIndex + 1]);
+        // setCurrentIndex for the next subject is already 0 by default
+      }
+    }
+  };
+
+  const handlePrev = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(activeSubject, currentIndex - 1);
+    } else {
+      // Go to previous subject's last question (optional, but good UX)
+      const currentSubIndex = subjects.indexOf(activeSubject);
+      if (currentSubIndex > 0) {
+        const prevSub = subjects[currentSubIndex - 1];
+        setActiveSubject(prevSub);
+        const prevSubQs = questions[prevSub] || [];
+        setCurrentIndex(prevSub, prevSubQs.length - 1);
+      }
+    }
+  };
+
+  const isLastQuestionOfLastSubject = 
+    currentIndex === currentQuestions.length - 1 && 
+    activeSubject === subjects[subjects.length - 1];
+
   return (
     <div className="min-h-screen bg-slate-100 flex flex-col font-sans">
-      {/* Top Green Header (JAMB Style) */}
       <header className="bg-green-700 text-white px-4 py-2 flex flex-wrap justify-between items-center shadow-md z-20">
         <div className="flex flex-col">
           <span className="font-bold text-lg leading-tight">CBT Master</span>
@@ -79,7 +96,6 @@ export function Runner() {
         </div>
       </header>
 
-      {/* Subject Tabs */}
       <div className="bg-green-800 text-green-100 flex overflow-x-auto hide-scrollbar shadow-inner z-10">
         {subjects.map(sub => (
           <button
@@ -94,10 +110,7 @@ export function Runner() {
         ))}
       </div>
 
-      {/* Main Layout: Question Area + Permanent Sidebar */}
       <div className="flex-1 flex flex-col lg:flex-row overflow-hidden max-w-[1400px] w-full mx-auto">
-        
-        {/* Left Side: Question */}
         <main className="flex-1 flex flex-col p-4 overflow-y-auto">
           <div className="flex justify-between items-center text-sm text-slate-600 mb-2 bg-white p-2 rounded shadow-sm border border-slate-200">
             <span className="font-bold">Question {currentIndex + 1} of {currentQuestions.length}</span>
@@ -115,27 +128,35 @@ export function Runner() {
 
           <div className="flex gap-4 mt-auto">
             <button 
-              onClick={() => setCurrentIndex(activeSubject, currentIndex - 1)} 
-              disabled={currentIndex === 0}
+              onClick={handlePrev} 
+              disabled={currentIndex === 0 && activeSubject === subjects[0]}
               className="flex-1 py-3 bg-white border-2 border-slate-300 rounded-xl font-bold text-slate-700 disabled:opacity-50 flex justify-center items-center gap-2 hover:bg-slate-50 transition-colors"
             >
               <ChevronLeft size={20} /> Prev (P)
             </button>
-            <button 
-              onClick={() => setCurrentIndex(activeSubject, currentIndex + 1)}
-              disabled={currentIndex === currentQuestions.length - 1}
-              className="flex-1 py-3 bg-green-700 text-white rounded-xl font-bold disabled:opacity-50 flex justify-center items-center gap-2 hover:bg-green-600 transition-colors shadow-lg"
-            >
-              Next (N) <ChevronRight size={20} />
-            </button>
+            
+            {isLastQuestionOfLastSubject ? (
+              <button 
+                onClick={toggleReview}
+                className="flex-1 py-3 bg-yellow-500 text-slate-900 rounded-xl font-bold flex justify-center items-center gap-2 hover:bg-yellow-400 transition-colors shadow-lg"
+              >
+                Finish Exam
+              </button>
+            ) : (
+              <button 
+                onClick={handleNext}
+                className="flex-1 py-3 bg-green-700 text-white rounded-xl font-bold flex justify-center items-center gap-2 hover:bg-green-600 transition-colors shadow-lg"
+              >
+                Next (N) <ChevronRight size={20} />
+              </button>
+            )}
           </div>
         </main>
 
-        {/* Right/Bottom Side: Permanent Navigator */}
         <QuestionNavigator />
       </div>
 
-      {/* Calculator Popup */}
+      <ReviewModal />
       {isCalculatorOpen && <Calculator onClose={toggleCalculator} />}
     </div>
   );
