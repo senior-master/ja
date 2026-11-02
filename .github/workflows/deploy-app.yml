@@ -1,7 +1,3 @@
-cd ~/ja
-
-
-
 name: Deploy React App
 
 on:
