@@ -22,6 +22,8 @@ type ExamState = {
   activeSubject: string;
   currentIndexes: Record<string, number>;
   endTime: number | null;
+  isNavigatorOpen: boolean;
+  isReviewOpen: boolean;
   
   startExam: (subjects: string[], questions: Record<string, Question[]>) => void;
   setAnswer: (questionId: number, answer: string) => void;
@@ -30,6 +32,8 @@ type ExamState = {
   setCurrentIndex: (subject: string, index: number) => void;
   submitExam: () => void;
   resetExam: () => void;
+  toggleNavigator: () => void;
+  toggleReview: () => void;
 };
 
 export const useExamStore = create<ExamState>()(
@@ -43,6 +47,8 @@ export const useExamStore = create<ExamState>()(
       activeSubject: '',
       currentIndexes: {},
       endTime: null,
+      isNavigatorOpen: false,
+      isReviewOpen: false,
 
       startExam: (subjects, questions) => set({
         status: 'active',
@@ -60,6 +66,8 @@ export const useExamStore = create<ExamState>()(
       setCurrentIndex: (sub, idx) => set((s) => ({ currentIndexes: { ...s.currentIndexes, [sub]: idx } })),
       submitExam: () => set({ status: 'submitted' }),
       resetExam: () => set({ status: 'idle', questions: {}, answers: {}, flags: [], endTime: null }),
+      toggleNavigator: () => set((s) => ({ isNavigatorOpen: !s.isNavigatorOpen })),
+      toggleReview: () => set((s) => ({ isReviewOpen: !s.isReviewOpen })),
     }),
     { name: 'jamb-exam-storage' }
   )

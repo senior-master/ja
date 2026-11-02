@@ -3,13 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { ExamTimer } from '../components/ExamTimer';
 import { QuestionCard } from '../components/QuestionCard';
-import { ChevronLeft, ChevronRight, Flag } from 'lucide-react';
+import { QuestionNavigator } from '../components/QuestionNavigator';
+import { ChevronLeft, ChevronRight, Flag, Grid3X3 } from 'lucide-react';
 
 export function Runner() {
   const navigate = useNavigate();
   const {
     status, subjects, activeSubject, questions, currentIndexes,
-    setActiveSubject, setCurrentIndex, submitExam, toggleFlag, flags
+    setActiveSubject, setCurrentIndex, toggleFlag, toggleNavigator, toggleReview, flags
   } = useExamStore();
 
   useEffect(() => {
@@ -25,23 +26,23 @@ export function Runner() {
   if (!currentQuestion) return null;
   const isFlagged = flags.includes(currentQuestion.id);
 
-  const handleSubmit = () => {
-    if (window.confirm("Are you sure you want to submit your exam?")) {
-      submitExam();
-      navigate('/results');
-    }
-  };
-
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
+      {/* Top Bar */}
       <header className="bg-white border-b border-slate-200 px-4 py-3 flex justify-between items-center sticky top-0 z-10 shadow-sm">
-        <div className="font-bold text-slate-700">CBT Master</div>
+        <div className="font-bold text-slate-700 hidden sm:block">CBT Master</div>
         <ExamTimer />
-        <button onClick={handleSubmit} className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold text-sm transition-colors">
-          Submit
-        </button>
+        <div className="flex gap-2">
+          <button onClick={toggleNavigator} className="p-2 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200">
+            <Grid3X3 size={20} />
+          </button>
+          <button onClick={toggleReview} className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold text-sm transition-colors">
+            Submit
+          </button>
+        </div>
       </header>
 
+      {/* Subject Tabs */}
       <div className="bg-slate-800 text-white flex overflow-x-auto hide-scrollbar">
         {subjects.map(sub => (
           <button
@@ -56,12 +57,13 @@ export function Runner() {
         ))}
       </div>
 
+      {/* Main Content */}
       <main className="flex-1 max-w-3xl w-full mx-auto p-4 flex flex-col gap-4">
         <div className="flex justify-between items-center text-sm text-slate-500">
           <span>Question {currentIndex + 1} of {currentQuestions.length}</span>
           <button 
             onClick={() => toggleFlag(currentQuestion.id)}
-            className={`flex items-center gap-1 ${isFlagged ? 'text-orange-500' : 'text-slate-400 hover:text-slate-600'}`}
+            className={`flex items-center gap-1 ${isFlagged ? 'text-orange-500 font-bold' : 'text-slate-400 hover:text-slate-600'}`}
           >
             <Flag size={16} fill={isFlagged ? "currentColor" : "none"} />
             {isFlagged ? 'Flagged' : 'Flag'}
@@ -70,6 +72,7 @@ export function Runner() {
 
         <QuestionCard question={currentQuestion} />
 
+        {/* Navigation Buttons */}
         <div className="flex gap-4 mt-2">
           <button 
             onClick={() => setCurrentIndex(activeSubject, currentIndex - 1)} 
@@ -87,6 +90,9 @@ export function Runner() {
           </button>
         </div>
       </main>
+
+      {/* The Slide-up Drawer */}
+      <QuestionNavigator />
     </div>
   );
 }
