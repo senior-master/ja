@@ -6,7 +6,7 @@ on:
       budget_seconds:
         description: 'Work budget in seconds (default 600 = 10 min)'
         required: false
-        default: '600'
+        default: '200'
       batch_size:
         description: 'Rows per request (default 500)'
         required: false
