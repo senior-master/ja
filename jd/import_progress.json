@@ -140,8 +140,31 @@
     "geography/map-work.jsonl",
     "geography/nigeria-geography.jsonl",
     "geography/ocean-currents.jsonl",
-    "geography/physical-geography.jsonl"
+    "geography/physical-geography.jsonl",
+    "geography/regional-geography.jsonl",
+    "geography/world-geography.jsonl",
+    "government/african-politics.jsonl",
+    "government/civic-education.jsonl",
+    "government/democracy.jsonl",
+    "government/geography.jsonl",
+    "government/international-relations.jsonl",
+    "government/islamic-history.jsonl",
+    "government/nigerian-government.jsonl",
+    "government/political-concepts.jsonl",
+    "government/political-thought.jsonl",
+    "hausa/adabin-baka.jsonl",
+    "hausa/al-adun-haihuwa-aure-da-mutuwa.jsonl",
+    "hausa/bukukuwa-da-wasannin-gargajiya.jsonl",
+    "hausa/fahimtar-rubutu.jsonl",
+    "hausa/fassarar-harshe.jsonl",
+    "hausa/imani-da-bautar-gargajiya.jsonl",
+    "hausa/ka-idojin-rubutu.jsonl",
+    "hausa/karin-magana-da-maganganun-azanci.jsonl",
+    "hausa/rubutaccen-adabi.jsonl",
+    "hausa/sana-o-in-gargajiya.jsonl",
+    "hausa/tsarin-jimla-da-nahawu.jsonl",
+    "hausa/tsarin-kalma-da-ginin-kalmomi.jsonl"
   ],
   "inserted_total": 0,
-  "skipped_total": 6396
+  "skipped_total": 7425
 }
