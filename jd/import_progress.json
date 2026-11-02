@@ -123,8 +123,25 @@
     "fine-art/graphics-and-printing-techniques.jsonl",
     "fine-art/sculpture-and-modelling.jsonl",
     "fine-art/textiles-and-crafts.jsonl",
-    "french/civilisation.jsonl"
+    "french/civilisation.jsonl",
+    "french/compr-hension-crite.jsonl",
+    "french/conjugaison.jsonl",
+    "french/expression-crite.jsonl",
+    "french/grammaire.jsonl",
+    "french/litt-rature.jsonl",
+    "french/traduction.jsonl",
+    "french/vocabulaire.jsonl",
+    "geography/africa-geography.jsonl",
+    "geography/agricultural-science.jsonl",
+    "geography/agriculture-geography.jsonl",
+    "geography/human-geography.jsonl",
+    "geography/international-relations.jsonl",
+    "geography/international-trade.jsonl",
+    "geography/map-work.jsonl",
+    "geography/nigeria-geography.jsonl",
+    "geography/ocean-currents.jsonl",
+    "geography/physical-geography.jsonl"
   ],
   "inserted_total": 0,
-  "skipped_total": 5535
+  "skipped_total": 6396
 }
