@@ -202,8 +202,22 @@
     "insurance/insurance-regulation-in-nigeria.jsonl",
     "insurance/principles-of-insurance.jsonl",
     "insurance/risk-management.jsonl",
-    "insurance/types-of-insurance.jsonl"
+    "insurance/types-of-insurance.jsonl",
+    "islamic-studies/fiqh-and-ibadah.jsonl",
+    "islamic-studies/hadith.jsonl",
+    "islamic-studies/islam-in-west-africa.jsonl",
+    "islamic-studies/islamic-family-law.jsonl",
+    "islamic-studies/islamic-history-pre-islamic-to-abbasid-era.jsonl",
+    "islamic-studies/islamic-reformers-and-movements.jsonl",
+    "islamic-studies/moral-and-social-system-in-islam.jsonl",
+    "islamic-studies/mu-amalat-and-economics.jsonl",
+    "islamic-studies/tawhid-and-faith.jsonl",
+    "islamic-studies/the-glorious-qur-an.jsonl",
+    "literature-in-english/characterisation.jsonl",
+    "literature-in-english/drama.jsonl",
+    "literature-in-english/poetry.jsonl",
+    "literature-in-english/prose.jsonl"
   ],
   "inserted_total": 0,
-  "skipped_total": 9485
+  "skipped_total": 10425
 }
