@@ -13,7 +13,8 @@ export function Runner() {
   const {
     status, subjects, activeSubject, questions, currentIndexes,
     setActiveSubject, setCurrentIndex, toggleFlag, toggleReview, flags,
-    isCalculatorOpen, toggleCalculator, setAnswer, candidateInfo, answers
+    isCalculatorOpen, toggleCalculator, setAnswer, candidateInfo, answers,
+    isCatchingSkips, setIsCatchingSkips
   } = useExamStore();
 
   const [toastMsg, setToastMsg] = useState('');
@@ -27,7 +28,6 @@ export function Runner() {
   const currentQuestion = currentQuestions[currentIndex];
   const isFlagged = currentQuestion ? flags.includes(currentQuestion.id) : false;
 
-  // Calculate global status
   const totalQuestions = subjects.reduce((acc, sub) => acc + (questions[sub]?.length || 0), 0);
   const answeredCount = Object.keys(answers).length;
   const hasSkipped = answeredCount < totalQuestions;
@@ -46,45 +46,68 @@ export function Runner() {
       return;
     }
     toggleReview();
+    setIsCatchingSkips(false);
   };
 
   const handleNext = () => {
+    // If we are at the end of the exam OR already in Skip Mode
+    if (isCatchingSkips || isAtAbsoluteEnd) {
+      let targetSub = '';
+      let targetIndex = -1;
+
+      // 1. Search forward from current position
+      for (let s = subjects.indexOf(activeSubject); s < subjects.length; s++) {
+        const sub = subjects[s];
+        const subQs = questions[sub] || [];
+        for (let i = 0; i < subQs.length; i++) {
+          if (s === subjects.indexOf(activeSubject) && i <= currentIndex) continue;
+          if (!answers[subQs[i].id]) {
+            targetSub = sub;
+            targetIndex = i;
+            break;
+          }
+        }
+        if (targetSub) break;
+      }
+
+      // 2. If not found, wrap around to the beginning
+      if (!targetSub) {
+        for (let s = 0; s <= subjects.indexOf(activeSubject); s++) {
+          const sub = subjects[s];
+          const subQs = questions[sub] || [];
+          for (let i = 0; i < subQs.length; i++) {
+            if (s === subjects.indexOf(activeSubject) && i >= currentIndex) break;
+            if (!answers[subQs[i].id]) {
+              targetSub = sub;
+              targetIndex = i;
+              break;
+            }
+          }
+          if (targetSub) break;
+        }
+      }
+
+      if (targetSub !== '') {
+        // Found a skipped question
+        setActiveSubject(targetSub);
+        setCurrentIndex(targetSub, targetIndex);
+        setIsCatchingSkips(true);
+        showToast("Jumped to next unanswered question");
+      } else {
+        // No skipped questions left! Trigger Finish.
+        handleSubmitClick();
+        setIsCatchingSkips(false);
+      }
+      return;
+    }
+
+    // Normal sequential navigation
     if (currentIndex < currentQuestions.length - 1) {
-      // Normal sequential next
       setCurrentIndex(activeSubject, currentIndex + 1);
     } else {
       const currentSubIndex = subjects.indexOf(activeSubject);
       if (currentSubIndex < subjects.length - 1) {
-        // Move to next subject
         setActiveSubject(subjects[currentSubIndex + 1]);
-      } else {
-        // We are at the end of the exam. Check for skipped questions.
-        const firstSkipped = Object.keys(answers).length < totalQuestions;
-        
-        if (firstSkipped) {
-          // Find the very first unanswered question globally
-          let targetSub = '';
-          let targetIndex = -1;
-          
-          for (const sub of subjects) {
-            const subQs = questions[sub] || [];
-            const idx = subQs.findIndex(q => !answers[q.id]);
-            if (idx !== -1) {
-              targetSub = sub;
-              targetIndex = idx;
-              break;
-            }
-          }
-          
-          if (targetSub !== '') {
-            setActiveSubject(targetSub);
-            setCurrentIndex(targetSub, targetIndex);
-            showToast("Jumped to the first skipped question");
-          }
-        } else {
-          // No skipped questions left, they clicked Next on the very last Q.
-          handleSubmitClick();
-        }
       }
     }
   };
@@ -101,9 +124,9 @@ export function Runner() {
         setCurrentIndex(prevSub, prevSubQs.length - 1);
       }
     }
+    setIsCatchingSkips(false); // Manual back navigation cancels skip mode
   };
 
-  // JAMB 8-Key Keyboard Shortcuts
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!currentQuestion || status !== 'active' || document.activeElement?.tagName === 'INPUT') return;
@@ -115,7 +138,6 @@ export function Runner() {
       else if (key === 'R') toggleFlag(currentQuestion.id);
       else if (key === 'S') handleSubmitClick();
     };
-
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   });
@@ -126,7 +148,6 @@ export function Runner() {
 
   return (
     <div className="min-h-screen bg-slate-100 flex flex-col font-sans relative">
-      {/* Toast Warning Popup */}
       {toastMsg && (
         <div className="fixed top-20 left-1/2 -translate-x-1/2 bg-red-600 text-white px-6 py-3 rounded-lg shadow-2xl z-50 animate-bounce font-medium text-sm">
           {toastMsg}
@@ -155,7 +176,7 @@ export function Runner() {
         {subjects.map(sub => (
           <button
             key={sub}
-            onClick={() => setActiveSubject(sub)}
+            onClick={() => { setActiveSubject(sub); setIsCatchingSkips(false); }}
             className={`px-6 py-2 text-sm font-medium whitespace-nowrap transition-colors border-b-4 ${
               activeSubject === sub ? 'bg-green-600 border-yellow-400 text-white font-bold' : 'border-transparent hover:bg-green-700'
             }`}

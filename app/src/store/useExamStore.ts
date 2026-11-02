@@ -25,6 +25,7 @@ type ExamState = {
   isNavigatorOpen: boolean;
   isReviewOpen: boolean;
   isCalculatorOpen: boolean;
+  isCatchingSkips: boolean;
   candidateInfo: { name: string; regNo: string };
   
   startExam: (subjects: string[], questions: Record<string, Question[]>) => void;
@@ -37,6 +38,7 @@ type ExamState = {
   toggleNavigator: () => void;
   toggleReview: () => void;
   toggleCalculator: () => void;
+  setIsCatchingSkips: (val: boolean) => void;
 };
 
 export const useExamStore = create<ExamState>()(
@@ -53,6 +55,7 @@ export const useExamStore = create<ExamState>()(
       isNavigatorOpen: false,
       isReviewOpen: false,
       isCalculatorOpen: false,
+      isCatchingSkips: false,
       candidateInfo: { name: 'Student', regNo: '2026UTME/001' },
 
       startExam: (subjects, questions) => set({
@@ -74,6 +77,7 @@ export const useExamStore = create<ExamState>()(
       toggleNavigator: () => set((s) => ({ isNavigatorOpen: !s.isNavigatorOpen })),
       toggleReview: () => set((s) => ({ isReviewOpen: !s.isReviewOpen })),
       toggleCalculator: () => set((s) => ({ isCalculatorOpen: !s.isCalculatorOpen })),
+      setIsCatchingSkips: (val) => set({ isCatchingSkips: val }),
     }),
     { name: 'jamb-exam-storage' }
   )
