@@ -38,7 +38,7 @@ if env_file.exists():
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").strip().rstrip("/")
 SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "").strip()
 RUN_BUDGET = int(os.environ.get("RUN_BUDGET", "180"))
-BATCH_SIZE = 200
+BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "500"))
 SAFETY_MARGIN = 8
 
 

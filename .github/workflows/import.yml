@@ -2,6 +2,15 @@ name: Import Questions to Supabase
 
 on:
   workflow_dispatch:
+    inputs:
+      budget_seconds:
+        description: 'Work budget in seconds (default 600 = 10 min)'
+        required: false
+        default: '600'
+      batch_size:
+        description: 'Rows per request (default 500)'
+        required: false
+        default: '500'
 
 concurrency:
   group: import-questions
@@ -13,7 +22,7 @@ permissions:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
@@ -26,11 +35,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Import (3-min budget)
+      - name: Import
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          RUN_BUDGET: "180"
+          RUN_BUDGET: ${{ inputs.budget_seconds }}
+          BATCH_SIZE: ${{ inputs.batch_size }}
         run: python js/import_to_supabase.py
 
       - name: Commit progress
