@@ -1,56 +1,43 @@
 {
   "subject_slug": "christian-religious-studies",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T16:39:58.116823+00:00",
+  "fetched_at": "2026-11-02T14:12:36.952618+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "General",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 2,
       "name": "Christian living",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "New testament",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Old testament",
       "percentage": null,
       "difficulty": null
     },
     {
-      "name": "Biblical Themes and Theology",
+      "id": 4,
+      "name": "Islamic history",
       "percentage": null,
-      "difficulty": null,
-      "id": 5
+      "difficulty": null
     },
     {
-      "name": "Christian Ethics and Morality",
+      "id": 5,
+      "name": "Quran",
       "percentage": null,
-      "difficulty": null,
-      "id": 6
+      "difficulty": null
     },
     {
-      "name": "History of the Christian Church",
+      "id": 6,
+      "name": "Citizenship",
       "percentage": null,
-      "difficulty": null,
-      "id": 7
-    },
-    {
-      "name": "Christian Doctrines and Beliefs",
-      "percentage": null,
-      "difficulty": null,
-      "id": 8
+      "difficulty": null
     }
-  ],
-  "cleaned": true
+  ]
 }

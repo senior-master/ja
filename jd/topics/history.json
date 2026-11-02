@@ -1,39 +1,49 @@
 {
   "subject_slug": "history",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T16:39:58.111723+00:00",
+  "fetched_at": "2026-11-02T14:12:46.320074+00:00",
   "topics": [
     {
-      "name": "Nigeria: Earliest Times to 1800",
-      "percentage": 20,
-      "difficulty": null,
-      "id": 1
+      "id": 1,
+      "name": "African politics",
+      "percentage": null,
+      "difficulty": null
     },
     {
-      "name": "Nigeria in the 19th Century",
-      "percentage": 20,
-      "difficulty": null,
-      "id": 2
+      "id": 2,
+      "name": "Islamic history",
+      "percentage": null,
+      "difficulty": null
     },
     {
-      "name": "Nigeria 1900–1960",
-      "percentage": 20,
-      "difficulty": null,
-      "id": 3
+      "id": 3,
+      "name": "Nigeria 1800 1900",
+      "percentage": null,
+      "difficulty": null
     },
     {
-      "name": "Nigeria Since Independence",
-      "percentage": 20,
-      "difficulty": null,
-      "id": 4
+      "id": 4,
+      "name": "Nigeria 1900 1960",
+      "percentage": null,
+      "difficulty": null
     },
     {
-      "name": "West Africa and the Wider World",
-      "percentage": 20,
-      "difficulty": null,
-      "id": 5
+      "id": 5,
+      "name": "Nigeria to 1800",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Nigerian government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Regional geography",
+      "percentage": null,
+      "difficulty": null
     }
-  ],
-  "source": "manual",
-  "cleaned": true
+  ]
 }

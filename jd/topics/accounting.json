@@ -1,65 +1,137 @@
 {
   "subject_slug": "accounting",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:15.455820+00:00",
+  "fetched_at": "2026-11-02T14:12:33.344624+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "Bank reconciliation",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 2,
-      "name": "Partnership accounts",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 3,
-      "name": "Branch accounts",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 4,
-      "name": "Departmental accounts",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 5,
-      "name": "Cost accounting",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 6,
       "name": "Not for profit",
       "percentage": null,
       "difficulty": null
     },
     {
+      "id": 2,
+      "name": "Double entry principles",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Sole trader accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Stock valuation",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Accounting information technology",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Cash book",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
       "id": 7,
-      "name": "Financial economics",
+      "name": "Cost accounting",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 8,
-      "name": "Company accounts",
+      "name": "Control accounts",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 9,
-      "name": "Government",
+      "name": "Financial accounting",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 10,
-      "name": "Nigerian government",
+      "name": "Partnership accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Manufacturing accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Professional ethics and regulation",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Company accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Joint venture accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 15,
+      "name": "Public sector accounting",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 16,
+      "name": "Departmental accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 17,
+      "name": "Bank transactions",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 18,
+      "name": "Ledger accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 19,
+      "name": "Branch accounts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 20,
+      "name": "Accounting fundamentals",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 21,
+      "name": "Incomplete records",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 22,
+      "name": "Financial economics",
       "percentage": null,
       "difficulty": null
     }

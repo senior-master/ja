@@ -1,11 +1,11 @@
 {
   "subject_slug": "government",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:27.900622+00:00",
+  "fetched_at": "2026-11-02T14:12:44.595162+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "Geography",
+      "name": "Political concepts",
       "percentage": null,
       "difficulty": null
     },
@@ -17,43 +17,103 @@
     },
     {
       "id": 3,
-      "name": "International relations",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 4,
-      "name": "Political concepts",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 5,
-      "name": "Democracy",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 6,
       "name": "Political thought",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 7,
+      "id": 4,
+      "name": "International relations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
       "name": "Nigerian government",
       "percentage": null,
       "difficulty": null
     },
     {
+      "id": 6,
+      "name": "Regional geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Political concepts sovereignty",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
       "id": 8,
-      "name": "Civic education",
+      "name": "Islamic history",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 9,
-      "name": "Islamic history",
+      "name": "Political processes",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Democracy",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Systems of governance parliamentary monarchical",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Political parties and party systems",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Political concepts constitution",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Population",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 15,
+      "name": "Citizenship",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 16,
+      "name": "Political concepts citizenship",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 17,
+      "name": "Public service",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 18,
+      "name": "Political concepts democracy",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 19,
+      "name": "Political socialization",
       "percentage": null,
       "difficulty": null
     }

@@ -1,137 +1,161 @@
 {
   "subject_slug": "commerce",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:21.861087+00:00",
+  "fetched_at": "2026-11-02T14:12:39.722888+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "Accounting",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 2,
       "name": "International trade",
       "percentage": null,
       "difficulty": null
     },
     {
+      "id": 2,
+      "name": "Marketing and advertising",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
       "id": 3,
-      "name": "Economics",
+      "name": "Transport and communications",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 4,
-      "name": "Financial economics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 5,
       "name": "African politics",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Partnership accounts",
       "percentage": null,
       "difficulty": null
     },
     {
+      "id": 6,
+      "name": "Business units",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
       "id": 7,
-      "name": "Development economics",
+      "name": "Trade",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 8,
-      "name": "Macroeconomics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 9,
-      "name": "Microeconomics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 10,
-      "name": "Na",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 11,
-      "name": "Nigerian government",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 12,
-      "name": "International relations",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 13,
-      "name": "Financial accounting",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 14,
       "name": "Company accounts",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 15,
-      "name": "Agricultural science",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 16,
-      "name": "Government",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 17,
+      "id": 9,
       "name": "Human geography",
       "percentage": null,
       "difficulty": null
     },
     {
+      "id": 10,
+      "name": "Development economics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Macroeconomics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Insurance principles",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
+      "name": "Finance and banking",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 14,
+      "name": "Microeconomics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 15,
+      "name": "Nigerian government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 16,
+      "name": "International relations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 17,
+      "name": "Business law and environment",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
       "id": 18,
-      "name": "Geography",
+      "name": "Financial economics",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 19,
-      "name": "Civic education",
+      "name": "Financial accounting",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 20,
-      "name": "Further topics",
+      "name": "Algebra further",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 21,
-      "name": "National issues",
+      "name": "Crop production",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 22,
-      "name": "English language",
+      "name": "Political concepts",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 23,
+      "name": "Marine insurance",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 24,
+      "name": "National issues",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 25,
+      "name": "Foreign trade",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 26,
+      "name": "Writing",
       "percentage": null,
       "difficulty": null
     }

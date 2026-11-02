@@ -1,41 +1,41 @@
 {
   "subject_slug": "english-language",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:24.746513+00:00",
+  "fetched_at": "2026-11-02T14:12:42.846924+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "Grammar",
+      "name": "Vocabulary",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 2,
-      "name": "Government",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 3,
-      "name": "Comprehension",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 4,
       "name": "Oral english",
       "percentage": null,
       "difficulty": null
     },
     {
+      "id": 3,
+      "name": "Prose",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Comprehension",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
       "id": 5,
-      "name": "Literature in english",
+      "name": "Grammar",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 6,
-      "name": "Vocabulary",
+      "name": "Poetry",
       "percentage": null,
       "difficulty": null
     },
@@ -47,13 +47,31 @@
     },
     {
       "id": 8,
-      "name": "Drama",
+      "name": "Argumentation persuasion",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 9,
-      "name": "Geography",
+      "name": "National issues",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Drama",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Physical geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Nigerian government",
       "percentage": null,
       "difficulty": null
     }

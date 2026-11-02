@@ -1,59 +1,59 @@
 {
   "subject_slug": "chemistry",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:18.019203+00:00",
+  "fetched_at": "2026-11-02T14:12:35.148497+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "Energetics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 2,
-      "name": "States of matter",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 3,
-      "name": "Stoichiometry",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 4,
-      "name": "Chemical bonding",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 5,
-      "name": "Organic chemistry",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 6,
       "name": "Inorganic chemistry",
       "percentage": null,
       "difficulty": null
     },
     {
+      "id": 2,
+      "name": "Energetics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 3,
+      "name": "Organic chemistry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Stoichiometry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Chemical bonding",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Atomic structure",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
       "id": 7,
-      "name": "Modern physics",
+      "name": "States of matter",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 8,
-      "name": "Acidic structure",
+      "name": "Nuclear chemistry",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 9,
-      "name": "Atomic structure",
+      "name": "Chemistry and industry",
       "percentage": null,
       "difficulty": null
     },
@@ -65,7 +65,13 @@
     },
     {
       "id": 11,
-      "name": "Heat",
+      "name": "Environmental chemistry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Modern physics",
       "percentage": null,
       "difficulty": null
     }

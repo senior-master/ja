@@ -1,7 +1,7 @@
 {
   "subject_slug": "mathematics",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:33.702009+00:00",
+  "fetched_at": "2026-11-02T14:12:49.654082+00:00",
   "topics": [
     {
       "id": 1,
@@ -17,121 +17,67 @@
     },
     {
       "id": 3,
-      "name": "Geometry",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 4,
-      "name": "Calculus",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 5,
-      "name": "Number theory",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 6,
       "name": "Algebra",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 7,
-      "name": "Probability",
+      "id": 4,
+      "name": "Geometry",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 8,
-      "name": "Mechanics",
+      "id": 5,
+      "name": "Calculus",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 9,
-      "name": "Fractions decimals",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 10,
-      "name": "Quadratic equations",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 11,
-      "name": "Inequalities",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 12,
-      "name": "Combinations",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 13,
-      "name": "Matrices",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 14,
-      "name": "Polynomials",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 15,
-      "name": "Surds",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 16,
-      "name": "Sequences series",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 17,
-      "name": "Functions",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 18,
+      "id": 6,
       "name": "Further topics",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 19,
-      "name": "Algebra further",
+      "id": 7,
+      "name": "Number theory",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 20,
+      "id": 8,
+      "name": "Determinants",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Mechanics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Binary operations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
       "name": "Sets",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 21,
-      "name": "Permutations combinations",
+      "id": 12,
+      "name": "Matrices",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 22,
-      "name": "Indices logarithms",
+      "id": 13,
+      "name": "Algebra further",
       "percentage": null,
       "difficulty": null
     }

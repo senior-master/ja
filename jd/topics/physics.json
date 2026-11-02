@@ -1,7 +1,7 @@
 {
   "subject_slug": "physics",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:34.929850+00:00",
+  "fetched_at": "2026-11-02T14:12:50.575020+00:00",
   "topics": [
     {
       "id": 1,
@@ -11,97 +11,79 @@
     },
     {
       "id": 2,
-      "name": "Modern physics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 3,
-      "name": "Waves",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 4,
-      "name": "Measurement",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 5,
-      "name": "Heat",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 6,
-      "name": "Momentum",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 7,
-      "name": "Magnetism",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 8,
-      "name": "Electromagnetism",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 9,
-      "name": "Pressure",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 10,
-      "name": "Mechanics",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 11,
-      "name": "Gas laws thermal",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 12,
-      "name": "Energy",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 13,
-      "name": "States of matter",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 14,
-      "name": "Work energy power",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 15,
       "name": "Gravitation",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 16,
+      "id": 3,
+      "name": "Modern physics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 4,
+      "name": "Waves",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Measurement",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "States of matter",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Mechanics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Heat",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Geometry",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Simple machines",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
+      "name": "Energetics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 12,
+      "name": "Optics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 13,
       "name": "Atomic structure",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 17,
-      "name": "Optics",
+      "id": 14,
+      "name": "Inorganic chemistry",
       "percentage": null,
       "difficulty": null
     }

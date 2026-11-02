@@ -1,7 +1,7 @@
 {
   "subject_slug": "civic-education",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T16:39:58.119336+00:00",
+  "fetched_at": "2026-11-02T14:12:38.340687+00:00",
   "topics": [
     {
       "id": 1,
@@ -11,46 +11,129 @@
     },
     {
       "id": 2,
-      "name": "Democracy",
+      "name": "Civil society and participation",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 3,
-      "name": "National issues",
+      "name": "Cultism",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 4,
+      "name": "Democracy",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 5,
+      "name": "Drug abuse",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 6,
+      "name": "Population",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 7,
+      "name": "Government",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "Hiv aids",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Human rights",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Human trafficking",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 11,
       "name": "International relations",
       "percentage": null,
       "difficulty": null
     },
     {
-      "name": "Human Rights and Rule of Law",
+      "id": 12,
+      "name": "Interpersonal relationships",
       "percentage": null,
-      "difficulty": null,
-      "id": 5
+      "difficulty": null
     },
     {
-      "name": "Political Participation",
+      "id": 13,
+      "name": "Law and order",
       "percentage": null,
-      "difficulty": null,
-      "id": 6
+      "difficulty": null
     },
     {
-      "name": "Social Values and Norms",
+      "id": 14,
+      "name": "National issues",
       "percentage": null,
-      "difficulty": null,
-      "id": 7
+      "difficulty": null
     },
     {
-      "name": "Constitutional Development in Nigeria",
+      "id": 15,
+      "name": "Political apathy",
       "percentage": null,
-      "difficulty": null,
-      "id": 8
+      "difficulty": null
+    },
+    {
+      "id": 16,
+      "name": "Public service",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 17,
+      "name": "Regional geography",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 18,
+      "name": "Responsible parenthood",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 19,
+      "name": "Statistics",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 20,
+      "name": "Traffic regulations",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 21,
+      "name": "Values",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 22,
+      "name": "Youth empowerment",
+      "percentage": null,
+      "difficulty": null
     }
-  ],
-  "cleaned": true
+  ]
 }

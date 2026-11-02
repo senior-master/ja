@@ -1,29 +1,29 @@
 {
   "subject_slug": "economics",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T16:39:58.122050+00:00",
+  "fetched_at": "2026-11-02T14:12:40.788708+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "Financial economics",
+      "name": "Development economics",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 2,
-      "name": "International trade",
+      "name": "Financial economics",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 3,
-      "name": "Microeconomics",
+      "name": "International trade",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 4,
-      "name": "Accounting",
+      "name": "Microeconomics",
       "percentage": null,
       "difficulty": null
     },
@@ -35,40 +35,27 @@
     },
     {
       "id": 6,
-      "name": "Development economics",
+      "name": "Economics as a science",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 7,
-      "name": "Partnership accounts",
+      "name": "Economic systems",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 8,
-      "name": "Geography",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 9,
       "name": "Company accounts",
       "percentage": null,
       "difficulty": null
     },
     {
-      "id": 10,
-      "name": "Human geography",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 11,
+      "id": 9,
       "name": "Statistics",
       "percentage": null,
       "difficulty": null
     }
-  ],
-  "cleaned": true
+  ]
 }

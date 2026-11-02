@@ -1,35 +1,35 @@
 {
   "subject_slug": "biology",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:16.731341+00:00",
+  "fetched_at": "2026-11-02T14:12:34.205640+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "Genetics",
+      "name": "Soil science",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 2,
-      "name": "Agricultural science",
+      "name": "Biochemistry",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 3,
-      "name": "Microbiology",
+      "name": "Cell biology",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 4,
-      "name": "Agriculture",
+      "name": "Ecology",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 5,
-      "name": "Ecology",
+      "name": "Genetics",
       "percentage": null,
       "difficulty": null
     },
@@ -41,7 +41,7 @@
     },
     {
       "id": 7,
-      "name": "Cell biology",
+      "name": "Microbiology",
       "percentage": null,
       "difficulty": null
     },
@@ -53,49 +53,31 @@
     },
     {
       "id": 9,
-      "name": "Biochemistry",
+      "name": "Reproduction",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 10,
-      "name": "Reproduction in plants",
+      "name": "Respiration",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 11,
-      "name": "Animal production",
+      "name": "Support and movement",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 12,
-      "name": "Disease transmission",
+      "name": "Transport in organisms",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 13,
-      "name": "Adaptation",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 14,
-      "name": "Animal biology",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 15,
-      "name": "Soil biology",
-      "percentage": null,
-      "difficulty": null
-    },
-    {
-      "id": 16,
-      "name": "Classification of plants",
+      "name": "Variety of organisms",
       "percentage": null,
       "difficulty": null
     }

@@ -1,11 +1,11 @@
 {
   "subject_slug": "literature-in-english",
   "exam_type": "jamb",
-  "fetched_at": "2026-10-31T08:01:32.092661+00:00",
+  "fetched_at": "2026-11-02T14:12:48.250625+00:00",
   "topics": [
     {
       "id": 1,
-      "name": "Drama",
+      "name": "Literary appreciation",
       "percentage": null,
       "difficulty": null
     },
@@ -17,31 +17,49 @@
     },
     {
       "id": 3,
-      "name": "Writing",
+      "name": "Drama",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 4,
-      "name": "Prose",
+      "name": "Prose characterisation",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 5,
-      "name": "Vocabulary",
+      "name": "Prescribed texts",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 6,
-      "name": "Theme analysis",
+      "name": "Literary terms",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 7,
-      "name": "Characterisation",
+      "name": "Prose",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 8,
+      "name": "General literary terms",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 9,
+      "name": "Figurative language",
+      "percentage": null,
+      "difficulty": null
+    },
+    {
+      "id": 10,
+      "name": "Prose plot analysis",
       "percentage": null,
       "difficulty": null
     }
