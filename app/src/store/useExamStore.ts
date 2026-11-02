@@ -28,7 +28,7 @@ type ExamState = {
   isCatchingSkips: boolean;
   candidateInfo: { name: string; regNo: string };
   
-  startExam: (subjects: string[], questions: Record<string, Question[]>) => void;
+  startExam: (subjects: string[], questions: Record<string, Question[]>, config?: { mode: string; timeLimit: number | null; showAnswers: 'instant' | 'end' }) => void;
   setAnswer: (questionId: number, answer: string) => void;
   toggleFlag: (questionId: number) => void;
   setActiveSubject: (subject: string) => void;
@@ -58,7 +58,7 @@ export const useExamStore = create<ExamState>()(
       isCatchingSkips: false,
       candidateInfo: { name: 'Student', regNo: '2026UTME/001' },
 
-      startExam: (subjects, questions) => set({
+      startExam: (subjects, questions, config) => set({
         status: 'active',
         subjects,
         questions,
@@ -66,7 +66,8 @@ export const useExamStore = create<ExamState>()(
         flags: [],
         activeSubject: subjects[0],
         currentIndexes: Object.fromEntries(subjects.map(s => [s, 0])),
-        endTime: Date.now() + (120 * 60 * 1000),
+        examConfig: config || { mode: 'cbt', timeLimit: 120 * 60 * 1000, showAnswers: 'end' },
+        endTime: config?.timeLimit ? Date.now() + config.timeLimit : null,
         isReviewOpen: false,
         isNavigatorOpen: false,
         isCalculatorOpen: false,
