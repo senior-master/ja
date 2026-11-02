@@ -20,7 +20,8 @@ export function Runner() {
   const [toastMsg, setToastMsg] = useState('');
 
   useEffect(() => {
-    if (status !== 'active') navigate('/');
+    if (status === 'submitted') navigate('/results');
+    else if (status !== 'active') navigate('/');
   }, [status, navigate]);
 
   const currentQuestions = questions[activeSubject] || [];
@@ -40,9 +41,11 @@ export function Runner() {
     setTimeout(() => setToastMsg(''), 3000);
   };
 
+  const minRequired = Math.ceil(totalQuestions / 2);
+
   const handleSubmitClick = () => {
-    if (answeredCount < 90) {
-      showToast("You must answer at least 90 questions to submit.");
+    if (answeredCount < minRequired) {
+      showToast(`You must answer at least ${minRequired} questions to submit.`);
       return;
     }
     toggleReview();
