@@ -1,4 +1,5 @@
 import { useExamStore, type Question } from '../store/useExamStore';
+import { MathText } from './MathText';
 
 export function QuestionCard({ question }: { question: Question }) {
   const { answers, setAnswer, examConfig } = useExamStore();
@@ -10,7 +11,10 @@ export function QuestionCard({ question }: { question: Question }) {
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-      <p className="text-lg text-slate-800 mb-6 font-medium leading-relaxed">{question.question}</p>
+      {/* Render Question with Math */}
+      <div className="text-lg text-slate-800 mb-6 font-medium leading-relaxed">
+        <MathText text={question.question} />
+      </div>
       
       <div className="flex flex-col gap-3">
         {options.map((letter) => {
@@ -40,10 +44,13 @@ export function QuestionCard({ question }: { question: Question }) {
               disabled={isInstant && !!selectedAnswer}
               className={`flex items-center gap-4 p-4 rounded-lg border-2 text-left transition-all ${btnClass}`}
             >
-              <div className={`w-8 h-8 flex items-center justify-center rounded-full font-bold ${letterClass}`}>
+              <div className={`w-8 h-8 flex items-center justify-center rounded-full font-bold flex-shrink-0 ${letterClass}`}>
                 {letter}
               </div>
-              <span className="text-slate-700">{optionText[letter]}</span>
+              {/* Render Option with Math */}
+              <div className="text-slate-700 flex-1">
+                <MathText text={optionText[letter]} />
+              </div>
             </button>
           );
         })}
@@ -59,7 +66,10 @@ export function QuestionCard({ question }: { question: Question }) {
               <span className="text-red-600">❌ Incorrect. The answer is {question.correct_answer}.</span>
             )}
           </div>
-          <p className="text-sm text-slate-600 leading-relaxed">{question.explanation}</p>
+          {/* Render Explanation with Math */}
+          <div className="text-sm text-slate-600 leading-relaxed">
+            <MathText text={question.explanation} />
+          </div>
         </div>
       )}
     </div>
