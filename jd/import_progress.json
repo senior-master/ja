@@ -163,8 +163,22 @@
     "hausa/rubutaccen-adabi.jsonl",
     "hausa/sana-o-in-gargajiya.jsonl",
     "hausa/tsarin-jimla-da-nahawu.jsonl",
-    "hausa/tsarin-kalma-da-ginin-kalmomi.jsonl"
+    "hausa/tsarin-kalma-da-ginin-kalmomi.jsonl",
+    "hausa/tsarin-sarauta-da-shugabanci.jsonl",
+    "hausa/tsarin-sauti.jsonl",
+    "history/nigeria-1900-1960.jsonl",
+    "history/nigeria-earliest-times-to-1800.jsonl",
+    "history/nigeria-in-the-19th-century.jsonl",
+    "history/nigeria-since-independence.jsonl",
+    "history/west-africa-and-the-wider-world.jsonl",
+    "home-economics/care-and-maintenance-of-clothes.jsonl",
+    "home-economics/child-development-and-care.jsonl",
+    "home-economics/consumer-education.jsonl",
+    "home-economics/family-housing-and-furnishing.jsonl",
+    "home-economics/fibers-and-fabrics.jsonl",
+    "home-economics/first-aid-and-home-safety.jsonl",
+    "home-economics/food-preservation-and-storage.jsonl"
   ],
   "inserted_total": 0,
-  "skipped_total": 7425
+  "skipped_total": 8230
 }
