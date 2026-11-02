@@ -20,7 +20,7 @@ export function Runner() {
   const [toastMsg, setToastMsg] = useState('');
 
   useEffect(() => {
-    if (status === 'submitted') navigate('/results');
+    if (status === 'submitted') navigate('/results', { replace: true });
     else if (status !== 'active') navigate('/');
   }, [status, navigate]);
 
