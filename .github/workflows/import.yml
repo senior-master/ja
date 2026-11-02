@@ -2,23 +2,18 @@ name: Import Questions to Supabase
 
 on:
   workflow_dispatch:
-    inputs:
-      subject:
-        description: 'Optional subject filter (blank = all)'
-        required: false
-        default: ''
 
 concurrency:
   group: import-questions
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 6
 
     steps:
       - name: Checkout
@@ -31,28 +26,36 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Verify jq/ exists
-        run: |
-          n=$(find jq -name "*.jsonl" 2>/dev/null | wc -l)
-          echo "Found $n JSONL files in jq/"
-          if [ "$n" -eq 0 ]; then
-            echo "❌ No jq/ files — generation workflow must run first"
-            exit 1
-          fi
-
-      - name: Import to Supabase
+      - name: Import (3-min budget)
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          RUN_BUDGET: "180"
+        run: python js/import_to_supabase.py
+
+      - name: Commit progress
+        if: always()
         run: |
-          if [ -n "${{ inputs.subject }}" ]; then
-            python js/import_to_supabase.py --subject "${{ inputs.subject }}"
-          else
-            python js/import_to_supabase.py
+          git config user.name "import-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add jd/import_progress.json
+          if git diff --staged --quiet; then
+            echo "No progress change."
+            exit 0
           fi
+          git commit -m "chore(import): batch $(date -u +%Y-%m-%dT%H:%M)"
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep 2
+          done
+          exit 1
 
       - name: Verify count
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python js/import_to_supabase.py --verify
+YAML
