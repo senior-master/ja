@@ -69,7 +69,7 @@ export function Results() {
       <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6 text-center mt-4">
         <h2 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-1">Total Score</h2>
         <div className="text-5xl font-bold text-blue-600 mb-2">
-          {totalScore} <span className="text-2xl text-slate-300">/ 400</span>
+          {totalScore} <span className="text-2xl text-slate-300">/ {subjects.length * 100}</span>
         </div>
         <p className="text-sm font-medium text-slate-500">
           {totalCorrect} correct out of {totalQuestions} questions

@@ -10,10 +10,8 @@ export function PracticeSetup() {
   
   const [subjects, setSubjects] = useState<{subject_slug: string, total: number}[]>([]);
   const [selected, setSelected] = useState<string[]>([]);
-  const [qCount, setQCount] = useState(20); 
-  const [timeMode, setTimeMode] = useState<'none' | 'total' | 'per_q'>('none');
-  const [totalMins, setTotalMins] = useState(30);
-  const [secsPerQ, setSecsPerQ] = useState(60);
+  const [qCount, setQCount] = useState<number | ''>('');
+  const [timeMins, setTimeMins] = useState<number | ''>('');
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -28,7 +26,7 @@ export function PracticeSetup() {
   };
 
   const handleStart = async () => {
-    if (selected.length === 0) return;
+    if (selected.length === 0 || !qCount) return;
     setLoading(true);
     try {
       const questions: Record<string, any[]> = {};
@@ -37,9 +35,7 @@ export function PracticeSetup() {
         questions[sub] = fetched[sub].slice(0, qCount); 
       }
       
-      let timeLimit: number | null = null;
-      if (timeMode === 'total') timeLimit = totalMins * 60 * 1000;
-      if (timeMode === 'per_q') timeLimit = secsPerQ * qCount * selected.length * 1000;
+      const timeLimit = timeMins ? timeMins * 60 * 1000 : null;
 
       startExam(selected, questions, { mode: 'practice', timeLimit, showAnswers: 'end' });
       navigate('/runner');
@@ -88,71 +84,36 @@ export function PracticeSetup() {
 
       <div className="mb-6 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
         <h2 className="text-sm font-bold text-slate-500 uppercase mb-3">2. Questions per Subject</h2>
-        <div className="flex gap-2">
-          {[10, 20, 40].map(n => (
-            <button
-              key={n} onClick={() => setQCount(n)}
-              className={`flex-1 py-2 rounded-lg font-bold text-sm border-2 transition-colors ${qCount === n ? 'bg-blue-600 border-blue-600 text-white' : 'border-slate-200 text-slate-600'}`}
-            >
-              {n} Qs
-            </button>
-          ))}
-        </div>
+        <input 
+          type="number" 
+          placeholder="e.g. 20"
+          value={qCount}
+          onChange={e => setQCount(e.target.value === '' ? '' : Number(e.target.value))}
+          className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 font-bold text-lg"
+        />
       </div>
 
       <div className="mb-6 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
-        <h2 className="text-sm font-bold text-slate-500 uppercase mb-3">3. Timing</h2>
-        <div className="flex gap-2 mb-4">
-          {[
-            { id: 'none', label: 'No Timer' },
-            { id: 'total', label: 'Total Mins' },
-            { id: 'per_q', label: 'Secs / Question' }
-          ].map(m => (
-            <button
-              key={m.id} onClick={() => setTimeMode(m.id as any)}
-              className={`flex-1 py-2 rounded-lg font-bold text-xs border-2 transition-colors ${timeMode === m.id ? 'bg-slate-800 border-slate-800 text-white' : 'border-slate-200 text-slate-600'}`}
-            >
-              {m.label}
-            </button>
-          ))}
-        </div>
-
-        {timeMode === 'total' && (
-          <div className="flex items-center gap-3">
-            <input 
-              type="number" 
-              min="1" max="120" 
-              value={totalMins} 
-              onChange={e => setTotalMins(Number(e.target.value))} 
-              className="w-24 px-3 py-2 border border-slate-300 rounded-lg text-center font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none" 
-            />
-            <span className="text-sm font-medium text-slate-600">minutes (1 - 120)</span>
-          </div>
-        )}
-        
-        {timeMode === 'per_q' && (
-          <div className="flex items-center gap-3">
-            <input 
-              type="number" 
-              min="10" max="60" 
-              value={secsPerQ} 
-              onChange={e => setSecsPerQ(Number(e.target.value))} 
-              className="w-24 px-3 py-2 border border-slate-300 rounded-lg text-center font-bold focus:ring-2 focus:ring-blue-500 focus:outline-none" 
-            />
-            <span className="text-sm font-medium text-slate-600">seconds per question (10 - 60)</span>
-          </div>
-        )}
+        <h2 className="text-sm font-bold text-slate-500 uppercase mb-3">3. Time Limit (Minutes)</h2>
+        <p className="text-xs text-slate-400 mb-2">Leave blank for no timer</p>
+        <input 
+          type="number" 
+          placeholder="e.g. 45"
+          value={timeMins}
+          onChange={e => setTimeMins(e.target.value === '' ? '' : Number(e.target.value))}
+          className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 font-bold text-lg"
+        />
       </div>
 
       <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-200">
         <div className="max-w-2xl mx-auto flex justify-between items-center">
           <div>
             <span className="text-xs font-bold text-slate-500 block">TOTAL QUESTIONS</span>
-            <span className="font-bold text-slate-800 text-lg">{selected.length * qCount}</span>
+            <span className="font-bold text-slate-800 text-lg">{selected.length * (Number(qCount) || 0)}</span>
           </div>
           <button
             onClick={handleStart}
-            disabled={selected.length === 0 || loading}
+            disabled={selected.length === 0 || !qCount || loading}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold disabled:opacity-50 transition-colors"
           >
             {loading ? 'Loading...' : 'Start Practice'}
