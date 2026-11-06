@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
-import { Star, MessageSquare, CheckCircle2, Home } from 'lucide-react';
 import { supabase } from '../services/questions';
+import { Star, MessageSquare, CheckCircle2, Home, Loader2 } from 'lucide-react';
 
 export function Results() {
   const navigate = useNavigate();
@@ -13,6 +13,7 @@ export function Results() {
   const [category, setCategory] = useState('General');
   const [comment, setComment] = useState('');
   const [feedbackSubmitted, setFeedbackSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     if (status !== 'submitted') navigate('/');
@@ -35,7 +36,6 @@ export function Results() {
     totalCorrect += correct;
     totalQuestions += subQs.length;
 
-    // CBT scales to 100 per subject. Practice/Learning shows raw score.
     const score = isCbt && subQs.length > 0 ? Math.round((correct / subQs.length) * 100) : correct;
     if (isCbt) totalScore += score;
 
@@ -45,11 +45,10 @@ export function Results() {
   const finalScore = isCbt ? totalScore : totalCorrect;
   const maxScore = isCbt ? subjects.length * 100 : totalQuestions;
 
-
+  // ── SAVE EXAM RESULT TO DB ──
   useEffect(() => {
-    if (status === 'submitted' && user) {
+    if (user) {
       const saveResult = async () => {
-        // Prevent duplicate saves on strict mode re-renders
         const cacheKey = `saved_${questions[subjects[0]]?.[0]?.id || 'exam'}`;
         if (sessionStorage.getItem(cacheKey)) return;
 
@@ -59,32 +58,40 @@ export function Results() {
           score: finalScore,
           total_questions: totalQuestions
         });
-        
         sessionStorage.setItem(cacheKey, 'true');
       };
-      
-      // We need to wait a tiny bit for the variables to compute
       setTimeout(saveResult, 500);
     }
-  }, [status, user, examConfig, subjects, questions, finalScore, totalQuestions]);
+  }, [user, examConfig, subjects, questions, finalScore, totalQuestions]);
 
+  // ── SUBMIT FEEDBACK TO DB ──
   const handleFeedbackSubmit = async () => {
-    if (rating === 0 || !user) return;
-    
-    setFeedbackSubmitted(true); // Optimistic UI update
-    
-    const { error } = await supabase.from('feedback').insert({
-      user_id: user.id,
-      rating,
-      category,
-      comment,
-      exam_mode: examConfig?.mode || 'cbt'
-    });
+    if (rating === 0) {
+      alert("Please select a star rating first.");
+      return;
+    }
+    if (!user) {
+      alert("You must be logged in to submit feedback.");
+      return;
+    }
 
-    if (error) {
-      console.error("Error saving feedback:", error);
-      alert("Failed to save feedback. Please check your connection.");
-      setFeedbackSubmitted(false); // Revert on failure
+    setIsSubmitting(true);
+    try {
+      const { error } = await supabase.from('feedback').insert({
+        user_id: user.id,
+        rating: Number(rating),
+        category: category,
+        comment: comment,
+        exam_mode: examConfig?.mode || 'cbt'
+      });
+
+      if (error) throw error;
+      setFeedbackSubmitted(true);
+    } catch (err: any) {
+      alert("Database Error: " + err.message);
+      console.error("Feedback Error:", err);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -95,8 +102,6 @@ export function Results() {
 
   return (
     <div className="min-h-screen bg-slate-50 p-4 pb-24 max-w-2xl mx-auto">
-      
-      {/* Header with Home Button */}
       <header className="flex justify-between items-center mt-4 mb-2">
         <h1 className="text-xl font-bold text-slate-800">Results</h1>
         <button onClick={handleGoHome} className="flex items-center gap-1 text-sm font-bold text-slate-500 hover:text-slate-800 bg-white px-3 py-1.5 rounded-lg border border-slate-200">
@@ -152,6 +157,7 @@ export function Results() {
               {[1, 2, 3, 4, 5].map(star => (
                 <button
                   key={star}
+                  type="button"
                   onMouseEnter={() => setHoverRating(star)}
                   onMouseLeave={() => setHoverRating(0)}
                   onClick={() => setRating(star)}
@@ -173,6 +179,7 @@ export function Results() {
               {['General', 'Suggestion', 'Bug Report'].map(cat => (
                 <button
                   key={cat}
+                  type="button"
                   onClick={() => setCategory(cat)}
                   className={`px-3 py-1.5 rounded-full text-xs font-bold whitespace-nowrap border transition-colors ${
                     category === cat 
@@ -194,18 +201,17 @@ export function Results() {
 
             <button
               onClick={handleFeedbackSubmit}
-              disabled={rating === 0}
-              className="w-full bg-slate-800 hover:bg-slate-900 text-white py-3 rounded-lg font-bold transition-colors disabled:opacity-50 text-sm"
+              disabled={isSubmitting}
+              className="w-full bg-slate-800 hover:bg-slate-900 text-white py-3 rounded-lg font-bold transition-colors disabled:opacity-50 text-sm flex justify-center items-center gap-2"
             >
-              Submit Feedback
+              {isSubmitting ? <><Loader2 size={16} className="animate-spin" /> Saving...</> : 'Submit Feedback'}
             </button>
-            {rating === 0 && <p className="text-xs text-center text-red-500 mt-2">Please select a star rating first</p>}
           </div>
         ) : (
           <div className="p-8 flex flex-col items-center justify-center text-center">
             <CheckCircle2 size={48} className="text-green-500 mb-3" />
             <h4 className="font-bold text-slate-800">Thank you!</h4>
-            <p className="text-sm text-slate-500 mt-1">Your feedback helps us improve CBT Master.</p>
+            <p className="text-sm text-slate-500 mt-1">Your feedback has been securely saved.</p>
           </div>
         )}
       </div>
