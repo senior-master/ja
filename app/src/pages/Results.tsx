@@ -68,23 +68,24 @@ export function Results() {
     }
   }, [status, user, examConfig, subjects, questions, finalScore, totalQuestions]);
 
-  const handleFeedbackSubmit = () => {
-    if (rating === 0) return;
+  const handleFeedbackSubmit = async () => {
+    if (rating === 0 || !user) return;
     
-    const feedbackData = {
-      candidate: candidateInfo.name,
-      regNo: candidateInfo.regNo,
-      score: finalScore,
+    setFeedbackSubmitted(true); // Optimistic UI update
+    
+    const { error } = await supabase.from('feedback').insert({
+      user_id: user.id,
       rating,
       category,
       comment,
-      timestamp: new Date().toISOString()
-    };
+      exam_mode: examConfig?.mode || 'cbt'
+    });
 
-    const existing = JSON.parse(localStorage.getItem('jamb_feedback') || '[]');
-    localStorage.setItem('jamb_feedback', JSON.stringify([...existing, feedbackData]));
-    
-    setFeedbackSubmitted(true);
+    if (error) {
+      console.error("Error saving feedback:", error);
+      alert("Failed to save feedback. Please check your connection.");
+      setFeedbackSubmitted(false); // Revert on failure
+    }
   };
 
   const handleGoHome = () => {
