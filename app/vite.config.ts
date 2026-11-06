@@ -1,3 +1,4 @@
+// vite.config.ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
@@ -17,6 +18,7 @@ export default defineConfig({
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/ja/',
+        scope: '/ja/', // <-- ADD THIS
         icons: [
           {
             src: 'icon-192x192.png',
@@ -32,5 +34,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/ja/', // Your GitHub repo name
+  base: '/ja/',
 })
