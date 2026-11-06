@@ -7,7 +7,7 @@ import { Star, MessageSquare, CheckCircle2, Home, Loader2 } from 'lucide-react';
 
 export function Results() {
   const navigate = useNavigate();
-  const { status, subjects, questions, answers, resetExam, candidateInfo, examConfig, user } = useExamStore();
+  const { status, subjects, questions, answers, resetExam, examConfig, user } = useExamStore();
 
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
