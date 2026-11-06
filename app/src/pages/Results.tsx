@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { supabase } from '../services/questions';
+import { CONFIG } from '../config';
 import { Star, MessageSquare, CheckCircle2, Home, Loader2 } from 'lucide-react';
 
 export function Results() {
@@ -66,26 +67,40 @@ export function Results() {
 
   // ── SUBMIT FEEDBACK TO DB ──
   const handleFeedbackSubmit = async () => {
-    if (rating === 0) {
-      alert("Please select a star rating first.");
-      return;
-    }
-    if (!user) {
-      alert("You must be logged in to submit feedback.");
-      return;
-    }
+    if (rating === 0) return alert("Please select a star rating first.");
+    if (!user) return alert("You must be logged in to submit feedback.");
 
     setIsSubmitting(true);
+    
     try {
-      const { error } = await supabase.from('feedback').insert({
-        user_id: user.id,
-        rating: Number(rating),
-        category: category,
-        comment: comment,
-        exam_mode: examConfig?.mode || 'cbt'
+      // 1. Get the fresh session token
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session) throw new Error("Session expired. Please log out and log in again.");
+
+      // 2. Raw fetch (Just like your analytics.js!)
+      const response = await fetch(`${CONFIG.SUPABASE_URL}/rest/v1/feedback`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "apikey": CONFIG.SUPABASE_ANON_KEY,
+          "Authorization": `Bearer ${session.access_token}`,
+          "Prefer": "return=minimal",
+        },
+        body: JSON.stringify({
+          user_id: session.user.id,
+          rating: Number(rating),
+          category: category,
+          comment: comment,
+          exam_mode: examConfig?.mode || 'cbt'
+        }),
       });
 
-      if (error) throw error;
+      // 3. Handle exact HTTP error if it fails
+      if (!response.ok) {
+        const errText = await response.text();
+        throw new Error(`HTTP ${response.status}: ${errText}`);
+      }
+
       setFeedbackSubmitted(true);
     } catch (err: any) {
       alert("Database Error: " + err.message);
