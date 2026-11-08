@@ -17,7 +17,7 @@ export function Home() {
   const [loading, setLoading] = useState(false);
 
   // 🔐 REPLACE THIS WITH YOUR ACTUAL ADMIN EMAIL
-  const ADMIN_EMAIL = "your-email@gmail.com"; 
+  const ADMIN_EMAIL = "abdul01abdul03@gmail.com"; 
 
   // Check if user is already logged in
   useEffect(() => {
@@ -258,3 +258,5 @@ export function Home() {
     </div>
   );
 }
+
+
