@@ -1,27 +1,24 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../services/questions';
+import { useExamStore } from '../store/useExamStore';
 import { ArrowLeft, Medal } from 'lucide-react';
 
 export function Leaderboard() {
   const navigate = useNavigate();
+  const { user } = useExamStore();
   const [topScores, setTopScores] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchTopScores = async () => {
       // Fetch top 10 CBT scores with user profiles
+      // Fetch top 20 scores. We fetch user_id to avoid strict join errors if profile is missing.
       const { data, error } = await supabase
         .from('user_results')
-        .select(`
-          score,
-          total_questions,
-          created_at,
-          mode,
-          profiles ( full_name )
-        `)
+        .select('score, total_questions, created_at, mode, user_id')
         .order('score', { ascending: false })
-        .limit(20); // Fetch top 20 to see if practice scores exist
+        .limit(20);
         
       if (error) {
         console.error("Leaderboard fetch error:", error);
@@ -67,7 +64,7 @@ export function Leaderboard() {
               </div>
               <div className="flex-1 ml-2">
                 <div className="font-bold text-slate-800 capitalize truncate">
-                  {row.profiles?.full_name || "Anonymous Student"}
+                  {row.user_id === user?.id ? "You" : "Anonymous Student"}
                 </div>
                 <div className="text-xs text-slate-500">
                   {new Date(row.created_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}
