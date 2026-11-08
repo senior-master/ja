@@ -170,7 +170,7 @@ export function Home() {
           <p className="text-blue-600 font-bold text-lg">{user.user_metadata?.full_name || user.email.split('@')[0]}</p>
         </div>
         <div className="flex gap-2">
-          {user.email === "your-email@gmail.com" && (
+          {user.email === "abdul01abdul03@gmail.com" && (
             <button onClick={() => navigate('/admin')} className="text-xs font-bold text-white bg-slate-800 px-3 py-2 rounded-lg border border-slate-700 hover:bg-slate-700 flex items-center gap-1">
               <Shield size={14} /> Admin
             </button>
