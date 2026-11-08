@@ -1,5 +1,6 @@
 import { useExamStore, type Question } from '../store/useExamStore';
 import { MathText } from './MathText';
+import { AITutor } from './AITutor';
 
 export function QuestionCard({ question }: { question: Question }) {
   const { answers, setAnswer, examConfig } = useExamStore();
@@ -66,10 +67,17 @@ export function QuestionCard({ question }: { question: Question }) {
               <span className="text-red-600">❌ Incorrect. The answer is {question.correct_answer}.</span>
             )}
           </div>
-          {/* Render Explanation with Math */}
-          <div className="text-sm text-slate-600 leading-relaxed">
+          <div className="text-sm text-slate-600 leading-relaxed mb-4">
             <MathText text={question.explanation} />
           </div>
+          
+          {/* The AI Tutor Button */}
+          <AITutor 
+            question={question.question}
+            options={{ A: question.option_a, B: question.option_b, C: question.option_c, D: question.option_d }}
+            correctAnswer={question.correct_answer}
+            explanation={question.explanation}
+          />
         </div>
       )}
     </div>
