@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { supabase } from '../services/questions';
-import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, Mail, Lock, User, Shield } from 'lucide-react';
+import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, Mail, Lock, User, Shield, Flame, Trophy } from 'lucide-react';
 
 export function Home() {
   const navigate = useNavigate();
@@ -15,6 +15,8 @@ export function Home() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+
+  const { profile, setProfile } = useExamStore();
 
   // Check if user is already logged in
   useEffect(() => {
@@ -72,6 +74,45 @@ export function Home() {
       setLoading(false);
     }
   };
+
+
+  // ── STREAK LOGIC ──
+  useEffect(() => {
+    if (!user) return;
+    
+    const checkStreak = async () => {
+      const { data: profileData } = await supabase.from('profiles').select('*').eq('id', user.id).single();
+      
+      if (profileData) {
+        const today = new Date().toISOString().split('T')[0];
+        const lastActive = profileData.last_active;
+        
+        if (lastActive === today) {
+          // Already logged in today
+          setProfile(profileData);
+        } else {
+          const yesterday = new Date();
+          yesterday.setDate(yesterday.getDate() - 1);
+          const yesterdayStr = yesterday.toISOString().split('T')[0];
+          
+          let newStreak = profileData.streak;
+          if (lastActive === yesterdayStr) {
+            newStreak += 1; // Continued streak
+          } else {
+            newStreak = 1; // Streak broken, restart at 1
+          }
+          
+          const { data: updated } = await supabase.from('profiles').update({
+            streak: newStreak,
+            last_active: today
+          }).eq('id', user.id).select().single();
+          
+          if (updated) setProfile(updated);
+        }
+      }
+    };
+    checkStreak();
+  }, [user, setProfile]);
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
@@ -164,10 +205,15 @@ export function Home() {
 
   return (
     <div className="min-h-screen bg-slate-50 p-4 pb-24 max-w-2xl mx-auto">
-      <header className="mt-6 mb-8 flex justify-between items-center">
+      <header className="mt-6 mb-8 flex justify-between items-start">
         <div>
           <h1 className="text-2xl font-bold text-slate-800">Welcome,</h1>
           <p className="text-blue-600 font-bold text-lg">{user.user_metadata?.full_name || user.email.split('@')[0]}</p>
+          {profile && (
+            <div className="flex items-center gap-1 mt-2 bg-orange-100 text-orange-600 px-2 py-1 rounded-lg w-fit text-sm font-bold border border-orange-200">
+              <Flame size={16} className="fill-orange-500" /> {profile.streak} Day Streak!
+            </div>
+          )}
         </div>
         <div className="flex gap-2">
           {user.email === "abdul01abdul03@gmail.com" && (

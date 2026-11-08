@@ -7,6 +7,7 @@ import { Runner } from './pages/Runner';
 import { Results } from './pages/Results';
 import { Dashboard } from './pages/Dashboard';
 import { AdminDashboard } from './pages/AdminDashboard';
+import { Leaderboard } from './pages/Leaderboard';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/results" element={<Results />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/admin" element={<AdminDashboard />} />
+      <Route path="/leaderboard" element={<Leaderboard />} />
     </Routes>
   );
 }
