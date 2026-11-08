@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../services/questions';
-import { ArrowLeft, Trophy, Medal } from 'lucide-react';
+import { ArrowLeft, Medal } from 'lucide-react';
 
 export function Leaderboard() {
   const navigate = useNavigate();
