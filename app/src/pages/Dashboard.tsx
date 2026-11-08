@@ -35,7 +35,6 @@ export function Dashboard() {
     return 'Learning Mode';
   };
 
-
   // ── AGGREGATE WEAK TOPICS ACROSS ALL EXAMS ──
   const globalTopicStats: Record<string, { correct: number; total: number }> = {};
   
@@ -71,19 +70,6 @@ export function Dashboard() {
         </div>
       </header>
 
-      {loading ? (
-        <div className="text-center py-10 text-slate-400">Loading history...</div>
-      ) : history.length === 0 ? (
-        <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200 text-center">
-          <Trophy size={48} className="mx-auto text-slate-300 mb-4" />
-          <h2 className="text-lg font-bold text-slate-700">No exams taken yet</h2>
-          <p className="text-slate-500 text-sm mt-1 mb-6">Take your first test to start tracking your progress.</p>
-          <button onClick={() => navigate('/')} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-bold">
-            Start Practicing
-          </button>
-        </div>
-      ) : (
-
       {/* Global Weakness Radar */}
       {!loading && globalWeakTopics.length > 0 && (
         <div className="mb-6 bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
@@ -91,7 +77,7 @@ export function Dashboard() {
             <Trophy size={16} className="text-white" />
             <h2 className="text-sm font-bold text-white">Your Weakest Topics</h2>
           </div>
-          <div className="p-4 space-y-3">
+          <div className="p-4 space-y-4">
             {globalWeakTopics.map(t => (
               <div key={t.topic}>
                 <div className="flex justify-between text-xs font-bold mb-1">
@@ -107,28 +93,44 @@ export function Dashboard() {
         </div>
       )}
 
-        <div className="space-y-3">
-          {history.map((result, idx) => (
-            <div key={result.id || idx} className="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex justify-between items-center">
-              <div>
-                <div className="flex items-center gap-2 mb-1">
-                  {getModeIcon(result.mode)}
-                  <span className="font-bold text-slate-800 text-sm">{getModeName(result.mode)}</span>
+      {/* History List */}
+      {loading ? (
+        <div className="text-center py-10 text-slate-400">Loading history...</div>
+      ) : history.length === 0 ? (
+        <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200 text-center">
+          <Trophy size={48} className="mx-auto text-slate-300 mb-4" />
+          <h2 className="text-lg font-bold text-slate-700">No exams taken yet</h2>
+          <p className="text-slate-500 text-sm mt-1 mb-6">Take your first test to start tracking your progress.</p>
+          <button onClick={() => navigate('/')} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-bold">
+            Start Practicing
+          </button>
+        </div>
+      ) : (
+        <div>
+          <h2 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-3 px-1">Recent Exams</h2>
+          <div className="space-y-3">
+            {history.map((result, idx) => (
+              <div key={result.id || idx} className="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex justify-between items-center">
+                <div>
+                  <div className="flex items-center gap-2 mb-1">
+                    {getModeIcon(result.mode)}
+                    <span className="font-bold text-slate-800 text-sm">{getModeName(result.mode)}</span>
+                  </div>
+                  <div className="text-xs text-slate-500 flex items-center gap-1">
+                    <Clock size={12} />
+                    {new Date(result.created_at).toLocaleDateString('en-GB', { 
+                      day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' 
+                    })}
+                  </div>
                 </div>
-                <div className="text-xs text-slate-500 flex items-center gap-1">
-                  <Clock size={12} />
-                  {new Date(result.created_at).toLocaleDateString('en-GB', { 
-                    day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' 
-                  })}
+                
+                <div className="text-right">
+                  <div className="font-bold text-xl text-blue-600">{result.score}</div>
+                  <div className="text-xs text-slate-400">out of {result.total_questions}</div>
                 </div>
               </div>
-              
-              <div className="text-right">
-                <div className="font-bold text-xl text-blue-600">{result.score}</div>
-                <div className="text-xs text-slate-400">out of {result.total_questions}</div>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       )}
     </div>
