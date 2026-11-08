@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { supabase } from '../services/questions';
-import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, Mail, Lock, User, Shield, Flame } from 'lucide-react';
+import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, Mail, Lock, User, Shield, Flame, Trophy } from 'lucide-react';
 
 export function Home() {
   const navigate = useNavigate();
-  const { user, setUser, setExamMode, resetExam } = useExamStore();
+  const { user, setUser, setExamMode, resetExam, profile, setProfile } = useExamStore();
   
   const [isLogin, setIsLogin] = useState(true);
   const [name, setName] = useState('');
@@ -16,7 +16,8 @@ export function Home() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const { profile, setProfile } = useExamStore();
+  // 🔐 REPLACE THIS WITH YOUR ACTUAL ADMIN EMAIL
+  const ADMIN_EMAIL = "your-email@gmail.com"; 
 
   // Check if user is already logged in
   useEffect(() => {
@@ -30,6 +31,55 @@ export function Home() {
 
     return () => subscription.unsubscribe();
   }, [setUser]);
+
+  // ── STREAK LOGIC ──
+  useEffect(() => {
+    if (!user) return;
+    
+    const checkStreak = async () => {
+      // Fetch or create profile
+      let { data: profileData } = await supabase.from('profiles').select('*').eq('id', user.id).single();
+      
+      if (!profileData) {
+        // Fallback if trigger didn't run for older users
+        const { data: newProfile } = await supabase.from('profiles').insert({
+          id: user.id,
+          full_name: user.user_metadata?.full_name || user.email.split('@')[0],
+          streak: 1,
+          last_active: new Date().toISOString().split('T')[0]
+        }).select().single();
+        profileData = newProfile;
+      }
+      
+      if (profileData) {
+        const today = new Date().toISOString().split('T')[0];
+        const lastActive = profileData.last_active;
+        
+        if (lastActive === today) {
+          setProfile(profileData);
+        } else {
+          const yesterday = new Date();
+          yesterday.setDate(yesterday.getDate() - 1);
+          const yesterdayStr = yesterday.toISOString().split('T')[0];
+          
+          let newStreak = profileData.streak;
+          if (lastActive === yesterdayStr) {
+            newStreak += 1;
+          } else {
+            newStreak = 1;
+          }
+          
+          const { data: updated } = await supabase.from('profiles').update({
+            streak: newStreak,
+            last_active: today
+          }).eq('id', user.id).select().single();
+          
+          if (updated) setProfile(updated);
+        }
+      }
+    };
+    checkStreak();
+  }, [user, setProfile]);
 
   const switchMode = () => {
     setIsLogin(!isLogin);
@@ -51,20 +101,15 @@ export function Home() {
 
     try {
       if (isLogin) {
-        // ── LOGIN ──
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
       } else {
-        // ── SIGNUP ──
         const { error } = await supabase.auth.signUp({ 
           email, 
           password,
           options: { data: { full_name: name } }
         });
         if (error) throw error;
-        
-        // If email confirmation is turned off in Supabase, 
-        // the user is logged in automatically. If not, they need to verify.
         alert("Account created successfully! You can now log in.");
         setIsLogin(true);
       }
@@ -75,48 +120,10 @@ export function Home() {
     }
   };
 
-
-  // ── STREAK LOGIC ──
-  useEffect(() => {
-    if (!user) return;
-    
-    const checkStreak = async () => {
-      const { data: profileData } = await supabase.from('profiles').select('*').eq('id', user.id).single();
-      
-      if (profileData) {
-        const today = new Date().toISOString().split('T')[0];
-        const lastActive = profileData.last_active;
-        
-        if (lastActive === today) {
-          // Already logged in today
-          setProfile(profileData);
-        } else {
-          const yesterday = new Date();
-          yesterday.setDate(yesterday.getDate() - 1);
-          const yesterdayStr = yesterday.toISOString().split('T')[0];
-          
-          let newStreak = profileData.streak;
-          if (lastActive === yesterdayStr) {
-            newStreak += 1; // Continued streak
-          } else {
-            newStreak = 1; // Streak broken, restart at 1
-          }
-          
-          const { data: updated } = await supabase.from('profiles').update({
-            streak: newStreak,
-            last_active: today
-          }).eq('id', user.id).select().single();
-          
-          if (updated) setProfile(updated);
-        }
-      }
-    };
-    checkStreak();
-  }, [user, setProfile]);
-
   const handleLogout = async () => {
     await supabase.auth.signOut();
     setUser(null);
+    setProfile(null);
   };
 
   // ── SCREEN 1: LOGIN / SIGNUP ──
@@ -215,8 +222,11 @@ export function Home() {
             </div>
           )}
         </div>
-        <div className="flex gap-2">
-          {user.email === "abdul01abdul03@gmail.com" && (
+        <div className="flex flex-wrap gap-2 justify-end">
+          <button onClick={() => navigate('/leaderboard')} className="text-xs font-bold text-yellow-700 bg-yellow-100 px-3 py-2 rounded-lg border border-yellow-300 hover:bg-yellow-200 flex items-center gap-1">
+            <Trophy size={14} /> Leaderboard
+          </button>
+          {user.email === ADMIN_EMAIL && (
             <button onClick={() => navigate('/admin')} className="text-xs font-bold text-white bg-slate-800 px-3 py-2 rounded-lg border border-slate-700 hover:bg-slate-700 flex items-center gap-1">
               <Shield size={14} /> Admin
             </button>
