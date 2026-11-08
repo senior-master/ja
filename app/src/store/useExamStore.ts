@@ -4,6 +4,8 @@ import { persist } from 'zustand/middleware';
 export type Question = {
   id: number;
   subject_slug: string;
+  topic: string;
+  subtopic: string;
   question: string;
   option_a: string;
   option_b: string;
