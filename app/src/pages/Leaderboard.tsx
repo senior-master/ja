@@ -17,14 +17,18 @@ export function Leaderboard() {
           score,
           total_questions,
           created_at,
+          mode,
           profiles ( full_name )
         `)
-        .eq('mode', 'cbt') // Only rank real exams
         .order('score', { ascending: false })
-        .limit(10);
+        .limit(20); // Fetch top 20 to see if practice scores exist
         
-      if (!error && data) {
-        setTopScores(data);
+      if (error) {
+        console.error("Leaderboard fetch error:", error);
+      } else if (data) {
+        // Only show CBT scores, but if there are none, we know why!
+        const cbtOnly = data.filter(d => d.mode === 'cbt');
+        setTopScores(cbtOnly);
       }
       setLoading(false);
     };
@@ -46,7 +50,11 @@ export function Leaderboard() {
       {loading ? (
         <div className="text-center py-10 text-slate-400">Loading rankings...</div>
       ) : topScores.length === 0 ? (
-        <div className="text-center py-10 text-slate-400">No exams taken yet. Be the first!</div>
+        <div className="text-center py-10 bg-white rounded-xl border border-slate-200 shadow-sm">
+          <Medal size={48} className="mx-auto text-slate-200 mb-3" />
+          <p className="text-slate-500 font-medium">No CBT Master exams taken yet.</p>
+          <p className="text-xs text-slate-400 mt-1">Practice and Learning modes don't appear here.</p>
+        </div>
       ) : (
         <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
           {topScores.map((row, index) => (
@@ -67,7 +75,7 @@ export function Leaderboard() {
               </div>
               <div className="text-right">
                 <div className="font-bold text-lg text-blue-600">{row.score}</div>
-                <div className="text-[10px] text-slate-400 font-bold uppercase">/ 400</div>
+                <div className="text-[10px] text-slate-400 font-bold uppercase">/ {row.total_questions}</div>
               </div>
             </div>
           ))}
