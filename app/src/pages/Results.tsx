@@ -178,11 +178,11 @@ export function Results() {
                       </div>
                       <div className="text-xs mb-1">
                         <span className="font-bold text-red-600">Your answer: </span>
-                        <MathText text={q['option_' + answers[q.id].toLowerCase()]} />
+                        <MathText text={q[('option_' + answers[q.id].toLowerCase()) as keyof typeof q] as string} />
                       </div>
                       <div className="text-xs mb-2">
                         <span className="font-bold text-green-600">Correct answer: </span>
-                        <MathText text={q['option_' + q.correct_answer.toLowerCase()]} />
+                        <MathText text={q[('option_' + q.correct_answer.toLowerCase()) as keyof typeof q] as string} />
                       </div>
                       {q.explanation && (
                         <div className="text-xs text-slate-600 bg-white p-2 rounded border border-slate-100">
