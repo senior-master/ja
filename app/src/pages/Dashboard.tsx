@@ -35,6 +35,30 @@ export function Dashboard() {
     return 'Learning Mode';
   };
 
+
+  // ── AGGREGATE WEAK TOPICS ACROSS ALL EXAMS ──
+  const globalTopicStats: Record<string, { correct: number; total: number }> = {};
+  
+  history.forEach(result => {
+    if (result.topic_breakdown) {
+      Object.entries(result.topic_breakdown).forEach(([topic, stats]: [string, any]) => {
+        if (!globalTopicStats[topic]) globalTopicStats[topic] = { correct: 0, total: 0 };
+        globalTopicStats[topic].correct += stats.correct;
+        globalTopicStats[topic].total += stats.total;
+      });
+    }
+  });
+
+  const globalWeakTopics = Object.entries(globalTopicStats)
+    .map(([topic, stats]) => ({
+      topic,
+      percentage: Math.round((stats.correct / stats.total) * 100),
+      total: stats.total
+    }))
+    .filter(t => t.percentage < 60 && t.total >= 3) // Only topics under 60% with at least 3 questions seen
+    .sort((a, b) => a.percentage - b.percentage)
+    .slice(0, 5); // Top 5 weakest
+
   return (
     <div className="min-h-screen bg-slate-50 p-4 pb-24 max-w-2xl mx-auto">
       <header className="mt-4 mb-6 flex items-center gap-3">
@@ -59,6 +83,30 @@ export function Dashboard() {
           </button>
         </div>
       ) : (
+
+      {/* Global Weakness Radar */}
+      {!loading && globalWeakTopics.length > 0 && (
+        <div className="mb-6 bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+          <div className="bg-orange-500 p-3 flex items-center gap-2">
+            <Trophy size={16} className="text-white" />
+            <h2 className="text-sm font-bold text-white">Your Weakest Topics</h2>
+          </div>
+          <div className="p-4 space-y-3">
+            {globalWeakTopics.map(t => (
+              <div key={t.topic}>
+                <div className="flex justify-between text-xs font-bold mb-1">
+                  <span className="text-slate-700 capitalize">{t.topic}</span>
+                  <span className="text-orange-600">{t.percentage}%</span>
+                </div>
+                <div className="w-full bg-slate-100 rounded-full h-2">
+                  <div className="bg-orange-500 h-2 rounded-full" style={{ width: `${t.percentage}%` }}></div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
         <div className="space-y-3">
           {history.map((result, idx) => (
             <div key={result.id || idx} className="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex justify-between items-center">

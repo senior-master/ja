@@ -47,6 +47,28 @@ export function Results() {
   const finalScore = isCbt ? totalScore : totalCorrect;
   const maxScore = isCbt ? subjects.length * 100 : totalQuestions;
 
+
+  // ── CALCULATE TOPIC ANALYTICS ──
+  const topicStats: Record<string, { correct: number; total: number }> = {};
+  
+  subjects.forEach(sub => {
+    (questions[sub] || []).forEach(q => {
+      if (!topicStats[q.topic]) topicStats[q.topic] = { correct: 0, total: 0 };
+      topicStats[q.topic].total += 1;
+      if (answers[q.id] === q.correct_answer) {
+        topicStats[q.topic].correct += 1;
+      }
+    });
+  });
+
+  const weakTopics = Object.entries(topicStats)
+    .map(([topic, stats]) => ({
+      topic,
+      percentage: Math.round((stats.correct / stats.total) * 100)
+    }))
+    .filter(t => t.percentage < 50) // Only show topics below 50%
+    .sort((a, b) => a.percentage - b.percentage);
+
   // ── SAVE EXAM RESULT TO DB ──
   useEffect(() => {
     if (user) {
@@ -58,7 +80,8 @@ export function Results() {
           user_id: user.id,
           mode: examConfig?.mode || 'cbt',
           score: finalScore,
-          total_questions: totalQuestions
+          total_questions: totalQuestions,
+          topic_breakdown: topicStats // <-- Save the JSON here
         });
         sessionStorage.setItem(cacheKey, 'true');
       };
@@ -137,6 +160,23 @@ export function Results() {
           {totalCorrect} correct out of {totalQuestions} questions
         </p>
       </div>
+
+
+      {/* Targeted Practice Analytics */}
+      {weakTopics.length > 0 && (
+        <div className="mt-6 bg-orange-50 border border-orange-200 rounded-xl p-4 shadow-sm">
+          <h3 className="text-sm font-bold text-orange-800 uppercase tracking-wider mb-2">Areas for Improvement</h3>
+          <p className="text-xs text-orange-700 mb-3">You scored below 50% in these topics. Practice them to improve your JAMB score!</p>
+          <div className="flex flex-wrap gap-2">
+            {weakTopics.map(t => (
+              <div key={t.topic} className="bg-white border border-orange-200 px-3 py-1.5 rounded-lg flex items-center gap-2 shadow-sm">
+                <span className="text-sm font-bold text-slate-700 capitalize">{t.topic}</span>
+                <span className="text-xs font-bold text-red-600 bg-red-50 px-1.5 py-0.5 rounded">{t.percentage}%</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Subject Grid */}
       <div className="mt-6">
