@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { supabase } from '../services/questions';
 import { MathText } from '../components/MathText';
-import { CONFIG } from '../config';
+import { AITutor } from '../components/AITutor';
 import { Star, MessageSquare, CheckCircle2, Home, Loader2 } from 'lucide-react';
 
 export function Results() {
@@ -47,74 +47,20 @@ export function Results() {
   const finalScore = isCbt ? totalScore : totalCorrect;
   const maxScore = isCbt ? subjects.length * 100 : totalQuestions;
 
-
-  // ── CALCULATE TOPIC ANALYTICS ──
-  const topicStats: Record<string, { correct: number; total: number }> = {};
-  
-  subjects.forEach(sub => {
-    (questions[sub] || []).forEach(q => {
-      if (!topicStats[q.topic]) topicStats[q.topic] = { correct: 0, total: 0 };
-      topicStats[q.topic].total += 1;
-      if (answers[q.id] === q.correct_answer) {
-        topicStats[q.topic].correct += 1;
-      }
-    });
-  });
-
-  const weakTopics = Object.entries(topicStats)
-    .map(([topic, stats]) => ({
-      topic,
-      percentage: Math.round((stats.correct / stats.total) * 100)
-    }))
-    .filter(t => t.percentage < 50) // Only show topics below 50%
-    .sort((a, b) => a.percentage - b.percentage);
-
-  // ── SAVE EXAM RESULT TO DB ──
-  useEffect(() => {
-    if (user) {
-      const saveResult = async () => {
-        const cacheKey = `saved_${questions[subjects[0]]?.[0]?.id || 'exam'}`;
-        if (sessionStorage.getItem(cacheKey)) return;
-
-        // Save to DB and catch any RLS/Grant errors
-        const { error } = await supabase.from('user_results').insert({
-          user_id: user.id,
-          mode: examConfig?.mode || 'cbt',
-          score: finalScore,
-          total_questions: totalQuestions,
-          topic_breakdown: topicStats
-        });
-
-        if (error) {
-          console.error("Save Result Error:", error);
-          alert("Failed to save score to DB: " + error.message);
-        } else {
-          console.log("Score saved successfully!");
-          sessionStorage.setItem(cacheKey, 'true');
-        }
-      };
-      saveResult();
-    }
-  }, [user, examConfig, subjects, questions, finalScore, totalQuestions]);
-
-  // ── SUBMIT FEEDBACK TO DB ──
   const handleFeedbackSubmit = async () => {
     if (rating === 0) return alert("Please select a star rating first.");
     if (!user) return alert("You must be logged in to submit feedback.");
 
     setIsSubmitting(true);
-    
     try {
-      // 1. Get the fresh session token
       const { data: { session } } = await supabase.auth.getSession();
       if (!session) throw new Error("Session expired. Please log out and log in again.");
 
-      // 2. Raw fetch (Just like your analytics.js!)
-      const response = await fetch(`${CONFIG.SUPABASE_URL}/rest/v1/feedback`, {
+      const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL || 'https://gkjihrclgaujledquuhn.supabase.co'}/rest/v1/feedback`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "apikey": CONFIG.SUPABASE_ANON_KEY,
+          "apikey": import.meta.env.VITE_SUPABASE_ANON_KEY || 'YOUR_ANON_KEY',
           "Authorization": `Bearer ${session.access_token}`,
           "Prefer": "return=minimal",
         },
@@ -127,16 +73,13 @@ export function Results() {
         }),
       });
 
-      // 3. Handle exact HTTP error if it fails
       if (!response.ok) {
         const errText = await response.text();
         throw new Error(`HTTP ${response.status}: ${errText}`);
       }
-
       setFeedbackSubmitted(true);
     } catch (err: any) {
       alert("Database Error: " + err.message);
-      console.error("Feedback Error:", err);
     } finally {
       setIsSubmitting(false);
     }
@@ -169,23 +112,6 @@ export function Results() {
         </p>
       </div>
 
-
-      {/* Targeted Practice Analytics */}
-      {weakTopics.length > 0 && (
-        <div className="mt-6 bg-orange-50 border border-orange-200 rounded-xl p-4 shadow-sm">
-          <h3 className="text-sm font-bold text-orange-800 uppercase tracking-wider mb-2">Areas for Improvement</h3>
-          <p className="text-xs text-orange-700 mb-3">You scored below 50% in these topics. Practice them to improve your JAMB score!</p>
-          <div className="flex flex-wrap gap-2">
-            {weakTopics.map(t => (
-              <div key={t.topic} className="bg-white border border-orange-200 px-3 py-1.5 rounded-lg flex items-center gap-2 shadow-sm">
-                <span className="text-sm font-bold text-slate-700 capitalize">{t.topic}</span>
-                <span className="text-xs font-bold text-red-600 bg-red-50 px-1.5 py-0.5 rounded">{t.percentage}%</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
       {/* Subject Grid */}
       <div className="mt-6">
         <h3 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-3 px-1">Subject Breakdown</h3>
@@ -203,7 +129,6 @@ export function Results() {
           ))}
         </div>
       </div>
-
 
       {/* Corrections Review */}
       <div className="mt-6 bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
@@ -233,11 +158,19 @@ export function Results() {
                         <MathText text={q[('option_' + q.correct_answer.toLowerCase()) as keyof typeof q] as string} />
                       </div>
                       {q.explanation && (
-                        <div className="text-xs text-slate-600 bg-white p-2 rounded border border-slate-100">
+                        <div className="text-xs text-slate-600 bg-white p-2 rounded border border-slate-100 mb-3">
                           <span className="font-bold">Explanation: </span>
                           <MathText text={q.explanation} />
                         </div>
                       )}
+                      
+                      {/* The AI Tutor Button is now forced here */}
+                      <AITutor 
+                        question={q.question}
+                        options={{ A: q.option_a, B: q.option_b, C: q.option_c, D: q.option_d }}
+                        correctAnswer={q.correct_answer}
+                        explanation={q.explanation}
+                      />
                     </div>
                   ))}
                 </div>
