@@ -6,6 +6,7 @@ import { LearningSetup } from './pages/LearningSetup';
 import { Runner } from './pages/Runner';
 import { Results } from './pages/Results';
 import { Dashboard } from './pages/Dashboard';
+import { AdminDashboard } from './pages/AdminDashboard';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/runner" element={<Runner />} />
       <Route path="/results" element={<Results />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/admin" element={<AdminDashboard />} />
     </Routes>
   );
 }

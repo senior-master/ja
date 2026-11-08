@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { supabase } from '../services/questions';
-import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, Mail, Lock, User } from 'lucide-react';
+import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, Mail, Lock, User, Shield } from 'lucide-react';
 
 export function Home() {
   const navigate = useNavigate();
@@ -170,6 +170,11 @@ export function Home() {
           <p className="text-blue-600 font-bold text-lg">{user.user_metadata?.full_name || user.email.split('@')[0]}</p>
         </div>
         <div className="flex gap-2">
+          {user.email === "your-email@gmail.com" && (
+            <button onClick={() => navigate('/admin')} className="text-xs font-bold text-white bg-slate-800 px-3 py-2 rounded-lg border border-slate-700 hover:bg-slate-700 flex items-center gap-1">
+              <Shield size={14} /> Admin
+            </button>
+          )}
           <button onClick={() => navigate('/dashboard')} className="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-2 rounded-lg border border-blue-200 hover:bg-blue-100">
             My Progress
           </button>
