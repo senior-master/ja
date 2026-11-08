@@ -76,16 +76,24 @@ export function Results() {
         const cacheKey = `saved_${questions[subjects[0]]?.[0]?.id || 'exam'}`;
         if (sessionStorage.getItem(cacheKey)) return;
 
-        await supabase.from('user_results').insert({
+        // Save to DB and catch any RLS/Grant errors
+        const { error } = await supabase.from('user_results').insert({
           user_id: user.id,
           mode: examConfig?.mode || 'cbt',
           score: finalScore,
           total_questions: totalQuestions,
-          topic_breakdown: topicStats // <-- Save the JSON here
+          topic_breakdown: topicStats
         });
-        sessionStorage.setItem(cacheKey, 'true');
+
+        if (error) {
+          console.error("Save Result Error:", error);
+          alert("Failed to save score to DB: " + error.message);
+        } else {
+          console.log("Score saved successfully!");
+          sessionStorage.setItem(cacheKey, 'true');
+        }
       };
-      setTimeout(saveResult, 500);
+      saveResult();
     }
   }, [user, examConfig, subjects, questions, finalScore, totalQuestions]);
 
