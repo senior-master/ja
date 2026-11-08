@@ -12,20 +12,13 @@ export function Leaderboard() {
 
   useEffect(() => {
     const fetchTopScores = async () => {
-      // Fetch top 10 CBT scores with user profiles
-      // Fetch top 20 scores. We fetch user_id to avoid strict join errors if profile is missing.
-      const { data, error } = await supabase
-        .from('user_results')
-        .select('score, total_questions, created_at, mode, user_id')
-        .order('score', { ascending: false })
-        .limit(20);
+      // Call the new SQL function we just created
+      const { data, error } = await supabase.rpc('get_leaderboard');
         
       if (error) {
         console.error("Leaderboard fetch error:", error);
       } else if (data) {
-        // Only show CBT scores, but if there are none, we know why!
-        const cbtOnly = data.filter(d => d.mode === 'cbt');
-        setTopScores(cbtOnly);
+        setTopScores(data);
       }
       setLoading(false);
     };
@@ -54,28 +47,32 @@ export function Leaderboard() {
         </div>
       ) : (
         <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
-          {topScores.map((row, index) => (
-            <div key={index} className={`flex items-center p-4 border-b border-slate-100 last:border-0 ${index === 0 ? 'bg-yellow-50/50' : index === 1 ? 'bg-slate-50/50' : index === 2 ? 'bg-orange-50/30' : ''}`}>
-              <div className="w-10 text-center font-bold text-lg text-slate-400 flex justify-center">
-                {index === 0 ? <Medal className="text-yellow-500" size={24} /> : 
-                 index === 1 ? <Medal className="text-slate-400" size={24} /> : 
-                 index === 2 ? <Medal className="text-orange-400" size={24} /> : 
-                 `#${index + 1}`}
-              </div>
-              <div className="flex-1 ml-2">
-                <div className="font-bold text-slate-800 capitalize truncate">
-                  {row.user_id === user?.id ? "You" : "Anonymous Student"}
+          {topScores.map((row, index) => {
+            const isMe = row.user_id === user?.id;
+            return (
+              <div key={index} className={`flex items-center p-4 border-b border-slate-100 last:border-0 ${isMe ? 'bg-blue-50' : index === 0 ? 'bg-yellow-50/50' : index === 1 ? 'bg-slate-50/50' : index === 2 ? 'bg-orange-50/30' : ''}`}>
+                <div className="w-10 text-center font-bold text-lg text-slate-400 flex justify-center">
+                  {index === 0 ? <Medal className="text-yellow-500" size={24} /> : 
+                   index === 1 ? <Medal className="text-slate-400" size={24} /> : 
+                   index === 2 ? <Medal className="text-orange-400" size={24} /> : 
+                   `#${index + 1}`}
                 </div>
-                <div className="text-xs text-slate-500">
-                  {new Date(row.created_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}
+                <div className="flex-1 ml-2">
+                  <div className="font-bold text-slate-800 capitalize truncate flex items-center gap-2">
+                    {isMe ? "You" : (row.full_name || "Anonymous Student")}
+                    {isMe && <span className="text-[10px] bg-blue-600 text-white px-1.5 py-0.5 rounded uppercase">Me</span>}
+                  </div>
+                  <div className="text-xs text-slate-500">
+                    {new Date(row.created_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}
+                  </div>
+                </div>
+                <div className="text-right">
+                  <div className="font-bold text-lg text-blue-600">{row.score}</div>
+                  <div className="text-[10px] text-slate-400 font-bold uppercase">/ {row.total_questions}</div>
                 </div>
               </div>
-              <div className="text-right">
-                <div className="font-bold text-lg text-blue-600">{row.score}</div>
-                <div className="text-[10px] text-slate-400 font-bold uppercase">/ {row.total_questions}</div>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>
