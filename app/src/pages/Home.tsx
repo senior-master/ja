@@ -169,9 +169,14 @@ export function Home() {
           <h1 className="text-2xl font-bold text-slate-800">Welcome,</h1>
           <p className="text-blue-600 font-bold text-lg">{user.user_metadata?.full_name || user.email.split('@')[0]}</p>
         </div>
-        <button onClick={handleLogout} className="text-xs font-bold text-slate-400 hover:text-red-500 bg-white px-3 py-2 rounded-lg border border-slate-200">
-          Log out
-        </button>
+        <div className="flex gap-2">
+          <button onClick={() => navigate('/dashboard')} className="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-2 rounded-lg border border-blue-200 hover:bg-blue-100">
+            My Progress
+          </button>
+          <button onClick={handleLogout} className="text-xs font-bold text-slate-400 hover:text-red-500 bg-white px-3 py-2 rounded-lg border border-slate-200">
+            Log out
+          </button>
+        </div>
       </header>
 
       <div className="space-y-4">

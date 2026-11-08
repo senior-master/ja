@@ -5,6 +5,7 @@ import { PracticeSetup } from './pages/PracticeSetup';
 import { LearningSetup } from './pages/LearningSetup';
 import { Runner } from './pages/Runner';
 import { Results } from './pages/Results';
+import { Dashboard } from './pages/Dashboard';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/learning-setup" element={<LearningSetup />} />
       <Route path="/runner" element={<Runner />} />
       <Route path="/results" element={<Results />} />
+      <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
   );
 }

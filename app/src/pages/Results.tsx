@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { supabase } from '../services/questions';
+import { MathText } from '../components/MathText';
 import { CONFIG } from '../config';
 import { Star, MessageSquare, CheckCircle2, Home, Loader2 } from 'lucide-react';
 
@@ -153,6 +154,52 @@ export function Results() {
             </div>
           ))}
         </div>
+      </div>
+
+
+      {/* Corrections Review */}
+      <div className="mt-6 bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <details className="group">
+          <summary className="p-4 font-bold text-slate-800 cursor-pointer list-none flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors">
+            <span>Review Incorrect Answers</span>
+            <span className="text-xs text-slate-500 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <div className="p-4 border-t border-slate-200 space-y-6">
+            {subjects.map(sub => {
+              const wrongQs = (questions[sub] || []).filter(q => answers[q.id] && answers[q.id] !== q.correct_answer);
+              if (wrongQs.length === 0) return null;
+              return (
+                <div key={sub} className="space-y-4">
+                  <h3 className="font-bold text-slate-700 capitalize border-b pb-1">{sub.replace(/-/g, ' ')}</h3>
+                  {wrongQs.map(q => (
+                    <div key={q.id} className="bg-red-50/50 p-3 rounded-lg border border-red-100">
+                      <div className="text-sm text-slate-800 font-medium mb-2">
+                        <MathText text={q.question} />
+                      </div>
+                      <div className="text-xs mb-1">
+                        <span className="font-bold text-red-600">Your answer: </span>
+                        <MathText text={q['option_' + answers[q.id].toLowerCase()]} />
+                      </div>
+                      <div className="text-xs mb-2">
+                        <span className="font-bold text-green-600">Correct answer: </span>
+                        <MathText text={q['option_' + q.correct_answer.toLowerCase()]} />
+                      </div>
+                      {q.explanation && (
+                        <div className="text-xs text-slate-600 bg-white p-2 rounded border border-slate-100">
+                          <span className="font-bold">Explanation: </span>
+                          <MathText text={q.explanation} />
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              );
+            })}
+            {totalCorrect === totalQuestions && (
+               <p className="text-center text-sm text-slate-500">You got everything right! No corrections to show.</p>
+            )}
+          </div>
+        </details>
       </div>
 
       {/* Feedback Section */}

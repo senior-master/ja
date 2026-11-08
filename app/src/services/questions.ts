@@ -64,3 +64,15 @@ export async function fetchTopicQuestions(
   // Shuffle locally to keep it random
   return (data || []).sort(() => Math.random() - 0.5);
 }
+
+// ── NEW FUNCTION FOR DASHBOARD ──
+export async function fetchUserHistory(userId: string) {
+  const { data, error } = await supabase
+    .from('user_results')
+    .select('*')
+    .eq('user_id', userId)
+    .order('created_at', { ascending: false });
+
+  if (error) throw error;
+  return data || [];
+}
