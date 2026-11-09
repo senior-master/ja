@@ -38,14 +38,14 @@ export function CbtSetup() {
   };
 
   return (
-    <div className="min-h-screen max-w-2xl mx-auto p-4 pb-24">
-      <header className="mb-8 mt-4 flex items-center gap-3">
-        <button onClick={() => navigate('/')} className="p-2 bg-white rounded-full shadow-sm border border-slate-200 text-slate-600">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 pb-32 max-w-2xl mx-auto transition-colors">
+      <header className="mb-6 mt-4 flex items-center gap-3">
+        <button onClick={() => navigate('/')} className="p-2 bg-white dark:bg-slate-800 rounded-full shadow-sm border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
           <ArrowLeft size={20} />
         </button>
         <div>
-          <h1 className="text-xl font-bold text-slate-800">CBT Setup</h1>
-          <p className="text-slate-500 text-sm">Select 3 subjects + English</p>
+          <h1 className="text-xl font-bold text-slate-800 dark:text-white">CBT Master Setup</h1>
+          <p className="text-slate-500 dark:text-slate-400 text-sm">Select 3 subjects + English (Locked)</p>
         </div>
       </header>
 
@@ -59,28 +59,31 @@ export function CbtSetup() {
               onClick={() => toggleSubject(sub.subject_slug)}
               disabled={isEnglish}
               className={`p-4 rounded-xl border-2 text-left transition-all relative ${
-                isSelected ? 'border-green-500 bg-green-50' : 'border-slate-200 bg-white hover:border-green-300'
+                isSelected ? 'border-green-500 bg-green-50 dark:bg-green-900/20' : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-green-300'
               } ${isEnglish ? 'opacity-80 cursor-not-allowed' : ''}`}
             >
-              <div className="font-bold text-slate-800 text-sm capitalize pr-6">
+              <div className={`font-bold text-sm capitalize pr-6 ${isSelected ? 'text-green-700 dark:text-green-400' : 'text-slate-800 dark:text-slate-200'}`}>
                 {sub.subject_slug.replace(/-/g, ' ')}
               </div>
               <div className="text-xs text-slate-500 mt-1">{sub.total} questions</div>
-              <div className="absolute top-4 right-4 text-green-600">
-                {isSelected ? <CheckCircle2 size={20} className="fill-green-100"/> : <Circle size={20} className="text-slate-300"/>}
+              <div className={`absolute top-4 right-4 ${isSelected ? 'text-green-600' : 'text-slate-300'}`}>
+                {isSelected ? <CheckCircle2 size={20} className="fill-green-100 dark:fill-green-900"/> : <Circle size={20} />}
               </div>
             </button>
           );
         })}
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-200">
+      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700">
         <div className="max-w-2xl mx-auto flex justify-between items-center">
-          <span className="text-sm font-medium text-slate-600">{selected.length}/4 Subjects</span>
+          <div>
+            <span className="text-xs font-bold text-slate-500 block">SELECTED</span>
+            <span className="font-bold text-slate-800 dark:text-white text-lg">{selected.length}/4 Subjects</span>
+          </div>
           <button
             onClick={handleStart}
             disabled={selected.length !== 4 || loading}
-            className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-bold disabled:opacity-50 transition-colors"
+            className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-bold disabled:opacity-50 transition-colors shadow-lg"
           >
             {loading ? 'Loading...' : 'Start Exam'}
           </button>

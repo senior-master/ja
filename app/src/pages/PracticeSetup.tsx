@@ -34,9 +34,7 @@ export function PracticeSetup() {
         const fetched = await fetchExamQuestions([sub]); 
         questions[sub] = fetched[sub].slice(0, qCount); 
       }
-      
       const timeLimit = timeMins ? timeMins * 60 * 1000 : null;
-
       startExam(selected, questions, { mode: 'practice', timeLimit, showAnswers: 'end' });
       navigate('/runner');
     } catch (err) {
@@ -46,19 +44,19 @@ export function PracticeSetup() {
   };
 
   return (
-    <div className="min-h-screen max-w-2xl mx-auto p-4 pb-32">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 pb-32 max-w-2xl mx-auto transition-colors">
       <header className="mb-6 mt-4 flex items-center gap-3">
-        <button onClick={() => navigate('/')} className="p-2 bg-white rounded-full shadow-sm border border-slate-200 text-slate-600">
+        <button onClick={() => navigate('/')} className="p-2 bg-white dark:bg-slate-800 rounded-full shadow-sm border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">
           <ArrowLeft size={20} />
         </button>
         <div>
-          <h1 className="text-xl font-bold text-slate-800">Practice Setup</h1>
-          <p className="text-slate-500 text-sm">Customize your practice session</p>
+          <h1 className="text-xl font-bold text-slate-800 dark:text-white">Practice Setup</h1>
+          <p className="text-slate-500 dark:text-slate-400 text-sm">Customize your session</p>
         </div>
       </header>
 
       <div className="mb-6">
-        <h2 className="text-sm font-bold text-slate-500 uppercase mb-3">1. Select Subjects (Max 4)</h2>
+        <h2 className="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase mb-3">1. Select Subjects (Max 4)</h2>
         <div className="grid grid-cols-2 gap-3 max-h-60 overflow-y-auto pr-1">
           {subjects.map(sub => {
             const isSelected = selected.includes(sub.subject_slug);
@@ -67,14 +65,14 @@ export function PracticeSetup() {
                 key={sub.subject_slug}
                 onClick={() => toggleSubject(sub.subject_slug)}
                 className={`p-3 rounded-xl border-2 text-left transition-all relative ${
-                  isSelected ? 'border-blue-500 bg-blue-50' : 'border-slate-200 bg-white hover:border-blue-300'
+                  isSelected ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20' : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-blue-300'
                 }`}
               >
-                <div className="font-bold text-slate-800 text-xs capitalize pr-5 truncate">
+                <div className={`font-bold text-xs capitalize pr-5 truncate ${isSelected ? 'text-blue-700 dark:text-blue-400' : 'text-slate-800 dark:text-slate-200'}`}>
                   {sub.subject_slug.replace(/-/g, ' ')}
                 </div>
-                <div className="absolute top-3 right-3 text-blue-600">
-                  {isSelected ? <CheckCircle2 size={18} className="fill-blue-100"/> : <Circle size={18} className="text-slate-300"/>}
+                <div className={`absolute top-3 right-3 ${isSelected ? 'text-blue-600' : 'text-slate-300'}`}>
+                  {isSelected ? <CheckCircle2 size={18} className="fill-blue-100 dark:fill-blue-900"/> : <Circle size={18} />}
                 </div>
               </button>
             );
@@ -82,39 +80,34 @@ export function PracticeSetup() {
         </div>
       </div>
 
-      <div className="mb-6 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
-        <h2 className="text-sm font-bold text-slate-500 uppercase mb-3">2. Questions per Subject</h2>
+      <div className="mb-6 bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+        <h2 className="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase mb-3">2. Questions per Subject</h2>
         <input 
-          type="number" 
-          placeholder="e.g. 20"
-          value={qCount}
+          type="number" placeholder="e.g. 20" value={qCount}
           onChange={e => setQCount(e.target.value === '' ? '' : Number(e.target.value))}
-          className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 font-bold text-lg"
+          className="w-full px-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 font-bold text-lg text-slate-800 dark:text-white"
         />
       </div>
 
-      <div className="mb-6 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
-        <h2 className="text-sm font-bold text-slate-500 uppercase mb-3">3. Time Limit (Minutes)</h2>
+      <div className="mb-6 bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+        <h2 className="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase mb-3">3. Time Limit (Minutes)</h2>
         <p className="text-xs text-slate-400 mb-2">Leave blank for no timer</p>
         <input 
-          type="number" 
-          placeholder="e.g. 45"
-          value={timeMins}
+          type="number" placeholder="e.g. 45" value={timeMins}
           onChange={e => setTimeMins(e.target.value === '' ? '' : Number(e.target.value))}
-          className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 font-bold text-lg"
+          className="w-full px-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 font-bold text-lg text-slate-800 dark:text-white"
         />
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-200">
+      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700">
         <div className="max-w-2xl mx-auto flex justify-between items-center">
           <div>
             <span className="text-xs font-bold text-slate-500 block">TOTAL QUESTIONS</span>
-            <span className="font-bold text-slate-800 text-lg">{selected.length * (Number(qCount) || 0)}</span>
+            <span className="font-bold text-slate-800 dark:text-white text-lg">{selected.length * (Number(qCount) || 0)}</span>
           </div>
           <button
-            onClick={handleStart}
-            disabled={selected.length === 0 || !qCount || loading}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold disabled:opacity-50 transition-colors"
+            onClick={handleStart} disabled={selected.length === 0 || !qCount || loading}
+            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold disabled:opacity-50 transition-colors shadow-lg"
           >
             {loading ? 'Loading...' : 'Start Practice'}
           </button>

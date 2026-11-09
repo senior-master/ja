@@ -47,7 +47,7 @@ export function Privacy() {
         <h2 className="text-lg font-bold text-slate-900 dark:text-white mt-4">5. Data Security & Your Rights</h2>
         <p>We implement strict security measures (like Row Level Security) to protect your data. In accordance with the Nigeria Data Protection Act (NDPA), you have the right to access, correct, or delete your personal data. To delete your account, please contact us.</p>
         
-        <p className="mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">If you have any questions, contact us at support@cbtmaster.com.</p>
+        <p className="mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">If you have any questions, contact us at algotred.a1v1@gmail.com.</p>
       </div>
     </div>
   );
