@@ -1,0 +1,2 @@
+# SPA fallback: serve index.html for app routes, but NOT for static assets
+/* /index.html 200

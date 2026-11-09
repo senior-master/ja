@@ -8,6 +8,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       injectRegister: 'script',
+      manifestFilename: 'manifest.webmanifest',
       manifest: {
         name: 'CBT Master - JAMB Practice',
         short_name: 'CBT Master',
