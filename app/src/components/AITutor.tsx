@@ -50,8 +50,12 @@ export function AITutor({
       const data = JSON.parse(textData);
       setResponse(data.text);
     } catch (err: any) {
-      console.error(err);
-      setResponse(`Error: ${err.message}`); 
+      console.error("Full fetch error:", err);
+      if (err.message === 'Failed to fetch') {
+        setResponse("Network Error: Could not reach the AI server. Please check your internet connection or try disabling AdBlockers.");
+      } else {
+        setResponse(`Error: ${err.message}`); 
+      }
     } finally {
       setLoading(false);
     }
