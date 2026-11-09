@@ -1,7 +1,7 @@
 {
   "subject_slug": "commerce",
   "exam_type": "jamb",
-  "fetched_at": "2026-11-02T14:12:39.722888+00:00",
+  "fetched_at": "2026-11-09T14:42:05.016300+00:00",
   "topics": [
     {
       "id": 1,
@@ -47,13 +47,13 @@
     },
     {
       "id": 8,
-      "name": "Company accounts",
+      "name": "Human geography",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 9,
-      "name": "Human geography",
+      "name": "Company accounts",
       "percentage": null,
       "difficulty": null
     },
@@ -149,13 +149,13 @@
     },
     {
       "id": 25,
-      "name": "Foreign trade",
+      "name": "Writing",
       "percentage": null,
       "difficulty": null
     },
     {
       "id": 26,
-      "name": "Writing",
+      "name": "Foreign trade",
       "percentage": null,
       "difficulty": null
     }
