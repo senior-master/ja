@@ -91,16 +91,16 @@ export function Results() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 p-4 pb-24 max-w-2xl mx-auto">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 pb-24 max-w-2xl mx-auto transition-colors">
       <header className="flex justify-between items-center mt-4 mb-2">
-        <h1 className="text-xl font-bold text-slate-800">Results</h1>
+        <h1 className="text-xl font-bold text-slate-800 dark:text-white">Results</h1>
         <button onClick={handleGoHome} className="flex items-center gap-1 text-sm font-bold text-slate-500 hover:text-slate-800 bg-white px-3 py-1.5 rounded-lg border border-slate-200">
           <Home size={16} /> Home
         </button>
       </header>
 
       {/* Score Card */}
-      <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6 text-center mt-2">
+      <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 p-6 text-center mt-2">
         <h2 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-1">
           {isCbt ? 'JAMB UTME Score' : 'Practice Score'}
         </h2>
@@ -117,8 +117,8 @@ export function Results() {
         <h3 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-3 px-1">Subject Breakdown</h3>
         <div className="grid grid-cols-2 gap-3">
           {subjectResults.map(res => (
-            <div key={res.sub} className="bg-white p-3 rounded-lg shadow-sm border border-slate-200 flex flex-col justify-between">
-              <span className="capitalize font-bold text-slate-700 text-sm truncate">{res.sub.replace(/-/g, ' ')}</span>
+            <div key={res.sub} className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow-sm border border-slate-200 dark:border-slate-700 flex flex-col justify-between">
+              <span className="capitalize font-bold text-slate-700 dark:text-slate-200 text-sm truncate">{res.sub.replace(/-/g, ' ')}</span>
               <div className="flex justify-between items-end mt-2">
                 <span className="text-xs text-slate-400">{res.correct}/{res.total}</span>
                 <span className="font-bold text-blue-600">
@@ -131,9 +131,9 @@ export function Results() {
       </div>
 
       {/* Corrections Review */}
-      <div className="mt-6 bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+      <div className="mt-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden">
         <details className="group">
-          <summary className="p-4 font-bold text-slate-800 cursor-pointer list-none flex justify-between items-center bg-slate-50 hover:bg-slate-100 transition-colors">
+          <summary className="p-4 font-bold text-slate-800 dark:text-white cursor-pointer list-none flex justify-between items-center bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
             <span>Review Incorrect Answers</span>
             <span className="text-xs text-slate-500 group-open:rotate-180 transition-transform">▼</span>
           </summary>
@@ -143,7 +143,7 @@ export function Results() {
               if (wrongQs.length === 0) return null;
               return (
                 <div key={sub} className="space-y-4">
-                  <h3 className="font-bold text-slate-700 capitalize border-b pb-1">{sub.replace(/-/g, ' ')}</h3>
+                  <h3 className="font-bold text-slate-700 dark:text-slate-200 capitalize border-b border-slate-200 dark:border-slate-700 pb-1">{sub.replace(/-/g, ' ')}</h3>
                   {wrongQs.map(q => (
                     <div key={q.id} className="bg-red-50/50 p-3 rounded-lg border border-red-100">
                       <div className="text-sm text-slate-800 font-medium mb-2">

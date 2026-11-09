@@ -59,13 +59,13 @@ export function Dashboard() {
     .slice(0, 5); // Top 5 weakest
 
   return (
-    <div className="min-h-screen bg-slate-50 p-4 pb-24 max-w-2xl mx-auto">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 pb-24 max-w-2xl mx-auto transition-colors">
       <header className="mt-4 mb-6 flex items-center gap-3">
         <button onClick={() => navigate('/')} className="p-2 bg-white rounded-full shadow-sm border border-slate-200 text-slate-600">
           <ArrowLeft size={20} />
         </button>
         <div>
-          <h1 className="text-xl font-bold text-slate-800">My Dashboard</h1>
+          <h1 className="text-xl font-bold text-slate-800 dark:text-white">My Dashboard</h1>
           <p className="text-slate-500 text-sm">Your progress history</p>
         </div>
       </header>
@@ -81,10 +81,10 @@ export function Dashboard() {
             {globalWeakTopics.map(t => (
               <div key={t.topic}>
                 <div className="flex justify-between text-xs font-bold mb-1">
-                  <span className="text-slate-700 capitalize">{t.topic}</span>
+                  <span className="text-slate-700 dark:text-slate-200 capitalize">{t.topic}</span>
                   <span className="text-orange-600">{t.percentage}%</span>
                 </div>
-                <div className="w-full bg-slate-100 rounded-full h-2">
+                <div className="w-full bg-slate-100 dark:bg-slate-700 rounded-full h-2">
                   <div className="bg-orange-500 h-2 rounded-full" style={{ width: `${t.percentage}%` }}></div>
                 </div>
               </div>
@@ -97,9 +97,9 @@ export function Dashboard() {
       {loading ? (
         <div className="text-center py-10 text-slate-400">Loading history...</div>
       ) : history.length === 0 ? (
-        <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200 text-center">
+        <div className="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 text-center">
           <Trophy size={48} className="mx-auto text-slate-300 mb-4" />
-          <h2 className="text-lg font-bold text-slate-700">No exams taken yet</h2>
+          <h2 className="text-lg font-bold text-slate-700 dark:text-white">No exams taken yet</h2>
           <p className="text-slate-500 text-sm mt-1 mb-6">Take your first test to start tracking your progress.</p>
           <button onClick={() => navigate('/')} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-bold">
             Start Practicing
@@ -110,11 +110,11 @@ export function Dashboard() {
           <h2 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-3 px-1">Recent Exams</h2>
           <div className="space-y-3">
             {history.map((result, idx) => (
-              <div key={result.id || idx} className="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex justify-between items-center">
+              <div key={result.id || idx} className="bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 flex justify-between items-center">
                 <div>
                   <div className="flex items-center gap-2 mb-1">
                     {getModeIcon(result.mode)}
-                    <span className="font-bold text-slate-800 text-sm">{getModeName(result.mode)}</span>
+                    <span className="font-bold text-slate-800 dark:text-white text-sm">{getModeName(result.mode)}</span>
                   </div>
                   <div className="text-xs text-slate-500 flex items-center gap-1">
                     <Clock size={12} />
