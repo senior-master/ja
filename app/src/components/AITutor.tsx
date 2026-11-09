@@ -33,17 +33,21 @@ export function AITutor({
     `;
 
     try {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${import.meta.env.VITE_GEMINI_KEY}`, {
+      // ⚠️ REPLACE THIS URL WITH YOUR CLOUDFLARE WORKER URL!
+      const WORKER_URL = "https://ai-tutor-proxy.abdul01abdul03.workers.dev";
+
+      const res = await fetch(WORKER_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }]
-        })
+        body: JSON.stringify({ prompt })
       });
+
       const data = await res.json();
-      const text = data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't generate an explanation right now.";
-      setResponse(text);
-    } catch (err) {
+      if (!res.ok) throw new Error(data.error || "Failed to fetch response");
+      
+      setResponse(data.text);
+    } catch (err: any) {
+      console.error(err);
       setResponse("Network error. Please check your connection.");
     } finally {
       setLoading(false);
