@@ -9,30 +9,6 @@ import { Results } from './pages/Results';
 import { Dashboard } from './pages/Dashboard';
 import { AdminDashboard } from './pages/AdminDashboard';
 import { Leaderboard } from './pages/Leaderboard';
-import { ThemeWatcher } from './components/ThemeWatcher';
 import { Privacy } from './pages/Privacy';
-import { Terms } from './pages/Terms';
-
-function App() {
-  return (
-    <>
-      <ThemeWatcher />
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/login" element={<Home />} />
-        <Route path="/cbt-setup" element={<CbtSetup />} />
-        <Route path="/practice-setup" element={<PracticeSetup />} />
-        <Route path="/learning-setup" element={<LearningSetup />} />
-        <Route path="/runner" element={<Runner />} />
-        <Route path="/results" element={<Results />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/admin" element={<AdminDashboard />} />
-        <Route path="/leaderboard" element={<Leaderboard />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/terms" element={<Terms />} />
-      </Routes>
-    </>
-  );
-}
-
-export default App;
+import { Terms } from './pages/Terms'; function App() { return ( <> <Routes> <Route path="/" element={<Landing />} /> <Route path="/login" element={<Home />} /> <Route path="/cbt-setup" element={<CbtSetup />} /> <Route path="/practice-setup" element={<PracticeSetup />} /> <Route path="/learning-setup" element={<LearningSetup />} /> <Route path="/runner" element={<Runner />} /> <Route path="/results" element={<Results />} /> <Route path="/dashboard" element={<Dashboard />} /> <Route path="/admin" element={<AdminDashboard />} /> <Route path="/leaderboard" element={<Leaderboard />} /> <Route path="/privacy" element={<Privacy />} /> <Route path="/terms" element={<Terms />} /> </Routes> </> );
+} export default App;
