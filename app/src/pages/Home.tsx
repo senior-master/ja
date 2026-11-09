@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { supabase } from '../services/questions';
-import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, Mail, Lock, User, Shield, Flame, Trophy } from 'lucide-react';
+import { BookOpen, GraduationCap, MonitorPlay, ArrowRight, Mail, Lock, User, Shield, Flame, Trophy, Moon, Sun } from 'lucide-react';
 
 export function Home() {
   const navigate = useNavigate();
-  const { user, setUser, setExamMode, resetExam, profile, setProfile } = useExamStore();
+  const { user, setUser, setExamMode, resetExam, profile, setProfile, theme, setTheme } = useExamStore();
   
   const [isLogin, setIsLogin] = useState(true);
   const [name, setName] = useState('');
@@ -120,6 +120,12 @@ export function Home() {
     }
   };
 
+  const toggleTheme = () => {
+    if (theme === 'system') setTheme('dark');
+    else if (theme === 'dark') setTheme('light');
+    else setTheme('system');
+  };
+
   const handleLogout = async () => {
     await supabase.auth.signOut();
     setUser(null);
@@ -129,13 +135,13 @@ export function Home() {
   // ── SCREEN 1: LOGIN / SIGNUP ──
   if (!user) {
     return (
-      <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4">
-        <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-8 border border-slate-100">
+      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col items-center justify-center p-4 transition-colors">
+        <div className="w-full max-w-md bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-8 border border-slate-100 dark:border-slate-700">
           <div className="text-center mb-6">
             <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <GraduationCap size={32} />
             </div>
-            <h1 className="text-2xl font-bold text-slate-800">CBT Master</h1>
+            <h1 className="text-2xl font-bold text-slate-800 dark:text-white">CBT Master</h1>
             <p className="text-slate-500 mt-1 text-sm">
               {isLogin ? 'Welcome back! Log in to continue.' : 'Create an account to track your progress.'}
             </p>
@@ -149,7 +155,7 @@ export function Home() {
                 <User className="absolute left-3 top-3 text-slate-400" size={20} />
                 <input 
                   type="text" placeholder="Full Name" value={name} onChange={e => setName(e.target.value)} required
-                  className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full pl-10 pr-4 py-3 bg-slate-50 dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 dark:text-white"
                 />
               </div>
             )}
@@ -158,7 +164,7 @@ export function Home() {
               <Mail className="absolute left-3 top-3 text-slate-400" size={20} />
               <input 
                 type="email" placeholder="Email Address" value={email} onChange={e => setEmail(e.target.value)} required
-                className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full pl-10 pr-4 py-3 bg-slate-50 dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 dark:text-white"
               />
             </div>
 
@@ -166,7 +172,7 @@ export function Home() {
               <Lock className="absolute left-3 top-3 text-slate-400" size={20} />
               <input 
                 type="password" placeholder={isLogin ? "Password" : "Create Password"} value={password} onChange={e => setPassword(e.target.value)} required minLength={6}
-                className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full pl-10 pr-4 py-3 bg-slate-50 dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 dark:text-white"
               />
             </div>
 
@@ -175,7 +181,7 @@ export function Home() {
                 <Lock className="absolute left-3 top-3 text-slate-400" size={20} />
                 <input 
                   type="password" placeholder="Confirm Password" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} required minLength={6}
-                  className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full pl-10 pr-4 py-3 bg-slate-50 dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 dark:text-white"
                 />
               </div>
             )}
@@ -197,9 +203,9 @@ export function Home() {
 
   // ── SCREEN 2: MODE SELECTION ──
   const modes = [
-    { id: 'cbt', title: 'CBT Master (Real Exam)', desc: '4 subjects. 180 questions. 120 minutes.', icon: <MonitorPlay size={24} />, color: 'bg-green-50 text-green-700 border-green-200 hover:border-green-400' },
-    { id: 'practice', title: 'Practice Mode', desc: 'Pick subjects. Choose your question count and timer.', icon: <BookOpen size={24} />, color: 'bg-blue-50 text-blue-700 border-blue-200 hover:border-blue-400' },
-    { id: 'learning', title: 'Learning Mode', desc: 'Pick specific topics. Get instant feedback.', icon: <GraduationCap size={24} />, color: 'bg-purple-50 text-purple-700 border-purple-200 hover:border-purple-400' }
+    { id: 'cbt', title: 'CBT Master (Real Exam)', desc: '4 subjects. 180 questions. 120 minutes.', icon: <MonitorPlay size={24} />, color: 'bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 border-green-200 dark:border-green-800 hover:border-green-400' },
+    { id: 'practice', title: 'Practice Mode', desc: 'Pick subjects. Choose your question count and timer.', icon: <BookOpen size={24} />, color: 'bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-400 border-blue-200 dark:border-blue-800 hover:border-blue-400' },
+    { id: 'learning', title: 'Learning Mode', desc: 'Pick specific topics. Get instant feedback.', icon: <GraduationCap size={24} />, color: 'bg-purple-50 dark:bg-purple-900/20 text-purple-700 dark:text-purple-400 border-purple-200 dark:border-purple-800 hover:border-purple-400' }
   ];
 
   const handleModeSelect = (mode: any) => {
@@ -211,10 +217,10 @@ export function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 p-4 pb-24 max-w-2xl mx-auto">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 p-4 pb-24 max-w-2xl mx-auto transition-colors">
       <header className="mt-6 mb-8 flex justify-between items-start">
         <div>
-          <h1 className="text-2xl font-bold text-slate-800">Welcome,</h1>
+          <h1 className="text-2xl font-bold text-slate-800 dark:text-white">Welcome,</h1>
           <p className="text-blue-600 font-bold text-lg">{user.user_metadata?.full_name || user.email.split('@')[0]}</p>
           {profile && (
             <div className="flex items-center gap-1 mt-2 bg-orange-100 text-orange-600 px-2 py-1 rounded-lg w-fit text-sm font-bold border border-orange-200">
@@ -223,7 +229,10 @@ export function Home() {
           )}
         </div>
         <div className="flex flex-wrap gap-2 justify-end">
-          <button onClick={() => navigate('/leaderboard')} className="text-xs font-bold text-yellow-700 bg-yellow-100 px-3 py-2 rounded-lg border border-yellow-300 hover:bg-yellow-200 flex items-center gap-1">
+          <button onClick={toggleTheme} className="p-2 text-slate-500 hover:text-blue-600 bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700">
+            {theme === 'dark' ? <Moon size={16} /> : theme === 'light' ? <Sun size={16} /> : <MonitorPlay size={16} />}
+          </button>
+          <button onClick={() => navigate('/leaderboard')} className="text-xs font-bold text-yellow-700 bg-yellow-100 px-3 py-2 rounded-lg border border-yellow-300 hover:bg-yellow-200 flex items-center gap-1 dark:bg-yellow-900/30 dark:text-yellow-500 dark:border-yellow-700/50">
             <Trophy size={14} /> Leaderboard
           </button>
           {user.email === ADMIN_EMAIL && (
@@ -241,10 +250,10 @@ export function Home() {
       </header>
 
       <div className="space-y-4">
-        <h2 className="text-sm font-bold text-slate-500 uppercase tracking-wider">Choose Your Mode</h2>
+        <h2 className="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Choose Your Mode</h2>
         {modes.map(mode => (
           <button key={mode.id} onClick={() => handleModeSelect(mode.id)} className={`w-full text-left p-5 rounded-xl border-2 transition-all flex items-start gap-4 ${mode.color}`}>
-            <div className="p-2 bg-white rounded-lg shadow-sm">{mode.icon}</div>
+            <div className="p-2 bg-white dark:bg-slate-800 rounded-lg shadow-sm">{mode.icon}</div>
             <div className="flex-1">
               <div className="flex justify-between items-center mb-1">
                 <span className="font-bold text-lg">{mode.title}</span>

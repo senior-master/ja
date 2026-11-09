@@ -7,10 +7,12 @@ import { Runner } from './pages/Runner';
 import { Results } from './pages/Results';
 import { Dashboard } from './pages/Dashboard';
 import { AdminDashboard } from './pages/AdminDashboard';
+import { ThemeWatcher } from './components/ThemeWatcher';
 import { Leaderboard } from './pages/Leaderboard';
 
 function App() {
   return (
+    <ThemeWatcher />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/cbt-setup" element={<CbtSetup />} />

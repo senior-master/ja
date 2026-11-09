@@ -18,6 +18,7 @@ export type Question = {
 type ExamState = {
   status: 'idle' | 'active' | 'submitted';
   user: any | null;
+  theme: 'light' | 'dark' | 'system';
   profile: { streak: number; last_active: string } | null; // Supabase User object
   examMode: 'cbt' | 'practice' | 'learning' | null;
   examConfig: { mode: string; timeLimit: number | null; showAnswers: 'instant' | 'end' } | null;
@@ -37,6 +38,7 @@ type ExamState = {
   
   // Actions
   setUser: (user: any) => void;
+  setTheme: (theme: 'light' | 'dark' | 'system') => void;
   setProfile: (profile: any) => void;
   setExamMode: (mode: 'cbt' | 'practice' | 'learning') => void;
   logout: () => void;
@@ -59,6 +61,7 @@ export const useExamStore = create<ExamState>()(
     (set) => ({
       status: 'idle',
       user: null,
+      theme: 'system',
       profile: null,
       examMode: null,
       examConfig: null,
@@ -76,6 +79,7 @@ export const useExamStore = create<ExamState>()(
       candidateInfo: { name: 'Student', regNo: '2026UTME/001' },
 
       setUser: (user) => set({ user, candidateInfo: { name: user?.email?.split('@')[0] || 'Student', regNo: user?.id?.slice(0,8) || 'N/A' } }),
+      setTheme: (theme) => set({ theme }),
       setProfile: (profile) => set({ profile }),
       setExamMode: (mode) => set({ examMode: mode }),
       logout: () => set({ user: null, examMode: null, status: 'idle' }),
