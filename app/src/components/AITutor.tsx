@@ -36,7 +36,7 @@ export function AITutor({
 
     try {
       // ⚠️ PASTE YOUR ACTUAL CLOUDFLARE WORKER URL HERE
-      const WORKER_URL = "https://abdul01abdul03.workers.dev"; 
+      const WORKER_URL = "https://ai-tutor-proxy.abdul01abdul03.workers.dev/"; 
 
       const res = await fetch(WORKER_URL, {
         method: 'POST',
