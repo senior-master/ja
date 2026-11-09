@@ -31,7 +31,7 @@ export default {
       let responseText = "";
       let success = false;
       let lastError = "";
-      const models = ["gemini-2.5-flash", "gemini-2.0-flash"]; 
+      const models = ["gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"]; 
 
       for (const key of keys) {
         for (const model of models) {
