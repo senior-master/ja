@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Sparkles, Loader2, X } from 'lucide-react';
-import ReactMarkdown from 'react-markdown';
+import { MathText } from './MathText';
 
 export function AITutor({ 
   question, 
@@ -31,10 +31,12 @@ export function AITutor({
       ${explanation ? `Existing explanation: ${explanation}` : ''}
       
       Please provide a step-by-step breakdown. Keep it under 150 words and use simple language.
+      Do NOT wrap math in \\( \\) or \\[ \\]. Use $ for inline math and $$ for block math.
     `;
 
     try {
-      const WORKER_URL = "https://ai-tutor-proxy.abdul01abdul03.workers.dev"; // Replace with your URL if changed
+      // ⚠️ REPLACE THIS URL WITH YOUR CLOUDFLARE WORKER URL!
+      const WORKER_URL = "https://ai-tutor-proxy.abdul01abdul03.workers.dev";
 
       const res = await fetch(WORKER_URL, {
         method: 'POST',
@@ -42,16 +44,37 @@ export function AITutor({
         body: JSON.stringify({ prompt })
       });
 
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Failed to fetch response");
-      
+      const textData = await res.text();
+      if (!res.ok) throw new Error(`Server ${res.status}: ${textData}`);
+
+      const data = JSON.parse(textData);
       setResponse(data.text);
     } catch (err: any) {
       console.error(err);
-      setResponse("Network error. Please check your connection.");
+      setResponse(`Error: ${err.message}`); 
     } finally {
       setLoading(false);
     }
+  };
+
+  // Helper to format the AI's Markdown (**bold**) and pass it to MathText
+  const formatResponse = (text: string) => {
+    if (!text) return null;
+    
+    // Split text by the bold markers
+    const parts = text.split(/(\*\*.*?\*\*)/g);
+    
+    return parts.map((part, index) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        const boldText = part.slice(2, -2);
+        return (
+          <strong key={index} className="block mt-3 mb-1 text-slate-900">
+            <MathText text={boldText} />
+          </strong>
+        );
+      }
+      return <MathText key={index} text={part} />;
+    });
   };
 
   if (!isOpen) {
@@ -82,9 +105,8 @@ export function AITutor({
               <Loader2 className="animate-spin" size={20} /> Thinking...
             </div>
           ) : (
-            /* Render Markdown beautifully */
-            <div className="text-sm text-slate-700 leading-relaxed prose prose-sm prose-purple max-w-none">
-              <ReactMarkdown>{response}</ReactMarkdown>
+            <div className="text-sm text-slate-700 leading-relaxed whitespace-pre-wrap">
+              {formatResponse(response)}
             </div>
           )}
         </div>
@@ -92,4 +114,3 @@ export function AITutor({
     </div>
   );
 }
-
