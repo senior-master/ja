@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'supabase/functions/**' # Triggers only when function code changes
-  workflow_dispatch: # Allows manual triggering from the Actions tab
+      - 'supabase/functions/**'
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -18,7 +18,7 @@ jobs:
       - name: Setup Supabase CLI
         uses: supabase/setup-cli@v1
         with:
-          version: latest
+          version: 2.111.0 # Pin to a stable version to avoid lock/bundle bugs
 
       - name: Deploy Edge Function
         run: supabase functions deploy ai-tutor --remote=${{ secrets.SUPABASE_PROJECT_ID }} --yes
