@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Sparkles, Loader2, X } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 
 export function AITutor({ 
   question, 
@@ -33,8 +34,7 @@ export function AITutor({
     `;
 
     try {
-      // ⚠️ REPLACE THIS URL WITH YOUR CLOUDFLARE WORKER URL!
-      const WORKER_URL = "https://ai-tutor-proxy.abdul01abdul03.workers.dev";
+      const WORKER_URL = "https://ai-tutor-proxy.YOUR-SUBDOMAIN.workers.dev"; // Replace with your URL if changed
 
       const res = await fetch(WORKER_URL, {
         method: 'POST',
@@ -82,8 +82,9 @@ export function AITutor({
               <Loader2 className="animate-spin" size={20} /> Thinking...
             </div>
           ) : (
-            <div className="text-sm text-slate-700 leading-relaxed whitespace-pre-wrap">
-              {response}
+            /* Render Markdown beautifully */
+            <div className="text-sm text-slate-700 leading-relaxed prose prose-sm prose-purple max-w-none">
+              <ReactMarkdown>{response}</ReactMarkdown>
             </div>
           )}
         </div>
