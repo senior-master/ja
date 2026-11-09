@@ -89,7 +89,7 @@ export function Results() {
 
   const handleShare = async () => {
     const text = `I just scored ${finalScore}/${maxScore} on CBT Master! 🎯 Ready for JAMB 2026. Practice with 13,000+ AI questions here:`;
-    const url = "https://senior-master.github.io/ja/";
+    const url = "https://jajam.pages.dev/";
     
     if (navigator.share) {
       try {

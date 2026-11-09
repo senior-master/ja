@@ -43,7 +43,7 @@ export function AdminDashboard() {
 
   const handleEditReport = async (report: any) => {
     // Fetch the actual question data
-    const { data, error } = await supabase.from('questions').select('*').eq('id', report.question_id).single();
+    const { data } = await supabase.from('questions').select('*').eq('id', report.question_id).single();
     if (data) {
       setEditingQuestion({ ...data, report_id: report.id });
     } else {
