@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useExamStore } from '../store/useExamStore';
 import { supabase } from '../services/questions';
-import { ArrowLeft, Users, MonitorPlay, MessageSquare, Star } from 'lucide-react';
+import { ArrowLeft, Users, MonitorPlay, MessageSquare, Star, AlertTriangle } from 'lucide-react';
 
 export function AdminDashboard() {
   const navigate = useNavigate();
@@ -10,6 +10,7 @@ export function AdminDashboard() {
   
   const [results, setResults] = useState<any[]>([]);
   const [feedback, setFeedback] = useState<any[]>([]);
+  const [reports, setReports] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   // 🔐 REPLACE THIS WITH YOUR ADMIN EMAIL
@@ -29,6 +30,10 @@ export function AdminDashboard() {
       // Fetch all feedback
       const { data: feedData } = await supabase.from('feedback').select('*').order('created_at', { ascending: false });
       if (feedData) setFeedback(feedData);
+
+      // Fetch all reports
+      const { data: repData } = await supabase.from('reports').select('*').order('created_at', { ascending: false });
+      if (repData) setReports(repData);
 
       setLoading(false);
     };
@@ -79,6 +84,31 @@ export function AdminDashboard() {
           <Star className="text-yellow-500 mb-2 fill-yellow-500" size={24} />
           <span className="text-2xl font-bold text-slate-800">{avgRating}</span>
           <span className="text-xs text-slate-500 font-medium">Avg Rating</span>
+        </div>
+      </div>
+
+
+      {/* Question Reports List */}
+      <div className="mt-8 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-red-200 dark:border-red-900/50 overflow-hidden">
+        <div className="bg-red-500 p-4">
+          <h2 className="text-white font-bold flex items-center gap-2">
+            <AlertTriangle size={18} /> Reported Questions ({reports.length})
+          </h2>
+        </div>
+        <div className="divide-y divide-slate-100 dark:divide-slate-700 max-h-[40vh] overflow-y-auto">
+          {reports.length === 0 ? (
+            <p className="p-6 text-center text-slate-500 text-sm">No reports yet. The questions are looking good!</p>
+          ) : (
+            reports.map((r, i) => (
+              <div key={i} className="p-4 hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+                <div className="flex justify-between items-start mb-1">
+                  <span className="font-bold text-sm text-red-600 dark:text-red-400">Question ID: {r.question_id}</span>
+                  <span className="text-xs text-slate-400">{new Date(r.created_at).toLocaleDateString()}</span>
+                </div>
+                <p className="text-sm text-slate-700 dark:text-slate-300 font-medium">{r.reason}</p>
+              </div>
+            ))
+          )}
         </div>
       </div>
 

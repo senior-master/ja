@@ -1,0 +1,105 @@
+import { useState } from 'react';
+import { useExamStore } from '../store/useExamStore';
+import { supabase } from '../services/questions';
+import { AlertTriangle, X, Loader2, CheckCircle2 } from 'lucide-react';
+
+export function ReportQuestion({ questionId }: { questionId: number }) {
+  const { user } = useExamStore();
+  const [isOpen, setIsOpen] = useState(false);
+  const [reason, setReason] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+
+  const reasons = [
+    "Incorrect Answer / Wrong Option",
+    "Typo or Spelling Error",
+    "Explanation is confusing",
+    "Question is off-topic"
+  ];
+
+  const handleSubmit = async () => {
+    if (!user || !reason) return;
+    setIsSubmitting(true);
+
+    try {
+      const { error } = await supabase.from('reports').insert({
+        user_id: user.id,
+        question_id: questionId,
+        reason: reason
+      });
+      if (error) throw error;
+      setSubmitted(true);
+    } catch (err) {
+      alert("Failed to submit report. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  if (!isOpen) {
+    return (
+      <button 
+        onClick={() => setIsOpen(true)}
+        className="mt-4 flex items-center gap-1 text-xs font-bold text-slate-400 hover:text-red-500 transition-colors"
+      >
+        <AlertTriangle size={14} /> Report Issue
+      </button>
+    );
+  }
+
+  return (
+    <div className="fixed inset-0 bg-slate-900/50 z-[60] flex items-center justify-center p-4">
+      <div className="bg-white dark:bg-slate-800 w-full max-w-sm rounded-xl shadow-xl overflow-hidden animate-slide-up">
+        <div className="bg-red-500 p-3 flex justify-between items-center text-white">
+          <div className="flex items-center gap-2 font-bold text-sm">
+            <AlertTriangle size={16} /> Report Question
+          </div>
+          <button onClick={() => setIsOpen(false)} className="p-1 hover:bg-red-600 rounded">
+            <X size={20} />
+          </button>
+        </div>
+
+        <div className="p-5">
+          {submitted ? (
+            <div className="text-center py-4">
+              <CheckCircle2 size={40} className="mx-auto text-green-500 mb-2" />
+              <h3 className="font-bold text-slate-800 dark:text-white">Report Received</h3>
+              <p className="text-xs text-slate-500 mt-1 mb-4">Thank you! Our team will review this question.</p>
+              <button onClick={() => setIsOpen(false)} className="w-full bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-white py-2 rounded-lg font-bold text-sm">
+                Close
+              </button>
+            </div>
+          ) : (
+            <>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">What is wrong with this question?</p>
+              
+              <div className="space-y-2 mb-6">
+                {reasons.map((r) => (
+                  <button
+                    key={r}
+                    onClick={() => setReason(r)}
+                    className={`w-full text-left p-3 rounded-lg border-2 text-sm font-medium transition-colors ${
+                      reason === r 
+                        ? 'border-red-500 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400' 
+                        : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-red-300'
+                    }`}
+                  >
+                    {r}
+                  </button>
+                ))}
+              </div>
+
+              <button
+                onClick={handleSubmit}
+                disabled={!reason || isSubmitting}
+                className="w-full bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-bold transition-colors disabled:opacity-50 flex justify-center items-center gap-2"
+              >
+                {isSubmitting ? <Loader2 size={16} className="animate-spin" /> : 'Submit Report'}
+              </button>
+            </>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
