@@ -1,3 +1,4 @@
 name = "ai-tutor-proxy"
 main = "worker.js"
 compatibility_date = "2024-11-01"
+account_id = "1ef14ad28c0166b40f1e65e73c59c79f"
