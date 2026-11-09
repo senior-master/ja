@@ -34,7 +34,7 @@ export function AITutor({
     `;
 
     try {
-      const WORKER_URL = "https://ai-tutor-proxy.YOUR-SUBDOMAIN.workers.dev"; // Replace with your URL if changed
+      const WORKER_URL = "https://ai-tutor-proxy.abdul01abdul03.workers.dev"; // Replace with your URL if changed
 
       const res = await fetch(WORKER_URL, {
         method: 'POST',
@@ -92,3 +92,4 @@ export function AITutor({
     </div>
   );
 }
+
