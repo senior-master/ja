@@ -35,7 +35,8 @@ export function AITutor({
     `;
 
     try {
-      const WORKER_URL = "https://ai-tutor-proxy.YOUR-SUBDOMAIN.workers.dev"; // ⚠️ REPLACE WITH YOUR URL
+      // ⚠️ PASTE YOUR ACTUAL CLOUDFLARE WORKER URL HERE
+      const WORKER_URL = "https://abdul01abdul03.workers.dev"; 
 
       const res = await fetch(WORKER_URL, {
         method: 'POST',
