@@ -196,6 +196,13 @@ export function Home() {
               {isLogin ? "Don't have an account? Sign Up" : "Already have an account? Log In"}
             </button>
           </div>
+          
+          {/* Legal Links Footer */}
+          <div className="mt-8 pt-4 border-t border-slate-100 dark:border-slate-700 text-center flex justify-center gap-4 text-xs text-slate-400">
+            <button onClick={() => navigate('/privacy')} className="hover:text-blue-600 transition-colors">Privacy Policy</button>
+            <span>•</span>
+            <button onClick={() => navigate('/terms')} className="hover:text-blue-600 transition-colors">Terms of Service</button>
+          </div>
         </div>
       </div>
     );
