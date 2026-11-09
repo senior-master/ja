@@ -7,23 +7,25 @@ import { Runner } from './pages/Runner';
 import { Results } from './pages/Results';
 import { Dashboard } from './pages/Dashboard';
 import { AdminDashboard } from './pages/AdminDashboard';
-import { ThemeWatcher } from './components/ThemeWatcher';
 import { Leaderboard } from './pages/Leaderboard';
+import { ThemeWatcher } from './components/ThemeWatcher';
 
 function App() {
   return (
-    <ThemeWatcher />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/cbt-setup" element={<CbtSetup />} />
-      <Route path="/practice-setup" element={<PracticeSetup />} />
-      <Route path="/learning-setup" element={<LearningSetup />} />
-      <Route path="/runner" element={<Runner />} />
-      <Route path="/results" element={<Results />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/admin" element={<AdminDashboard />} />
-      <Route path="/leaderboard" element={<Leaderboard />} />
-    </Routes>
+    <> {/* <-- Added this Fragment wrapper */}
+      <ThemeWatcher />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cbt-setup" element={<CbtSetup />} />
+        <Route path="/practice-setup" element={<PracticeSetup />} />
+        <Route path="/learning-setup" element={<LearningSetup />} />
+        <Route path="/runner" element={<Runner />} />
+        <Route path="/results" element={<Results />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/leaderboard" element={<Leaderboard />} />
+      </Routes>
+    </> {/* <-- Closing Fragment */}
   );
 }
 
