@@ -1,16 +1,21 @@
 export default {
   async fetch(request, env) {
-    // 1. Define complete CORS headers
     const corsHeaders = {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET,HEAD,POST,OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-      'Access-Control-Max-Age': '86400',
     };
 
-    // 2. Handle preflight (OPTIONS) requests
+    // 1. Handle preflight
     if (request.method === 'OPTIONS') {
       return new Response('ok', { headers: corsHeaders });
+    }
+
+    // 2. Handle browser GET requests gracefully
+    if (request.method === 'GET') {
+      return new Response(JSON.stringify({ status: "Worker is active!", message: "Send a POST request to use the AI." }), {
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+      });
     }
 
     try {
@@ -24,52 +29,42 @@ export default {
       let responseText = "";
       let success = false;
       let lastError = "";
-      const models = ["gemini-2.5-flash", "gemini-2.0-flash"]; // Trimmed to save CPU
+      
+      // Use only the fastest model to prevent CPU timeouts
+      const model = "gemini-3.5-flash-lite"; 
 
       for (const key of keys) {
-        for (const model of models) {
-          try {
-            // 3. Add a 10-second timeout to the fetch to prevent Worker hangs
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 10000);
-
-            const response = await fetch(
-              `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
-              {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
-                signal: controller.signal
-              }
-            );
-            
-            clearTimeout(timeoutId); // Clear timeout if fetch succeeds
-
-            const data = await response.json();
-            if (response.ok && data.candidates?.[0]?.content?.parts?.[0]?.text) {
-              responseText = data.candidates[0].content.parts[0].text;
-              success = true;
-              break;
-            } else {
-              lastError = data.error?.message || `API Error: ${response.status}`;
+        try {
+          const response = await fetch(
+            `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+            {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
             }
-          } catch (err) {
-            // This catches both network errors and AbortController timeouts
-            lastError = err.name === 'AbortError' ? 'Request timed out' : err.message;
+          );
+          
+          const data = await response.json();
+          
+          if (response.ok && data.candidates?.[0]?.content?.parts?.[0]?.text) {
+            responseText = data.candidates[0].content.parts[0].text;
+            success = true;
+            break; // Success! Stop looping
+          } else {
+            lastError = data.error?.message || `API Error: ${response.status}`;
           }
+        } catch (err) {
+          lastError = err.message;
         }
-        if (success) break;
       }
 
       if (!success) throw new Error(`All keys failed. Last error: ${lastError}`);
 
-      // 4. Return success with CORS headers
       return new Response(JSON.stringify({ text: responseText }), {
         headers: { ...corsHeaders, 'Content-Type': 'application/json' },
       });
 
     } catch (error) {
-      // 5. CRITICAL: Return errors with CORS headers so the browser can read them
       return new Response(JSON.stringify({ error: error.message }), {
         status: 400,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' },
