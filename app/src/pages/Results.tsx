@@ -5,7 +5,7 @@ import { supabase } from '../services/questions';
 import { MathText } from '../components/MathText';
 import { AITutor } from '../components/AITutor';
 import { ReportQuestion } from '../components/ReportQuestion';
-import { Star, MessageSquare, CheckCircle2, Home, Loader2 } from 'lucide-react';
+import { Star, MessageSquare, CheckCircle2, Home, Loader2, Share2 } from 'lucide-react';
 
 export function Results() {
   const navigate = useNavigate();
@@ -86,6 +86,23 @@ export function Results() {
     }
   };
 
+
+  const handleShare = async () => {
+    const text = `I just scored ${finalScore}/${maxScore} on CBT Master! 🎯 Ready for JAMB 2026. Practice with 13,000+ AI questions here:`;
+    const url = "https://senior-master.github.io/ja/";
+    
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: 'CBT Master', text: text, url: url });
+      } catch (err) {
+        console.log('Error sharing', err);
+      }
+    } else {
+      navigator.clipboard.writeText(`${text} ${url}`);
+      alert('Link copied to clipboard! Share it with your friends.');
+    }
+  };
+
   const handleGoHome = () => {
     resetExam();
     navigate('/login');
@@ -95,9 +112,14 @@ export function Results() {
     <div className="min-h-screen bg-[#09090b] p-4 pb-24 max-w-2xl mx-auto text-zinc-200">
       <header className="flex justify-between items-center mt-4 mb-2">
         <h1 className="text-xl font-bold text-white">Results</h1>
-        <button onClick={handleGoHome} className="flex items-center gap-1 text-sm font-bold text-zinc-400 hover:text-white bg-zinc-900 px-3 py-1.5 rounded-lg border border-zinc-800">
-          <Home size={16} /> Home
-        </button>
+        <div className="flex gap-2">
+          <button onClick={handleShare} className="flex items-center gap-1 text-sm font-bold text-black bg-amber-500 hover:bg-amber-400 px-3 py-1.5 rounded-lg shadow-sm transition-colors">
+            <Share2 size={16} /> Share
+          </button>
+          <button onClick={handleGoHome} className="flex items-center gap-1 text-sm font-bold text-zinc-400 hover:text-white bg-zinc-900 px-3 py-1.5 rounded-lg border border-zinc-800">
+            <Home size={16} /> Home
+          </button>
+        </div>
       </header>
 
       <div className="bg-zinc-900 rounded-xl shadow-sm border border-zinc-800 p-6 text-center mt-2">
