@@ -13,7 +13,7 @@ export function CbtSetup() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (examMode !== 'cbt') navigate('/');
+    if (examMode !== 'cbt') navigate('/login');
     resetExam();
     fetchSubjects().then(setSubjects).catch(console.error);
   }, [resetExam, examMode, navigate]);

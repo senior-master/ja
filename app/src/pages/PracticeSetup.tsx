@@ -15,7 +15,7 @@ export function PracticeSetup() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (examMode !== 'practice') navigate('/');
+    if (examMode !== 'practice') navigate('/login');
     resetExam();
     fetchSubjects().then(setSubjects).catch(console.error);
   }, [resetExam, examMode, navigate]);

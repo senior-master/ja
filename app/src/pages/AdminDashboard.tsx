@@ -18,7 +18,7 @@ export function AdminDashboard() {
 
   useEffect(() => {
     if (!user || user.email !== ADMIN_EMAIL) {
-      navigate('/'); // Kick out non-admins
+      navigate('/login'); // Kick out non-admins
       return;
     }
 

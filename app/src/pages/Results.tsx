@@ -18,7 +18,7 @@ export function Results() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
-    if (status !== 'submitted') navigate('/');
+    if (status !== 'submitted') navigate('/login');
   }, [status, navigate]);
 
   if (status !== 'submitted') return null;
@@ -87,7 +87,7 @@ export function Results() {
 
   const handleGoHome = () => {
     resetExam();
-    navigate('/');
+    navigate('/login');
   };
 
   return (

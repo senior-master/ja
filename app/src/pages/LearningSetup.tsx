@@ -17,7 +17,7 @@ export function LearningSetup() {
   const [loadingTopics, setLoadingTopics] = useState(false);
 
   useEffect(() => {
-    if (examMode !== 'learning') navigate('/');
+    if (examMode !== 'learning') navigate('/login');
     resetExam();
     fetchSubjects().then(setSubjects).catch(console.error);
   }, [resetExam, examMode, navigate]);
