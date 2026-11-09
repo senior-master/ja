@@ -1,4 +1,4 @@
-name: Deploy Supabase Edge Function
+name: Deploy Supabase Edge Function (API)
 
 on:
   push:
@@ -15,12 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Supabase CLI
-        uses: supabase/setup-cli@v1
-        with:
-          version: 2.111.0 # Pin to a stable version to avoid lock/bundle bugs
-
-      - name: Deploy Edge Function
-        run: supabase functions deploy ai-tutor --remote=${{ secrets.SUPABASE_PROJECT_ID }} --yes
-        env:
-          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      - name: Deploy via Management API
+        run: |
+          curl -s -X POST "https://api.supabase.com/v1/projects/${{ secrets.SUPABASE_PROJECT_ID }}/functions/deploy?slug=ai-tutor" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ACCESS_TOKEN }}" \
+            -H "content-type: multipart/form-data" \
+            -F 'metadata={"entrypoint_path":"index.ts","name":"ai-tutor","verify_jwt":false}' \
+            -F "file=@supabase/functions/ai-tutor/index.ts"
