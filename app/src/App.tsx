@@ -12,7 +12,7 @@ import { ThemeWatcher } from './components/ThemeWatcher';
 
 function App() {
   return (
-    <> {/* <-- Added this Fragment wrapper */}
+    <>
       <ThemeWatcher />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
-    </> {/* <-- Closing Fragment */}
+    </>
   );
 }
 
