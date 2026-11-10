@@ -15,8 +15,8 @@ export function Landing() {
     },
     {
       icon: <Sparkles size={24} className="text-amber-500" />,
-      title: "AI Tutor",
-      desc: "Stuck on a question? Tap 'Ask AI' and get a step-by-step explanation instantly."
+      title: "Smart Tutor",
+      desc: "Stuck on a question? Tap 'Ask Tutor' and get a step-by-step explanation instantly."
     },
     {
       icon: <BookOpen size={24} className="text-amber-500" />,
@@ -62,10 +62,10 @@ export function Landing() {
             The smartest way to prep for JAMB 2026
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6">
-            Pass JAMB with <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">AI Power.</span>
+            Pass JAMB with <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Smart Prep.</span>
           </h1>
           <p className="text-lg text-zinc-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Stop studying blindly. Practice with 13,000+ AI-generated questions, simulate the real CBT exam, and get instant explanations from your personal AI Tutor.
+            Stop studying blindly. Practice with 13,000+ expert-curated questions, simulate the real CBT exam, and get instant step-by-step explanations.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button 
@@ -117,7 +117,7 @@ export function Landing() {
             <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm font-medium">
               <div className="flex items-center gap-2 text-zinc-300"><CheckCircle2 size={18} className="text-amber-500"/> No credit card required</div>
               <div className="flex items-center gap-2 text-zinc-300"><ShieldCheck size={18} className="text-amber-500"/> 100% Free to start</div>
-              <div className="flex items-center gap-2 text-zinc-300"><Zap size={18} className="text-amber-500"/> Instant AI feedback</div>
+              <div className="flex items-center gap-2 text-zinc-300"><Zap size={18} className="text-amber-500"/> Instant smart feedback</div>
             </div>
             <button 
               onClick={() => navigate('/login')}
